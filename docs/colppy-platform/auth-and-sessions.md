@@ -382,3 +382,7 @@ LEFT JOIN (
 - [Database Schema](database-schema.md) -- `usuario`, `usuario_sesion`, `empresa_usuario` table details
 - [Onboarding Wizard](onboarding-wizard.md) -- post-login wizard flow and `wizardEnabled` routing
 - [Frontend Architecture](frontend-architecture.md) -- MFE auth flow, single-spa routing, sdk_interlink usage
+
+---
+
+*Last updated: 2026-03-03*

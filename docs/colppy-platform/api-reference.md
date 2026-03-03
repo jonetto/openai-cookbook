@@ -333,3 +333,7 @@ svc_settings calls Frontera via `HttpCustomService` (`colppy/svc_settings/src/pr
 - Benjamin does not cover all Frontera operations
 
 See [Database Schema](database-schema.md) for the underlying data model.
+
+---
+
+*Last updated: 2026-03-03*

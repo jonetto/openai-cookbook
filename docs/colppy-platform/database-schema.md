@@ -393,3 +393,7 @@ DAOs in `nubox-spa/colppy-app/resources/Provisiones/ColppyCommon/persistencia/`.
 - [Provisiones Reference](provisiones-reference.md) -- DAO pattern, how Frontera provisions map to DAOs
 - [Auth and Sessions](auth-and-sessions.md) -- `usuario_sesion` lifecycle, MD5 token generation, FusionAuth integration
 - [API Reference](api-reference.md) -- API data shapes and how they map to these tables
+
+---
+
+*Last updated: 2026-03-03*

@@ -383,3 +383,7 @@ pnpm dev          # http://localhost:9002
 #    Refresh -- import-map-overrides UI appears at bottom
 #    Override @colppy/mfe_onboarding -> http://localhost:9002/src/mfe-single-spa.tsx
 ```
+
+---
+
+*Last updated: 2026-03-03*

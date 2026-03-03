@@ -359,3 +359,7 @@ The ARCA prototype (`openai-cookbook/arca-prototype/`) provides deeper CUIT enri
 - [Backend Architecture](backend-architecture.md) -- svc_settings service structure
 - [Provisiones Reference](provisiones-reference.md) -- `Empresa` operations used by `finishWizard`
 - [API Reference](api-reference.md) -- Frontera envelope format, auth structure
+
+---
+
+*Last updated: 2026-03-03*

@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-03",
+  "source": "galicia-online-banking-playwright",
+  "extracted_at": "2026-03-03T03:38:00Z",
+  "account": {
+    "name": "Juan Ignacio Onetto",
+    "broker": "Banco Galicia Eminent",
+    "cuenta_inversora": "362973",
+    "investment_officer": "Manuel Agustin Diana"
+  },
+  "portfolio_total": {
+    "investments_ars": 263644026.10,
+    "investments_usd": 0.00,
+    "allocation": {
+      "acciones_pct": 0.3,
+      "cedears_pct": 59.4,
+      "fima_pct": 40.3
+    }
+  },
+  "cash": {
+    "cuentas_ars": 3177035.28,
+    "cuentas_usd": 194823.60
+  },
+  "fondos_fima": [
+    {
+      "fund": "FIMA Premium - Clase A",
+      "cuotapartes": 1373339.73,
+      "price_ars": 77.312668,
+      "variation_pct": 0.17,
+      "tna_pct": 20.60,
+      "value_ars": 106176558.60
+    }
+  ],
+  "cedears": {
+    "total_ars": 157467467.50,
+    "total_usd": 0.00,
+    "cumulative_return_ars": -8508286.47,
+    "cumulative_return_pct": -5.13,
+    "positions": [
+      {
+        "ticker": "GOOGL",
+        "name": "CEDEAR ALPHABET INC. CL \"A\"",
+        "quantity": 4475,
+        "price_ars": 7750.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 8488.47,
+        "return_ars": -3282300.00,
+        "return_pct": -8.64,
+        "value_ars": 34681250.00
+      },
+      {
+        "ticker": "NVDA",
+        "name": "CEDEAR NVIDIA CORPORATION",
+        "quantity": 2911,
+        "price_ars": 11150.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 11353.85,
+        "return_ars": -593400.00,
+        "return_pct": -1.80,
+        "value_ars": 32457650.00
+      },
+      {
+        "ticker": "V",
+        "name": "CEDEAR VISA INC",
+        "quantity": 1240,
+        "price_ars": 26140.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 25580.00,
+        "return_ars": 694400.00,
+        "return_pct": 2.19,
+        "value_ars": 32413600.00
+      },
+      {
+        "ticker": "AAPL",
+        "name": "CEDEAR APPLE INC",
+        "quantity": 1092,
+        "price_ars": 19460.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 20170.00,
+        "return_ars": -764400.00,
+        "return_pct": -3.47,
+        "value_ars": 21250320.00
+      },
+      {
+        "ticker": "MELI",
+        "name": "CEDEAR MERCADOLIBRE INC.",
+        "quantity": 748,
+        "price_ars": 21610.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 24803.36,
+        "return_ars": -2388635.00,
+        "return_pct": -12.87,
+        "value_ars": 16164280.00
+      },
+      {
+        "ticker": "TSLA",
+        "name": "CEDEAR TESLA, INC.",
+        "quantity": 334,
+        "price_ars": 39220.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 43720.00,
+        "return_ars": -1523040.00,
+        "return_pct": -10.43,
+        "value_ars": 13099480.00
+      },
+      {
+        "ticker": "XLK",
+        "name": "STATE S TECHNOL SEL S SPDR ETF",
+        "quantity": 1455,
+        "price_ars": 4452.50,
+        "variation_pct": 0.00,
+        "ppc_ars": 4865.79,
+        "return_ars": -591511.47,
+        "return_pct": -8.36,
+        "value_ars": 6478387.50
+      },
+      {
+        "ticker": "YPFD",
+        "name": "Y.P.F. ORDINARIAS \"D\"",
+        "quantity": 18,
+        "price_ars": 51250.00,
+        "variation_pct": 0.00,
+        "ppc_ars": 54650.00,
+        "return_ars": -59400.00,
+        "return_pct": -6.04,
+        "value_ars": 922500.00
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-03-03",
+  "source": "allaria-netxinvestor-screenshot",
+  "extracted_at": "2026-03-03T03:50:00Z",
+  "platform_timestamp": "10:50 PM ET",
+  "account": {
+    "name": "Juan Ignacio Onetto",
+    "broker": "Allaria Securities (Offshore)",
+    "platform": "NetX Investor",
+    "account_number": "ASE015894"
+  },
+  "unrealized_gains": {
+    "net": 22799.20,
+    "short_term_gain": 0.00,
+    "short_term_loss": 0.00,
+    "long_term_gain": 22799.20,
+    "long_term_loss": 0.00
+  },
+  "positions": [
+    {
+      "security_id": "G6358E545",
+      "name": "MUZINICH ENHANCED YIELD",
+      "type": "fixed_income_fund",
+      "quantity": 329.89,
+      "last_price_usd": 157.83,
+      "total_cost_usd": 43122.07,
+      "market_value_usd": 52066.54,
+      "gain_loss_usd": 8944.46
+    },
+    {
+      "security_id": "G6S30D261",
+      "name": "NEUBERGER BERMAN SHORT DURATION",
+      "type": "fixed_income_fund",
+      "quantity": 2673.214,
+      "last_price_usd": 14.47,
+      "total_cost_usd": 30000.00,
+      "market_value_usd": 38681.41,
+      "gain_loss_usd": 8681.41
+    },
+    {
+      "security_id": "G7114Y155",
+      "name": "PIMCO INCOME FUND ADM",
+      "type": "fixed_income_fund",
+      "quantity": 1744.513,
+      "last_price_usd": 14.43,
+      "total_cost_usd": 20000.00,
+      "market_value_usd": 25173.32,
+      "gain_loss_usd": 5173.32
+    },
+    {
+      "security_id": "USD999997",
+      "name": "U.S. DOLLARS CURRENCY",
+      "type": "cash",
+      "quantity": -157.90,
+      "last_price_usd": 1.00,
+      "total_cost_usd": -157.90,
+      "market_value_usd": -157.90,
+      "gain_loss_usd": 0.00
+    }
+  ],
+  "summary": {
+    "total_cost_usd": 92964.17,
+    "total_market_value_usd": 115763.37,
+    "total_gain_loss_usd": 22799.20,
+    "total_return_pct": 24.53
+  }
+}

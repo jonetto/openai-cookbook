@@ -11,7 +11,7 @@ from fastapi import FastAPI
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.routers import arca, colppy
+from backend.routers import arca, colppy, onboarding
 
 app = FastAPI(
     title="ARCA Prototype API",
@@ -29,6 +29,7 @@ app.add_middleware(
 
 app.include_router(arca.router, prefix="/api/arca", tags=["arca"])
 app.include_router(colppy.router, prefix="/api/colppy", tags=["colppy"])
+app.include_router(onboarding.router, prefix="/api/onboarding", tags=["onboarding"])
 
 
 @app.get("/health")

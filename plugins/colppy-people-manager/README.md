@@ -209,8 +209,9 @@ Pasted transcripts, attached PDFs, slides, or self-assessment documents prepared
 | Juan Onetto | `_self` | CEO | 1 | 360 survey (Oct 2025) + coaching program complete |
 | Alejandro Soto | `alejandro-soto` | Head of Product Engineering | 1 | Full profile with SUMA Leadership Matrix (51 behaviors) |
 | Malén Baigorria | `malen-baigorria` | HRBP | 1 | Full profile + coaching arc + 21 action items tracked |
+| Agostina Bisso | `agostina-bisso` | Head of Customer | 0 | Full profile + coaching arc + SUMA Leadership Matrix (initial, no cycle closure) + 9 action items |
 
-_Last updated: 2026-03-02_
+_Last updated: 2026-03-03_
 
 ---
 

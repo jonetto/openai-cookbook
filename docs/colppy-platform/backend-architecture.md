@@ -110,7 +110,7 @@
 | `nubox-spa/colppy-app/lib/frontera2/` | Gateway core: service.php, config, controllers |
 | `nubox-spa/colppy-app/lib/frontera2/include/controller/` | `MainController.php` (singleton dispatcher) |
 | `nubox-spa/colppy-app/lib/frontera2/include/dispatcher/` | 6 dispatcher types: REST, JSON, XML, SOAP, CLI, Default |
-| `nubox-spa/colppy-app/resources/Provisiones/` | 32 business modules (one dir each) |
+| `nubox-spa/colppy-app/resources/Provisiones/` | 32 top-level folders: 31 business Provisiones + `ColppyCommon` |
 | `nubox-spa/colppy-app/resources/Provisiones/ColppyCommon/` | Shared DAOs, exceptions, libs |
 | `nubox-spa/colppy-app/lib/BenjaminConnector/` | HTTP bridge to Benjamin API |
 | `nubox-spa/colppy-app/lib/OAuth/` | OAuth token management |
@@ -137,7 +137,7 @@
 
 See [API Reference](api-reference.md) for full envelope format.
 
-### All 32 Provisiones
+### All 32 Provisiones Folders (31 business + ColppyCommon)
 
 ```text
 Afip           Archivo        BillStub       Cliente
@@ -285,7 +285,7 @@ See [Auth and Sessions](auth-and-sessions.md) for session validation details.
 
 ---
 
-## Layer 4: Lambda Functions (20)
+## Layer 4: Lambda Functions (20 total: 14 application + 6 infrastructure)
 
 ### Application Lambdas
 
@@ -389,8 +389,13 @@ FUSIONAUTH_AUTHORIZATION_KEY=<api-key>
 
 ## Cross-References
 
-- [Provisiones Reference](provisiones-reference.md) -- 32 business modules in detail
+- [Provisiones Reference](provisiones-reference.md) -- 31 business modules + ColppyCommon details
 - [API Reference](api-reference.md) -- API contracts and envelope format
 - [Auth and Sessions](auth-and-sessions.md) -- Dual auth system (FusionAuth + legacy sessions)
 - [Repo Directory](repo-directory.md) -- Full repo listing (108 repositories)
 - [Database Schema](database-schema.md) -- 207 tables by domain
+- [canonical-counts.md](canonical-counts.md) -- Canonical module/repo/lambda counts
+
+---
+
+*Last updated: 2026-03-03*

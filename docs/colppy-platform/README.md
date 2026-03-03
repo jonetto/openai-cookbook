@@ -37,7 +37,8 @@
 ┌────────▼────────────┐  ┌──────────────▼──────────────────────┐
 │ Frontera 2.0        │  │ Benjamin (Laravel 5.4)               │
 │ Legacy PHP gateway  │  │ Modern REST API                      │
-│ 36+ Provisiones     │  │ OAuth2 + Eloquent (207 models)       │
+│ 31 business modules │  │ OAuth2 + Eloquent (207 models)       │
+│ + ColppyCommon      │  │                                       │
 │ service.php         │←→│ BenjaminConnector bridge              │
 └────────┬────────────┘  └──────────────┬──────────────────────┘
          │                              │
@@ -49,7 +50,7 @@
 Side-band services (NestJS):
   svc_afip · svc_inventory · svc_security · svc_notifications · svc_marketplace
 
-AWS Lambda functions: 15 (PDF generation, async jobs, webhooks)
+AWS Lambda repos: 20 (14 application + 6 infrastructure)
 ```
 
 ---
@@ -62,7 +63,7 @@ AWS Lambda functions: 15 (PDF generation, async jobs, webhooks)
 | mfe_authentication | `nubox-spa/colppy-app/mfe_authentication/` | React, Vite, Redux | Login form, session cookie |
 | mfe_onboarding | `colppy/mfe_onboarding/` | React, Vite, Redux | Company setup wizard |
 | svc_settings | `colppy/svc_settings/` | NestJS, TypeScript | Auth bridge (FusionAuth <-> Frontera) |
-| colppy-app | `nubox-spa/colppy-app/` | PHP, Laravel 5.4 | Legacy gateway + 36 Provisiones |
+| colppy-app | `nubox-spa/colppy-app/` | PHP, Laravel 5.4 | Legacy gateway + 31 business Provisiones + ColppyCommon |
 | colppy-benjamin | `nubox-spa/colppy-benjamin/` | Laravel 5.4, OAuth2 | Modern business API, 207 Eloquent models |
 | lib_ui | `colppy/lib_ui/` | React, Storybook | Shared UI component library (`colppy-lib` npm) |
 | sdk_interlink | `colppy/sdk_interlink/` | TypeScript | Token/cookie management across MFEs |
@@ -76,13 +77,22 @@ AWS Lambda functions: 15 (PDF generation, async jobs, webhooks)
 |------|---------------|
 | [repo-directory.md](repo-directory.md) | All 108 repos categorized with paths |
 | [backend-architecture.md](backend-architecture.md) | Frontera 2.0, Benjamin, NestJS services |
-| [provisiones-reference.md](provisiones-reference.md) | 36+ business modules (delegate pattern) |
+| [provisiones-reference.md](provisiones-reference.md) | 31 business Provisiones + ColppyCommon (delegate pattern) |
 | [database-schema.md](database-schema.md) | 207 MySQL tables by domain |
 | [api-reference.md](api-reference.md) | Frontera envelope format, REST endpoints |
 | [auth-and-sessions.md](auth-and-sessions.md) | FusionAuth + legacy dual auth system |
 | [frontend-architecture.md](frontend-architecture.md) | MFE shell, lib_ui, sdk_interlink |
 | [onboarding-wizard.md](onboarding-wizard.md) | Wizard flow with backend orchestration |
 | [deployment-and-infra.md](deployment-and-infra.md) | CI/CD workflows, Docker, AWS |
+| [canonical-counts.md](canonical-counts.md) | Single source of truth for repo/module counts |
+| [runtime-runbooks.md](runtime-runbooks.md) | Start/test/deploy cards for the 9 runtime core repos |
+
+---
+
+## Canonical Counts
+
+To keep cross-file numbers consistent, count-sensitive metrics are centralized in
+[canonical-counts.md](canonical-counts.md). Update that file first whenever platform topology changes.
 
 ---
 
@@ -121,6 +131,21 @@ AWS Lambda functions: 15 (PDF generation, async jobs, webhooks)
 - **BenjaminConnector**
   PHP class in Frontera that forwards requests to Benjamin's REST API.
   Used when a Provision's business logic has been migrated but the entry point remains Frontera.
+
+---
+
+## Where To Change Code
+
+Use this as a first-pass routing matrix when debugging across repos.
+
+| Change Type | Start Here | Usually Also Touches |
+|------|------|------|
+| Login/Auth failure | `mfe_authentication`, `svc_settings` | `colppy-app` `Usuario` delegates, `sdk_interlink` |
+| Wrong post-login route (`/` vs `/inicio`) | `svc_settings` (`session-info`, `wizardEnabled`) | `mfe_authentication`, `mfe_onboarding` |
+| Onboarding save/finish issues | `mfe_onboarding`, `svc_settings` (`finishWizard`) | `colppy-app` `Empresa` + `Usuario` Provisiones |
+| Invoice list/data mismatch | `colppy-app` (`FacturaVenta`/`FacturaCompra`) | `colppy-benjamin`, `database-schema.md` (`ar_*`, `ap_*`) |
+| MFE not mounting or route not resolving | `app_root` (layout/import map) | target `mfe_*` repo, `sdk_interlink` |
+| Deploy pipeline failure | failing service repo + `inf_workflows` | `inf_helm_charts`, `inf_docker_images`, `inf_terraform_aws` |
 
 ---
 
@@ -183,6 +208,14 @@ Files in the `github-jonetto/` root that provide additional platform context:
 
 ---
 
+## Documentation Hygiene
+
+- Run consistency checks: `bash docs/colppy-platform/docs-check.sh`
+- Keep every doc footer updated with `*Last updated: YYYY-MM-DD*`
+- When counts change (repos, lambdas, provisiones, MFEs), update [canonical-counts.md](canonical-counts.md) first
+
+---
+
 ## Quick Command Reference
 
 ```bash
@@ -203,6 +236,9 @@ cd colppy/svc_settings && npm install && npm run start:dev  # port 3000
 
 # Local dev — colppy-app (Docker)
 cd nubox-spa/colppy-app && docker-compose up
+
+# Docs consistency checks
+bash docs/colppy-platform/docs-check.sh
 ```
 
 ---

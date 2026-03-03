@@ -1,6 +1,6 @@
 # Provisiones Reference
 
-> Map of 32 business modules (Provisiones) in the Frontera legacy gateway -- the core business logic layer of Colppy.
+> Map of 32 top-level Provisiones folders in the Frontera gateway: 31 business modules + `ColppyCommon` shared infrastructure.
 
 ---
 
@@ -68,13 +68,14 @@ Provisiones/
 ## Version Scheme
 
 - Pattern: `<major>_<minor>_<patch>_<build>/` (e.g., `1_0_0_0/`)
-- Currently **all 31 provisions use `1_0_0_0/`** -- no provision has multiple versions
+- Currently **all 31 business provisions use `1_0_0_0/`** -- no provision has multiple versions
+- `ColppyCommon` is shared infrastructure and does not use versioned delegate folders
 - The scheme exists to allow backward-compatible API evolution without breaking existing clients
 - Each version folder contains its own `config.php`, dispatcher, and `delegates/` directory
 
 ---
 
-## All 32 Provisions
+## All 32 Provisiones Folders
 
 | # | Provision | Purpose | Delegates | Migration |
 |---|-----------|---------|-----------|-----------|
@@ -399,3 +400,8 @@ public function __http_list()      // Allowed origins
 - [API Reference](api-reference.md) -- Envelope format for `provision` + `operacion` calls
 - [Database Schema](database-schema.md) -- Tables accessed by DAO classes listed above
 - [Auth and Sessions](auth-and-sessions.md) -- Session validation flow in UsuarioCommon, OAuth vs claveSesion
+- [canonical-counts.md](canonical-counts.md) -- Canonical module/repo counts used across docs
+
+---
+
+*Last updated: 2026-03-03*

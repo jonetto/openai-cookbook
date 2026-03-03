@@ -21,15 +21,17 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 
 ## Active Coaching Themes
 
-1. **From operational HR to strategic People leadership** — The gap between "novedades" and OKR-connected updates represents a broader shift needed: making People's strategic contribution visible to the leadership team. Juan asked for "Objetivos. Palancas. Y qué haces esta semana." — the coaching is about framing, not capability.
+1. **Partner in standards, not just anxiety containment (PRIMARY)** — The central dynamic: Malén contains Juan's urgency ("baja a tierra," "que no te gane la ansiedad") but doesn't help him install the performance standards he's trying to create. She damps his energy without redirecting it. In group settings, she withdraws when co-designed plans are being deployed — silence, laptop, not visibly backing the shared direction. The team reads misalignment, Juan pushes harder alone, and the cycle reinforces. The ask: be a partner in raising the bar, not just in managing the CEO. Redirect his energy through systems rather than just containing it.
 
-2. **Owning the full compensation/rewards conversation** — She reflexively defers salary band questions to Rewards ("lo derivo a Rewards"). For Colppy-specific decisions (PM Growth exception, engineering band issues), she should own the recommendation end-to-end, using Rewards as input not as decision-maker.
+2. **From operational HR to strategic People leadership** — The gap between "novedades" and OKR-connected updates represents a broader shift needed: making People's strategic contribution visible to the leadership team. Juan asked for "Objetivos. Palancas. Y qué haces esta semana." — the coaching is about framing, not capability.
 
-3. **Pacing and prioritization** — She's running too many parallel workstreams. The risk is that none get the depth they need. Juan should help her prioritize ruthlessly: what are the 2-3 things that matter most this quarter?
+3. **Owning the full compensation/rewards conversation** — She reflexively defers salary band questions to Rewards ("lo derivo a Rewards"). For Colppy-specific decisions (PM Growth exception, engineering band issues), she should own the recommendation end-to-end, using Rewards as input not as decision-maker.
 
-4. **Closing the loop on engineering intervention** — She identified the retention risk proactively ("se van a ir todos"), scheduled 1:1s, and planned the alignment sequence. The coaching theme is: does the intervention produce a structural change, or does it remain diagnostic? Watch for follow-through to actual changes in how Alejandro and Jorge manage their teams.
+4. **Pacing and prioritization** — She's running too many parallel workstreams. The risk is that none get the depth they need. Juan should help her prioritize ruthlessly: what are the 2-3 things that matter most this quarter?
 
-5. **Managing the CEO's pattern of breaking process** — She correctly pushes back when Juan sends the product vision directly to engineering without prior alignment. But this pattern repeats. The coaching conversation should be: how do we build a system where Juan's urgency is channeled through the agreed process, not around it?
+5. **Closing the loop on engineering intervention** — She identified the retention risk proactively ("se van a ir todos"), scheduled 1:1s, and planned the alignment sequence. The coaching theme is: does the intervention produce a structural change, or does it remain diagnostic? Watch for follow-through to actual changes in how Alejandro and Jorge manage their teams.
+
+6. **Early intervention vs. escalation** — When issues arise between Juan and team members, her instinct has been to let the formal process handle it (compliance incident) rather than intervening early to mediate. The ask: come to Juan first, not to cover things up, but so they can course-correct together before situations escalate.
 
 ## Growth Arc (this quarter)
 
@@ -44,7 +46,7 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 
 **What to watch for:** Overload. She's absorbing an enormous volume of work and also serving as the CEO's emotional containment system. If she starts dropping balls or her own morale dips ("siempre me queda gusto a poco" may be a signal), the issue might be capacity, not capability.
 
-**Coaching focus for next 1:1:** Review her Monday meeting format — has she implemented the OKR/palancas/weekly-actions structure? Also: what's the concrete plan and timeline for the engineering intervention? She said "te pise un slot, pero necesito que prioricemos esto porfa" — follow through on what came out of that alignment meeting.
+**Coaching focus for next interaction (feedforward Mar 4):** The bilateral feedforward session is the opportunity to name the core dynamic — both feel unsupported by the other in mirror-image ways. Juan feels she doesn't back him in the room. She asks "¿en cuáles me dejás más sola?" Block 3 (how we work together) is where this converges. Goal: build an explicit agreement about visible co-ownership of standards they set together.
 
 ## Watch Items
 

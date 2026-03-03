@@ -377,3 +377,7 @@ All Docker builds include two scan stages (both `continue-on-error: true`, non-b
 - **Local database setup is manual**: You must `docker cp` SQL dumps into the MySQL container and import them. There is no automated migration or seed for the local MySQL databases (`colppy`, `frontera2`).
 
 - **Version source differs by language**: PHP services read version from `composer.json`; Node services from `package.json`. If neither has a `version` field, the image version will be empty and the push/deploy will fail.
+
+---
+
+*Last updated: 2026-03-03*

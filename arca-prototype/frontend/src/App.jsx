@@ -7,6 +7,7 @@ import RetencionesPage from "./components/RetencionesPage";
 import ReconciliacionPage from "./components/ReconciliacionPage";
 import BancoGaliciaPage from "./components/BancoGaliciaPage";
 import LibroIVAPage from "./components/LibroIVAPage";
+import OnboardingImport from "./components/OnboardingImport";
 
 function BackendStatus() {
   const [status, setStatus] = useState("checking"); // "checking" | "connected" | "disconnected"
@@ -66,7 +67,7 @@ function BackendStatus() {
 
 function App() {
   const [result, setResult] = useState(null);
-  const [view, setView] = useState("login"); // "login" | "notifications" | "comprobantes" | "retenciones" | "reconciliacion" | "banco" | "libro-iva"
+  const [view, setView] = useState("onboarding"); // "onboarding" | "login" | "notifications" | "comprobantes" | "retenciones" | "reconciliacion" | "banco" | "libro-iva"
 
   const handleLoginResult = (data) => {
     setResult(data);
@@ -80,7 +81,9 @@ function App() {
           <BackendStatus />
         </div>
         <p style={styles.subtitle}>
-          {view === "login"
+          {view === "onboarding"
+            ? "Importá automáticamente todos tus datos desde ARCA"
+            : view === "login"
             ? "Ingrese su CUIT y Clave Fiscal para iniciar"
             : view === "notifications"
             ? "Ver notificaciones desde caché SQLite"
@@ -95,6 +98,13 @@ function App() {
             : "Convertir CSV a formato Libro IVA Digital AFIP"}
         </p>
         <nav style={styles.nav}>
+          <button
+            type="button"
+            onClick={() => setView("onboarding")}
+            style={{ ...styles.navBtn, ...(view === "onboarding" ? styles.navBtnActive : {}), background: view === "onboarding" ? "rgba(102, 51, 204, 0.3)" : "transparent", borderColor: view === "onboarding" ? "#6633CC" : "#334155", color: view === "onboarding" ? "#c4b5fd" : "#94a3b8" }}
+          >
+            Onboarding Import
+          </button>
           <button
             type="button"
             onClick={() => setView("login")}
@@ -146,6 +156,8 @@ function App() {
           </button>
         </nav>
       </header>
+
+      {view === "onboarding" && <OnboardingImport />}
 
       {view === "login" && (
         <>

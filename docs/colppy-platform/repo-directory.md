@@ -7,6 +7,7 @@
 - 108 independent git repositories, NOT a monorepo. Each repo has its own git history, CI, and deployment lifecycle.
 - Two org directories: `colppy/` (modern services, MFEs, infra) and `nubox-spa/` (legacy core: colppy-app, colppy-benjamin, production connectors).
 - Coordinated via `colppy/inf_workflows/` reusable GitHub Actions (37 repos reference it for CI/CD).
+- Canonical count values are tracked in [canonical-counts.md](canonical-counts.md).
 
 ## Category Summary
 
@@ -20,7 +21,7 @@
 | Microfrontend | 8 | React MFE apps (auth, onboarding, dashboard, sales, mercado_pago, archetypes, vue) |
 | Migrations | 2 | Database migration repos |
 | SDK/Library | 7 | Shared packages (sdk_interlink, auth-oauth, paypertic-sdk) |
-| Serverless service | 15 | AWS Lambda functions (SAM-based) |
+| Serverless service | 15 | 14 AWS application Lambda repos + `svc_internal_api` hybrid SAM service |
 | Shared library | 3 | Shared NestJS libraries (lib_ui, lib_log_nest, lib_response_nest) |
 | Testing/QA | 4 | E2E tests, stress tests |
 | Other/Uncategorized | 18 | Misc repos (POCs, websites, storage, discovery, front-end legacy) |
@@ -35,7 +36,7 @@ The 9 most important repos for understanding and operating the platform.
 | `mfe_authentication` | `nubox-spa/colppy-app/mfe_authentication/` | React, Vite, Redux, pnpm | Login/auth UX (mounted at `/`) | Boilerplate only |
 | `mfe_onboarding` | `colppy/mfe_onboarding/` | React, Vite, Redux, pnpm | Wizard UX (mounted at `/inicio`) | Boilerplate only |
 | `svc_settings` | `colppy/svc_settings/` | NestJS, TypeScript, pnpm | Auth bridge, session, onboarding API | Boilerplate only |
-| `colppy-app` | `nubox-spa/colppy-app/` | PHP, Laravel 5.4, Frontera | Legacy monolith gateway (36+ Provisiones) | **No README** |
+| `colppy-app` | `nubox-spa/colppy-app/` | PHP, Laravel 5.4, Frontera | Legacy monolith gateway (31 business Provisiones + ColppyCommon) | **No README** |
 | `colppy-benjamin` | `nubox-spa/colppy-benjamin/` | Laravel 5.4, OAuth2, Vue | Modern API layer | Yes |
 | `lib_ui` | `colppy/lib_ui/` | React, Storybook, TypeScript, pnpm | Shared UI component library | No |
 | `sdk_interlink` | `colppy/sdk_interlink/` | TypeScript, pnpm | Token management between MFEs and backend | No |
@@ -87,7 +88,7 @@ The 9 most important repos for understanding and operating the platform.
 
 ## Serverless / Lambda
 
-15 repos. All AWS SAM-based. Run locally with `sam build && sam local start-api`.
+14 repos. All AWS SAM-based. Run locally with `sam build && sam local start-api`.
 
 | Repo | Purpose |
 |------|---------|
@@ -100,7 +101,6 @@ The 9 most important repos for understanding and operating the platform.
 | `svc_create_database_psql_lambda` | PostgreSQL database provisioning |
 | `svc_file_validator_lambda` | File validation service |
 | `svc_insert_imports_lambda` | Import data insertion |
-| `svc_internal_api` | Internal API SAM deployment |
 | `svc_mandrill_notification_lambda` | Mandrill email notification sender |
 | `svc_parser_lambda` | Document/file parser |
 | `svc_product_assistant_lambda` | Product assistant AI service |
@@ -108,6 +108,8 @@ The 9 most important repos for understanding and operating the platform.
 | `svc_slackassistant_lambda` | Slack bot/assistant Lambda |
 
 All paths under `colppy/`. All require AWS SAM CLI + AWS credentials.
+Total Lambda repos across the platform are 20 (14 application + 6 infrastructure; see [canonical-counts.md](canonical-counts.md)).
+`svc_internal_api` is tracked as a hybrid SAM service in the category summary, but excluded from the strict Lambda-repo count above.
 
 ## Connector Libraries
 
@@ -259,11 +261,20 @@ These 12 repos have no README file at all:
 - `colppy/sdk_interlink`
 - `nubox-spa/colppy-app`
 
+## Deprecations and Preferred Replacements
+
+| Repo | Current State | Prefer/Replacement | Notes |
+|------|------|------|------|
+| `colppy/colppy-ms-autenticacion` | Likely deprecated | `colppy/svc_settings` + FusionAuth flow | Keep for historical reference only unless explicitly reactivated |
+| `colppy/POC_Monorepo` | Stale PoC | Current multi-repo model + `colppy/inf_workflows` | Not part of runtime platform |
+| `colppy/colppy-front` | Legacy frontend | `colppy/app_root` + active MFEs (`mfe_authentication`, `mfe_onboarding`) | Legacy routes may still exist in parallel |
+| `colppy/sas-colppy-templates-circleci` | Legacy CI templates | `colppy/inf_workflows` GitHub reusable workflows | Migration target for CI/CD standardization |
+
 ## Gotchas
 
 - **Duplicate repos**: Some libraries exist in both `colppy/` and `nubox-spa/` (e.g., `base-connector`, `authentication-oauth-library`, `paypertic-sdk`, `crmintegration-connector`). The `nubox-spa/` versions are the ones used in production by `colppy-app` and `colppy-benjamin`.
 - **Boilerplate READMEs**: Many MFE and NestJS repos have template READMEs ("React + TypeScript + Vite" or "Archetype for Colppy MS") with no actual documentation about the specific service.
-- **colppy-app has NO README**: The single most important repo (legacy gateway with 36+ Provisiones, the Frontera RPC layer, and all business logic) has zero documentation.
+- **colppy-app has NO README**: The single most important repo (legacy gateway with 31 business Provisiones + ColppyCommon, the Frontera RPC layer, and all business logic) has zero documentation.
 - **Stale repos**: Some repos appear deprecated but remain in the org: `colppy-ms-autenticacion`, `POC_Monorepo`, `colppy-front`. Do not rely on them.
 - **Naming inconsistency**: MFEs use `mfe_` prefix, NestJS services use `svc_`, Lambdas use `svc_*_lambda` or `sas-colppy-*`, connectors use `colppy-*-connector` or just `*-connector`.
 - **mfe_authentication lives inside colppy-app**: Unlike all other MFEs (which are standalone repos under `colppy/`), `mfe_authentication` is a subdirectory of `nubox-spa/colppy-app/mfe_authentication/`.
@@ -273,5 +284,11 @@ These 12 repos have no README file at all:
 
 - [README.md](README.md) -- Architecture overview
 - [backend-architecture.md](backend-architecture.md) -- Deep dive on backend services
+- [canonical-counts.md](canonical-counts.md) -- Single source of truth for counts
+- [runtime-runbooks.md](runtime-runbooks.md) -- Runtime core runbook cards
 - `github-jonetto/REPO_CONTEXT_INDEX.md` -- Full repo inventory with README paths
 - `github-jonetto/REPO_OPERATING_SHEET.md` -- How to run each repo locally
+
+---
+
+*Last updated: 2026-03-03*
