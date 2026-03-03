@@ -169,3 +169,6 @@ node_modules/
 
 # Playwright MCP logs
 .playwright-mcp/
+
+# Firecrawl web scraping cache (temporary artifacts)
+.firecrawl/
