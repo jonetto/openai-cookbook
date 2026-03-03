@@ -1,0 +1,103 @@
+{
+  "_comment": "Topic config for Feature Upvote triage. Goal: separate real product ideas from support-service complaints.",
+  "topic_name": "Feature Upvote Real Ideas",
+  "match_field": "is_real_idea",
+  "definition": "A real idea is a concrete product/functionality request, workflow improvement, report/export need, UX change, configuration enhancement, or capability gap in Colppy. A support complaint is primarily about response time, bad support quality, no human response, chat/IA frustration, or requests to be contacted, without a clear product change request.",
+  "categories": [
+    "product_capability",
+    "workflow_improvement",
+    "reporting_export",
+    "ux_usability",
+    "configuration_rules",
+    "support_complaint",
+    "other"
+  ],
+  "false_positives": [
+    "Pure complaints about support quality/response speed",
+    "Requests for someone to call/reply with no product request",
+    "General frustration messages without actionable feature request",
+    "Messages that only say support is bad / no one answers"
+  ],
+  "true_positives": [
+    "Asks to add/modify a field, filter, rule, report, export, or behavior",
+    "Requests specific workflow changes in facturas, tesoreria, remitos, etc.",
+    "Asks for new configuration options (days, defaults, validations)",
+    "Describes a concrete feature gap and expected product behavior"
+  ],
+  "keywords": [
+    "agregar",
+    "mejorar",
+    "filtrar",
+    "filtro",
+    "reporte",
+    "exportar",
+    "mostrar",
+    "parametrizar",
+    "configurar",
+    "orden de pago",
+    "factura",
+    "tesoreria",
+    "conciliacion",
+    "interfaz",
+    "usabilidad",
+    "soporte",
+    "atencion",
+    "chat"
+  ],
+  "few_shot_examples": [
+    {
+      "conversation_snippet": "[Customer]: Title: FACTURA\nDescription: Agregar en el formulario un campo para número de orden de compra y más campos para trazabilidad con CRM.",
+      "classification": {
+        "is_real_idea": true,
+        "confidence": 0.95,
+        "category": "product_capability",
+        "reasoning": "Concrete request to add new invoice fields and improve traceability."
+      }
+    },
+    {
+      "conversation_snippet": "[Customer]: Title: Filtrado\nDescription: Necesito filtrar y ordenar por descripción en la tabla de facturas.",
+      "classification": {
+        "is_real_idea": true,
+        "confidence": 0.95,
+        "category": "workflow_improvement",
+        "reasoning": "Specific request for filtering/sorting behavior in an existing workflow."
+      }
+    },
+    {
+      "conversation_snippet": "[Customer]: Title: AGENTES DE RECAUDACION IIBB\nDescription: Que el reporte sea compatible con ARBA sin edición manual.",
+      "classification": {
+        "is_real_idea": true,
+        "confidence": 0.95,
+        "category": "reporting_export",
+        "reasoning": "Clear reporting/export compatibility requirement."
+      }
+    },
+    {
+      "conversation_snippet": "[Customer]: Title: SOPORTE EN LINEA QUE RESPONDA EN EL DIA\nDescription: Quitar IA y que soporte responda el mismo día.",
+      "classification": {
+        "is_real_idea": false,
+        "confidence": 0.95,
+        "category": "support_complaint",
+        "reasoning": "This is primarily a support-service complaint, not a product feature request."
+      }
+    },
+    {
+      "conversation_snippet": "[Customer]: Title: QUIERO QUE EN EL CHAT CONTESTEN CON MAS FRECUENCIA\nDescription: Hace días que no contestan.",
+      "classification": {
+        "is_real_idea": false,
+        "confidence": 0.95,
+        "category": "support_complaint",
+        "reasoning": "Pure response-time complaint without concrete product change."
+      }
+    },
+    {
+      "conversation_snippet": "[Customer]: Title: Mostrar más filas de ítems por defecto\nDescription: Visualizar mínimo 10 renglones al cargar facturas.",
+      "classification": {
+        "is_real_idea": true,
+        "confidence": 0.95,
+        "category": "ux_usability",
+        "reasoning": "Concrete usability/default configuration improvement in invoice entry UI."
+      }
+    }
+  ]
+}

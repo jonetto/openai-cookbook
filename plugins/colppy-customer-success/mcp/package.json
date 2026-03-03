@@ -1,13 +1,14 @@
 {
-  "name": "colppy-intercom-mcp",
+  "name": "colppy-customer-success-mcp",
   "version": "1.0.0",
-  "description": "Intercom research MCP for Colppy CEO Assistant - export, scan, stats",
+  "description": "MCP servers for Colppy customer success workflows (Intercom + Feature Upvote Playwright)",
   "type": "module",
   "main": "mcp-intercom-server.js",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "axios": "^1.9.0",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "playwright": "^1.43.0"
   },
   "engines": { "node": ">=18.0.0" }
 }

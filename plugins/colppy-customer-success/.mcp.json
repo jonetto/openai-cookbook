@@ -6,7 +6,23 @@
       "env": {
         "INTERCOM_ACCESS_TOKEN": "${INTERCOM_ACCESS_TOKEN}"
       }
+    },
+    "feature-upvote-playwright": {
+      "command": "node",
+      "args": ["mcp/mcp-feature-upvote-playwright-server.js"],
+      "env": {
+        "FEATURE_UPVOTE_EMAIL": "${FEATURE_UPVOTE_EMAIL}",
+        "FEATURE_UPVOTE_PASSWORD": "${FEATURE_UPVOTE_PASSWORD}",
+        "FEATURE_UPVOTE_BOARD_URL": "${FEATURE_UPVOTE_BOARD_URL}",
+        "FEATURE_UPVOTE_HEADLESS": "${FEATURE_UPVOTE_HEADLESS}",
+        "FEATURE_UPVOTE_CACHE_TTL_MINUTES": "${FEATURE_UPVOTE_CACHE_TTL_MINUTES}",
+        "FEATURE_UPVOTE_STORAGE_STATE_PATH": "${FEATURE_UPVOTE_STORAGE_STATE_PATH}",
+        "FEATURE_UPVOTE_PERSIST_STORAGE_STATE": "${FEATURE_UPVOTE_PERSIST_STORAGE_STATE}",
+        "FEATURE_UPVOTE_USER_AGENT": "${FEATURE_UPVOTE_USER_AGENT}",
+        "FEATURE_UPVOTE_LOCALE": "${FEATURE_UPVOTE_LOCALE}",
+        "FEATURE_UPVOTE_TIMEZONE": "${FEATURE_UPVOTE_TIMEZONE}"
+      }
     }
   },
-  "_comment": "intercom-research: export, scan_full_text, scan_customer_feedback, get_conversation_feedback, analyze_onboarding. Set INTERCOM_ACCESS_TOKEN in Cursor MCP settings or .env."
+  "_comment": "intercom-research: Intercom export/search tools. feature-upvote-playwright: browser automation tools for Feature Upvote board summary, moderation list, and suggestion creation."
 }

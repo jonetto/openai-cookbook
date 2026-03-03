@@ -1,0 +1,2264 @@
+{
+  "from_date": "2025-09-01",
+  "to_date": "2026-02-28",
+  "state": "all",
+  "team_assignee_id": null,
+  "topic": "Feature Upvote suggestions",
+  "saved_at": "2026-03-02T16:01:21.208Z",
+  "conversations": [
+    {
+      "conversation_id": "696934",
+      "created_at": "2026-02-26T16:49:22.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "yesica.martinez@darsentido.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: CAI EN LOS REMITOS\nDescription: NOS SOLICITAN DE EMPRESAS QUE EL CAI ESTE INCLUIDO EN EL REMITO\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: YESICA <yesica.martinez@darsentido.com.ar>",
+          "created_at": "2026-02-26T16:49:22.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "YESICA",
+      "source_email": "yesica.martinez@darsentido.com.ar",
+      "source_title": "CAI EN LOS REMITOS",
+      "source_description": "NOS SOLICITAN DE EMPRESAS QUE EL CAI ESTE INCLUIDO EN EL REMITO",
+      "source_tags": [],
+      "source_date_created": "2026-02-26 16:49:22"
+    },
+    {
+      "conversation_id": "696538",
+      "created_at": "2026-02-24T19:14:19.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "info@ccra.org.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: SOPORTE TECNICO\nDescription: LE¿Cómo podemos ayudarte?\rColppy • AI Agent • 1 d\rReportar un error\rCamara • 1 d\r¿Desde qué empresa estás reportando el error?\rColppy • AI Agent • 1 d\rNombre de la empresa\rCAMARA DE COMERCIANTES EN REPUESTOS DEL AUTOMOTOR\r¿En qué módulo encontraste el error dentro de la plataforma?\rColppy • 1 d\rClientes\rCamara • 1 d\r¿En que te puedo ayudar acerca de tus Clientes?\rColppy • AI Agent • 1 d\rImportación\rCamara • 1 d\rEn que empresa estas realizando la importación?\rColppy • AI Agent • 1 d\rNombre de la empresa\rCAMARA DE COMERCIANTES EN REPUESTOS DEL AUTOM\r¿Podés indicarnos en que modulo estas intentando importar? Así te podemos ayudar mejor.\rColppy • 1 d\rClientes\rCamara • 1 d\rEstas intentando importar Facturas de venta o clientes?\rColppy • AI Agent • 1 d\rFacturas de venta\rCamara • 1 d\rHola , ¿cómo estás? Espero que estés teniendo una linda semana. ¿Me pasás el archivo que intentaste importar y el de los errores?, así reviso tS PASO LA CONVERSACIÓN DEL CHAT, NO PRESTAN ASISTENCIA, UNA VERGUENZA\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: camara de comerciantes en repuestos del automotor <info@ccra.org.ar>",
+          "created_at": "2026-02-24T19:14:19.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "camara de comerciantes en repuestos del automotor",
+      "source_email": "info@ccra.org.ar",
+      "source_title": "SOPORTE TECNICO",
+      "source_description": "LE¿Cómo podemos ayudarte?\rColppy • AI Agent • 1 d\rReportar un error\rCamara • 1 d\r¿Desde qué empresa estás reportando el error?\rColppy • AI Agent • 1 d\rNombre de la empresa\rCAMARA DE COMERCIANTES EN REPUESTOS DEL AUTOMOTOR\r¿En qué módulo encontraste el error dentro de la plataforma?\rColppy • 1 d\rClientes\rCamara • 1 d\r¿En que te puedo ayudar acerca de tus Clientes?\rColppy • AI Agent • 1 d\rImportación\rCamara • 1 d\rEn que empresa estas realizando la importación?\rColppy • AI Agent • 1 d\rNombre de la empresa\rCAMARA DE COMERCIANTES EN REPUESTOS DEL AUTOM\r¿Podés indicarnos en que modulo estas intentando importar? Así te podemos ayudar mejor.\rColppy • 1 d\rClientes\rCamara • 1 d\rEstas intentando importar Facturas de venta o clientes?\rColppy • AI Agent • 1 d\rFacturas de venta\rCamara • 1 d\rHola , ¿cómo estás? Espero que estés teniendo una linda semana. ¿Me pasás el archivo que intentaste importar y el de los errores?, así reviso tS PASO LA CONVERSACIÓN DEL CHAT, NO PRESTAN ASISTENCIA, UNA VERGUENZA",
+      "source_tags": [],
+      "source_date_created": "2026-02-24 19:14:19"
+    },
+    {
+      "conversation_id": "696308",
+      "created_at": "2026-02-23T15:23:27.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "pfreijedo@silogic.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: FACTURA\nDescription: Agregar en el formulario de un campo adicional que indique el numero de orden de pedido u orden de compra del cliente. Ademas, si es posible, agregar mas campos adicionales para agregarla a la factura, por ejemplo, numero de proyecto, numero de oferta, de forma tal de tener trazabilidad con el CRM.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Pablo Freijedo <pfreijedo@silogic.com.ar>",
+          "created_at": "2026-02-23T15:23:27.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Pablo Freijedo",
+      "source_email": "pfreijedo@silogic.com.ar",
+      "source_title": "FACTURA",
+      "source_description": "Agregar en el formulario de un campo adicional que indique el numero de orden de pedido u orden de compra del cliente. Ademas, si es posible, agregar mas campos adicionales para agregarla a la factura, por ejemplo, numero de proyecto, numero de oferta, de forma tal de tener trazabilidad con el CRM.",
+      "source_tags": [],
+      "source_date_created": "2026-02-23 15:23:27"
+    },
+    {
+      "conversation_id": "696295",
+      "created_at": "2026-02-23T14:25:08.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "pfreijedo@silogic.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Filtrado\nDescription: Estoy probando el sistema y me encuentro que la funcionalidad que necesito, por la cual lo adquirí no existe. Lo que necesito es poder asignar a cada cliente un registro de orden de pedido, para luego facturar sobre y referenciar la factura a esa orden de pedido. COmo no se puede, me indicaron hacer un formulario nuevo, y cargar una factura en ese formulario, luego hacer las facturas qeu correpsonden y finalmente borrar la primera. El tema es que uso el campo descripcion de la factura para poner el numero de pedido de mi cliente y colppy no me deja filtrar ni ordenar por descripcion en la tabla que muestra. necesitaria que habiliten esa opcion, la de filtrar por cualquier columna\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Pablo Freijedo <pfreijedo@silogic.com.ar>",
+          "created_at": "2026-02-23T14:25:08.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Pablo Freijedo",
+      "source_email": "pfreijedo@silogic.com.ar",
+      "source_title": "Filtrado",
+      "source_description": "Estoy probando el sistema y me encuentro que la funcionalidad que necesito, por la cual lo adquirí no existe. Lo que necesito es poder asignar a cada cliente un registro de orden de pedido, para luego facturar sobre y referenciar la factura a esa orden de pedido. COmo no se puede, me indicaron hacer un formulario nuevo, y cargar una factura en ese formulario, luego hacer las facturas qeu correpsonden y finalmente borrar la primera. El tema es que uso el campo descripcion de la factura para poner el numero de pedido de mi cliente y colppy no me deja filtrar ni ordenar por descripcion en la tabla que muestra. necesitaria que habiliten esa opcion, la de filtrar por cualquier columna",
+      "source_tags": [],
+      "source_date_created": "2026-02-23 14:25:08"
+    },
+    {
+      "conversation_id": "695681",
+      "created_at": "2026-02-19T15:41:53.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "morbellopriscila@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Condiciones de venta\nDescription: Sería interesante poder modificar las condiciones de venta, es decir, los días que se otorga hasta la fecha de vencimiento. Por defecto, viene 7 / 15 / 30 etc. En nuestro caso, necesitaríamos para la gestión de nuestro negocio, tener vencimientos a 20, 25 días... Gracias!\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Priscila <morbellopriscila@gmail.com>",
+          "created_at": "2026-02-19T15:41:53.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Priscila",
+      "source_email": "morbellopriscila@gmail.com",
+      "source_title": "Condiciones de venta",
+      "source_description": "Sería interesante poder modificar las condiciones de venta, es decir, los días que se otorga hasta la fecha de vencimiento. Por defecto, viene 7 / 15 / 30 etc. En nuestro caso, necesitaríamos para la gestión de nuestro negocio, tener vencimientos a 20, 25 días... Gracias!",
+      "source_tags": [],
+      "source_date_created": "2026-02-19 15:41:53"
+    },
+    {
+      "conversation_id": "694591",
+      "created_at": "2026-02-13T20:53:39.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "momsa496@hotmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: SOPORTE EN LINEA QUE RESPONDA EN EL DIA\nDescription: Estaria bueno que regresen al esquema anterior, quitando las respuestas por IA las cuales no resuelven problemas puntuales y poniendo personal que atienda en el soporte tanto por chat como por telefono dentro del día en que la consulta es generada, los plazos actuales son totalmente irrisorios y no pueden atender cuestiones importantes en un plazo adecuado.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: STRIGER NESTOR GUSTAVO <momsa496@hotmail.com>",
+          "created_at": "2026-02-13T20:53:39.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "STRIGER NESTOR GUSTAVO",
+      "source_email": "momsa496@hotmail.com",
+      "source_title": "SOPORTE EN LINEA QUE RESPONDA EN EL DIA",
+      "source_description": "Estaria bueno que regresen al esquema anterior, quitando las respuestas por IA las cuales no resuelven problemas puntuales y poniendo personal que atienda en el soporte tanto por chat como por telefono dentro del día en que la consulta es generada, los plazos actuales son totalmente irrisorios y no pueden atender cuestiones importantes en un plazo adecuado.",
+      "source_tags": [],
+      "source_date_created": "2026-02-13 20:53:39"
+    },
+    {
+      "conversation_id": "693599",
+      "created_at": "2026-02-09T16:51:34.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "mmazerolles@pilvial.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: AGENTES DE RECAUDACION IIBB\nDescription: Hola! Solicito que la emisión del reporte para la liquidación de agentes de Recaudación se pueda descargar de un modo que sea compatible con el Organismo. El reporte que emite el sistema debemos modificarlo para subirlo a ARBA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Marcia Mazerolles <mmazerolles@pilvial.com>",
+          "created_at": "2026-02-09T16:51:34.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Marcia Mazerolles",
+      "source_email": "mmazerolles@pilvial.com",
+      "source_title": "AGENTES DE RECAUDACION IIBB",
+      "source_description": "Hola! Solicito que la emisión del reporte para la liquidación de agentes de Recaudación se pueda descargar de un modo que sea compatible con el Organismo. El reporte que emite el sistema debemos modificarlo para subirlo a ARBA.",
+      "source_tags": [],
+      "source_date_created": "2026-02-09 16:51:34"
+    },
+    {
+      "conversation_id": "693146",
+      "created_at": "2026-02-06T15:36:30.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "elemperador32@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Mejorar vista del panel de facturas impagas en cobranzas\nDescription: Mejorar la usabilidad del panel de facturas impagas en cobranzas\rNecesito que se mejore la vista del panel de facturas impagas cuando genero cobranzas desde el módulo Tesorería. La vista es muy rígida y no permite ver suficientes facturas cuando un cliente tiene por ejemplo más de 20 facturas pendientes. (en mi caso debo cargar cobranzas de muchas facturas por cliente)\rSolicito:\rFiltros avanzados por número de factura (similar a Excel, donde puedo escribir el número y se preseleccione)\rFiltros por fechas para mostrar solo facturas de determinados períodos\rAmpliar el tamaño de la vista para mostrar más registros\rHe notado que accediendo desde Clientes > Agregar cobro, el panel es más grande y amigable que desde Tesorería > Cobranzas, por lo que sería ideal unificar esta experiencia con el tamaño más grande en ambas rutas.\rEsto facilitaría mucho el trabajo con cobranzas masivas y mejoraría la productividad.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Claudio Alaniz <elemperador32@gmail.com>",
+          "created_at": "2026-02-06T15:36:30.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Claudio Alaniz",
+      "source_email": "elemperador32@gmail.com",
+      "source_title": "Mejorar vista del panel de facturas impagas en cobranzas",
+      "source_description": "Mejorar la usabilidad del panel de facturas impagas en cobranzas\rNecesito que se mejore la vista del panel de facturas impagas cuando genero cobranzas desde el módulo Tesorería. La vista es muy rígida y no permite ver suficientes facturas cuando un cliente tiene por ejemplo más de 20 facturas pendientes. (en mi caso debo cargar cobranzas de muchas facturas por cliente)\rSolicito:\rFiltros avanzados por número de factura (similar a Excel, donde puedo escribir el número y se preseleccione)\rFiltros por fechas para mostrar solo facturas de determinados períodos\rAmpliar el tamaño de la vista para mostrar más registros\rHe notado que accediendo desde Clientes > Agregar cobro, el panel es más grande y amigable que desde Tesorería > Cobranzas, por lo que sería ideal unificar esta experiencia con el tamaño más grande en ambas rutas.\rEsto facilitaría mucho el trabajo con cobranzas masivas y mejoraría la productividad.",
+      "source_tags": [],
+      "source_date_created": "2026-02-06 15:36:30"
+    },
+    {
+      "conversation_id": "693024",
+      "created_at": "2026-02-05T19:23:49.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "adm.hotel.sehuen@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: RESPUESTA RAPIDA A LAS CONSULTAS\nDescription: Desde el 20 de enero estoy esperando una respuesta al reporte del error, mande mensaje a traves de la plataforma y mande mail a soporte y hasta el dia de la fecha no tengo respuestas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: magali <adm.hotel.sehuen@gmail.com>",
+          "created_at": "2026-02-05T19:23:49.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "magali",
+      "source_email": "adm.hotel.sehuen@gmail.com",
+      "source_title": "RESPUESTA RAPIDA A LAS CONSULTAS",
+      "source_description": "Desde el 20 de enero estoy esperando una respuesta al reporte del error, mande mensaje a traves de la plataforma y mande mail a soporte y hasta el dia de la fecha no tengo respuestas.",
+      "source_tags": [],
+      "source_date_created": "2026-02-05 19:23:49"
+    },
+    {
+      "conversation_id": "693015",
+      "created_at": "2026-02-05T18:36:27.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "contabilidad@pancorasa.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Quiero que vuelta a tener el servicio de atencion al cliente mas rapido\nDescription: Que uno puedo solcitar nuevamente que te llamen o recibir una respuesta mas inmediata, no estar varios dias esperando que alguien responda cosas necesarias como errores de sistema o que no tome comprobantes, o problemas de facturacion. Era su punto fuerte, ahora es lo peor que tienen la atencion a los clientes, tan mala que uno piensa en cambiar de sistema\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Deborah <contabilidad@pancorasa.com>",
+          "created_at": "2026-02-05T18:36:27.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Deborah",
+      "source_email": "contabilidad@pancorasa.com",
+      "source_title": "Quiero que vuelta a tener el servicio de atencion al cliente mas rapido",
+      "source_description": "Que uno puedo solcitar nuevamente que te llamen o recibir una respuesta mas inmediata, no estar varios dias esperando que alguien responda cosas necesarias como errores de sistema o que no tome comprobantes, o problemas de facturacion. Era su punto fuerte, ahora es lo peor que tienen la atencion a los clientes, tan mala que uno piensa en cambiar de sistema",
+      "source_tags": [],
+      "source_date_created": "2026-02-05 18:36:27"
+    },
+    {
+      "conversation_id": "693002",
+      "created_at": "2026-02-05T17:41:38.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@prevensis.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Mostrar más filas de items por defecto al cargar facturas de proveedor y cleintes\nDescription: Necesito por favor se puedan visualizar por defecto mínimo 10 renglones al cargar facturas de proveedores o clientes.  Es muy engorroso tener que cargar una factura de 20 items y solo ver 5, es algo básico. Seguramente sera un beneficio para todos los que usan el sistema\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Juan Pablo <administracion@prevensis.com.ar>",
+          "created_at": "2026-02-05T17:41:38.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Juan Pablo",
+      "source_email": "administracion@prevensis.com.ar",
+      "source_title": "Mostrar más filas de items por defecto al cargar facturas de proveedor y cleintes",
+      "source_description": "Necesito por favor se puedan visualizar por defecto mínimo 10 renglones al cargar facturas de proveedores o clientes.  Es muy engorroso tener que cargar una factura de 20 items y solo ver 5, es algo básico. Seguramente sera un beneficio para todos los que usan el sistema",
+      "source_tags": [],
+      "source_date_created": "2026-02-05 17:41:38"
+    },
+    {
+      "conversation_id": "692865",
+      "created_at": "2026-02-04T20:50:18.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "lenamaranz57@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: tesoreria\nDescription: si anuduviese les daria una sugerencia, es una falta de respeto lo que hacen\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lena maranz <lenamaranz57@gmail.com>",
+          "created_at": "2026-02-04T20:50:18.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "lena maranz",
+      "source_email": "lenamaranz57@gmail.com",
+      "source_title": "tesoreria",
+      "source_description": "si anuduviese les daria una sugerencia, es una falta de respeto lo que hacen",
+      "source_tags": [],
+      "source_date_created": "2026-02-04 20:50:18"
+    },
+    {
+      "conversation_id": "692562",
+      "created_at": "2026-02-03T14:45:29.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@babylonia.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Una Orden de pago no puede aplicar/cancelar otra Orden de pago\nDescription: Cuando ingresas a una orden de pago de pago en los comprobantes a aplicar aparecen todos los pendientes de esa cuenta corriente, incluso otras órdenes de pagos. En el último caso no debería aparecer e incluso no debería permitir aplicarse.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Maia <administracion@babylonia.com.ar>",
+          "created_at": "2026-02-03T14:45:29.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Maia",
+      "source_email": "administracion@babylonia.com.ar",
+      "source_title": "Una Orden de pago no puede aplicar/cancelar otra Orden de pago",
+      "source_description": "Cuando ingresas a una orden de pago de pago en los comprobantes a aplicar aparecen todos los pendientes de esa cuenta corriente, incluso otras órdenes de pagos. En el último caso no debería aparecer e incluso no debería permitir aplicarse.",
+      "source_tags": [],
+      "source_date_created": "2026-02-03 14:45:29"
+    },
+    {
+      "conversation_id": "692551",
+      "created_at": "2026-02-03T13:55:27.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "lenamaranz57@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: quiero que alguien me responda en la mesa de ayuda\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lena maranz <lenamaranz57@gmail.com>",
+          "created_at": "2026-02-03T13:55:27.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "lena maranz",
+      "source_email": "lenamaranz57@gmail.com",
+      "source_title": "quiero que alguien me responda en la mesa de ayuda",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2026-02-03 13:55:27"
+    },
+    {
+      "conversation_id": "692549",
+      "created_at": "2026-02-03T13:38:53.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "karina@kosik.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: MEJOREN URGENTE EL SOPORTE EN LINEA !! SE PASAN DE MALOS, LA IA DEL CHAT NO RESUELVE TODO\nDescription: el soporte para usuarios es pesimo, no pueden no tener personas para ayudar a solucionar problemas que la IA no comprende, y es muy molesto, como empresa, tener que trabajar de esta forma. El abono es caro y la asistenca es pesima\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Karina <karina@kosik.com.ar>",
+          "created_at": "2026-02-03T13:38:53.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Karina",
+      "source_email": "karina@kosik.com.ar",
+      "source_title": "MEJOREN URGENTE EL SOPORTE EN LINEA !! SE PASAN DE MALOS, LA IA DEL CHAT NO RESUELVE TODO",
+      "source_description": "el soporte para usuarios es pesimo, no pueden no tener personas para ayudar a solucionar problemas que la IA no comprende, y es muy molesto, como empresa, tener que trabajar de esta forma. El abono es caro y la asistenca es pesima",
+      "source_tags": [],
+      "source_date_created": "2026-02-03 13:38:53"
+    },
+    {
+      "conversation_id": "692346",
+      "created_at": "2026-02-02T11:45:57.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "TUBOSIDER@HOTMAIL.COM",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: QUISIERA QUE EN EL CHAT DE COLPPY CONTESTEN CON MAS FRECUENCIA, HACE DIAS QUE NO ME CONTESTAN\nDescription: HACE 3 DIAS QUE HICE UNA PREGUNTA Y AÚN NO ME CONTESTAN.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: BRIAN VAZQUEZ <TUBOSIDER@HOTMAIL.COM>",
+          "created_at": "2026-02-02T11:45:57.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "BRIAN VAZQUEZ",
+      "source_email": "TUBOSIDER@HOTMAIL.COM",
+      "source_title": "QUISIERA QUE EN EL CHAT DE COLPPY CONTESTEN CON MAS FRECUENCIA, HACE DIAS QUE NO ME CONTESTAN",
+      "source_description": "HACE 3 DIAS QUE HICE UNA PREGUNTA Y AÚN NO ME CONTESTAN.",
+      "source_tags": [],
+      "source_date_created": "2026-02-02 11:45:57"
+    },
+    {
+      "conversation_id": "691413",
+      "created_at": "2026-01-28T06:53:13.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "urel56sebastian.65@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Rambio\nDescription: Te te amo\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Uriel castro <urel56sebastian.65@gmail.com>",
+          "created_at": "2026-01-28T06:53:13.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Uriel castro",
+      "source_email": "urel56sebastian.65@gmail.com",
+      "source_title": "Rambio",
+      "source_description": "Te te amo",
+      "source_tags": [],
+      "source_date_created": "2026-01-28 06:53:13"
+    },
+    {
+      "conversation_id": "689701",
+      "created_at": "2026-01-18T19:09:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "dh.luis@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Parametrización tipo de operación para IVA Simple\nDescription: Actualmente se puede seleccionar el tipo de operación en la carga de facturas de proveedores y clientes, sería ideal que esté parametrizado el proveedor y el cliente (como la cuenta contable) y que en la carga de factura se pueda modificar y que sea un campo obligatorio.  Hace más rápida la carga y menos errores.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Luis Alberto Diaz <dh.luis@gmail.com>",
+          "created_at": "2026-01-18T19:09:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Luis Alberto Diaz",
+      "source_email": "dh.luis@gmail.com",
+      "source_title": "Parametrización tipo de operación para IVA Simple",
+      "source_description": "Actualmente se puede seleccionar el tipo de operación en la carga de facturas de proveedores y clientes, sería ideal que esté parametrizado el proveedor y el cliente (como la cuenta contable) y que en la carga de factura se pueda modificar y que sea un campo obligatorio.  Hace más rápida la carga y menos errores.",
+      "source_tags": [],
+      "source_date_created": "2026-01-18 19:09:48"
+    },
+    {
+      "conversation_id": "688873",
+      "created_at": "2026-01-15T14:06:03.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "agustina@cristalmet.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: tablero de control mas extenso\nDescription: Me gustaria que el tablero de control arroje tanto datos del mes, como abajo datos trimestrales y anueles. Y tambien poder clikear sobre eso y que me muestre de que esta conformado ese numero.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: AGUSTINA <agustina@cristalmet.com>",
+          "created_at": "2026-01-15T14:06:03.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "AGUSTINA",
+      "source_email": "agustina@cristalmet.com",
+      "source_title": "tablero de control mas extenso",
+      "source_description": "Me gustaria que el tablero de control arroje tanto datos del mes, como abajo datos trimestrales y anueles. Y tambien poder clikear sobre eso y que me muestre de que esta conformado ese numero.",
+      "source_tags": [],
+      "source_date_created": "2026-01-15 14:06:03"
+    },
+    {
+      "conversation_id": "688860",
+      "created_at": "2026-01-15T13:44:37.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "biodinamicaasistencia2024@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: INTERFAZ\nDescription: La interfaz para cargar facturas es mala, pero para cargar notas de crédito es aun peor. No permite poner las facturas impagas en orden, por lo tanto buscar la factura a la cual aplicar la NC es imposible. Los recuadros son MUY CHICOS y no se amplian al ampliar el tamaño de la ventana. En sintesis: muy difícil de cargar las NC, muy poco práctico el tamaño de las distintas secciones.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Biodinamica <biodinamicaasistencia2024@gmail.com>",
+          "created_at": "2026-01-15T13:44:37.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Biodinamica",
+      "source_email": "biodinamicaasistencia2024@gmail.com",
+      "source_title": "INTERFAZ",
+      "source_description": "La interfaz para cargar facturas es mala, pero para cargar notas de crédito es aun peor. No permite poner las facturas impagas en orden, por lo tanto buscar la factura a la cual aplicar la NC es imposible. Los recuadros son MUY CHICOS y no se amplian al ampliar el tamaño de la ventana. En sintesis: muy difícil de cargar las NC, muy poco práctico el tamaño de las distintas secciones.",
+      "source_tags": [],
+      "source_date_created": "2026-01-15 13:44:37"
+    },
+    {
+      "conversation_id": "688446",
+      "created_at": "2026-01-13T12:43:33.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "cgallo@nubity.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Descarga de Estado de Cuenta a clientes en PDF, no en EXCEL\nDescription: Estaría bueno que existe la manera de descargar un estado de cuenta mas \"formal\" y no en excel de estado de cuenta para los clientes, actualmente el mas completo es el que se descarga desde el cliente y clickeando el icono de excel a la derecha. Ese además de ser poco claro, no es una forma clara y formal de enviarlo a clientes, quizás genere mas dudas que aclararlas. Gracias.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Caro <cgallo@nubity.com>",
+          "created_at": "2026-01-13T12:43:33.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Caro",
+      "source_email": "cgallo@nubity.com",
+      "source_title": "Descarga de Estado de Cuenta a clientes en PDF, no en EXCEL",
+      "source_description": "Estaría bueno que existe la manera de descargar un estado de cuenta mas \"formal\" y no en excel de estado de cuenta para los clientes, actualmente el mas completo es el que se descarga desde el cliente y clickeando el icono de excel a la derecha. Ese además de ser poco claro, no es una forma clara y formal de enviarlo a clientes, quizás genere mas dudas que aclararlas. Gracias.",
+      "source_tags": [],
+      "source_date_created": "2026-01-13 12:43:33"
+    },
+    {
+      "conversation_id": "688268",
+      "created_at": "2026-01-12T12:33:00.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "gustavo@curti.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Poner en 0 los saldos insignificantes en clientes\nDescription: Cuando un cliente tiene un saldo minimo producto de una diferencia entre lo que transfirió y lo que debe por redondeo poder hacerlo facilmente enviando eso a una cuenta de diferencias por redondeo.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Gustavo Curti <gustavo@curti.com.ar>",
+          "created_at": "2026-01-12T12:33:00.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Gustavo Curti",
+      "source_email": "gustavo@curti.com.ar",
+      "source_title": "Poner en 0 los saldos insignificantes en clientes",
+      "source_description": "Cuando un cliente tiene un saldo minimo producto de una diferencia entre lo que transfirió y lo que debe por redondeo poder hacerlo facilmente enviando eso a una cuenta de diferencias por redondeo.",
+      "source_tags": [],
+      "source_date_created": "2026-01-12 12:33:00"
+    },
+    {
+      "conversation_id": "687824",
+      "created_at": "2026-01-09T13:03:35.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "compras@industriasrojo.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Ultima fecha de ingreso de mercaderia en listado de disponbilidad por deposito\nDescription: Propongo que cuando se emita el listado de disponibilidad por deposito, figure en otra columna la ultima fecha de compra/ingreso del producto. De esta manera podemos identificar rápidamente hace cuanto esta la mercadería en nuestro inventario.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Juan Portillo <compras@industriasrojo.com.ar>",
+          "created_at": "2026-01-09T13:03:35.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Juan Portillo",
+      "source_email": "compras@industriasrojo.com.ar",
+      "source_title": "Ultima fecha de ingreso de mercaderia en listado de disponbilidad por deposito",
+      "source_description": "Propongo que cuando se emita el listado de disponibilidad por deposito, figure en otra columna la ultima fecha de compra/ingreso del producto. De esta manera podemos identificar rápidamente hace cuanto esta la mercadería en nuestro inventario.",
+      "source_tags": [],
+      "source_date_created": "2026-01-09 13:03:35"
+    },
+    {
+      "conversation_id": "687320",
+      "created_at": "2026-01-06T18:43:25.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "martinpostolski@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Hola. Me gustaría que tengan soporte técnico, el actual ya no responde más.\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Martin Postolski <martinpostolski@gmail.com>",
+          "created_at": "2026-01-06T18:43:25.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Martin Postolski",
+      "source_email": "martinpostolski@gmail.com",
+      "source_title": "Hola. Me gustaría que tengan soporte técnico, el actual ya no responde más.",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2026-01-06 18:43:25"
+    },
+    {
+      "conversation_id": "687113",
+      "created_at": "2026-01-05T12:02:17.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "oscar@gregoriogirardo.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Conciliación Banacaria\nDescription: Que en el resumen de  Conciliación Bancaria, y a los fines de facilitar la lectura de dicho informe,   cuando se exponen importes en pesos trabaje con dos decimales y con el punto de separación en miles\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Oscar Alfredo GREGORIO <oscar@gregoriogirardo.com.ar>",
+          "created_at": "2026-01-05T12:02:17.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Oscar Alfredo GREGORIO",
+      "source_email": "oscar@gregoriogirardo.com.ar",
+      "source_title": "Conciliación Banacaria",
+      "source_description": "Que en el resumen de  Conciliación Bancaria, y a los fines de facilitar la lectura de dicho informe,   cuando se exponen importes en pesos trabaje con dos decimales y con el punto de separación en miles",
+      "source_tags": [],
+      "source_date_created": "2026-01-05 12:02:17"
+    },
+    {
+      "conversation_id": "686771",
+      "created_at": "2026-01-02T19:46:21.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "asalischiker@rcampillay.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: IMPORTAR FACTURAS EN MONEDA EXTRANJERA\nDescription: Poder desde el excel de importación, también subir las facturas en moneda extranjera, sin tener que pesificarla. Par que después en el cobro se calcule sola la diferencia de tipo de cambio\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ayelen <asalischiker@rcampillay.com.ar>",
+          "created_at": "2026-01-02T19:46:21.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Ayelen",
+      "source_email": "asalischiker@rcampillay.com.ar",
+      "source_title": "IMPORTAR FACTURAS EN MONEDA EXTRANJERA",
+      "source_description": "Poder desde el excel de importación, también subir las facturas en moneda extranjera, sin tener que pesificarla. Par que después en el cobro se calcule sola la diferencia de tipo de cambio",
+      "source_tags": [],
+      "source_date_created": "2026-01-02 19:46:21"
+    },
+    {
+      "conversation_id": "685346",
+      "created_at": "2025-12-22T15:01:20.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "estudioandreacalvi@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: EL asiento # 1 debe ser el de apertura ,una funcion donde diga reservar el asiento 1 para apertura.\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paula <estudioandreacalvi@gmail.com>",
+          "created_at": "2025-12-22T15:01:20.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Paula",
+      "source_email": "estudioandreacalvi@gmail.com",
+      "source_title": "EL asiento # 1 debe ser el de apertura ,una funcion donde diga reservar el asiento 1 para apertura.",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-12-22 15:01:20"
+    },
+    {
+      "conversation_id": "684698",
+      "created_at": "2025-12-18T15:37:21.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "i.siciliano@chaer.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Facturas Colppy\nDescription: No puedo acceder al portal para obtener las Facturas de Ustedes\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ignacio Siciliano <i.siciliano@chaer.com.ar>",
+          "created_at": "2025-12-18T15:37:21.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Ignacio Siciliano",
+      "source_email": "i.siciliano@chaer.com.ar",
+      "source_title": "Facturas Colppy",
+      "source_description": "No puedo acceder al portal para obtener las Facturas de Ustedes",
+      "source_tags": [],
+      "source_date_created": "2025-12-18 15:37:21"
+    },
+    {
+      "conversation_id": "684496",
+      "created_at": "2025-12-17T17:13:17.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "cmunoz@stiwweb.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Tener un servicio de respuestas al clientes que funcione, ya que por chat, por tel NO responden\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Caro <cmunoz@stiwweb.com.ar>",
+          "created_at": "2025-12-17T17:13:17.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Caro",
+      "source_email": "cmunoz@stiwweb.com.ar",
+      "source_title": "Tener un servicio de respuestas al clientes que funcione, ya que por chat, por tel NO responden",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-12-17 17:13:17"
+    },
+    {
+      "conversation_id": "683552",
+      "created_at": "2025-12-12T13:32:47.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@atlanti-kayaks.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Maximizar pantallas a pantalla completa\nDescription: Como usuario del sistema, sucede que las pantallas de orden de pago, carga de facturas y demas son pequeñas y trae dificultad para apreciar los datos que se estan ingresando\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Diego Rodriguez <administracion@atlanti-kayaks.com>",
+          "created_at": "2025-12-12T13:32:47.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Diego Rodriguez",
+      "source_email": "administracion@atlanti-kayaks.com",
+      "source_title": "Maximizar pantallas a pantalla completa",
+      "source_description": "Como usuario del sistema, sucede que las pantallas de orden de pago, carga de facturas y demas son pequeñas y trae dificultad para apreciar los datos que se estan ingresando",
+      "source_tags": [],
+      "source_date_created": "2025-12-12 13:32:47"
+    },
+    {
+      "conversation_id": "683549",
+      "created_at": "2025-12-12T13:28:56.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "cerezo.m@opendevpro.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Reporte ítems en facturas de proveedores, con distinción de la moneda\nDescription: El reporte Inventario > Reportes > Listado de Movimientos, solo muestra los valores en pesos y la conversión en pesos. Sería útil agregar el detalle de lo cargado en USD, ya que esta incorporación de registros en USD no fue tenida en cuenta en este reporte, lo que resulta incongruente.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Mercedes Cerezo <cerezo.m@opendevpro.com>",
+          "created_at": "2025-12-12T13:28:56.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Mercedes Cerezo",
+      "source_email": "cerezo.m@opendevpro.com",
+      "source_title": "Reporte ítems en facturas de proveedores, con distinción de la moneda",
+      "source_description": "El reporte Inventario > Reportes > Listado de Movimientos, solo muestra los valores en pesos y la conversión en pesos. Sería útil agregar el detalle de lo cargado en USD, ya que esta incorporación de registros en USD no fue tenida en cuenta en este reporte, lo que resulta incongruente.",
+      "source_tags": [],
+      "source_date_created": "2025-12-12 13:28:56"
+    },
+    {
+      "conversation_id": "683044",
+      "created_at": "2025-12-10T12:51:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "danielch@mastesis.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Reportes\nDescription: Poder descargar un reporte de facturas de clientes y proveedores que contenga los archivos adjuntos.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Daniel <danielch@mastesis.com.ar>",
+          "created_at": "2025-12-10T12:51:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Daniel",
+      "source_email": "danielch@mastesis.com.ar",
+      "source_title": "Reportes",
+      "source_description": "Poder descargar un reporte de facturas de clientes y proveedores que contenga los archivos adjuntos.",
+      "source_tags": [],
+      "source_date_created": "2025-12-10 12:51:48"
+    },
+    {
+      "conversation_id": "681399",
+      "created_at": "2025-12-05T16:21:19.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "jcmarsal@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: pagos en dolares y cobranzas en dolares, transferencias entre bancos\nDescription: TESORERIA Asi como los módulos de otros pagos o otras cobranzas, aparecen los bancos en pesos no aparecen las cuentas en dolares de bancos\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: julio cesar marsal emeka sa <jcmarsal@gmail.com>",
+          "created_at": "2025-12-05T16:21:19.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "julio cesar marsal emeka sa",
+      "source_email": "jcmarsal@gmail.com",
+      "source_title": "pagos en dolares y cobranzas en dolares, transferencias entre bancos",
+      "source_description": "TESORERIA Asi como los módulos de otros pagos o otras cobranzas, aparecen los bancos en pesos no aparecen las cuentas en dolares de bancos",
+      "source_tags": [],
+      "source_date_created": "2025-12-05 16:21:19"
+    },
+    {
+      "conversation_id": "680467",
+      "created_at": "2025-12-02T19:43:14.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "agomez@migestarcoop.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: SERVICIO DE SOPORTE\nDescription: Por favor mejoren el servicio de SOPORTE, es pésima la atención. No llamadas telefonica, el chat con una persona real no existe o bien dias despues. Y el bot o mensajes automaticos no encajan con las consultas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Alejandra Gómez <agomez@migestarcoop.com>",
+          "created_at": "2025-12-02T19:43:14.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Alejandra Gómez",
+      "source_email": "agomez@migestarcoop.com",
+      "source_title": "SERVICIO DE SOPORTE",
+      "source_description": "Por favor mejoren el servicio de SOPORTE, es pésima la atención. No llamadas telefonica, el chat con una persona real no existe o bien dias despues. Y el bot o mensajes automaticos no encajan con las consultas.",
+      "source_tags": [],
+      "source_date_created": "2025-12-02 19:43:14"
+    },
+    {
+      "conversation_id": "680424",
+      "created_at": "2025-12-02T13:58:59.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "igorostarzu@estudiobgb.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Trazabilidad y control de entrega en el envío de facturas por e-mail\nDescription: Hola equipo de Colppy, ¿cómo están?\r\rQuería acercarles una sugerencia de mejora respecto del envío de facturas por e-mail. Hoy, al salir desde un no-reply, no tenemos forma de verificar si el correo fue entregado, si quedó rechazado/rebotado, o el motivo del rechazo, lo cual complica el seguimiento con clientes.\r\rComo alternativa técnica, les proponemos evaluar alguna de estas opciones:\r\rSMTP propio configurable por el cliente (host/puerto/usuario/TLS, credenciales encriptadas) y registro por comprobante de message-id + rebotes (DSN).\r\rPreferentemente, integración con un proveedor de e-mail transaccional (p. ej. SendGrid / Mailgun / Amazon SES / Postmark) con webhooks de eventos, para poder ver por factura el estado: sent / delivered / bounced / blocked (y motivo).\r\rIdealmente, también sumar la posibilidad de configurar un Reply-To con nuestro correo, para que el cliente pueda responder si tiene algún problema.\r\rNos sería de mucha utilidad contar con un historial de envíos por comproba\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ignacio Gorostarzu <igorostarzu@estudiobgb.com.ar>",
+          "created_at": "2025-12-02T13:58:59.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Ignacio Gorostarzu",
+      "source_email": "igorostarzu@estudiobgb.com.ar",
+      "source_title": "Trazabilidad y control de entrega en el envío de facturas por e-mail",
+      "source_description": "Hola equipo de Colppy, ¿cómo están?\r\rQuería acercarles una sugerencia de mejora respecto del envío de facturas por e-mail. Hoy, al salir desde un no-reply, no tenemos forma de verificar si el correo fue entregado, si quedó rechazado/rebotado, o el motivo del rechazo, lo cual complica el seguimiento con clientes.\r\rComo alternativa técnica, les proponemos evaluar alguna de estas opciones:\r\rSMTP propio configurable por el cliente (host/puerto/usuario/TLS, credenciales encriptadas) y registro por comprobante de message-id + rebotes (DSN).\r\rPreferentemente, integración con un proveedor de e-mail transaccional (p. ej. SendGrid / Mailgun / Amazon SES / Postmark) con webhooks de eventos, para poder ver por factura el estado: sent / delivered / bounced / blocked (y motivo).\r\rIdealmente, también sumar la posibilidad de configurar un Reply-To con nuestro correo, para que el cliente pueda responder si tiene algún problema.\r\rNos sería de mucha utilidad contar con un historial de envíos por comproba",
+      "source_tags": [],
+      "source_date_created": "2025-12-02 13:58:59"
+    },
+    {
+      "conversation_id": "680349",
+      "created_at": "2025-12-02T02:35:16.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "mvalverrone@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Exportar planilla de pagos a diferentes bancos\nDescription: Poder seleccionar las ordenes de pago y exportarlas automáticamente a los diferentes bancos, tanto para transferencias como para echeqs. No se si desde el módulo proveedores o tesorería. Ambos módulos son muy básicos para trabajar y obligan a llevar controles por fuera del sistema lo que trae bastantes problemas\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Maria Valeria Verrone <mvalverrone@gmail.com>",
+          "created_at": "2025-12-02T02:35:16.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Maria Valeria Verrone",
+      "source_email": "mvalverrone@gmail.com",
+      "source_title": "Exportar planilla de pagos a diferentes bancos",
+      "source_description": "Poder seleccionar las ordenes de pago y exportarlas automáticamente a los diferentes bancos, tanto para transferencias como para echeqs. No se si desde el módulo proveedores o tesorería. Ambos módulos son muy básicos para trabajar y obligan a llevar controles por fuera del sistema lo que trae bastantes problemas",
+      "source_tags": [],
+      "source_date_created": "2025-12-02 02:35:16"
+    },
+    {
+      "conversation_id": "680296",
+      "created_at": "2025-12-01T18:59:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "hola@estudiosalto.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Visualización de precios al facturar\nDescription: Cuando hacemos una factura y se le envia al cliente, el numero que aparece en el mail no cuenta con los puntos o comas correspondientes, ej: Le informamos que hemos emitido la Factura A Nro. 0005-0000xxxxx por el valor de $ 1339197.75000  - Cuando el numero que tendria que figurar es por ej: $1.339.197,75\rHabra manera de corregirlo!? porque ya me pasó varias veces que los clientes no entienden nada y me llaman diciendo que hay errores.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Cecilia <hola@estudiosalto.com.ar>",
+          "created_at": "2025-12-01T18:59:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Cecilia",
+      "source_email": "hola@estudiosalto.com.ar",
+      "source_title": "Visualización de precios al facturar",
+      "source_description": "Cuando hacemos una factura y se le envia al cliente, el numero que aparece en el mail no cuenta con los puntos o comas correspondientes, ej: Le informamos que hemos emitido la Factura A Nro. 0005-0000xxxxx por el valor de $ 1339197.75000  - Cuando el numero que tendria que figurar es por ej: $1.339.197,75\rHabra manera de corregirlo!? porque ya me pasó varias veces que los clientes no entienden nada y me llaman diciendo que hay errores.",
+      "source_tags": [],
+      "source_date_created": "2025-12-01 18:59:48"
+    },
+    {
+      "conversation_id": "680258",
+      "created_at": "2025-12-01T14:12:31.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "cgallo@nubity.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Enviar aviso de deuda manualmente y no solo automáticamente\nDescription: Sería bueno poder enviar la factura con el mensaje automático que envía siempre Colppy días antes de que venza una factura, pero poder hacerlo a mano y sin cambiar el texto cuando lo hago. Porque Colppy envía aviso unos días antes y después pero luego no manda varias veces más y a veces es necesario.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Caro <cgallo@nubity.com>",
+          "created_at": "2025-12-01T14:12:31.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Caro",
+      "source_email": "cgallo@nubity.com",
+      "source_title": "Enviar aviso de deuda manualmente y no solo automáticamente",
+      "source_description": "Sería bueno poder enviar la factura con el mensaje automático que envía siempre Colppy días antes de que venza una factura, pero poder hacerlo a mano y sin cambiar el texto cuando lo hago. Porque Colppy envía aviso unos días antes y después pero luego no manda varias veces más y a veces es necesario.",
+      "source_tags": [],
+      "source_date_created": "2025-12-01 14:12:31"
+    },
+    {
+      "conversation_id": "679724",
+      "created_at": "2025-11-27T16:33:06.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "vgalzerano@cgcconsultores.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Incorporar Impuestos Internos\nDescription: Hay empresas que por su actividad, deben liquidar impuestos internos y para eso, precisamos eguir una trazabilidad de dicho impuesto que actualmente el sistema no tiene,.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Vanesa <vgalzerano@cgcconsultores.com.ar>",
+          "created_at": "2025-11-27T16:33:06.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Vanesa",
+      "source_email": "vgalzerano@cgcconsultores.com.ar",
+      "source_title": "Incorporar Impuestos Internos",
+      "source_description": "Hay empresas que por su actividad, deben liquidar impuestos internos y para eso, precisamos eguir una trazabilidad de dicho impuesto que actualmente el sistema no tiene,.",
+      "source_tags": [],
+      "source_date_created": "2025-11-27 16:33:06"
+    },
+    {
+      "conversation_id": "678378",
+      "created_at": "2025-11-19T15:02:31.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "adm.baloriani@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Ayuda\nDescription: Estaria buenisimo que cuando tenes un problema con el esitema te contesten como resolverlo, ya que por una bendita conciliacion bancaria, no tengo nadie que me atienda, y no hay un telefono ni para llamar ni que llamen.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Yanina <adm.baloriani@gmail.com>",
+          "created_at": "2025-11-19T15:02:31.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Yanina",
+      "source_email": "adm.baloriani@gmail.com",
+      "source_title": "Ayuda",
+      "source_description": "Estaria buenisimo que cuando tenes un problema con el esitema te contesten como resolverlo, ya que por una bendita conciliacion bancaria, no tengo nadie que me atienda, y no hay un telefono ni para llamar ni que llamen.",
+      "source_tags": [],
+      "source_date_created": "2025-11-19 15:02:31"
+    },
+    {
+      "conversation_id": "678261",
+      "created_at": "2025-11-18T21:11:20.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "marisol.gomez@streambe.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Reporte completo de cheques propios emitidos\nDescription: Quisiera solicitar una mejora en el sistema respecto al seguimiento de cheques propios emitidos e imputados a proveedores. En este momento, cuando intento imputar un cheque, el sistema indica que dicho cheque ya fue imputado anteriormente, pero no existe un reporte claro que permita rastrear a qué proveedor o comprobante fue asignado.\r\rLos reportes disponibles en el módulo de Tesorería y los mayores contables no resultan suficientes, ya que no muestran ciertos cheques ya debitados o imputados. Esto me obliga a realizar un seguimiento manual para identificar su aplicación, lo cual dificulta el control y aumenta la posibilidad de errores.\r\rSugiero que, dado que el sistema realiza un control de correlatividad de cheques, se incorpore un informe o consulta específica donde puedan visualizarse todos los cheques propios emitidos, con su estado e imputación correspondiente. Esto permitiría rastrear fácilmente dónde fue cargado cada cheque y evitaría inconsistencias operativas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Marisol Gomez <marisol.gomez@streambe.com>",
+          "created_at": "2025-11-18T21:11:20.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Marisol Gomez",
+      "source_email": "marisol.gomez@streambe.com",
+      "source_title": "Reporte completo de cheques propios emitidos",
+      "source_description": "Quisiera solicitar una mejora en el sistema respecto al seguimiento de cheques propios emitidos e imputados a proveedores. En este momento, cuando intento imputar un cheque, el sistema indica que dicho cheque ya fue imputado anteriormente, pero no existe un reporte claro que permita rastrear a qué proveedor o comprobante fue asignado.\r\rLos reportes disponibles en el módulo de Tesorería y los mayores contables no resultan suficientes, ya que no muestran ciertos cheques ya debitados o imputados. Esto me obliga a realizar un seguimiento manual para identificar su aplicación, lo cual dificulta el control y aumenta la posibilidad de errores.\r\rSugiero que, dado que el sistema realiza un control de correlatividad de cheques, se incorpore un informe o consulta específica donde puedan visualizarse todos los cheques propios emitidos, con su estado e imputación correspondiente. Esto permitiría rastrear fácilmente dónde fue cargado cada cheque y evitaría inconsistencias operativas.",
+      "source_tags": [],
+      "source_date_created": "2025-11-18 21:11:20"
+    },
+    {
+      "conversation_id": "678219",
+      "created_at": "2025-11-18T17:11:08.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "nugliarolo@mvv.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: AL BAJAR EL LISTADO DE PAGOS (EXCEL) D PROVEEDORES APAREZCA UNA COLUMNA CON LA DESCRIPCIÓN DE C/OP\nDescription: CUANDO IMPRIMO EN FORMATO EXCEL EL LISTADO DE PAGOS DEL MODULO DE PROVEEDORES NECESITO QUE APAREZCA UNA ULTIMA COLUMNA EN EL EXCEL QUE FIGURE LA DESCRIPCIÓN CARGADA EN CADA ORDEN DE PAGO.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Nicolas <nugliarolo@mvv.com.ar>",
+          "created_at": "2025-11-18T17:11:08.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Nicolas",
+      "source_email": "nugliarolo@mvv.com.ar",
+      "source_title": "AL BAJAR EL LISTADO DE PAGOS (EXCEL) D PROVEEDORES APAREZCA UNA COLUMNA CON LA DESCRIPCIÓN DE C/OP",
+      "source_description": "CUANDO IMPRIMO EN FORMATO EXCEL EL LISTADO DE PAGOS DEL MODULO DE PROVEEDORES NECESITO QUE APAREZCA UNA ULTIMA COLUMNA EN EL EXCEL QUE FIGURE LA DESCRIPCIÓN CARGADA EN CADA ORDEN DE PAGO.",
+      "source_tags": [],
+      "source_date_created": "2025-11-18 17:11:08"
+    },
+    {
+      "conversation_id": "678211",
+      "created_at": "2025-11-18T16:30:28.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "medictools@hotmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: LA PLATA\nDescription: NECESITAMOS REALIZAR RETENCIONES Y PERCEPCIONES MUNICIPALES, UDS PODRIAN AYUDARNOS??\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: JAVIER <medictools@hotmail.com>",
+          "created_at": "2025-11-18T16:30:28.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "JAVIER",
+      "source_email": "medictools@hotmail.com",
+      "source_title": "LA PLATA",
+      "source_description": "NECESITAMOS REALIZAR RETENCIONES Y PERCEPCIONES MUNICIPALES, UDS PODRIAN AYUDARNOS??",
+      "source_tags": [],
+      "source_date_created": "2025-11-18 16:30:28"
+    },
+    {
+      "conversation_id": "678075",
+      "created_at": "2025-11-17T20:23:35.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "ftorres@jpu.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: ATENCION AL CLIENTE / FACTURACION\nDescription: POR FAVOR CONTACTARSE CON LA EMPRESA JPU S.A. YA QUE NOS FACTURARON DOS VECES EL MISMO MES Y NADIE NOS ATIENTE.\rPOR FAVOR COMUMNICARSE EN FORMA URGENTE AL 11.3696.6325 Y HABLAR CON FACUNDO TORRES PARA SOLUCIONAR ESTE TEMA.\rURGENTE\rGRACIAS\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: FACUNDO TORRES <ftorres@jpu.com.ar>",
+          "created_at": "2025-11-17T20:23:35.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "FACUNDO TORRES",
+      "source_email": "ftorres@jpu.com.ar",
+      "source_title": "ATENCION AL CLIENTE / FACTURACION",
+      "source_description": "POR FAVOR CONTACTARSE CON LA EMPRESA JPU S.A. YA QUE NOS FACTURARON DOS VECES EL MISMO MES Y NADIE NOS ATIENTE.\rPOR FAVOR COMUMNICARSE EN FORMA URGENTE AL 11.3696.6325 Y HABLAR CON FACUNDO TORRES PARA SOLUCIONAR ESTE TEMA.\rURGENTE\rGRACIAS",
+      "source_tags": [],
+      "source_date_created": "2025-11-17 20:23:35"
+    },
+    {
+      "conversation_id": "676133",
+      "created_at": "2025-11-07T12:26:21.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "mauro.muniz@bookingcars.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: CREACIÓN DE NOTAS DE CRÉDITO EN DÓLARES DESDE CERO\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: MAURO <mauro.muniz@bookingcars.com>",
+          "created_at": "2025-11-07T12:26:21.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "MAURO",
+      "source_email": "mauro.muniz@bookingcars.com",
+      "source_title": "CREACIÓN DE NOTAS DE CRÉDITO EN DÓLARES DESDE CERO",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-11-07 12:26:21"
+    },
+    {
+      "conversation_id": "675773",
+      "created_at": "2025-11-05T16:44:54.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "maguirre@fecunditas.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: hola buenas tardes, queria comentar si es posible ver de alguna manera una vez que se elimino un OP\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: monica <maguirre@fecunditas.com.ar>",
+          "created_at": "2025-11-05T16:44:54.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "monica",
+      "source_email": "maguirre@fecunditas.com.ar",
+      "source_title": "hola buenas tardes, queria comentar si es posible ver de alguna manera una vez que se elimino un OP",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-11-05 16:44:54"
+    },
+    {
+      "conversation_id": "675315",
+      "created_at": "2025-11-03T11:39:01.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "gabriel@teargentina.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: REPORTE/ LISTADO DE FACTURAS A PAGAR\nDescription: Generar un documento/listado (PDF y Excel) para comprobar qué facturas están pendiente y que debo pagar dentro de un período específico preseleccionado.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Gabriel Viotto <gabriel@teargentina.com.ar>",
+          "created_at": "2025-11-03T11:39:01.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Gabriel Viotto",
+      "source_email": "gabriel@teargentina.com.ar",
+      "source_title": "REPORTE/ LISTADO DE FACTURAS A PAGAR",
+      "source_description": "Generar un documento/listado (PDF y Excel) para comprobar qué facturas están pendiente y que debo pagar dentro de un período específico preseleccionado.",
+      "source_tags": [],
+      "source_date_created": "2025-11-03 11:39:01"
+    },
+    {
+      "conversation_id": "674948",
+      "created_at": "2025-10-31T17:09:14.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@backnology.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Edición costo de un item.\nDescription: Necesitamos que se pueda modificar el costo de un item cada vez que necesitemos desde el campo de la información general de cada item.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Santiago Maceira <administracion@backnology.com.ar>",
+          "created_at": "2025-10-31T17:09:14.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Santiago Maceira",
+      "source_email": "administracion@backnology.com.ar",
+      "source_title": "Edición costo de un item.",
+      "source_description": "Necesitamos que se pueda modificar el costo de un item cada vez que necesitemos desde el campo de la información general de cada item.",
+      "source_tags": [],
+      "source_date_created": "2025-10-31 17:09:14"
+    },
+    {
+      "conversation_id": "674254",
+      "created_at": "2025-10-27T21:35:59.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "carlosezequielschmidt@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: BOTON PARA BALANCEO DE CUENTAS\nDescription: Necesitamos algun boton que revise las cuentas que no balancean al realizar un asiento y que no permita avanzar ya que cuando se generan diferencias no hay manera de encontrar y solucionar las mismas. El sistema no deberia dejar avanzar de ser asi.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ezequiel <carlosezequielschmidt@gmail.com>",
+          "created_at": "2025-10-27T21:35:59.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Ezequiel",
+      "source_email": "carlosezequielschmidt@gmail.com",
+      "source_title": "BOTON PARA BALANCEO DE CUENTAS",
+      "source_description": "Necesitamos algun boton que revise las cuentas que no balancean al realizar un asiento y que no permita avanzar ya que cuando se generan diferencias no hay manera de encontrar y solucionar las mismas. El sistema no deberia dejar avanzar de ser asi.",
+      "source_tags": [],
+      "source_date_created": "2025-10-27 21:35:59"
+    },
+    {
+      "conversation_id": "674147",
+      "created_at": "2025-10-27T12:23:24.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "mdebandi@grupolaserdisc.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: stock por Deposito a una fecha especifica\nDescription: Necesito ver el stock por deposito a una fecha especifica anterior a la actual\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Martin <mdebandi@grupolaserdisc.com>",
+          "created_at": "2025-10-27T12:23:24.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Martin",
+      "source_email": "mdebandi@grupolaserdisc.com",
+      "source_title": "stock por Deposito a una fecha especifica",
+      "source_description": "Necesito ver el stock por deposito a una fecha especifica anterior a la actual",
+      "source_tags": [],
+      "source_date_created": "2025-10-27 12:23:24"
+    },
+    {
+      "conversation_id": "673793",
+      "created_at": "2025-10-24T15:52:46.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "arechagae@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Tengo un PROBLEMA. NECESITO COMUNICARME\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Enrique <arechagae@gmail.com>",
+          "created_at": "2025-10-24T15:52:46.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Enrique",
+      "source_email": "arechagae@gmail.com",
+      "source_title": "Tengo un PROBLEMA. NECESITO COMUNICARME",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-10-24 15:52:46"
+    },
+    {
+      "conversation_id": "672708",
+      "created_at": "2025-10-17T19:52:43.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "marianellaelias@yahoo.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Consultas\nDescription: Buenas tardes, soy una de las primeras clientas de Colppy, por allá cuando recién se iniciaban, siento que acompañe el proceso y hoy son esta linda e innovadora empresa.Lo que tengo para sugerir es que , no olviden aquellos inicios y sigan acompañando y recibiendo las consultas y observaciones y contestando a la brevedad. Hace mas de 60 dias que solicito una consulta y a la fecha no obtengo respuesta.Eso es todo, saludos\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Maria Nella Elias <marianellaelias@yahoo.com>",
+          "created_at": "2025-10-17T19:52:43.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Maria Nella Elias",
+      "source_email": "marianellaelias@yahoo.com",
+      "source_title": "Consultas",
+      "source_description": "Buenas tardes, soy una de las primeras clientas de Colppy, por allá cuando recién se iniciaban, siento que acompañe el proceso y hoy son esta linda e innovadora empresa.Lo que tengo para sugerir es que , no olviden aquellos inicios y sigan acompañando y recibiendo las consultas y observaciones y contestando a la brevedad. Hace mas de 60 dias que solicito una consulta y a la fecha no obtengo respuesta.Eso es todo, saludos",
+      "source_tags": [],
+      "source_date_created": "2025-10-17 19:52:43"
+    },
+    {
+      "conversation_id": "672492",
+      "created_at": "2025-10-16T19:34:37.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "valenfoster33@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: PUNTO DE VENTA\nDescription: CUANDO TENES QUE FACTURAR A VARIOS PUNTOS DE VENTA ESTARIA BUENO PODER FIJARLO, ASI NO TENEMOS QUE MODIFICAR TODO EL TIEMPO Y HACEMOS VARIAS FACTURAS CON EL MISMO, Y LUEGO CAMBIAMOS, Y ASI..\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: VALENTINA <valenfoster33@gmail.com>",
+          "created_at": "2025-10-16T19:34:37.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "VALENTINA",
+      "source_email": "valenfoster33@gmail.com",
+      "source_title": "PUNTO DE VENTA",
+      "source_description": "CUANDO TENES QUE FACTURAR A VARIOS PUNTOS DE VENTA ESTARIA BUENO PODER FIJARLO, ASI NO TENEMOS QUE MODIFICAR TODO EL TIEMPO Y HACEMOS VARIAS FACTURAS CON EL MISMO, Y LUEGO CAMBIAMOS, Y ASI..",
+      "source_tags": [],
+      "source_date_created": "2025-10-16 19:34:37"
+    },
+    {
+      "conversation_id": "672205",
+      "created_at": "2025-10-15T13:06:09.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "sqmt.veronica@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: MINIMIZAR UNA FACTURA U ORDEN DE PAGO\nDescription: PODER MINIMIZAR UNA FACTURA U ORDEN DE PAGO, CUANDO TENGO QUE MIRAR ALGUN DATO QUE ME FALTA,Y NO TENER QUE EMPEZAR A HACER TODO DE NUEVO.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Verónica <sqmt.veronica@gmail.com>",
+          "created_at": "2025-10-15T13:06:09.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Verónica",
+      "source_email": "sqmt.veronica@gmail.com",
+      "source_title": "MINIMIZAR UNA FACTURA U ORDEN DE PAGO",
+      "source_description": "PODER MINIMIZAR UNA FACTURA U ORDEN DE PAGO, CUANDO TENGO QUE MIRAR ALGUN DATO QUE ME FALTA,Y NO TENER QUE EMPEZAR A HACER TODO DE NUEVO.",
+      "source_tags": [],
+      "source_date_created": "2025-10-15 13:06:09"
+    },
+    {
+      "conversation_id": "671856",
+      "created_at": "2025-10-13T20:06:57.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "grospartsrafaela@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: listado de ventas de un articulo con el codigo postal ..... es muy muy importante\nDescription: El listado que precisó tiene que tener el código postal o ciudad ya que lo tengo que pedir del 2021 en adelante\ry es un artículo que tiene mucho movimiento\rEL Articulo es L 0001 Tres puntos aplicacion universal\rel objetivo es ver las regiones de más ventas en el pais desde el 2021 a la fecha\res muy muy importate el prama que tenia me daba esa posibilidad y es muy util \r\rsaludos oscar\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: oscar festi de Grosparts sas <grospartsrafaela@gmail.com>",
+          "created_at": "2025-10-13T20:06:57.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "oscar festi de Grosparts sas",
+      "source_email": "grospartsrafaela@gmail.com",
+      "source_title": "listado de ventas de un articulo con el codigo postal ..... es muy muy importante",
+      "source_description": "El listado que precisó tiene que tener el código postal o ciudad ya que lo tengo que pedir del 2021 en adelante\ry es un artículo que tiene mucho movimiento\rEL Articulo es L 0001 Tres puntos aplicacion universal\rel objetivo es ver las regiones de más ventas en el pais desde el 2021 a la fecha\res muy muy importate el prama que tenia me daba esa posibilidad y es muy util \r\rsaludos oscar",
+      "source_tags": [],
+      "source_date_created": "2025-10-13 20:06:57"
+    },
+    {
+      "conversation_id": "670772",
+      "created_at": "2025-10-07T17:33:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "damian@versystrading.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Comunicacion\nDescription: Hace una semana pido me llamen por un prblema con el sistema.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Damian Ruben <damian@versystrading.com>",
+          "created_at": "2025-10-07T17:33:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Damian Ruben",
+      "source_email": "damian@versystrading.com",
+      "source_title": "Comunicacion",
+      "source_description": "Hace una semana pido me llamen por un prblema con el sistema.",
+      "source_tags": [],
+      "source_date_created": "2025-10-07 17:33:48"
+    },
+    {
+      "conversation_id": "670024",
+      "created_at": "2025-10-03T18:09:01.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "marianellaelias@yahoo.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Consultas\nDescription: Por favor lean y contesten en tiempo y forma las consultas, !!!! .Uno las hace porque necesita respuesta y en el menor tiempo posible.Gracias\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Maria Nella Elias <marianellaelias@yahoo.com>",
+          "created_at": "2025-10-03T18:09:01.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Maria Nella Elias",
+      "source_email": "marianellaelias@yahoo.com",
+      "source_title": "Consultas",
+      "source_description": "Por favor lean y contesten en tiempo y forma las consultas, !!!! .Uno las hace porque necesita respuesta y en el menor tiempo posible.Gracias",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-10-03 18:09:01"
+    },
+    {
+      "conversation_id": "669842",
+      "created_at": "2025-10-02T17:46:12.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "info@centroni1menos.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: DAR RESPUESTA\nDescription: Hace mas de 2 semanas que aguardo se me de una respuesta y poder cerrar el CHAT y no obtuve la respuesta a mi pregunta ni nadie se contacto conmigo. De igual forma, pagando extra por el servicio de llamado telefónico lo solicite 2 veces y nadie me llamó. Aguardo respuesta. Centro Ni Uno Menos\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: ROCIO <info@centroni1menos.com.ar>",
+          "created_at": "2025-10-02T17:46:12.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "ROCIO",
+      "source_email": "info@centroni1menos.com.ar",
+      "source_title": "DAR RESPUESTA",
+      "source_description": "Hace mas de 2 semanas que aguardo se me de una respuesta y poder cerrar el CHAT y no obtuve la respuesta a mi pregunta ni nadie se contacto conmigo. De igual forma, pagando extra por el servicio de llamado telefónico lo solicite 2 veces y nadie me llamó. Aguardo respuesta. Centro Ni Uno Menos",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-10-02 17:46:12"
+    },
+    {
+      "conversation_id": "669740",
+      "created_at": "2025-10-02T11:52:19.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "fernanda.satorres@baminds.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Poder corregir la descripción de una factura electrónica\nDescription: Poder corregir la columna de descripción sin cambiar los montos, porque a veces me pasa y tengo que hacer una nota  de crédito y volver a facturar todo\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Fernanda Satorres <fernanda.satorres@baminds.com>",
+          "created_at": "2025-10-02T11:52:19.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Fernanda Satorres",
+      "source_email": "fernanda.satorres@baminds.com",
+      "source_title": "Poder corregir la descripción de una factura electrónica",
+      "source_description": "Poder corregir la columna de descripción sin cambiar los montos, porque a veces me pasa y tengo que hacer una nota  de crédito y volver a facturar todo",
+      "source_tags": [],
+      "source_date_created": "2025-10-02 11:52:19"
+    },
+    {
+      "conversation_id": "669547",
+      "created_at": "2025-10-01T16:24:26.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "danielch@mastesis.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Facturas recurrentes tienen errores\nDescription: Hay varias inconsistencias en las facturas recurrentes. Es insoportable y peligroso. Los vencimientos no coincide con la condición de venta, los importes no sé de dónde los saca, hay que editar el campo cantidad para que recalcule y el TC hay que cargarlo en cada factura con el riesgo de omitir el cambio.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Daniel Chattás <danielch@mastesis.com.ar>",
+          "created_at": "2025-10-01T16:24:26.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Daniel Chattás",
+      "source_email": "danielch@mastesis.com.ar",
+      "source_title": "Facturas recurrentes tienen errores",
+      "source_description": "Hay varias inconsistencias en las facturas recurrentes. Es insoportable y peligroso. Los vencimientos no coincide con la condición de venta, los importes no sé de dónde los saca, hay que editar el campo cantidad para que recalcule y el TC hay que cargarlo en cada factura con el riesgo de omitir el cambio.",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-10-01 16:24:26"
+    },
+    {
+      "conversation_id": "669531",
+      "created_at": "2025-10-01T14:58:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "cmunoz@stiwweb.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: UN CHAT DE AYUDA QUE FUNCIONE, RESPONDA EN UN TIEMPO  CONSIDERABLE Y NO CONTESTE UNA MAQUINA\nDescription: UN CHAT DE AYUDA NO FUNCIONE, NO RESPONDEN, encima pusieron un bot,   \rno mandaron mails con respuesta\rTambién utilice el botón para que me llamen y no lo hicieron.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Caro <cmunoz@stiwweb.com.ar>",
+          "created_at": "2025-10-01T14:58:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Caro",
+      "source_email": "cmunoz@stiwweb.com.ar",
+      "source_title": "UN CHAT DE AYUDA QUE FUNCIONE, RESPONDA EN UN TIEMPO  CONSIDERABLE Y NO CONTESTE UNA MAQUINA",
+      "source_description": "UN CHAT DE AYUDA NO FUNCIONE, NO RESPONDEN, encima pusieron un bot,   \rno mandaron mails con respuesta\rTambién utilice el botón para que me llamen y no lo hicieron.",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-10-01 14:58:48"
+    },
+    {
+      "conversation_id": "668585",
+      "created_at": "2025-09-26T18:14:57.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "marielaf@creerhacer.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Visualización de valores completos\nDescription: Se sugiere que el sistema automáticamente ajuste las columnas del módulo de Contabilidad, tanto de los mayores que figuran a la derecha de la pantalla como en los listados de cuentas de la izquierda, para que puedan visualizarse las fechas e importes completos, sin tener que estar agrandando cada columna cada vez que se ingresa al sistema.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Mariela <marielaf@creerhacer.com.ar>",
+          "created_at": "2025-09-26T18:14:57.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Mariela",
+      "source_email": "marielaf@creerhacer.com.ar",
+      "source_title": "Visualización de valores completos",
+      "source_description": "Se sugiere que el sistema automáticamente ajuste las columnas del módulo de Contabilidad, tanto de los mayores que figuran a la derecha de la pantalla como en los listados de cuentas de la izquierda, para que puedan visualizarse las fechas e importes completos, sin tener que estar agrandando cada columna cada vez que se ingresa al sistema.",
+      "source_tags": [],
+      "source_date_created": "2025-09-26 18:14:57"
+    },
+    {
+      "conversation_id": "668081",
+      "created_at": "2025-09-24T20:03:40.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "MATIAS@COSMETICSOLUTIONS.COM.AR",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: HAY ATENCION AL CLIENTE ???????????\nDescription: LA ATENCION AL CLIENTE ES NULA\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: MATIAS <MATIAS@COSMETICSOLUTIONS.COM.AR>",
+          "created_at": "2025-09-24T20:03:40.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "MATIAS",
+      "source_email": "MATIAS@COSMETICSOLUTIONS.COM.AR",
+      "source_title": "HAY ATENCION AL CLIENTE ???????????",
+      "source_description": "LA ATENCION AL CLIENTE ES NULA",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-24 20:03:40"
+    },
+    {
+      "conversation_id": "668076",
+      "created_at": "2025-09-24T19:17:46.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion2@coprapilba.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: soporte en linea\nDescription: Estimados... sugiero que mejoren la atencion en linea... espero respuesta\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: silvina <administracion2@coprapilba.com.ar>",
+          "created_at": "2025-09-24T19:17:46.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "silvina",
+      "source_email": "administracion2@coprapilba.com.ar",
+      "source_title": "soporte en linea",
+      "source_description": "Estimados... sugiero que mejoren la atencion en linea... espero respuesta",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-24 19:17:46"
+    },
+    {
+      "conversation_id": "667872",
+      "created_at": "2025-09-23T21:15:26.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "ANDREA.FROLON@ISRAELCONSULT.COM",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: RECLASIFICAR CUENTA GASTOS DE UN PROVEDOR DE FORMA MASIVA, DE OTRA FORMA HAY QUE INGRESAR UNO POR UN\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: ANDREA <ANDREA.FROLON@ISRAELCONSULT.COM>",
+          "created_at": "2025-09-23T21:15:26.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "ANDREA",
+      "source_email": "ANDREA.FROLON@ISRAELCONSULT.COM",
+      "source_title": "RECLASIFICAR CUENTA GASTOS DE UN PROVEDOR DE FORMA MASIVA, DE OTRA FORMA HAY QUE INGRESAR UNO POR UN",
+      "source_description": "",
+      "source_tags": [],
+      "source_date_created": "2025-09-23 21:15:26"
+    },
+    {
+      "conversation_id": "667807",
+      "created_at": "2025-09-23T15:33:29.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "CAROLINA@TOPTECHSA.COM",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: portal de reclamos\nDescription: no puede ser que no haya un portal de reclamos. de Colppy se mandaron una gestión horrible y un error muy grave como para dejarlo pasar. cuadruplican las facturas y ni si quieran avisan al cliente. tenemos que darnos cuenta nosotros porque de su parte nada de nada. no puede ser que tengamos que tener como mil ojos con ustedes porque siempre pasa algo. encima que tardan en atender como mil horas no te solucionan el problema y encima se lavan las manos diciendo que arca justo estaba funcionando mal y que ellos elevaron un aviso que casualmente a nosotros no nos llego y no conforme con eso se lavan las manos que de su parte ya no pueden hacer mas. como diciendo \" nos equivocamos pero bueno ya esta. y no es así. acaso ustedes están al tanto del gasto económico que nos genero su simple error. para que encima no reciba ninguna repuesta de ustedes. un poco mas de seriedad ya que gratis su sistema no es.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: CAROLINA <CAROLINA@TOPTECHSA.COM>",
+          "created_at": "2025-09-23T15:33:29.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "CAROLINA",
+      "source_email": "CAROLINA@TOPTECHSA.COM",
+      "source_title": "portal de reclamos",
+      "source_description": "no puede ser que no haya un portal de reclamos. de Colppy se mandaron una gestión horrible y un error muy grave como para dejarlo pasar. cuadruplican las facturas y ni si quieran avisan al cliente. tenemos que darnos cuenta nosotros porque de su parte nada de nada. no puede ser que tengamos que tener como mil ojos con ustedes porque siempre pasa algo. encima que tardan en atender como mil horas no te solucionan el problema y encima se lavan las manos diciendo que arca justo estaba funcionando mal y que ellos elevaron un aviso que casualmente a nosotros no nos llego y no conforme con eso se lavan las manos que de su parte ya no pueden hacer mas. como diciendo \" nos equivocamos pero bueno ya esta. y no es así. acaso ustedes están al tanto del gasto económico que nos genero su simple error. para que encima no reciba ninguna repuesta de ustedes. un poco mas de seriedad ya que gratis su sistema no es.",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-23 15:33:29"
+    },
+    {
+      "conversation_id": "667793",
+      "created_at": "2025-09-23T14:19:13.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@etaleon.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Respuestas mas rápidas\nDescription: Sería muy importante que las respuestas a las consultas o problemas con el sistema sean mas rapidas, en varias ocasiones tardan semanas y hasta meses en comunicarse para solucionar el problema o dar una respuesta.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Natalia <administracion@etaleon.com.ar>",
+          "created_at": "2025-09-23T14:19:13.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Natalia",
+      "source_email": "administracion@etaleon.com.ar",
+      "source_title": "Respuestas mas rápidas",
+      "source_description": "Sería muy importante que las respuestas a las consultas o problemas con el sistema sean mas rapidas, en varias ocasiones tardan semanas y hasta meses en comunicarse para solucionar el problema o dar una respuesta.",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-23 14:19:13"
+    },
+    {
+      "conversation_id": "667792",
+      "created_at": "2025-09-23T14:16:15.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "administracion@etaleon.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Ordenes de compra\nDescription: Quisiera que agreguen Talonario Orden de compra a la sección de Talonarios,  con opcion a que la numeración de los mismos se genere automaticamente.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Natalia <administracion@etaleon.com.ar>",
+          "created_at": "2025-09-23T14:16:15.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Natalia",
+      "source_email": "administracion@etaleon.com.ar",
+      "source_title": "Ordenes de compra",
+      "source_description": "Quisiera que agreguen Talonario Orden de compra a la sección de Talonarios,  con opcion a que la numeración de los mismos se genere automaticamente.",
+      "source_tags": [],
+      "source_date_created": "2025-09-23 14:16:15"
+    },
+    {
+      "conversation_id": "667623",
+      "created_at": "2025-09-22T20:06:39.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "CAROLINA@TOPTECHSA.COM",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: QUE SEAN MAS RAPIDOS\nDescription: NO PUEDE SER QUE TARDEN TANTO EN RESPONDEN A LOS CLIENTES. ENCIMA QUE EL ERROR VIENE DE USTEDES TARDAN HORAS PARA CONTESTAR. ES JODA ESTO\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: CAROLINA <CAROLINA@TOPTECHSA.COM>",
+          "created_at": "2025-09-22T20:06:39.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "CAROLINA",
+      "source_email": "CAROLINA@TOPTECHSA.COM",
+      "source_title": "QUE SEAN MAS RAPIDOS",
+      "source_description": "NO PUEDE SER QUE TARDEN TANTO EN RESPONDEN A LOS CLIENTES. ENCIMA QUE EL ERROR VIENE DE USTEDES TARDAN HORAS PARA CONTESTAR. ES JODA ESTO",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-22 20:06:39"
+    },
+    {
+      "conversation_id": "667577",
+      "created_at": "2025-09-22T15:39:31.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "yanina.calva@ldicargas.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Facturas registradas en ARCA y no en Colppy\nDescription: Hay casos en los que la FC se registra en ARCA pero no en Colppy, si bien el sistema continua con la correlatividad correctamente, la FC no esta disponible en Colppy para ser enviada al Cliente ni en Los Listados IVA Ventas por ejemplo. Quisiera poder cargar la misma en Colppy de forma manual si ya la veo emitida en ARCA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Yanina <yanina.calva@ldicargas.com.ar>",
+          "created_at": "2025-09-22T15:39:31.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Yanina",
+      "source_email": "yanina.calva@ldicargas.com.ar",
+      "source_title": "Facturas registradas en ARCA y no en Colppy",
+      "source_description": "Hay casos en los que la FC se registra en ARCA pero no en Colppy, si bien el sistema continua con la correlatividad correctamente, la FC no esta disponible en Colppy para ser enviada al Cliente ni en Los Listados IVA Ventas por ejemplo. Quisiera poder cargar la misma en Colppy de forma manual si ya la veo emitida en ARCA.",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-22 15:39:31"
+    },
+    {
+      "conversation_id": "666728",
+      "created_at": "2025-09-18T13:29:27.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "Joaquinmartinez@mvsconsultores.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: debido al nuevo PORTAL IVA necesito reportes de compra y venta con las imputaciones contables\nDescription: Que algun reporte, ya sea el unificado o los reportes de IVA compras - IVA ventas salga con las imputaciones al menos. ya que ahora en el portal IVA se solicita de manera obligatoria difrencias facturas de servicios y de bienes de cambio. Sino el trabajo resulta manual, viendo factura por factura\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Joaquin martinez <Joaquinmartinez@mvsconsultores.com.ar>",
+          "created_at": "2025-09-18T13:29:27.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Joaquin martinez",
+      "source_email": "Joaquinmartinez@mvsconsultores.com.ar",
+      "source_title": "debido al nuevo PORTAL IVA necesito reportes de compra y venta con las imputaciones contables",
+      "source_description": "Que algun reporte, ya sea el unificado o los reportes de IVA compras - IVA ventas salga con las imputaciones al menos. ya que ahora en el portal IVA se solicita de manera obligatoria difrencias facturas de servicios y de bienes de cambio. Sino el trabajo resulta manual, viendo factura por factura",
+      "source_tags": [],
+      "source_date_created": "2025-09-18 13:29:27"
+    },
+    {
+      "conversation_id": "666585",
+      "created_at": "2025-09-17T19:50:43.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "leandrogserra@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: PERCEPCIONES GANANCIAS\nDescription: QUIERO QUE COLPPY ME PERMITA GENERAR CON LA FACTURACIÓN LA PERCEPCIÓN DE GANANCIAS Y ME PERMITA POSTERIORIMENTE GENERAR EL TXT PARA LA IMPORTACIÓN A SIAP Y DECLARACIÓN EN ARCA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Leandro Serra <leandrogserra@gmail.com>",
+          "created_at": "2025-09-17T19:50:43.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Leandro Serra",
+      "source_email": "leandrogserra@gmail.com",
+      "source_title": "PERCEPCIONES GANANCIAS",
+      "source_description": "QUIERO QUE COLPPY ME PERMITA GENERAR CON LA FACTURACIÓN LA PERCEPCIÓN DE GANANCIAS Y ME PERMITA POSTERIORIMENTE GENERAR EL TXT PARA LA IMPORTACIÓN A SIAP Y DECLARACIÓN EN ARCA.",
+      "source_tags": [],
+      "source_date_created": "2025-09-17 19:50:43"
+    },
+    {
+      "conversation_id": "666516",
+      "created_at": "2025-09-17T14:09:04.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "pfernandez@intv.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: CARGA DE RETENCION EN MODULO PROVEEDORES Y LISTADO DETALLADO\nDescription: Que se puedan cargar además de las percepciones de las facturas las retenciones y q se pueda bajar un excel con las percepciones y retenciones detalladas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paola <pfernandez@intv.com.ar>",
+          "created_at": "2025-09-17T14:09:04.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Paola",
+      "source_email": "pfernandez@intv.com.ar",
+      "source_title": "CARGA DE RETENCION EN MODULO PROVEEDORES Y LISTADO DETALLADO",
+      "source_description": "Que se puedan cargar además de las percepciones de las facturas las retenciones y q se pueda bajar un excel con las percepciones y retenciones detalladas.",
+      "source_tags": [],
+      "source_date_created": "2025-09-17 14:09:04"
+    },
+    {
+      "conversation_id": "666491",
+      "created_at": "2025-09-17T12:34:21.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "pfernandez@intv.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: CALCULO AUTOMATICO DE LA RETENCIONES DE IIBB EN LOS PAGOS\nDescription: que las retenciones en los pagos se calculen automáticamente y no tener q hacerlo manual, en nuestro caso hay clientes q debemos retenerles IIBB misiones y hay q hacer el calculo manual\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paola <pfernandez@intv.com.ar>",
+          "created_at": "2025-09-17T12:34:21.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Paola",
+      "source_email": "pfernandez@intv.com.ar",
+      "source_title": "CALCULO AUTOMATICO DE LA RETENCIONES DE IIBB EN LOS PAGOS",
+      "source_description": "que las retenciones en los pagos se calculen automáticamente y no tener q hacerlo manual, en nuestro caso hay clientes q debemos retenerles IIBB misiones y hay q hacer el calculo manual",
+      "source_tags": [],
+      "source_date_created": "2025-09-17 12:34:21"
+    },
+    {
+      "conversation_id": "666318",
+      "created_at": "2025-09-16T16:21:46.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "luciogonzalezcaleb@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: listado saldos proveedores y clientes\nDescription: simplificar el listado de proveedores y de clientes con la razón social y el saldo a la fecha.\rpara luego totalizar los saldos acumulados.\rAdjunto un listado de proveedores como ejemplo:\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lucio <luciogonzalezcaleb@gmail.com>",
+          "created_at": "2025-09-16T16:21:46.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "lucio",
+      "source_email": "luciogonzalezcaleb@gmail.com",
+      "source_title": "listado saldos proveedores y clientes",
+      "source_description": "simplificar el listado de proveedores y de clientes con la razón social y el saldo a la fecha.\rpara luego totalizar los saldos acumulados.\rAdjunto un listado de proveedores como ejemplo:",
+      "source_tags": [],
+      "source_date_created": "2025-09-16 16:21:46"
+    },
+    {
+      "conversation_id": "666303",
+      "created_at": "2025-09-16T15:47:10.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "luciogonzalezcaleb@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Discriminación de valores del listado de ordenes de pago y recibos de cobranzas\nDescription: cuando se descarga los dos listados aparecen en una misma columna (retenciones, totales, cheques, etc) lo cual complica a la hora de totalizar. se podría hacer un nuevo listado discriminando : fecha, numero de orden, proveedor/cliente y el importe total de cada una. así simplificando el listado.\r\rAdjunto pdf como ejemplo:\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lucio <luciogonzalezcaleb@gmail.com>",
+          "created_at": "2025-09-16T15:47:10.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "lucio",
+      "source_email": "luciogonzalezcaleb@gmail.com",
+      "source_title": "Discriminación de valores del listado de ordenes de pago y recibos de cobranzas",
+      "source_description": "cuando se descarga los dos listados aparecen en una misma columna (retenciones, totales, cheques, etc) lo cual complica a la hora de totalizar. se podría hacer un nuevo listado discriminando : fecha, numero de orden, proveedor/cliente y el importe total de cada una. así simplificando el listado.\r\rAdjunto pdf como ejemplo:",
+      "source_tags": [],
+      "source_date_created": "2025-09-16 15:47:10"
+    },
+    {
+      "conversation_id": "666296",
+      "created_at": "2025-09-16T15:31:45.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "luciogonzalezcaleb@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Ventana del listado de cheques de terceros\nDescription: Poder ampliar el listado de cheques de terceros que permita un manejo mas cómodo en la búsqueda y/o agregar una opción para buscar los cheques según su numeración\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lucio <luciogonzalezcaleb@gmail.com>",
+          "created_at": "2025-09-16T15:31:45.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "lucio",
+      "source_email": "luciogonzalezcaleb@gmail.com",
+      "source_title": "Ventana del listado de cheques de terceros",
+      "source_description": "Poder ampliar el listado de cheques de terceros que permita un manejo mas cómodo en la búsqueda y/o agregar una opción para buscar los cheques según su numeración",
+      "source_tags": [],
+      "source_date_created": "2025-09-16 15:31:45"
+    },
+    {
+      "conversation_id": "666295",
+      "created_at": "2025-09-16T15:31:08.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "mtlaporta@plusbyte.net",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: fotos\nDescription: seria bueno poder subir fotos en el inventario y asi hacer más practico la conexión con Mercado Libre\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Tere <mtlaporta@plusbyte.net>",
+          "created_at": "2025-09-16T15:31:08.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Tere",
+      "source_email": "mtlaporta@plusbyte.net",
+      "source_title": "fotos",
+      "source_description": "seria bueno poder subir fotos en el inventario y asi hacer más practico la conexión con Mercado Libre",
+      "source_tags": [],
+      "source_date_created": "2025-09-16 15:31:08"
+    },
+    {
+      "conversation_id": "666083",
+      "created_at": "2025-09-15T16:38:48.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "info@europol.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Listado de control de Ordenes de Pago y Recibos de cobranzas\nDescription: A los listados de Ordenes de pago y recibos de cobranzas habría que agregar una columna con el total por comprobante. También debería haber posibilidad del reporte en PDF .\rColppy ofrece un listado en excel que es un poco caotico para controlar y en nuestro caso debemos  pasar tiempo ordenando los campos para hacer un listado mas claro. \rDeberia estar separado con lineas entre cada orden de pago o recibo, un total para cada orden o recibo y un total general para todo el listado.\rAdjunto una imagen de como yo ordeno los datos de los informes de Colppy en excel.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Natalia <info@europol.com.ar>",
+          "created_at": "2025-09-15T16:38:48.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Natalia",
+      "source_email": "info@europol.com.ar",
+      "source_title": "Listado de control de Ordenes de Pago y Recibos de cobranzas",
+      "source_description": "A los listados de Ordenes de pago y recibos de cobranzas habría que agregar una columna con el total por comprobante. También debería haber posibilidad del reporte en PDF .\rColppy ofrece un listado en excel que es un poco caotico para controlar y en nuestro caso debemos  pasar tiempo ordenando los campos para hacer un listado mas claro. \rDeberia estar separado con lineas entre cada orden de pago o recibo, un total para cada orden o recibo y un total general para todo el listado.\rAdjunto una imagen de como yo ordeno los datos de los informes de Colppy en excel.",
+      "source_tags": [],
+      "source_date_created": "2025-09-15 16:38:48"
+    },
+    {
+      "conversation_id": "665111",
+      "created_at": "2025-09-09T19:15:38.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "tomas.faintich@mendel.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Importacion de Cobranzas\nDescription: Asi como Colppy permite importar facturas y clientes, permitir una importacion de cobranzas masivas desde un csv.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Tomas <tomas.faintich@mendel.com>",
+          "created_at": "2025-09-09T19:15:38.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Tomas",
+      "source_email": "tomas.faintich@mendel.com",
+      "source_title": "Importacion de Cobranzas",
+      "source_description": "Asi como Colppy permite importar facturas y clientes, permitir una importacion de cobranzas masivas desde un csv.",
+      "source_tags": [],
+      "source_date_created": "2025-09-09 19:15:38"
+    },
+    {
+      "conversation_id": "664466",
+      "created_at": "2025-09-05T17:17:17.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "santilopezpia@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [
+        "Revisión CS"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Ayuda en linea\nDescription: Estaría buenísimo que alguien responda los mensajes que mando. Hace mas de una semana que vengo escribiendo y nadie responde. La suscripción mensual me la vienen cobrando en tiempo y forma, la atención deja que desear\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: santiago <santilopezpia@gmail.com>",
+          "created_at": "2025-09-05T17:17:17.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "santiago",
+      "source_email": "santilopezpia@gmail.com",
+      "source_title": "Ayuda en linea",
+      "source_description": "Estaría buenísimo que alguien responda los mensajes que mando. Hace mas de una semana que vengo escribiendo y nadie responde. La suscripción mensual me la vienen cobrando en tiempo y forma, la atención deja que desear",
+      "source_tags": [
+        "Revisión CS"
+      ],
+      "source_date_created": "2025-09-05 17:17:17"
+    },
+    {
+      "conversation_id": "664432",
+      "created_at": "2025-09-05T14:14:14.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "Mdebandi@grupolaserdisc.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: Modificacion Masiva Costo de Productos\nDescription: Necesitamos una funiconalidad que permita modificar de manera masiva los costos de los productos asi como existe la funcionalidad de modificar de manera masiva el precio de venta de los productos.\rNo puede ser que el costo se modifique uno por uno , yo tengo 13368 Sku que modificar y uno por uno termino en el 2027 .\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Martin Debandi <Mdebandi@grupolaserdisc.com>",
+          "created_at": "2025-09-05T14:14:14.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Martin Debandi",
+      "source_email": "Mdebandi@grupolaserdisc.com",
+      "source_title": "Modificacion Masiva Costo de Productos",
+      "source_description": "Necesitamos una funiconalidad que permita modificar de manera masiva los costos de los productos asi como existe la funcionalidad de modificar de manera masiva el precio de venta de los productos.\rNo puede ser que el costo se modifique uno por uno , yo tengo 13368 Sku que modificar y uno por uno termino en el 2027 .",
+      "source_tags": [],
+      "source_date_created": "2025-09-05 14:14:14"
+    },
+    {
+      "conversation_id": "664081",
+      "created_at": "2025-09-03T18:52:37.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "victoria.pizarro@darwoft.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: CAMPO RETENCIONES Y PERCEPCIONES EN VENTAS Y COMPRAS DE MUNICIPALIDAD DE CORDOBA\nDescription: Buenas tardes, me acerco para consultarles si es posible adicionar una línea en el cuadrante de \"Otras rentenciones\" en el registro de COBRANZAS del rubro VENTAS. Necesitamos matchear ese campo con la cuenta Retenciones Municipalidad Comercio e Industria de Córdoba ya que de momento no podemos ingresar estos importes en el momento del cobro.\r\rEl mismo tratamiento presisamos implementar respecto de las compras. En el caso de cargar una factura con percepciones de Municipalidad Comercio Industria de Córdoba, no podemos registrarlas en el cuerpo de la factura, ya que cuenta como un importe gravado o no gravado y no es correcto, ya que se trata de un pago a cuenta. Necesitamos que se incluya una línea en el Cuadrante OTRAS PERCEPCIONES que matchee con al cuenta Percepciones sufridas Comercio Industria de la Municipalida de Córdoba.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Victoria Pizarro <victoria.pizarro@darwoft.com>",
+          "created_at": "2025-09-03T18:52:37.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "Victoria Pizarro",
+      "source_email": "victoria.pizarro@darwoft.com",
+      "source_title": "CAMPO RETENCIONES Y PERCEPCIONES EN VENTAS Y COMPRAS DE MUNICIPALIDAD DE CORDOBA",
+      "source_description": "Buenas tardes, me acerco para consultarles si es posible adicionar una línea en el cuadrante de \"Otras rentenciones\" en el registro de COBRANZAS del rubro VENTAS. Necesitamos matchear ese campo con la cuenta Retenciones Municipalidad Comercio e Industria de Córdoba ya que de momento no podemos ingresar estos importes en el momento del cobro.\r\rEl mismo tratamiento presisamos implementar respecto de las compras. En el caso de cargar una factura con percepciones de Municipalidad Comercio Industria de Córdoba, no podemos registrarlas en el cuerpo de la factura, ya que cuenta como un importe gravado o no gravado y no es correcto, ya que se trata de un pago a cuenta. Necesitamos que se incluya una línea en el Cuadrante OTRAS PERCEPCIONES que matchee con al cuenta Percepciones sufridas Comercio Industria de la Municipalida de Córdoba.",
+      "source_tags": [],
+      "source_date_created": "2025-09-03 18:52:37"
+    },
+    {
+      "conversation_id": "664044",
+      "created_at": "2025-09-03T14:52:10.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "jcmarsal@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: IVA SIMPLE\nDescription: IVA SIMPLE ESTAN TRABAJANDO PARA TENER REPORTE COINCIDENTE CON AFIP\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: EMEKA SA <jcmarsal@gmail.com>",
+          "created_at": "2025-09-03T14:52:10.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "EMEKA SA",
+      "source_email": "jcmarsal@gmail.com",
+      "source_title": "IVA SIMPLE",
+      "source_description": "IVA SIMPLE ESTAN TRABAJANDO PARA TENER REPORTE COINCIDENTE CON AFIP",
+      "source_tags": [],
+      "source_date_created": "2025-09-03 14:52:10"
+    },
+    {
+      "conversation_id": "664042",
+      "created_at": "2025-09-03T14:45:20.000Z",
+      "state": "awaitingapproval",
+      "contact_email": "jcmarsal@gmail.com",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Title: DESPACHOS DE ADUANA DE IMPORTACION OTRA ALTERNATIVA FACIL DE CORREGIR\nDescription: ingreso de despachos de importación\rEn mi opinión si se pone la Letra I en las compras , y dejar libre Gravado l, no gravado y el importe de Iva, dejando en blanco para que el usuario coloque los 3 importes tal cual salen del despacho, sin que colppy haga el cálculo automático podría ser una solución\r\rTAMBIEN SOLUCIONARIA IVA VENTAS\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: EMEKA SA <jcmarsal@gmail.com>",
+          "created_at": "2025-09-03T14:45:20.000Z"
+        }
+      ],
+      "source_type": "feature_upvote_csv",
+      "source_status": "Esperando moderación",
+      "source_votes": 1,
+      "source_comments": 0,
+      "source_name": "EMEKA SA",
+      "source_email": "jcmarsal@gmail.com",
+      "source_title": "DESPACHOS DE ADUANA DE IMPORTACION OTRA ALTERNATIVA FACIL DE CORREGIR",
+      "source_description": "ingreso de despachos de importación\rEn mi opinión si se pone la Letra I en las compras , y dejar libre Gravado l, no gravado y el importe de Iva, dejando en blanco para que el usuario coloque los 3 importes tal cual salen del despacho, sin que colppy haga el cálculo automático podría ser una solución\r\rTAMBIEN SOLUCIONARIA IVA VENTAS",
+      "source_tags": [],
+      "source_date_created": "2025-09-03 14:45:20"
+    }
+  ]
+}

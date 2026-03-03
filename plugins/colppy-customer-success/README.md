@@ -32,6 +32,50 @@ Customer Success toolkit for Colppy — Intercom conversation research, onboardi
 | `get_conversation_feedback` | Deep dive into specific conversations |
 | `analyze_onboarding_first_invoice` | Onboarding analysis segmented by user type |
 
+## MCP Tools (feature-upvote-playwright)
+
+| Tool | Description |
+|------|-------------|
+| `get_feature_upvote_board_summary` | Board-level metrics from the Feature Upvote dashboard (cache-first) |
+| `list_feature_requests` | Moderation queue extraction with status/query/tag filters; uses Export CSV by default for full coverage, with pagination fallback (cache-first) |
+| `create_feature_request` | Submit a suggestion on the live Feature Upvote board form (supports `dry_run`) |
+
+This server uses browser automation (Playwright) because Feature Upvote does not provide a public general-use REST API.
+Implementation/runtime notes are in `mcp/README.md`.
+Complete onboarding and operations guide: `docs/README_FEATURE_UPVOTE_MCP.md`.
+
+### Feature Upvote integration status (verified)
+
+- Verified on **March 2, 2026** in `https://app.featureupvote.com/dashboard/apikey` for this account:
+  - API key exists
+  - API is intended primarily for Zapier
+  - General-use API access is not offered
+- Integration decision in this plugin:
+  - Use Playwright MCP server for live board operations
+  - Keep cache-first reads with `force_refresh` support
+  - Avoid FeatureOS references (different company/product)
+
+### Feature Upvote MCP operations
+
+- `get_feature_upvote_board_summary`:
+  - Reads board metrics (suggestions/comments/upvotes and approval counts)
+- `list_feature_requests`:
+  - Reads moderation queue with status/query/tag filters
+  - Uses dashboard Export CSV by default (all rows), then parses to structured items
+  - Falls back to page crawling if export is blocked
+- `create_feature_request`:
+  - Posts through board form (`dry_run` mode supported)
+
+### Backend/API reality check
+
+- No public Feature Upvote REST API is available for direct backend calls.
+- Zapier can be used as a bridge (event-driven sync), but it is not a full direct API replacement.
+- Direct `curl`/HTTP scraping without a real browser is not reliable due Cloudflare challenge flows.
+- Practical production approach:
+  - Run Playwright automation in a backend worker (headless)
+  - Reuse persisted browser session state to reduce re-login/challenge frequency
+  - Use a headed bootstrap only if Cloudflare blocks headless for a period
+
 ## LLM Classification
 
 The `scripts/llm_classify.mjs` classifier uses GPT-4o-mini with few-shot learning to categorize Intercom conversations by topic. Classification accuracy improves over time through a human review feedback loop.
@@ -83,5 +127,17 @@ See [intercom-onboarding-setup/README.md](skills/intercom-onboarding-setup/READM
 ## Setup
 
 1. Set `INTERCOM_ACCESS_TOKEN` in `.env` or Cursor MCP settings
-2. Set `OPENAI_API_KEY` in `.env` for LLM classification
-3. MCP servers start automatically when the plugin is loaded
+2. Set `FEATURE_UPVOTE_EMAIL` and `FEATURE_UPVOTE_PASSWORD` in `.env` or Cursor MCP settings
+3. Optional Feature Upvote env vars:
+   - `FEATURE_UPVOTE_BOARD_URL` (default: `https://ideas.colppy.com`)
+   - `FEATURE_UPVOTE_HEADLESS` (default: `true`, no local Chrome window)
+   - `FEATURE_UPVOTE_CACHE_TTL_MINUTES` (default: `30`)
+   - `FEATURE_UPVOTE_SIGNIN_URL` (default: `https://app.featureupvote.com/signin`)
+   - `FEATURE_UPVOTE_DASHBOARD_URL` (default: `https://app.featureupvote.com/dashboard/`)
+   - `FEATURE_UPVOTE_STORAGE_STATE_PATH` (default: `mcp/.cache/feature-upvote/feature-upvote-storage-state.json`)
+   - `FEATURE_UPVOTE_PERSIST_STORAGE_STATE` (default: `true`)
+   - `FEATURE_UPVOTE_USER_AGENT` (optional override)
+   - `FEATURE_UPVOTE_LOCALE` (default: `en-US`)
+   - `FEATURE_UPVOTE_TIMEZONE` (default: `America/Argentina/Buenos_Aires`)
+4. Set `OPENAI_API_KEY` in `.env` for LLM classification
+5. MCP servers start automatically when the plugin is loaded

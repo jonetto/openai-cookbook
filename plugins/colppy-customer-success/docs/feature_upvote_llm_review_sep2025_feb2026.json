@@ -1,0 +1,1455 @@
+{
+  "topic": "Feature Upvote Real Ideas",
+  "match_field": "is_real_idea",
+  "model": "gpt-4o-mini",
+  "classified_at": "2026-03-02T16:02:00.746Z",
+  "total_classified": 85,
+  "matches": 57,
+  "reviews": [
+    {
+      "conversation_id": "696934",
+      "snippet": "[Customer (2026-02-26T16:49:22.000Z)]: Title: CAI EN LOS REMITOS\nDescription: NOS SOLICITAN DE EMPRESAS QUE EL CAI ESTE INCLUIDO EN EL REMITO\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: YESICA <yesica.martinez@darsentido.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to include CAI in remitos, indicating a specific product functionality enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "696538",
+      "snippet": "[Customer (2026-02-24T19:14:19.000Z)]: Title: SOPORTE TECNICO\nDescription: LE¿Cómo podemos ayudarte?\rColppy • AI Agent • 1 d\rReportar un error\rCamara • 1 d\r¿Desde qué empresa estás reportando el error?\rColppy • AI Agent • 1 d\rNombre de la empresa\rCAMARA DE COMERCIANTES EN REPUESTOS DEL AUTOMOTOR\r¿En qué módulo encontraste el error dentro de la plataforma?\rColppy • 1 d\rClientes\rCamara • 1 d\r¿En que te puedo ayudar acerca de tus Clientes?\rColppy • AI Agent • 1 d\rImportación\rCamara • 1 d\rEn que emp",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "The conversation primarily expresses frustration with the support service and does not contain a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "696308",
+      "snippet": "[Customer (2026-02-23T15:23:27.000Z)]: Title: FACTURA\nDescription: Agregar en el formulario de un campo adicional que indique el numero de orden de pedido u orden de compra del cliente. Ademas, si es posible, agregar mas campos adicionales para agregarla a la factura, por ejemplo, numero de proyecto, numero de oferta, de forma tal de tener trazabilidad con el CRM.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Pablo Freijedo <pfreijedo@silogi",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Concrete request to add additional fields in the invoice form for order numbers and project tracking, enhancing traceability with the CRM."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "696295",
+      "snippet": "[Customer (2026-02-23T14:25:08.000Z)]: Title: Filtrado\nDescription: Estoy probando el sistema y me encuentro que la funcionalidad que necesito, por la cual lo adquirí no existe. Lo que necesito es poder asignar a cada cliente un registro de orden de pedido, para luego facturar sobre y referenciar la factura a esa orden de pedido. COmo no se puede, me indicaron hacer un formulario nuevo, y cargar una factura en ese formulario, luego hacer las facturas qeu correpsonden y finalmente borrar la prime",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "The customer requests the ability to filter and sort invoices by description, which is a specific workflow improvement related to invoice management."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "695681",
+      "snippet": "[Customer (2026-02-19T15:41:53.000Z)]: Title: Condiciones de venta\nDescription: Sería interesante poder modificar las condiciones de venta, es decir, los días que se otorga hasta la fecha de vencimiento. Por defecto, viene 7 / 15 / 30 etc. En nuestro caso, necesitaríamos para la gestión de nuestro negocio, tener vencimientos a 20, 25 días... Gracias!\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Priscila <morbellopriscila@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "configuration_rules",
+        "confidence": 0.95,
+        "reasoning": "The customer requests the ability to modify the default payment terms, indicating a specific configuration enhancement needed for their business."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "694591",
+      "snippet": "[Customer (2026-02-13T20:53:39.000Z)]: Title: SOPORTE EN LINEA QUE RESPONDA EN EL DIA\nDescription: Estaria bueno que regresen al esquema anterior, quitando las respuestas por IA las cuales no resuelven problemas puntuales y poniendo personal que atienda en el soporte tanto por chat como por telefono dentro del día en que la consulta es generada, los plazos actuales son totalmente irrisorios y no pueden atender cuestiones importantes en un plazo adecuado.\nStatus: Esperando moderación\nStatus code:",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is primarily a complaint about support response times and the use of AI, without a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "693599",
+      "snippet": "[Customer (2026-02-09T16:51:34.000Z)]: Title: AGENTES DE RECAUDACION IIBB\nDescription: Hola! Solicito que la emisión del reporte para la liquidación de agentes de Recaudación se pueda descargar de un modo que sea compatible con el Organismo. El reporte que emite el sistema debemos modificarlo para subirlo a ARBA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Marcia Mazerolles <mmazerolles@pilvial.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a modification to the report for compatibility with ARBA, indicating a clear need for a product change in reporting functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "693146",
+      "snippet": "[Customer (2026-02-06T15:36:30.000Z)]: Title: Mejorar vista del panel de facturas impagas en cobranzas\nDescription: Mejorar la usabilidad del panel de facturas impagas en cobranzas\rNecesito que se mejore la vista del panel de facturas impagas cuando genero cobranzas desde el módulo Tesorería. La vista es muy rígida y no permite ver suficientes facturas cuando un cliente tiene por ejemplo más de 20 facturas pendientes. (en mi caso debo cargar cobranzas de muchas facturas por cliente)\rSolicito:\rFi",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "The customer requests specific usability improvements for the unpaid invoices panel, including advanced filters and a larger view, which would enhance the workflow for processing multiple collections."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "693024",
+      "snippet": "[Customer (2026-02-05T19:23:49.000Z)]: Title: RESPUESTA RAPIDA A LAS CONSULTAS\nDescription: Desde el 20 de enero estoy esperando una respuesta al reporte del error, mande mensaje a traves de la plataforma y mande mail a soporte y hasta el dia de la fecha no tengo respuestas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: magali <adm.hotel.sehuen@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a complaint about the lack of response from support, not a request for a product feature or improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "693015",
+      "snippet": "[Customer (2026-02-05T18:36:27.000Z)]: Title: Quiero que vuelta a tener el servicio de atencion al cliente mas rapido\nDescription: Que uno puedo solcitar nuevamente que te llamen o recibir una respuesta mas inmediata, no estar varios dias esperando que alguien responda cosas necesarias como errores de sistema o que no tome comprobantes, o problemas de facturacion. Era su punto fuerte, ahora es lo peor que tienen la atencion a los clientes, tan mala que uno piensa en cambiar de sistema\nStatus: Es",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message expresses frustration with support response times and quality, without making a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "693002",
+      "snippet": "[Customer (2026-02-05T17:41:38.000Z)]: Title: Mostrar más filas de items por defecto al cargar facturas de proveedor y cleintes\nDescription: Necesito por favor se puedan visualizar por defecto mínimo 10 renglones al cargar facturas de proveedores o clientes.  Es muy engorroso tener que cargar una factura de 20 items y solo ver 5, es algo básico. Seguramente sera un beneficio para todos los que usan el sistema\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \n",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "ux_usability",
+        "confidence": 0.95,
+        "reasoning": "Concrete request to improve the default number of visible rows when loading invoices, enhancing usability for users handling multiple items."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "692865",
+      "snippet": "[Customer (2026-02-04T20:50:18.000Z)]: Title: tesoreria\nDescription: si anuduviese les daria una sugerencia, es una falta de respeto lo que hacen\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lena maranz <lenamaranz57@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.9,
+        "reasoning": "The message expresses frustration without providing a concrete product feature request or suggestion."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "692562",
+      "snippet": "[Customer (2026-02-03T14:45:29.000Z)]: Title: Una Orden de pago no puede aplicar/cancelar otra Orden de pago\nDescription: Cuando ingresas a una orden de pago de pago en los comprobantes a aplicar aparecen todos los pendientes de esa cuenta corriente, incluso otras órdenes de pagos. En el último caso no debería aparecer e incluso no debería permitir aplicarse.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Maia <administracion@babylonia.com.ar",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "The request specifies a need to improve the behavior of payment orders by preventing the application of unrelated payment orders, indicating a clear workflow enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "692551",
+      "snippet": "[Customer (2026-02-03T13:55:27.000Z)]: Title: quiero que alguien me responda en la mesa de ayuda\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lena maranz <lenamaranz57@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a request for a response from support, which does not include a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "692549",
+      "snippet": "[Customer (2026-02-03T13:38:53.000Z)]: Title: MEJOREN URGENTE EL SOPORTE EN LINEA !! SE PASAN DE MALOS, LA IA DEL CHAT NO RESUELVE TODO\nDescription: el soporte para usuarios es pesimo, no pueden no tener personas para ayudar a solucionar problemas que la IA no comprende, y es muy molesto, como empresa, tener que trabajar de esta forma. El abono es caro y la asistenca es pesima\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Karina <karina@kosi",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message is primarily a complaint about support quality and response time, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "692346",
+      "snippet": "[Customer (2026-02-02T11:45:57.000Z)]: Title: QUISIERA QUE EN EL CHAT DE COLPPY CONTESTEN CON MAS FRECUENCIA, HACE DIAS QUE NO ME CONTESTAN\nDescription: HACE 3 DIAS QUE HICE UNA PREGUNTA Y AÚN NO ME CONTESTAN.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: BRIAN VAZQUEZ <TUBOSIDER@HOTMAIL.COM>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a complaint about response time in support, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "691413",
+      "snippet": "[Customer (2026-01-28T06:53:13.000Z)]: Title: Rambio\nDescription: Te te amo\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Uriel castro <urel56sebastian.65@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "The message does not contain a concrete product feature request or improvement; it appears to be a personal expression without actionable content."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "689701",
+      "snippet": "[Customer (2026-01-18T19:09:48.000Z)]: Title: Parametrización tipo de operación para IVA Simple\nDescription: Actualmente se puede seleccionar el tipo de operación en la carga de facturas de proveedores y clientes, sería ideal que esté parametrizado el proveedor y el cliente (como la cuenta contable) y que en la carga de factura se pueda modificar y que sea un campo obligatorio.  Hace más rápida la carga y menos errores.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "configuration_rules",
+        "confidence": 0.95,
+        "reasoning": "Request to make the operation type parameterized for suppliers and clients, with a mandatory field to improve efficiency and reduce errors in invoice entry."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "688873",
+      "snippet": "[Customer (2026-01-15T14:06:03.000Z)]: Title: tablero de control mas extenso\nDescription: Me gustaria que el tablero de control arroje tanto datos del mes, como abajo datos trimestrales y anueles. Y tambien poder clikear sobre eso y que me muestre de que esta conformado ese numero.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: AGUSTINA <agustina@cristalmet.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to enhance the control dashboard by adding quarterly and annual data, along with the ability to click for detailed breakdowns."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "688860",
+      "snippet": "[Customer (2026-01-15T13:44:37.000Z)]: Title: INTERFAZ\nDescription: La interfaz para cargar facturas es mala, pero para cargar notas de crédito es aun peor. No permite poner las facturas impagas en orden, por lo tanto buscar la factura a la cual aplicar la NC es imposible. Los recuadros son MUY CHICOS y no se amplian al ampliar el tamaño de la ventana. En sintesis: muy difícil de cargar las NC, muy poco práctico el tamaño de las distintas secciones.\nStatus: Esperando moderación\nStatus code: awai",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "ux_usability",
+        "confidence": 0.9,
+        "reasoning": "The customer describes specific usability issues with the interface for loading invoices and credit notes, highlighting the need for improvements in layout and functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "688446",
+      "snippet": "[Customer (2026-01-13T12:43:33.000Z)]: Title: Descarga de Estado de Cuenta a clientes en PDF, no en EXCEL\nDescription: Estaría bueno que existe la manera de descargar un estado de cuenta mas \"formal\" y no en excel de estado de cuenta para los clientes, actualmente el mas completo es el que se descarga desde el cliente y clickeando el icono de excel a la derecha. Ese además de ser poco claro, no es una forma clara y formal de enviarlo a clientes, quizás genere mas dudas que aclararlas. Gracias.\nS",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a more formal PDF download option for account statements instead of the current Excel format, indicating a clear need for improved reporting functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "688268",
+      "snippet": "[Customer (2026-01-12T12:33:00.000Z)]: Title: Poner en 0 los saldos insignificantes en clientes\nDescription: Cuando un cliente tiene un saldo minimo producto de una diferencia entre lo que transfirió y lo que debe por redondeo poder hacerlo facilmente enviando eso a una cuenta de diferencias por redondeo.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Gustavo Curti <gustavo@curti.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to implement a feature for easily zeroing out insignificant balances due to rounding differences, indicating a clear product functionality need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "687824",
+      "snippet": "[Customer (2026-01-09T13:03:35.000Z)]: Title: Ultima fecha de ingreso de mercaderia en listado de disponbilidad por deposito\nDescription: Propongo que cuando se emita el listado de disponibilidad por deposito, figure en otra columna la ultima fecha de compra/ingreso del producto. De esta manera podemos identificar rápidamente hace cuanto esta la mercadería en nuestro inventario.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Juan Portillo <co",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Concrete request to add a column for the last purchase date in the inventory availability report, improving product tracking."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "687320",
+      "snippet": "[Customer (2026-01-06T18:43:25.000Z)]: Title: Hola. Me gustaría que tengan soporte técnico, el actual ya no responde más.\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Martin Postolski <martinpostolski@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message is a complaint about the lack of response from technical support, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "687113",
+      "snippet": "[Customer (2026-01-05T12:02:17.000Z)]: Title: Conciliación Banacaria\nDescription: Que en el resumen de  Conciliación Bancaria, y a los fines de facilitar la lectura de dicho informe,   cuando se exponen importes en pesos trabaje con dos decimales y con el punto de separación en miles\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Oscar Alfredo GREGORIO <oscar@gregoriogirardo.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to improve the presentation of the bank reconciliation report by formatting amounts with two decimals and using a thousands separator for better readability."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "686771",
+      "snippet": "[Customer (2026-01-02T19:46:21.000Z)]: Title: IMPORTAR FACTURAS EN MONEDA EXTRANJERA\nDescription: Poder desde el excel de importación, también subir las facturas en moneda extranjera, sin tener que pesificarla. Par que después en el cobro se calcule sola la diferencia de tipo de cambio\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ayelen <asalischiker@rcampillay.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to enable the import of invoices in foreign currency directly from Excel, which addresses a specific functionality gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "685346",
+      "snippet": "[Customer (2025-12-22T15:01:20.000Z)]: Title: EL asiento # 1 debe ser el de apertura ,una funcion donde diga reservar el asiento 1 para apertura.\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paula <estudioandreacalvi@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request for a specific functionality to reserve the first entry as the opening entry in accounting, indicating a clear product enhancement need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "684698",
+      "snippet": "[Customer (2025-12-18T15:37:21.000Z)]: Title: Facturas Colppy\nDescription: No puedo acceder al portal para obtener las Facturas de Ustedes\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ignacio Siciliano <i.siciliano@chaer.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "The customer is expressing an issue accessing the portal, which is a support complaint rather than a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "684496",
+      "snippet": "[Customer (2025-12-17T17:13:17.000Z)]: Title: Tener un servicio de respuestas al clientes que funcione, ya que por chat, por tel NO responden\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Caro <cmunoz@stiwweb.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message is a complaint about the lack of response from support channels, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "683552",
+      "snippet": "[Customer (2025-12-12T13:32:47.000Z)]: Title: Maximizar pantallas a pantalla completa\nDescription: Como usuario del sistema, sucede que las pantallas de orden de pago, carga de facturas y demas son pequeñas y trae dificultad para apreciar los datos que se estan ingresando\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Diego Rodriguez <administracion@atlanti-kayaks.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "ux_usability",
+        "confidence": 0.95,
+        "reasoning": "Request to maximize screens to full size for better visibility and data entry experience."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "683549",
+      "snippet": "[Customer (2025-12-12T13:28:56.000Z)]: Title: Reporte ítems en facturas de proveedores, con distinción de la moneda\nDescription: El reporte Inventario > Reportes > Listado de Movimientos, solo muestra los valores en pesos y la conversión en pesos. Sería útil agregar el detalle de lo cargado en USD, ya que esta incorporación de registros en USD no fue tenida en cuenta en este reporte, lo que resulta incongruente.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to enhance a report by including details of items in USD, addressing a specific gap in the current reporting functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "683044",
+      "snippet": "[Customer (2025-12-10T12:51:48.000Z)]: Title: Reportes\nDescription: Poder descargar un reporte de facturas de clientes y proveedores que contenga los archivos adjuntos.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Daniel <danielch@mastesis.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to download an invoice report that includes attachments, indicating a clear need for enhanced reporting functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "681399",
+      "snippet": "[Customer (2025-12-05T16:21:19.000Z)]: Title: pagos en dolares y cobranzas en dolares, transferencias entre bancos\nDescription: TESORERIA Asi como los módulos de otros pagos o otras cobranzas, aparecen los bancos en pesos no aparecen las cuentas en dolares de bancos\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: julio cesar marsal emeka sa <jcmarsal@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to include dollar accounts in the treasury module for payments and collections, indicating a clear product capability gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "680467",
+      "snippet": "[Customer (2025-12-02T19:43:14.000Z)]: Title: SERVICIO DE SOPORTE\nDescription: Por favor mejoren el servicio de SOPORTE, es pésima la atención. No llamadas telefonica, el chat con una persona real no existe o bien dias despues. Y el bot o mensajes automaticos no encajan con las consultas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Alejandra Gómez <agomez@migestarcoop.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message is primarily a complaint about the quality of support and response times, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "680424",
+      "snippet": "[Customer (2025-12-02T13:58:59.000Z)]: Title: Trazabilidad y control de entrega en el envío de facturas por e-mail\nDescription: Hola equipo de Colppy, ¿cómo están?\r\rQuería acercarles una sugerencia de mejora respecto del envío de facturas por e-mail. Hoy, al salir desde un no-reply, no tenemos forma de verificar si el correo fue entregado, si quedó rechazado/rebotado, o el motivo del rechazo, lo cual complica el seguimiento con clientes.\r\rComo alternativa técnica, les proponemos evaluar alguna d",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "The customer requests enhancements for email delivery tracking and proposes specific technical solutions, indicating a clear product functionality gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "680349",
+      "snippet": "[Customer (2025-12-02T02:35:16.000Z)]: Title: Exportar planilla de pagos a diferentes bancos\nDescription: Poder seleccionar las ordenes de pago y exportarlas automáticamente a los diferentes bancos, tanto para transferencias como para echeqs. No se si desde el módulo proveedores o tesorería. Ambos módulos son muy básicos para trabajar y obligan a llevar controles por fuera del sistema lo que trae bastantes problemas\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\n",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to enable automatic export of payment orders to different banks, indicating a clear need for improved functionality in the payment modules."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "680296",
+      "snippet": "[Customer (2025-12-01T18:59:48.000Z)]: Title: Visualización de precios al facturar\nDescription: Cuando hacemos una factura y se le envia al cliente, el numero que aparece en el mail no cuenta con los puntos o comas correspondientes, ej: Le informamos que hemos emitido la Factura A Nro. 0005-0000xxxxx por el valor de $ 1339197.75000  - Cuando el numero que tendria que figurar es por ej: $1.339.197,75\rHabra manera de corregirlo!? porque ya me pasó varias veces que los clientes no entienden nada y ",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a correction in the formatting of invoice amounts sent to clients, which is a specific product functionality improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "680258",
+      "snippet": "[Customer (2025-12-01T14:12:31.000Z)]: Title: Enviar aviso de deuda manualmente y no solo automáticamente\nDescription: Sería bueno poder enviar la factura con el mensaje automático que envía siempre Colppy días antes de que venza una factura, pero poder hacerlo a mano y sin cambiar el texto cuando lo hago. Porque Colppy envía aviso unos días antes y después pero luego no manda varias veces más y a veces es necesario.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "Request to enable manual sending of automated debt reminders with unchanged text, indicating a need for improved workflow flexibility."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "679724",
+      "snippet": "[Customer (2025-11-27T16:33:06.000Z)]: Title: Incorporar Impuestos Internos\nDescription: Hay empresas que por su actividad, deben liquidar impuestos internos y para eso, precisamos eguir una trazabilidad de dicho impuesto que actualmente el sistema no tiene,.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Vanesa <vgalzerano@cgcconsultores.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to incorporate internal taxes and improve traceability, indicating a clear product functionality gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "678378",
+      "snippet": "[Customer (2025-11-19T15:02:31.000Z)]: Title: Ayuda\nDescription: Estaria buenisimo que cuando tenes un problema con el esitema te contesten como resolverlo, ya que por una bendita conciliacion bancaria, no tengo nadie que me atienda, y no hay un telefono ni para llamar ni que llamen.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Yanina <adm.baloriani@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message expresses frustration about support availability and response, without a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "678261",
+      "snippet": "[Customer (2025-11-18T21:11:20.000Z)]: Title: Reporte completo de cheques propios emitidos\nDescription: Quisiera solicitar una mejora en el sistema respecto al seguimiento de cheques propios emitidos e imputados a proveedores. En este momento, cuando intento imputar un cheque, el sistema indica que dicho cheque ya fue imputado anteriormente, pero no existe un reporte claro que permita rastrear a qué proveedor o comprobante fue asignado.\r\rLos reportes disponibles en el módulo de Tesorería y los m",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a specific report to track issued checks and their assignments, highlighting a clear gap in current reporting capabilities."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "678219",
+      "snippet": "[Customer (2025-11-18T17:11:08.000Z)]: Title: AL BAJAR EL LISTADO DE PAGOS (EXCEL) D PROVEEDORES APAREZCA UNA COLUMNA CON LA DESCRIPCIÓN DE C/OP\nDescription: CUANDO IMPRIMO EN FORMATO EXCEL EL LISTADO DE PAGOS DEL MODULO DE PROVEEDORES NECESITO QUE APAREZCA UNA ULTIMA COLUMNA EN EL EXCEL QUE FIGURE LA DESCRIPCIÓN CARGADA EN CADA ORDEN DE PAGO.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Nicolas <nugliarolo@mvv.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to add a specific column for descriptions in the Excel export of payment listings, indicating a clear need for reporting enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "678211",
+      "snippet": "[Customer (2025-11-18T16:30:28.000Z)]: Title: LA PLATA\nDescription: NECESITAMOS REALIZAR RETENCIONES Y PERCEPCIONES MUNICIPALES, UDS PODRIAN AYUDARNOS??\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: JAVIER <medictools@hotmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.85,
+        "reasoning": "Request for functionality to handle municipal withholdings and perceptions, indicating a need for specific product capabilities."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "678075",
+      "snippet": "[Customer (2025-11-17T20:23:35.000Z)]: Title: ATENCION AL CLIENTE / FACTURACION\nDescription: POR FAVOR CONTACTARSE CON LA EMPRESA JPU S.A. YA QUE NOS FACTURARON DOS VECES EL MISMO MES Y NADIE NOS ATIENTE.\rPOR FAVOR COMUMNICARSE EN FORMA URGENTE AL 11.3696.6325 Y HABLAR CON FACUNDO TORRES PARA SOLUCIONAR ESTE TEMA.\rURGENTE\rGRACIAS\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: FACUNDO TORRES <ftorres@jpu.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a request for urgent customer support contact regarding a billing issue, not a product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "676133",
+      "snippet": "[Customer (2025-11-07T12:26:21.000Z)]: Title: CREACIÓN DE NOTAS DE CRÉDITO EN DÓLARES DESDE CERO\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: MAURO <mauro.muniz@bookingcars.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to create credit notes in dollars from scratch indicates a specific product functionality enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "675773",
+      "snippet": "[Customer (2025-11-05T16:44:54.000Z)]: Title: hola buenas tardes, queria comentar si es posible ver de alguna manera una vez que se elimino un OP\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: monica <maguirre@fecunditas.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.85,
+        "reasoning": "The customer is inquiring about the possibility of viewing deleted purchase orders, which does not constitute a clear product change request or feature enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "675315",
+      "snippet": "[Customer (2025-11-03T11:39:01.000Z)]: Title: REPORTE/ LISTADO DE FACTURAS A PAGAR\nDescription: Generar un documento/listado (PDF y Excel) para comprobar qué facturas están pendiente y que debo pagar dentro de un período específico preseleccionado.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Gabriel Viotto <gabriel@teargentina.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to generate a report/list of pending invoices to be paid within a specific period, indicating a clear need for a new reporting feature."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "674948",
+      "snippet": "[Customer (2025-10-31T17:09:14.000Z)]: Title: Edición costo de un item.\nDescription: Necesitamos que se pueda modificar el costo de un item cada vez que necesitemos desde el campo de la información general de cada item.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Santiago Maceira <administracion@backnology.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Concrete request to allow modification of item cost directly from the general information field."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "674254",
+      "snippet": "[Customer (2025-10-27T21:35:59.000Z)]: Title: BOTON PARA BALANCEO DE CUENTAS\nDescription: Necesitamos algun boton que revise las cuentas que no balancean al realizar un asiento y que no permita avanzar ya que cuando se generan diferencias no hay manera de encontrar y solucionar las mismas. El sistema no deberia dejar avanzar de ser asi.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Ezequiel <carlosezequielschmidt@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request for a button to prevent advancing with unbalanced accounts, indicating a clear need for a product functionality improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "674147",
+      "snippet": "[Customer (2025-10-27T12:23:24.000Z)]: Title: stock por Deposito a una fecha especifica\nDescription: Necesito ver el stock por deposito a una fecha especifica anterior a la actual\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Martin <mdebandi@grupolaserdisc.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request for a specific stock report by deposit for a past date, indicating a clear reporting need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "673793",
+      "snippet": "[Customer (2025-10-24T15:52:46.000Z)]: Title: Tengo un PROBLEMA. NECESITO COMUNICARME\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Enrique <arechagae@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "The message expresses a need to communicate but does not include a specific product feature request or improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "672708",
+      "snippet": "[Customer (2025-10-17T19:52:43.000Z)]: Title: Consultas\nDescription: Buenas tardes, soy una de las primeras clientas de Colppy, por allá cuando recién se iniciaban, siento que acompañe el proceso y hoy son esta linda e innovadora empresa.Lo que tengo para sugerir es que , no olviden aquellos inicios y sigan acompañando y recibiendo las consultas y observaciones y contestando a la brevedad. Hace mas de 60 dias que solicito una consulta y a la fecha no obtengo respuesta.Eso es todo, saludos\nStatus",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message primarily expresses frustration about the lack of response from support, without a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "672492",
+      "snippet": "[Customer (2025-10-16T19:34:37.000Z)]: Title: PUNTO DE VENTA\nDescription: CUANDO TENES QUE FACTURAR A VARIOS PUNTOS DE VENTA ESTARIA BUENO PODER FIJARLO, ASI NO TENEMOS QUE MODIFICAR TODO EL TIEMPO Y HACEMOS VARIAS FACTURAS CON EL MISMO, Y LUEGO CAMBIAMOS, Y ASI..\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: VALENTINA <valenfoster33@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "Request to set a default point of sale for multiple invoices to streamline the invoicing process."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "672205",
+      "snippet": "[Customer (2025-10-15T13:06:09.000Z)]: Title: MINIMIZAR UNA FACTURA U ORDEN DE PAGO\nDescription: PODER MINIMIZAR UNA FACTURA U ORDEN DE PAGO, CUANDO TENGO QUE MIRAR ALGUN DATO QUE ME FALTA,Y NO TENER QUE EMPEZAR A HACER TODO DE NUEVO.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Verónica <sqmt.veronica@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "ux_usability",
+        "confidence": 0.95,
+        "reasoning": "Request to minimize an invoice or payment order for better usability, allowing users to check missing data without losing their progress."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "671856",
+      "snippet": "[Customer (2025-10-13T20:06:57.000Z)]: Title: listado de ventas de un articulo con el codigo postal ..... es muy muy importante\nDescription: El listado que precisó tiene que tener el código postal o ciudad ya que lo tengo que pedir del 2021 en adelante\ry es un artículo que tiene mucho movimiento\rEL Articulo es L 0001 Tres puntos aplicacion universal\rel objetivo es ver las regiones de más ventas en el pais desde el 2021 a la fecha\res muy muy importate el prama que tenia me daba esa posibilidad y ",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a sales report that includes postal codes or cities to analyze sales regions, indicating a clear need for a specific reporting feature."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "670772",
+      "snippet": "[Customer (2025-10-07T17:33:48.000Z)]: Title: Comunicacion\nDescription: Hace una semana pido me llamen por un prblema con el sistema.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Damian Ruben <damian@versystrading.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a request for a call regarding a problem with the system, which does not specify a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "670024",
+      "snippet": "[Customer (2025-10-03T18:09:01.000Z)]: Title: Consultas\nDescription: Por favor lean y contesten en tiempo y forma las consultas, !!!! .Uno las hace porque necesita respuesta y en el menor tiempo posible.Gracias\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Maria Nella Elias <marianellaelias@yahoo.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message expresses frustration about response time and support quality without making a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "669842",
+      "snippet": "[Customer (2025-10-02T17:46:12.000Z)]: Title: DAR RESPUESTA\nDescription: Hace mas de 2 semanas que aguardo se me de una respuesta y poder cerrar el CHAT y no obtuve la respuesta a mi pregunta ni nadie se contacto conmigo. De igual forma, pagando extra por el servicio de llamado telefónico lo solicite 2 veces y nadie me llamó. Aguardo respuesta. Centro Ni Uno Menos\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: ROCIO <info@centroni1",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is primarily a complaint about response time and lack of support, without a concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "669740",
+      "snippet": "[Customer (2025-10-02T11:52:19.000Z)]: Title: Poder corregir la descripción de una factura electrónica\nDescription: Poder corregir la columna de descripción sin cambiar los montos, porque a veces me pasa y tengo que hacer una nota  de crédito y volver a facturar todo\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Fernanda Satorres <fernanda.satorres@baminds.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to allow editing the description of an electronic invoice without affecting the amounts, which indicates a need for a specific product functionality improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "669547",
+      "snippet": "[Customer (2025-10-01T16:24:26.000Z)]: Title: Facturas recurrentes tienen errores\nDescription: Hay varias inconsistencias en las facturas recurrentes. Es insoportable y peligroso. Los vencimientos no coincide con la condición de venta, los importes no sé de dónde los saca, hay que editar el campo cantidad para que recalcule y el TC hay que cargarlo en cada factura con el riesgo de omitir el cambio.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\n",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.9,
+        "reasoning": "The customer describes specific issues with recurring invoices, indicating a need for improvements in calculations and data handling, which suggests a request for product functionality enhancements."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "669531",
+      "snippet": "[Customer (2025-10-01T14:58:48.000Z)]: Title: UN CHAT DE AYUDA QUE FUNCIONE, RESPONDA EN UN TIEMPO  CONSIDERABLE Y NO CONTESTE UNA MAQUINA\nDescription: UN CHAT DE AYUDA NO FUNCIONE, NO RESPONDEN, encima pusieron un bot,   \rno mandaron mails con respuesta\rTambién utilice el botón para que me llamen y no lo hicieron.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Caro <cmunoz@stiwweb.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message expresses frustration with the support system and response times, without any specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "668585",
+      "snippet": "[Customer (2025-09-26T18:14:57.000Z)]: Title: Visualización de valores completos\nDescription: Se sugiere que el sistema automáticamente ajuste las columnas del módulo de Contabilidad, tanto de los mayores que figuran a la derecha de la pantalla como en los listados de cuentas de la izquierda, para que puedan visualizarse las fechas e importes completos, sin tener que estar agrandando cada columna cada vez que se ingresa al sistema.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "ux_usability",
+        "confidence": 0.95,
+        "reasoning": "The request is for an automatic adjustment of column widths in the accounting module to improve usability and visibility of dates and amounts."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "668081",
+      "snippet": "[Customer (2025-09-24T20:03:40.000Z)]: Title: HAY ATENCION AL CLIENTE ???????????\nDescription: LA ATENCION AL CLIENTE ES NULA\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: MATIAS <MATIAS@COSMETICSOLUTIONS.COM.AR>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message expresses frustration with customer service and does not contain a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "668076",
+      "snippet": "[Customer (2025-09-24T19:17:46.000Z)]: Title: soporte en linea\nDescription: Estimados... sugiero que mejoren la atencion en linea... espero respuesta\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: silvina <administracion2@coprapilba.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message is a suggestion to improve online support, which does not include a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667872",
+      "snippet": "[Customer (2025-09-23T21:15:26.000Z)]: Title: RECLASIFICAR CUENTA GASTOS DE UN PROVEDOR DE FORMA MASIVA, DE OTRA FORMA HAY QUE INGRESAR UNO POR UN\nDescription: \nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: ANDREA <ANDREA.FROLON@ISRAELCONSULT.COM>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "Request to reclassify expenses for a provider in bulk, indicating a need for improved workflow efficiency."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667807",
+      "snippet": "[Customer (2025-09-23T15:33:29.000Z)]: Title: portal de reclamos\nDescription: no puede ser que no haya un portal de reclamos. de Colppy se mandaron una gestión horrible y un error muy grave como para dejarlo pasar. cuadruplican las facturas y ni si quieran avisan al cliente. tenemos que darnos cuenta nosotros porque de su parte nada de nada. no puede ser que tengamos que tener como mil ojos con ustedes porque siempre pasa algo. encima que tardan en atender como mil horas no te solucionan el prob",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This message primarily expresses frustration with support quality and response time, without a clear product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667793",
+      "snippet": "[Customer (2025-09-23T14:19:13.000Z)]: Title: Respuestas mas rápidas\nDescription: Sería muy importante que las respuestas a las consultas o problemas con el sistema sean mas rapidas, en varias ocasiones tardan semanas y hasta meses en comunicarse para solucionar el problema o dar una respuesta.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: Natalia <administracion@etaleon.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is primarily a complaint about response times and support quality, without a specific product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667792",
+      "snippet": "[Customer (2025-09-23T14:16:15.000Z)]: Title: Ordenes de compra\nDescription: Quisiera que agreguen Talonario Orden de compra a la sección de Talonarios,  con opcion a que la numeración de los mismos se genere automaticamente.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Natalia <administracion@etaleon.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to add a purchase order booklet with automatic numbering, indicating a clear product functionality enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667623",
+      "snippet": "[Customer (2025-09-22T20:06:39.000Z)]: Title: QUE SEAN MAS RAPIDOS\nDescription: NO PUEDE SER QUE TARDEN TANTO EN RESPONDEN A LOS CLIENTES. ENCIMA QUE EL ERROR VIENE DE USTEDES TARDAN HORAS PARA CONTESTAR. ES JODA ESTO\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: CAROLINA <CAROLINA@TOPTECHSA.COM>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is a complaint about response time and support quality, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "667577",
+      "snippet": "[Customer (2025-09-22T15:39:31.000Z)]: Title: Facturas registradas en ARCA y no en Colppy\nDescription: Hay casos en los que la FC se registra en ARCA pero no en Colppy, si bien el sistema continua con la correlatividad correctamente, la FC no esta disponible en Colppy para ser enviada al Cliente ni en Los Listados IVA Ventas por ejemplo. Quisiera poder cargar la misma en Colppy de forma manual si ya la veo emitida en ARCA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComme",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "The customer requests the ability to manually enter invoices in Colppy that are registered in ARCA but not available in Colppy, indicating a clear product functionality gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666728",
+      "snippet": "[Customer (2025-09-18T13:29:27.000Z)]: Title: debido al nuevo PORTAL IVA necesito reportes de compra y venta con las imputaciones contables\nDescription: Que algun reporte, ya sea el unificado o los reportes de IVA compras - IVA ventas salga con las imputaciones al menos. ya que ahora en el portal IVA se solicita de manera obligatoria difrencias facturas de servicios y de bienes de cambio. Sino el trabajo resulta manual, viendo factura por factura\nStatus: Esperando moderación\nStatus code: awaitin",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The customer requests specific reports with accounting imputations to comply with new IVA portal requirements, indicating a clear need for a product feature enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666585",
+      "snippet": "[Customer (2025-09-17T19:50:43.000Z)]: Title: PERCEPCIONES GANANCIAS\nDescription: QUIERO QUE COLPPY ME PERMITA GENERAR CON LA FACTURACIÓN LA PERCEPCIÓN DE GANANCIAS Y ME PERMITA POSTERIORIMENTE GENERAR EL TXT PARA LA IMPORTACIÓN A SIAP Y DECLARACIÓN EN ARCA.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Leandro Serra <leandrogserra@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The request is for a specific feature to generate a gains perception report and a TXT file for import into SIAP, indicating a clear product functionality need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666516",
+      "snippet": "[Customer (2025-09-17T14:09:04.000Z)]: Title: CARGA DE RETENCION EN MODULO PROVEEDORES Y LISTADO DETALLADO\nDescription: Que se puedan cargar además de las percepciones de las facturas las retenciones y q se pueda bajar un excel con las percepciones y retenciones detalladas.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paola <pfernandez@intv.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to add the ability to load retentions and download a detailed Excel report of perceptions and retentions, indicating a clear product functionality need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666491",
+      "snippet": "[Customer (2025-09-17T12:34:21.000Z)]: Title: CALCULO AUTOMATICO DE LA RETENCIONES DE IIBB EN LOS PAGOS\nDescription: que las retenciones en los pagos se calculen automáticamente y no tener q hacerlo manual, en nuestro caso hay clientes q debemos retenerles IIBB misiones y hay q hacer el calculo manual\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Paola <pfernandez@intv.com.ar>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request for automatic calculation of IIBB withholdings in payments, indicating a clear need for product functionality improvement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666318",
+      "snippet": "[Customer (2025-09-16T16:21:46.000Z)]: Title: listado saldos proveedores y clientes\nDescription: simplificar el listado de proveedores y de clientes con la razón social y el saldo a la fecha.\rpara luego totalizar los saldos acumulados.\rAdjunto un listado de proveedores como ejemplo:\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lucio <luciogonzalezcaleb@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request to simplify the list of suppliers and clients by including social reason and current balance, along with a total of accumulated balances, indicating a clear need for reporting enhancement."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666303",
+      "snippet": "[Customer (2025-09-16T15:47:10.000Z)]: Title: Discriminación de valores del listado de ordenes de pago y recibos de cobranzas\nDescription: cuando se descarga los dos listados aparecen en una misma columna (retenciones, totales, cheques, etc) lo cual complica a la hora de totalizar. se podría hacer un nuevo listado discriminando : fecha, numero de orden, proveedor/cliente y el importe total de cada una. así simplificando el listado.\r\rAdjunto pdf como ejemplo:\nStatus: Esperando moderación\nStatus c",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request for a new report format that discriminates values for better clarity and totalization, indicating a clear need for improved reporting functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666296",
+      "snippet": "[Customer (2025-09-16T15:31:45.000Z)]: Title: Ventana del listado de cheques de terceros\nDescription: Poder ampliar el listado de cheques de terceros que permita un manejo mas cómodo en la búsqueda y/o agregar una opción para buscar los cheques según su numeración\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: lucio <luciogonzalezcaleb@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "workflow_improvement",
+        "confidence": 0.95,
+        "reasoning": "Request to enhance the third-party check listing for better search functionality and usability."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666295",
+      "snippet": "[Customer (2025-09-16T15:31:08.000Z)]: Title: fotos\nDescription: seria bueno poder subir fotos en el inventario y asi hacer más practico la conexión con Mercado Libre\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Tere <mtlaporta@plusbyte.net>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to add the ability to upload photos in inventory, enhancing integration with Mercado Libre."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "666083",
+      "snippet": "[Customer (2025-09-15T16:38:48.000Z)]: Title: Listado de control de Ordenes de Pago y Recibos de cobranzas\nDescription: A los listados de Ordenes de pago y recibos de cobranzas habría que agregar una columna con el total por comprobante. También debería haber posibilidad del reporte en PDF .\rColppy ofrece un listado en excel que es un poco caotico para controlar y en nuestro caso debemos  pasar tiempo ordenando los campos para hacer un listado mas claro. \rDeberia estar separado con lineas entre ",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "The request includes specific enhancements for payment orders and receipts, such as adding a total column and improving the PDF report format."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "665111",
+      "snippet": "[Customer (2025-09-09T19:15:38.000Z)]: Title: Importacion de Cobranzas\nDescription: Asi como Colppy permite importar facturas y clientes, permitir una importacion de cobranzas masivas desde un csv.\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: Tomas <tomas.faintich@mendel.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request to enable bulk import of collections from a CSV file, similar to existing invoice and client import functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "664466",
+      "snippet": "[Customer (2025-09-05T17:17:17.000Z)]: Title: Ayuda en linea\nDescription: Estaría buenísimo que alguien responda los mensajes que mando. Hace mas de una semana que vengo escribiendo y nadie responde. La suscripción mensual me la vienen cobrando en tiempo y forma, la atención deja que desear\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: Revisión CS\nSubmitted by: santiago <santilopezpia@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": false,
+        "category": "support_complaint",
+        "confidence": 0.95,
+        "reasoning": "This is primarily a complaint about the lack of response from support, without any concrete product feature request."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "664432",
+      "snippet": "[Customer (2025-09-05T14:14:14.000Z)]: Title: Modificacion Masiva Costo de Productos\nDescription: Necesitamos una funiconalidad que permita modificar de manera masiva los costos de los productos asi como existe la funcionalidad de modificar de manera masiva el precio de venta de los productos.\rNo puede ser que el costo se modifique uno por uno , yo tengo 13368 Sku que modificar y uno por uno termino en el 2027 .\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "Request for a bulk modification feature for product costs, similar to the existing bulk price modification functionality."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "664081",
+      "snippet": "[Customer (2025-09-03T18:52:37.000Z)]: Title: CAMPO RETENCIONES Y PERCEPCIONES EN VENTAS Y COMPRAS DE MUNICIPALIDAD DE CORDOBA\nDescription: Buenas tardes, me acerco para consultarles si es posible adicionar una línea en el cuadrante de \"Otras rentenciones\" en el registro de COBRANZAS del rubro VENTAS. Necesitamos matchear ese campo con la cuenta Retenciones Municipalidad Comercio e Industria de Córdoba ya que de momento no podemos ingresar estos importes en el momento del cobro.\r\rEl mismo tratam",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "The customer requests the addition of specific fields in the collections and invoice records to accommodate municipal retention and perception requirements, indicating a clear product functionality need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "664044",
+      "snippet": "[Customer (2025-09-03T14:52:10.000Z)]: Title: IVA SIMPLE\nDescription: IVA SIMPLE ESTAN TRABAJANDO PARA TENER REPORTE COINCIDENTE CON AFIP\nStatus: Esperando moderación\nStatus code: awaitingapproval\nVotes: 1\nComments: 0\nTags: \nSubmitted by: EMEKA SA <jcmarsal@gmail.com>",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "reporting_export",
+        "confidence": 0.95,
+        "reasoning": "Request for a report that aligns with AFIP requirements, indicating a specific reporting need."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    },
+    {
+      "conversation_id": "664042",
+      "snippet": "[Customer (2025-09-03T14:45:20.000Z)]: Title: DESPACHOS DE ADUANA DE IMPORTACION OTRA ALTERNATIVA FACIL DE CORREGIR\nDescription: ingreso de despachos de importación\rEn mi opinión si se pone la Letra I en las compras , y dejar libre Gravado l, no gravado y el importe de Iva, dejando en blanco para que el usuario coloque los 3 importes tal cual salen del despacho, sin que colppy haga el cálculo automático podría ser una solución\r\rTAMBIEN SOLUCIONARIA IVA VENTAS\nStatus: Esperando moderación\nStatus ",
+      "matched_keywords": [
+        "feature_upvote_entry"
+      ],
+      "llm_result": {
+        "is_real_idea": true,
+        "category": "product_capability",
+        "confidence": 0.95,
+        "reasoning": "The customer requests a modification in the handling of import dispatches, allowing manual entry of specific amounts instead of automatic calculations, which addresses a clear product functionality gap."
+      },
+      "correct": null,
+      "override_category": null,
+      "override_match": null,
+      "promote_to_example": false
+    }
+  ]
+}
