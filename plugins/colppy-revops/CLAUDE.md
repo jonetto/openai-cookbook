@@ -13,6 +13,8 @@ This plugin bundles two MCP servers (`reconciliation` and `hubspot-analysis`) wi
 | SMB funnel analysis | `run_smb_mql_funnel` |
 | Accountant funnel analysis | `run_accountant_mql_funnel` |
 | Scoring / contactability analysis | `run_high_score_analysis` or `run_mtd_scoring` |
+| CUIT enrichment (registration date, province, legal type) | `enrich_cuit` |
+| Company name → CUIT lookup (3M+ RNS records) | `search_company_by_name` |
 
 ### Do NOT bypass the reconciliation pipeline
 
