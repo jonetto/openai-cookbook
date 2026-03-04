@@ -1,5 +1,5 @@
 # Malén Baigorria — Coaching Arc
-_Last updated: 2026-03-02_
+_Last updated: 2026-03-04_
 
 ## Development trajectory
 
@@ -29,6 +29,7 @@ _Last updated: 2026-03-02_
 - **Containing without converting (core dynamic):** She consistently damps Juan's energy and urgency ("baja a tierra," "que no te gane la ansiedad," "ofuscándote no sirve") but doesn't redirect it into productive channels. She contains the CEO's anxiety without helping him install the standards he's trying to create. This creates a cycle: Juan pushes alone → she goes silent in the room → he pushes harder → she reads it as anxiety → she contains more. The net effect is the team learns to expect less rather than deliver more.
 - **Withdrawal in group settings:** When dynamics they co-designed in 1:1 are deployed in the leadership team, she disengages — laptop, WhatsApp, or silent observation. She doesn't visibly back the shared plan, which leaves Juan pushing alone and the team reading misalignment.
 - **Compliance escalation pattern:** When an employee came to her with concerns about being pushed (Slack messages after hours), she directed the person to file a formal compliance complaint rather than intervening earlier to mediate or coaching Juan to adjust. The instinct was to let the system handle it rather than contain the issue before it escalated.
+- **Unilateral company-wide decisions (Mar 4, 2026):** When the office became unusable (fire/flood at cowork), she sent @channel telling everyone not to come in without consulting Juan first. His feedback: consult before such announcements; with short notice, logistics (alternative workspace) could have been explored. She agreed to consult first next time while holding her ground on substance (insurance, electric risk, safety). Positive: receptive to process feedback; did not become defensive.
 
 ## Evolution of this coaching relationship
 

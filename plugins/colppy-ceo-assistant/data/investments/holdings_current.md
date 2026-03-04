@@ -68,42 +68,45 @@
 
 # Schwab — Investment Portfolio
 
-**Last Updated:** 2026-03-03 (automated Playwright extraction)
+**Last Updated:** 2026-03-03 (order status screenshot, 1:35 PM ET)
 **Account:** Individual Brokerage (ending in 359)
-**Data as of:** 10:43 PM ET, March 2, 2026
 
 ## Account Summary
 
 | Category | Value (USD) |
 |----------|------------|
-| Brokerage Total | $15,100.76 |
-| Cash & Cash Investments | $15,000.36 |
-| SGOV (1 share) | $100.40 |
-
-**Day Change:** +$14,999.76 (+29.72%) — $15K wire arrived
+| **Brokerage Total** | **~$45,268** |
+| SGOV (353 shares) | $35,439 |
+| BRK/B (16 shares) | $7,623 |
+| SCHD (62 shares) | $1,976 |
+| Cash (est.) | ~$230 |
 
 ## Positions
 
-| Ticker | Name | Qty | Price | Mkt Value | Cost Basis | Gain/Loss |
-|--------|------|-----|-------|-----------|------------|-----------|
-| SGOV | iShares 0-3 Month Treasury Bond ETF | 1 | $100.40 | $100.40 | $100.64 | -$0.24 |
-| Cash | Cash & Cash Investments | — | — | $15,000.36 | — | — |
+| Ticker | Name | Qty | Fill Price | Mkt Value | Notes |
+|--------|------|-----|-----------|-----------|-------|
+| SGOV | iShares 0-3 Month Treasury Bond ETF | 353 | $100.395 | $35,439 | 1 existing + 53 (Mar 2) + 299 (Mar 3) |
+| BRK/B | Berkshire Hathaway Inc Cl B | 16 | $476.41 | $7,623 | Filled Mar 3, order placed Mar 2 |
+| SCHD | Schwab US Dividend Equity ETF | 62 | ~$31.87 | $1,976 | Filled Mar 3, order placed Mar 2 |
 
-## Pending Orders (placed Mar 2, fill expected Mar 3)
+## Orders Filled (Mar 3, 2026)
 
-| Ticker | Action | Qty | Est. Price | Est. Value |
-|--------|--------|-----|------------|------------|
-| BRK/B | BUY | 16 | ~$480.77 | ~$7,692 |
-| SGOV | BUY | 53 | ~$100.38 | ~$5,320 |
-| SCHD | BUY | 62 | ~$31.87 | ~$1,976 |
+| Ticker | Action | Qty | Fill Price | Total | Order # |
+|--------|--------|-----|-----------|-------|---------|
+| SGOV | BUY | 299 | $100.395 | $30,018 | 1005583900797 |
+| BRK/B | BUY | 16 | $476.41 | $7,623 | — |
+| SGOV | BUY | 53 | ~$100.38 | $5,320 | — |
+| SCHD | BUY | 62 | ~$31.87 | $1,976 | — |
 
-## External Accounts (linked Citi)
+**Price improvement on SGOV 299:** $1.50
+
+## External Accounts (linked Citi via MoneyLink)
 
 | Account | Balance (USD) | Last Updated |
 |---------|--------------|--------------|
-| Checking (-7651, Citibank) | $198.41 | Citi screenshot Mar 3 |
-| Savings (-7677, Citibank) | $35,169.38 | Citi screenshot Mar 3 |
-| **External Total** | **$35,367.79** | |
+| Checking (-7651, Citibank) | $198.41 | Mar 3 |
+| Savings (-7677, Citibank) | ~$5,000 | Mar 3 (post-transfer) |
+| **External Total** | **~$5,198** | |
 
 ---
 
@@ -145,9 +148,13 @@
 | Galicia — Cash (pesos) | ARS $3,177,035 | ARS |
 | Galicia — Cash (dollars) | U$D 194,824 | USD |
 | Allaria — Fixed Income Funds | $115,763 | USD |
-| Schwab — Brokerage | $15,101 | USD |
-| Citi — Savings | $35,169 | USD |
+| Schwab — SGOV (353 shares) | $35,439 | USD |
+| Schwab — BRK/B (16 shares) | $7,623 | USD |
+| Schwab — SCHD (62 shares) | $1,976 | USD |
+| Schwab — Cash | ~$230 | USD |
+| Citi — Savings | ~$5,000 | USD |
 | Citi — Checking | $198 | USD |
+| **Total USD assets** | **~$361,053** | **USD** |
 
 ---
 

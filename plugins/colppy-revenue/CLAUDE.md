@@ -28,7 +28,24 @@ Skills are loaded as context for understanding terminology and data structures. 
 
 ## MCP Tools
 
-This plugin has **no bundled MCP server**. It relies on external connectors (HubSpot, Mixpanel) configured in the user's environment. The MCP tools from these connectors are building blocks — prefer using the commands that wrap them.
+### ARCA MCP — CUIT & Company Enrichment
+
+This plugin includes the **ARCA MCP server** for company lookups from Argentina's RNS (Registro Nacional de Sociedades, 3M+ records). Two key tools:
+
+| Tool | What it does | Example prompt |
+|------|-------------|----------------|
+| `enrich_cuit` | CUIT → registration date, province, legal type, activity | "Enrich CUIT 30-71234567-9" |
+| `search_company_by_name` | Company name → CUIT + details (autocomplete, <100ms) | "Search company Panadería Martinez" |
+
+**`enrich_cuit` returns:** `fecha_contrato_social` (incorporation date), `provincia`, `tipo_societario` (SRL/SA/SAS), `actividad_descripcion`, `razon_social`. Combines AFIP live data + RNS open dataset.
+
+**`search_company_by_name` supports:** multi-token search, optional `provincia` filter, relevance scoring. First call ~12s (dataset load), then <100ms.
+
+**Use for scoring:** Business age (from `fecha_contrato_social`) is a validated lead quality signal with a 5.1pp conversion spread.
+
+### External connectors
+
+This plugin also relies on external connectors (HubSpot, Mixpanel) configured in the user's environment. The MCP tools from these connectors are building blocks — prefer using the commands that wrap them.
 
 Exception: The **hubspot-analysis** MCP (if available) provides pre-built analysis tools like `run_smb_mql_funnel` and `run_high_score_analysis` — these are already high-level and can be used directly.
 

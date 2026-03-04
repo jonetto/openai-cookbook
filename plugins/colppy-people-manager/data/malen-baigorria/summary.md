@@ -1,6 +1,6 @@
 # Malén Baigorria — Coaching Summary
 
-_Last updated: 2026-03-02_
+_Last updated: 2026-03-04_
 _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 2026), Granola meetings (2025–2026), calibration sessions, group meeting observations._
 
 ## Leadership Profile
@@ -31,7 +31,7 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 
 5. **Closing the loop on engineering intervention** — She identified the retention risk proactively ("se van a ir todos"), scheduled 1:1s, and planned the alignment sequence. The coaching theme is: does the intervention produce a structural change, or does it remain diagnostic? Watch for follow-through to actual changes in how Alejandro and Jorge manage their teams.
 
-6. **Early intervention vs. escalation** — When issues arise between Juan and team members, her instinct has been to let the formal process handle it (compliance incident) rather than intervening early to mediate. The ask: come to Juan first, not to cover things up, but so they can course-correct together before situations escalate.
+6. **Early intervention vs. escalation** — When issues arise between Juan and team members, her instinct has been to let the formal process handle it (compliance incident) rather than intervening early to mediate. The ask: come to Juan first, not to cover things up, but so they can course-correct together before situations escalate. **Mar 4 example:** She announced company-wide office closure (@channel) without consulting Juan first; he asked her to consult before such decisions; she agreed for next time while holding her ground on substance (safety, insurance).
 
 ## Growth Arc (this quarter)
 
@@ -57,9 +57,11 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 - **Her own OKRs:** "Faltaba creo que uno que no te dió calor" — are her objectives fully defined and tracked?
 - **Emotional load:** She's absorbing Juan's frustration regularly. Watch for signs of fatigue or disengagement.
 - **Open question for next 1:1:** "Del plan con ingeniería — ¿qué cambió concretamente después de las 1:1 que tuviste? ¿Qué necesitás de mí que no estés teniendo?"
+- **Office closure (Mar 4):** She announced @channel without consulting first; agreed to consult next time. Watch whether major operational decisions get aligned before company-wide communication.
 
 ## Materials on file
 
+- Fellow: Sync Juan <> Malén — Mar 3, 2026 (note_id=8kGFQ0lq5A). VAR and high-performance teams definition; slide: [VAR & High Performance Teams](https://docs.google.com/presentation/d/16ljEdU97TJM6ImfoDPwG-ebIOZJjwjldJdJth6DdmyU/edit?slide=id.g39437610fbf_0_580).
 - Fellow: Sync Juan <> Malén — Jan 7, 2026 (note_id=65416355). Presencialidad, 2026-2028 planning, evaluations, Solcha.
 - Fellow: Colppy | Calibración reportes CEO — Jan 15, 2026 (note_id=66345837). Alejandro evaluation calibration.
 - Fellow: [Hold] Colppy | Calibraciones Performance — Jan 15, 2026 (note_id=66358033). Cross-team calibration.
@@ -69,5 +71,6 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 - Fellow: Colppy Weekly Coordinación — Feb 2, 2026 (note_id=67909437).
 - Fellow: Sync Juan <> Malén — Feb 4, 2026 (note_id=67973669). Objectives review, excellence workshop, team buildings.
 - Slack DM history: D090ZE81A8H — continuous from June 2025 through March 2026.
+- History: [2026-03-04 — Office closure announcement](history/2026-Q1/2026-03-04.md) — @channel without consulting first; Juan's feedback; her agreement to consult next time.
 - Granola meetings: Multiple sessions covering performance management, calibrations, benefits overhaul, engineering crisis, culture/values.
 - Job Description: Google Doc (pending import) — https://docs.google.com/document/d/1CbQzCl28u44qT3aQmhVNnAOFDt-9Y-Ov-sTTsCVEi-w/edit

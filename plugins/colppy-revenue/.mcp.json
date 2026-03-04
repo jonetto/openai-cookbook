@@ -1,3 +1,10 @@
 {
-  "mcpServers": {}
+  "mcpServers": {
+    "arca": {
+      "command": "/opt/homebrew/bin/python3.11",
+      "args": ["arca-prototype/backend/mcp_server.py"],
+      "cwd": "../.."
+    }
+  },
+  "_comment": "ARCA MCP provides: enrich_cuit (CUIT → registration date, province, activity, legal type), search_company_by_name (company name → CUIT from 3M+ RNS records)."
 }

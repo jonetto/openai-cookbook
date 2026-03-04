@@ -89,9 +89,17 @@ Ran three calibration meetings in one day:
 
 Designed a full workshop with three exercises: defining excellence by area (3-6 items each), defining the ideal "Colpier," and practical application with specific examples. Historical analysis showed performance reviews were used as "administrative checks" rather than real management tools.
 
+### VAR & High-Performance Teams Definition (Mar 3, 2026)
+
+Ongoing work with Juan to raise the vara (performance bar) and refine the high-performance teams definition. Slide deck: [VAR & High Performance Teams](https://docs.google.com/presentation/d/16ljEdU97TJM6ImfoDPwG-ebIOZJjwjldJdJth6DdmyU/edit?slide=id.g39437610fbf_0_580). Sync Juan <> Malén (note_id=8kGFQ0lq5A).
+
 ### Engineering Retention Crisis (Feb-Mar 2026)
 
 Identified escalating risk through 1:1s with engineering team. Dante leaving for MeLi was the trigger, but broader disconnection had been building. Orchestrated intervention: align with Juan first, then three-way with Alejandro, then broader team.
+
+### Office Closure Announcement (Mar 4, 2026)
+
+When the cowork reported fire/flood damage and the office was unusable, Malen sent a company-wide @channel message telling everyone not to come in — without consulting Juan first. Juan asked her to consult him before such announcements; with short notice, logistics (alternative workspace) could have been explored. Malen held her ground on substance (insurance coverage, electric risk, safety) but agreed to consult him first if there is a next time. See [2026-03-04 history](history/2026-Q1/2026-03-04.md).
 
 ### Benefits Overhaul (2026)
 

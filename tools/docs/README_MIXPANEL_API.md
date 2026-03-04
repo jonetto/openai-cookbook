@@ -111,7 +111,12 @@ Create a `.env` file in your project root with the following variables:
 MIXPANEL_USERNAME=your_service_account_username
 MIXPANEL_PASSWORD=your_service_account_password
 MIXPANEL_PROJECT_ID=your_project_id
+MIXPANEL_PROJECT_ID_STAGING=2797423
 ```
+**Project IDs:**
+- **Production (default):** 2201475 — use for normal queries
+- **Staging:** 2797423 — only for testing staging (e.g. app.stg.colppy.com validation). Do not switch default to staging.
+
 **Note:** Never commit your `.env` file to version control.
 
 ## Installation

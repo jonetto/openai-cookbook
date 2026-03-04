@@ -1,7 +1,6 @@
 {
   "env": {},
   "permissions": {
-    "defaultMode": "acceptEdits",
     "allow": [
       "Read(//Users/virulana/Library/**)",
       "Bash(npx:*)",
@@ -50,10 +49,13 @@
       "mcp__claude_ai_Intercom__search",
       "mcp__arca__*",
       "WebFetch",
-      "WebSearch"
+      "WebSearch",
+      "mcp__claude_ai_Gmail__gmail_search_messages",
+      "mcp__claude_ai_Intercom__fetch"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "defaultMode": "acceptEdits"
   },
   "outputStyle": "Explanatory"
 }

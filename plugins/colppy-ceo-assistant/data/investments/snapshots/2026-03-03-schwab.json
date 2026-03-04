@@ -1,81 +1,116 @@
 {
   "date": "2026-03-03",
-  "source": "schwab-online-playwright",
-  "extracted_at": "2026-03-03T03:43:00Z",
-  "schwab_last_updated": "2026-03-02T22:43:07-05:00",
+  "source": "schwab-online-playwright + order-status-screenshot",
+  "extracted_at": "2026-03-03T18:35:00Z",
+  "schwab_last_updated": "2026-03-03T13:35:00-05:00",
   "account": {
     "name": "Juan Ignacio Onetto",
     "broker": "Charles Schwab",
     "account_type": "Individual Brokerage",
     "account_ending": "359"
   },
-  "total_value": {
-    "all_accounts": 65468.55,
-    "investment_only": 15100.76,
-    "external_only": 50367.79,
-    "day_change_usd": 14999.76,
-    "day_change_pct": 29.72,
-    "one_month_change_usd": 14776.56,
-    "one_month_change_pct": 29.15
+  "positions": [
+    {
+      "ticker": "SGOV",
+      "name": "ISHARES 0-3 MONTH TREASURY BOND ETF",
+      "quantity": 353,
+      "breakdown": [
+        { "quantity": 1, "price_usd": 100.64, "date": "pre-2026-03-02", "note": "existing position" },
+        { "quantity": 53, "price_usd": 100.38, "date": "2026-03-02", "note": "pending order filled 03/03" },
+        { "quantity": 299, "price_usd": 100.395, "date": "2026-03-03", "order_number": "1005583900797", "note": "Citi Savings transfer, filled 1:35 PM ET", "price_improvement": 1.50 }
+      ],
+      "avg_cost_usd": 100.39,
+      "market_price_usd": 100.395,
+      "market_value_usd": 35439.44,
+      "cost_basis_usd": 35437.67
+    },
+    {
+      "ticker": "BRK/B",
+      "name": "BERKSHIRE HATHAWAY INC CL B",
+      "quantity": 16,
+      "price_usd": 476.41,
+      "fill_price_usd": 476.41,
+      "fill_date": "2026-03-03",
+      "order_placed": "2026-03-02T17:25:00-05:00",
+      "market_value_usd": 7622.56,
+      "cost_basis_usd": 7622.56
+    },
+    {
+      "ticker": "SCHD",
+      "name": "SCHWAB US DIVIDEND EQUITY ETF",
+      "quantity": 62,
+      "estimated_price_usd": 31.87,
+      "fill_date": "2026-03-03",
+      "order_placed": "2026-03-02",
+      "market_value_usd": 1975.94,
+      "cost_basis_usd": 1975.94,
+      "note": "fill price estimated from pending order"
+    }
+  ],
+  "cash": {
+    "estimated_usd": 230,
+    "note": "approximate remaining after all fills"
   },
-  "brokerage": {
-    "cash": 15000.36,
-    "positions": [
-      {
-        "ticker": "SGOV",
-        "name": "ISHARES 0 TO 3 MNTH TREASURY BND ETF",
-        "quantity": 1,
-        "price_usd": 100.40,
-        "market_value_usd": 100.40,
-        "day_change_usd": 0.02,
-        "cost_basis_usd": 100.64,
-        "gain_loss_usd": -0.24
-      }
-    ],
-    "total_value": 15100.76
+  "total_brokerage_value": {
+    "positions_usd": 45037.94,
+    "cash_usd": 230,
+    "total_usd": 45267.94
   },
-  "pending_orders": {
-    "note": "Market orders placed 2026-03-02 post-market, expected fill 2026-03-03 at open",
-    "orders": [
-      {
-        "ticker": "BRK/B",
-        "action": "BUY",
-        "quantity": 16,
-        "estimated_price": 480.77,
-        "estimated_value": 7692.32
-      },
-      {
-        "ticker": "SGOV",
-        "action": "BUY",
-        "quantity": 53,
-        "estimated_price": 100.38,
-        "estimated_value": 5320.14
-      },
-      {
-        "ticker": "SCHD",
-        "action": "BUY",
-        "quantity": 62,
-        "estimated_price": 31.87,
-        "estimated_value": 1975.94
-      }
-    ]
-  },
+  "orders_filled": [
+    {
+      "ticker": "SGOV",
+      "action": "BUY",
+      "quantity": 299,
+      "fill_price": 100.395,
+      "total": 30018.11,
+      "order_number": "1005583900797",
+      "price_improvement": 1.50,
+      "filled_at": "2026-03-03T13:35:00-05:00",
+      "source": "screenshot"
+    },
+    {
+      "ticker": "BRK/B",
+      "action": "BUY",
+      "quantity": 16,
+      "fill_price": 476.41,
+      "total": 7622.56,
+      "filled_at": "2026-03-03",
+      "created_at": "2026-03-02T17:25:00-05:00",
+      "source": "screenshot"
+    },
+    {
+      "ticker": "SGOV",
+      "action": "BUY",
+      "quantity": 53,
+      "fill_price": 100.38,
+      "total": 5320.14,
+      "filled_at": "2026-03-03",
+      "note": "from Mar 2 pending order, estimated fill"
+    },
+    {
+      "ticker": "SCHD",
+      "action": "BUY",
+      "quantity": 62,
+      "fill_price": 31.87,
+      "total": 1975.94,
+      "filled_at": "2026-03-03",
+      "note": "from Mar 2 pending order, estimated fill"
+    }
+  ],
   "external_accounts": [
     {
       "name": "Checking Account",
       "institution": "Citibank",
       "account_ending": "7651",
       "balance_usd": 198.41,
-      "last_updated": "2026-03-03 (Citi screenshot)",
-      "note": "Confirmed matches Schwab linked view"
+      "note": "unchanged"
     },
     {
       "name": "Savings Account",
       "institution": "Citibank",
       "account_ending": "7677",
-      "balance_usd": 35169.38,
-      "last_updated": "2026-03-03 (Citi screenshot)",
-      "note": "Schwab showed $50,169.38 (stale, pre-$15K wire). Actual post-wire: $35,169.38"
+      "balance_usd": 5000,
+      "note": "~$30K transferred to Schwab via ACH MoneyLink on 2026-03-03"
     }
   ]
 }
