@@ -1057,10 +1057,11 @@ async def search_invoices(
 
 @mcp.tool()
 async def enrich_cuit(cuit: str) -> dict:
-    """Enrich a CUIT with data from the RNS open dataset (3M+ Argentine companies).
+    """Enrich a CUIT using the RNS open dataset only (1.24M Argentine companies).
 
     Returns: incorporation date, province, legal type (SRL/SA/SAS), business activity.
-    Useful for lead qualification, scoring, and understanding a company's profile.
+    Data source: RNS (Registro Nacional de Sociedades, datos.jus.gob.ar).
+    This tool does NOT call AFIP, TusFacturas, or any external paid API.
 
     Args:
         cuit: CUIT number (11 digits, with or without dashes)
