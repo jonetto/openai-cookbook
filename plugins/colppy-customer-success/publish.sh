@@ -12,11 +12,11 @@ ZIP_NAME="colppy-customer-success-plugin-full.zip"
 mkdir -p "$OUTPUT_DIR"
 
 echo "Building plugin zip..."
-cd "$PLUGINS_DIR"
-zip -r "$OUTPUT_DIR/$ZIP_NAME" colppy-customer-success \
+cd "$SCRIPT_DIR"
+zip -r "$OUTPUT_DIR/$ZIP_NAME" . \
   -x "*.git*" \
-  -x "colppy-customer-success/publish.sh" \
+  -x "./publish.sh" \
   -x "*.DS_Store" \
-  -x "colppy-customer-success/node_modules/*" \
-  -x "colppy-customer-success/mcp/node_modules/*"
+  -x "./node_modules/*" \
+  -x "./mcp/node_modules/*"
 echo "Created: $OUTPUT_DIR/$ZIP_NAME"

@@ -12,10 +12,10 @@ ZIP_NAME="colppy-revenue-plugin-full.zip"
 mkdir -p "$OUTPUT_DIR"
 
 echo "Building plugin zip..."
-cd "$PLUGINS_DIR"
-zip -r "$OUTPUT_DIR/$ZIP_NAME" colppy-revenue \
+cd "$SCRIPT_DIR"
+zip -r "$OUTPUT_DIR/$ZIP_NAME" . \
   -x "*.git*" \
-  -x "colppy-revenue/publish.sh" \
+  -x "./publish.sh" \
   -x "*.DS_Store" \
-  -x "colppy-revenue/tools/*"
+  -x "./tools/*"
 echo "Created: $OUTPUT_DIR/$ZIP_NAME"

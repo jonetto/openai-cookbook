@@ -44,9 +44,9 @@ else
 fi
 
 echo "Building plugin zip..."
-cd "$PLUGINS_DIR"
-zip -r "$OUTPUT_DIR/$ZIP_NAME" colppy-revops \
+cd "$SCRIPT_DIR"
+zip -r "$OUTPUT_DIR/$ZIP_NAME" . \
   -x "*.git*" \
-  -x "colppy-revops/publish.sh" \
+  -x "./publish.sh" \
   -x "*.DS_Store"
 echo "Created: $OUTPUT_DIR/$ZIP_NAME"

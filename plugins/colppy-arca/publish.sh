@@ -12,9 +12,9 @@ ZIP_NAME="colppy-arca-plugin-full.zip"
 mkdir -p "$OUTPUT_DIR"
 
 echo "Building plugin zip..."
-cd "$PLUGINS_DIR"
-zip -r "$OUTPUT_DIR/$ZIP_NAME" colppy-arca \
+cd "$SCRIPT_DIR"
+zip -r "$OUTPUT_DIR/$ZIP_NAME" . \
   -x "*.git*" \
-  -x "colppy-arca/publish.sh" \
+  -x "./publish.sh" \
   -x "*.DS_Store"
 echo "Created: $OUTPUT_DIR/$ZIP_NAME"
