@@ -13,8 +13,20 @@ This plugin bundles two MCP servers (`reconciliation` and `hubspot-analysis`) wi
 | SMB funnel analysis | `run_smb_mql_funnel` |
 | Accountant funnel analysis | `run_accountant_mql_funnel` |
 | Scoring / contactability analysis | `run_high_score_analysis` or `run_mtd_scoring` |
-| CUIT enrichment (registration date, province, legal type) | `enrich_cuit` |
-| Company name → CUIT lookup (3M+ RNS records) | `search_company_by_name` |
+| CUIT enrichment (registration date, province, legal type) | `enrich_cuit` (local MCP) or remote API (see below) |
+| Company name → CUIT lookup (1.24M+ RNS records) | `search_company_by_name` (local MCP) or remote API (see below) |
+
+### RNS Remote API (works in Cowork / cloud sessions)
+
+When the ARCA MCP server is not available (e.g., in Claude Cowork), use the remote HTTP API:
+
+| Endpoint | URL |
+|----------|-----|
+| Enrich CUIT | `https://rns-cuit-enrichment.colppy-tools.workers.dev/enrich?cuit=30712461221` |
+| Search by name | `https://rns-cuit-enrichment.colppy-tools.workers.dev/search?q=colppy&limit=10` |
+| Health / info | `https://rns-cuit-enrichment.colppy-tools.workers.dev/` |
+
+Use `WebFetch` to call these endpoints. The API returns JSON with the same fields as the local MCP tools. Search supports optional `&provincia=Buenos+Aires` filter.
 
 ### Do NOT bypass the reconciliation pipeline
 

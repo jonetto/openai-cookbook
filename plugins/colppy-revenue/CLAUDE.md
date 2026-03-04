@@ -37,11 +37,23 @@ This plugin includes the **ARCA MCP server** for company lookups from Argentina'
 | `enrich_cuit` | CUIT → registration date, province, legal type, activity | "Enrich CUIT 30-71234567-9" |
 | `search_company_by_name` | Company name → CUIT + details (autocomplete, <100ms) | "Search company Panadería Martinez" |
 
-**`enrich_cuit` returns:** `fecha_contrato_social` (incorporation date), `provincia`, `tipo_societario` (SRL/SA/SAS), `actividad_descripcion`, `razon_social`. Combines AFIP live data + RNS open dataset.
+**`enrich_cuit` returns:** `fecha_contrato_social` (incorporation date), `provincia`, `tipo_societario` (SRL/SA/SAS), `actividad_descripcion`, `razon_social`.
 
 **`search_company_by_name` supports:** multi-token search, optional `provincia` filter, relevance scoring. First call ~12s (dataset load), then <100ms.
 
 **Use for scoring:** Business age (from `fecha_contrato_social`) is a validated lead quality signal with a 5.1pp conversion spread.
+
+### RNS Remote API (works in Cowork / cloud sessions)
+
+When the ARCA MCP server is not available (e.g., in Claude Cowork), use the remote HTTP API:
+
+| Endpoint | URL |
+|----------|-----|
+| Enrich CUIT | `https://rns-cuit-enrichment.colppy-tools.workers.dev/enrich?cuit=30712461221` |
+| Search by name | `https://rns-cuit-enrichment.colppy-tools.workers.dev/search?q=colppy&limit=10` |
+| Health / info | `https://rns-cuit-enrichment.colppy-tools.workers.dev/` |
+
+Use `WebFetch` to call these endpoints. The API returns JSON with the same fields as the local MCP tools. Search supports optional `&provincia=Buenos+Aires` filter.
 
 ### External connectors
 

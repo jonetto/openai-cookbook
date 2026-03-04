@@ -172,3 +172,6 @@ node_modules/
 
 # Firecrawl web scraping cache (temporary artifacts)
 .firecrawl/
+tools/scripts/rns_datasets/rns.sqlite
+cloudflare-rns/node_modules/
+cloudflare-rns/chunks/

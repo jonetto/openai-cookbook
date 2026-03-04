@@ -1,0 +1,8 @@
+name = "rns-cuit-enrichment"
+main = "src/index.ts"
+compatibility_date = "2024-09-23"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rns-cuit-enrichment"
+database_id = "b38bec7f-e45d-4c3f-9c72-ef4f13b38f59"
