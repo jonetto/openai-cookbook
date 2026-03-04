@@ -22,7 +22,7 @@ Reconciliation (3):
   - search_invoices: LLM-powered natural language search
 
 CUIT Enrichment (2):
-  - enrich_cuit: AFIP live + RNS dataset combined lookup
+  - enrich_cuit: RNS dataset lookup (registration date, province, legal type)
   - search_company_by_name: name-to-CUIT from 1.24M companies
 
 Banco Galicia (1):
@@ -1057,13 +1057,10 @@ async def search_invoices(
 
 @mcp.tool()
 async def enrich_cuit(cuit: str) -> dict:
-    """Enrich a CUIT with data from AFIP (live API) and RNS (open dataset).
+    """Enrich a CUIT with data from the RNS open dataset (3M+ Argentine companies).
 
-    Combines two sources:
-    - AFIP live lookup via TusFacturas.app: tax status, address, economic activities
-    - RNS dataset (3M+ records): incorporation date, legal type, province
-
-    Useful for lead qualification, KYC, and understanding a company's profile.
+    Returns: incorporation date, province, legal type (SRL/SA/SAS), business activity.
+    Useful for lead qualification, scoring, and understanding a company's profile.
 
     Args:
         cuit: CUIT number (11 digits, with or without dashes)
@@ -1073,37 +1070,6 @@ async def enrich_cuit(cuit: str) -> dict:
         return {"error": f"Invalid CUIT: must be 11 digits, got {len(clean)}"}
 
     result: dict[str, Any] = {"cuit": clean}
-
-    # AFIP live lookup (sync, wrap in thread)
-    try:
-        from afip_cuit_lookup import AFIPCUITLookupService
-        service = AFIPCUITLookupService()
-        afip_info = await asyncio.to_thread(service.lookup_cuit, clean)
-        if afip_info and not afip_info.error:
-            result["afip"] = {
-                "razon_social": afip_info.razon_social,
-                "condicion_impositiva": afip_info.condicion_impositiva,
-                "estado": afip_info.estado,
-                "direccion": afip_info.direccion,
-                "localidad": afip_info.localidad,
-                "provincia": afip_info.provincia,
-                "actividades": [
-                    {
-                        "descripcion": a.descripcion,
-                        "id": a.id,
-                        "periodo": a.periodo,
-                    }
-                    for a in afip_info.actividades
-                ],
-            }
-        elif afip_info and afip_info.error:
-            result["afip"] = {"error": True, "errores": afip_info.errores}
-        else:
-            result["afip"] = {"error": True, "errores": ["CUIT not found or API unavailable"]}
-    except ValueError as e:
-        result["afip"] = {"error": True, "errores": [str(e)]}
-    except Exception as e:
-        result["afip"] = {"error": True, "errores": [f"AFIP lookup failed: {e}"]}
 
     # RNS dataset lookup (sync, wrap in thread)
     try:
