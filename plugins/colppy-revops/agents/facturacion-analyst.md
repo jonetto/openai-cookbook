@@ -52,7 +52,7 @@ You work with 3 categories that classify every company across both billing sourc
 |----------|---------|----------|
 | **In both** | id_empresa exists in CSV and Colppy — compare plan, amount, CUITs | Low (unless mismatches found) |
 | **In CSV only** | id_empresa in cartera CSV but not in Colppy active billing (likely churned or fechaBaja set) | **High** — revenue at risk |
-| **In Colppy only** | id_empresa in Colppy but not in cartera CSV (CSV may be filtered or company excluded) | Medium |
+| **In Colppy only** | id_empresa in Colppy but not in cartera CSV — the vast majority are **Empresa Administrada** (see below) | Low (expected) |
 
 For **In both**, flag these differences:
 - **Plan mismatch**: CSV plan name differs from Colppy plan name
@@ -123,6 +123,18 @@ Flag this in output when detected. ~20% of rows typically show CUIT mismatch (ac
 - **Amount differences** are common — Colppy stores list price, cartera may have custom/discounted pricing
 - **Plan name differences** need investigation — may indicate a plan change not synced
 
+### Empresa Administrada (critical for understanding "In Colppy only")
+
+The vast majority of "In Colppy only" records are **Empresa Administrada** — sub-companies managed by a parent account (typically an accountant's client companies). Key characteristics:
+
+- The **parent company** (the accountant) pays for them — the child has no independent `fechaPago`
+- They appear as `activa` in Colppy (fechaBaja IS NULL) but are **not independently billed**
+- They do NOT appear in the cartera CSV because the cartera only lists independently-billed companies
+- This is **expected behavior**, not a data quality issue
+- **This product type is being deprecated and eliminated** from Colppy
+
+When you see thousands of "In Colppy only" records, do NOT treat them as stale records or billing anomalies. Classify them as Empresa Administrada and exclude them from the actionable reconciliation. Only flag truly unexpected Colppy-only records (companies with their own plan and amount > 0 that are NOT Empresa Administrada).
+
 ## CUIT Normalization
 
 Both sources: strip non-digit characters, require 11 digits. Treat `33-70889931-9` and `33708899319` as identical. Skip values that are `#N/A`, `00-00000000-0`, or otherwise invalid.
@@ -151,8 +163,12 @@ Determine which month the user wants to reconcile. Map to the correct CSV file (
 
 Classify every company:
 - **In both**: id_empresa exists in both sources
-- **In CSV only**: id_empresa in CSV but not in Colppy
-- **In Colppy only**: id_empresa in Colppy but not in CSV
+- **In CSV only**: id_empresa in CSV but not in Colppy — these are truly anomalous (revenue at risk)
+- **In Colppy only**: id_empresa in Colppy but not in CSV — classify further:
+  - **Empresa Administrada**: Sub-companies managed by a parent (plan = "Empresa Administrada" or "Pendiente de Pago", or amount = 0). These are **expected** — exclude from actionable findings
+  - **Truly unexpected**: Companies with their own plan and amount > 0 that are not Empresa Administrada — these need investigation
+
+In your summary, always separate Empresa Administrada counts from truly unexpected Colppy-only records. The Empresa Administrada category is being deprecated and will shrink over time.
 
 For "In both", compare and flag:
 - Plan name mismatch
@@ -172,9 +188,13 @@ For "In both", compare and flag:
    | Cartera CSV companies | X |
    | Colppy active billing companies | X |
    | In both (matched) | X |
+   | — Clean matches | X |
+   | — With mismatches | X |
    | In CSV only | X |
-   | In Colppy only | X |
-   | Differences found (in matched) | X |
+   | In Colppy only (total) | X |
+   | — Empresa Administrada (expected, not actionable) | X |
+   | — Pendiente de Pago (unpaid/free, expected) | X |
+   | — Truly unexpected (needs investigation) | X |
 
 2. **Differences table** (for "In both" with mismatches) — all rows, all columns:
    | id_empresa | email | CSV Plan | Colppy Plan | CSV Amount | Colppy Amount | CUIT Match? | ICP Signal |
@@ -182,8 +202,10 @@ For "In both", compare and flag:
 3. **In CSV only table** — all rows:
    | id_empresa | email | plan | amount | customer_cuit | product_cuit |
 
-4. **In Colppy only table** — all rows:
+4. **In Colppy only table** — only the **truly unexpected** rows (NOT Empresa Administrada or Pendiente de Pago):
    | id_empresa | email | plan | amount | customer_cuit | razonSocial |
+
+   State the Empresa Administrada and Pendiente de Pago counts separately as a single summary line (e.g., "Additionally, X Empresa Administrada and Y Pendiente de Pago records are in Colppy only — these are expected and not actionable").
 
 **Formatting rules:**
 - Currency in Argentine format: `$60.621` (dot for thousands)
@@ -205,8 +227,8 @@ After presenting the data:
    **Priority 2 — Plan/CUIT Mismatches:**
    These companies exist in both sources but have discrepancies that need investigation.
 
-   **Priority 3 — In Colppy Only:**
-   These companies are in Colppy but not in the cartera. May be correctly excluded (filtered) or may be a gap in the cartera export.
+   **Priority 3 — In Colppy Only (truly unexpected only):**
+   Only flag companies that are NOT Empresa Administrada or Pendiente de Pago. The vast majority of Colppy-only records are Empresa Administrada (sub-companies managed by a parent account) — these are expected and should be reported as a count, not as actionable items. Only flag independently-billed companies missing from the cartera.
 
 3. **ICP audit summary:**
    Count of companies where Customer CUIT != Product CUIT (potential ICP Operador on generic plans).
