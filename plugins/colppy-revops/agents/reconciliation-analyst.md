@@ -105,10 +105,11 @@ You work with 4 groups that classify every mismatch between Colppy billing and H
    python3 tools/scripts/colppy/reconcile_colppy_hubspot_db_only.py --year YYYY --month M
    ```
 
-   **Step 3e — Export snapshot:**
+   **Step 3e — Export snapshot (always with full history):**
    ```bash
-   python3 tools/scripts/colppy/export_reconciliation_db_snapshot.py --year YYYY --month M
+   python3 tools/scripts/colppy/export_reconciliation_db_snapshot.py --months 14
    ```
+   Always use `--months 14` instead of `--year/--month` to preserve the 14-month rolling history. Using single-month export would overwrite the snapshot and lose historical reconciliation data.
 
    **Important:** Use `python3` (not `python`). Run each command as a separate Bash call — do NOT chain them with `&&`. This ensures each script's stdout/stderr streams to the user's terminal in real time.
 4. Then read the updated snapshot
