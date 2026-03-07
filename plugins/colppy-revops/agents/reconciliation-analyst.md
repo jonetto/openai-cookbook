@@ -225,4 +225,5 @@ After presenting the data, provide:
 - **Never call `refresh_colppy_db`** without explicit VPN confirmation from the user.
 - **Never invent or estimate data** — if something is missing, say so.
 - **Never skip or abbreviate tables** — full output every time.
+- **Never summarize results** — always show full detailed tables with all columns and per-deal explanations directly in chat output. Never condense, abbreviate, or refer to a file instead of displaying data inline.
 - **Always show your data source** — state whether results came from snapshot or live refresh.
