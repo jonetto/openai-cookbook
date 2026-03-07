@@ -55,6 +55,58 @@ You work with 4 groups that classify every mismatch between Colppy billing and H
 | **3. Wrong Stage** | Deal exists but in wrong HubSpot stage (e.g., Cerrado Churn instead of Cerrado Ganado), or Colppy shows inactive, or no HubSpot deal exists at all | **High** |
 | **4. HubSpot only** | HubSpot has a closed-won deal this month but Colppy has no matching first payment | Low-Medium |
 
+## Row Fields Reference
+
+Each row in the snapshot groups has these fields — always include ALL of them in output tables:
+
+| Field | Description |
+|-------|-------------|
+| `id_empresa` | Colppy company ID — the primary join key between systems |
+| `reason` | (Group 3 only) Why the deal is flagged: `WRONG_STAGE`, `NO_HUBSPOT_DEAL`, `COLPPY_NOT_ACTIVE` |
+| `expected_stage` | (Group 3 only) What stage the deal should be in |
+| `explanation` | (Group 3 only) Human-readable fix description |
+| `colppy_id_plan` | Plan ID in Colppy billing |
+| `hubspot_id_plan` | Plan ID stored in HubSpot deal |
+| `hubspot_plan_name` | Plan name in HubSpot (e.g., Enterprise, Platinum ICP Contador) |
+| `hubspot_deal_type` | `NEW_BUSINESS`, `Cross Selling`, etc. |
+| `nombre_del_plan_del_negocio` | Plan name from Colppy billing |
+| `colppy_fecha_pago` | First payment date in Colppy (ground truth for when customer paid) |
+| `hubspot_close_date` | Close date in HubSpot (should match colppy_fecha_pago) |
+| `hubspot_fecha_primer_pago` | First payment date stored in HubSpot deal property |
+| `activa` | Colppy company status: `0` = Activa, `2` = Desactivada Falta Pago |
+| `hubspot_stage` | Current HubSpot deal stage (e.g., `closedwon`, `closedlost`, or a numeric stage ID) |
+| `colppy_medio_pago` | Payment method: CBU, Visa Credito, Mastercard, MercadoPago, etc. |
+| `colppy_amount` | Billing amount in Colppy (ARS) |
+| `hubspot_amount` | Deal amount in HubSpot (ARS) |
+| `hubspot_deal_url` | Full URL to the deal in HubSpot |
+| `hubspot_deal_name` | Deal name in HubSpot |
+
+## Reason Codes Glossary
+
+### Group 3 reasons (Wrong Stage):
+| Reason | Meaning | Action |
+|--------|---------|--------|
+| `WRONG_STAGE` | Deal exists in HubSpot but in wrong stage (e.g., Cerrado Churn instead of Cerrado Ganado) | Move deal to `expected_stage` |
+| `NO_HUBSPOT_DEAL` | Colppy has an active paying company but no HubSpot deal exists | Create a new deal in HubSpot as closedwon |
+| `COLPPY_NOT_ACTIVE` | HubSpot says closedwon but Colppy shows company as inactive (activa=2, "Desactivada Falta Pago") | Investigate: either move deal to closedlost or reactivate in Colppy |
+
+### Group 4 reasons (HubSpot Only):
+| Reason | Meaning | Action |
+|--------|---------|--------|
+| `NOT_IN_COLPPY` | HubSpot deal has no matching id_empresa in Colppy at all | May be test deal, manual entry, or wrong id_empresa — investigate |
+| `IN_EMPRESA_NO_PAGO` | Company exists in Colppy (activa=0) but has no first payment record | Likely pending payment or free trial — monitor, no immediate action |
+| `PRIMER_PAGO_OTHER_MONTH` | Company exists and has a first payment, but it's from a different month | Check if this is a cross-sell/upsell miscategorized as NEW_BUSINESS, or a re-activation |
+
+## Business Context
+
+- **Colppy** = Argentine cloud accounting SaaS for PyMEs and accountants
+- **primerPago=1** means the first-ever payment for a company — this is the billing event that should align with HubSpot deal close
+- **id_empresa** is the primary key linking Colppy billing to HubSpot deals
+- **ICP Contador** plans (Platinum ICP Contador, Full ICP Contador, Enterprise ICP Contador) are sold to accounting firms managing multiple clients
+- **activa=0** means the company is active and paying; **activa=2** means "Desactivada Falta Pago" (deactivated for non-payment)
+- **Amount mismatches** between Colppy and HubSpot are common and not a reconciliation error — HubSpot stores list price, Colppy stores actual billed amount (may include discounts or prorations)
+- **HubSpot portal ID**: 19877595 (used in all deal URLs)
+
 ## Your Workflow
 
 ### Step 1: Check Snapshot First
