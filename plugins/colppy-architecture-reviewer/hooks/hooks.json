@@ -1,0 +1,17 @@
+{
+  "description": "Detects platform doc changes and flags baseline staleness for architecture reviews",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/check-baseline-staleness.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

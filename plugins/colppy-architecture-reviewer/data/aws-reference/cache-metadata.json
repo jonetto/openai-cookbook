@@ -1,0 +1,41 @@
+{
+  "last_refreshed": "2026-03-08",
+  "sources": [
+    {
+      "file": "well-architected-pillars.md",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "sub_pages": [
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/oe-design-principles.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/rel-dp.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/perf-dp.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-dp.html",
+        "https://docs.aws.amazon.com/wellarchitected/latest/framework/sus-design-principles.html"
+      ],
+      "fetched": "2026-03-08"
+    },
+    {
+      "file": "rds-engine-lifecycle.md",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraMySQLReleaseNotes/AuroraMySQL.release-calendars.html",
+      "sub_pages": [
+        "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraPostgreSQLReleaseNotes/aurorapostgresql-release-calendar.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MariaDB.Concepts.VersionMgmt.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/MySQL.Concepts.VersionMgmt.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.Aurora_Fea_Regions_DB-eng.Feature.ServerlessV2.html"
+      ],
+      "fetched": "2026-03-08"
+    },
+    {
+      "file": "service-deprecations.md",
+      "url": "https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html",
+      "sub_pages": [
+        "https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html",
+        "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.VersionPolicy.html"
+      ],
+      "fetched": "2026-03-08"
+    }
+  ],
+  "refresh_log": [
+    { "date": "2026-03-08", "type": "full", "trigger": "initial-seed" }
+  ]
+}

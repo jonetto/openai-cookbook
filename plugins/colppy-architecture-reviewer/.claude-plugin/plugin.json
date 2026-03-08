@@ -1,0 +1,8 @@
+{
+  "name": "colppy-architecture-reviewer",
+  "version": "1.0.0",
+  "description": "Validates engineering architecture proposals against AWS best practices, service deprecation status, and current system architecture. Produces actionable gap analyses.",
+  "author": {
+    "name": "Colppy"
+  }
+}
