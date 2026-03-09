@@ -1,0 +1,8 @@
+{
+  "name": "colppy-ceo-assistant",
+  "version": "1.0.0",
+  "description": "CEO Assistant for Juan Ignacio Onetto: daily portfolio alert scanning Gmail, market news, and earnings — delivers actionable Slack DM. Includes portfolio snapshot with positions across Galicia, Schwab, Allaria, and Citi.",
+  "author": {
+    "name": "Colppy"
+  }
+}
