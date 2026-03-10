@@ -41,7 +41,7 @@ if [[ -z "$code_files" ]]; then
 fi
 
 # --- Discovery ---
-EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli"
+EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli .claude"
 exclude_args=()
 for dir in $EXCLUDE_DIRS; do
   exclude_args+=("--exclude-dir=$dir")

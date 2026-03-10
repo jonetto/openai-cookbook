@@ -6,11 +6,16 @@ set -uo pipefail
 # PostToolUse hook: detect git commits and discover related docs.
 # Reads tool_input JSON from stdin. Exits silently for non-commit commands.
 
+# Escape string for use as literal in grep BRE (avoids . * etc. matching as regex)
+escape_grep_bre() {
+  printf '%s' "$1" | sed 's/\\/\\\\/g; s/[.*^$[\]]/\\&/g'
+}
+
 input=$(cat)
 command=$(echo "$input" | jq -r '.tool_input.command // empty')
 
-# Gate: only proceed if this was a git commit
-if ! echo "$command" | grep -qE '\bgit\s+commit\b'; then
+# Gate: only proceed if this was a git commit (allow leading whitespace; align with plan)
+if ! echo "$command" | grep -qE '^\s*git\s+commit\b'; then
   exit 0
 fi
 
@@ -35,7 +40,7 @@ if [[ -z "$code_files" ]]; then
 fi
 
 # Directories to exclude from search
-EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli"
+EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli .claude"
 exclude_args=()
 for dir in $EXCLUDE_DIRS; do
   exclude_args+=("--exclude-dir=$dir")
@@ -48,10 +53,12 @@ while IFS= read -r file; do
 
   base=$(basename "$file")
   dirpath=$(dirname "$file")
+  base_esc=$(escape_grep_bre "$base")
+  dirpath_esc=$(escape_grep_bre "$dirpath/")
 
   # Search .md files for references to this filename or directory
   matches=$(grep -rl --include="*.md" "${exclude_args[@]}" \
-    -e "$base" -e "$dirpath/" . 2>/dev/null || true)
+    -e "$base_esc" -e "$dirpath_esc" . 2>/dev/null || true)
   candidates="$candidates"$'\n'"$matches"
 
   # Check for sibling README.md
@@ -75,7 +82,8 @@ if [[ -d "$memory_dir" ]]; then
   while IFS= read -r file; do
     [[ -z "$file" ]] && continue
     base=$(basename "$file")
-    mem_matches=$(grep -rl --include="*.md" -e "$base" "$memory_dir"/*/memory/ 2>/dev/null || true)
+    base_esc=$(escape_grep_bre "$base")
+    mem_matches=$(grep -rl --include="*.md" -e "$base_esc" "$memory_dir"/*/memory/ 2>/dev/null || true)
     candidates="$candidates"$'\n'"$mem_matches"
   done <<< "$code_files"
 fi
@@ -87,7 +95,8 @@ candidates=$(echo "$candidates" | sed 's|^\./||' | sort -u | sed '/^$/d')
 if [[ -n "$changed_docs" ]]; then
   while IFS= read -r doc; do
     [[ -z "$doc" ]] && continue
-    candidates=$(echo "$candidates" | grep -v "^${doc}$" || true)
+    doc_esc=$(escape_grep_bre "$doc")
+    candidates=$(echo "$candidates" | grep -v "^${doc_esc}$" || true)
   done <<< "$changed_docs"
 fi
 
