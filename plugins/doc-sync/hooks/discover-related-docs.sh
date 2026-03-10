@@ -13,7 +13,13 @@ escape_grep_bre() {
   printf '%s' "$1" | sed 's/\\/\\\\/g; s/[.*^$[\]]/\\&/g'
 }
 
+# DEBUG: log that the hook was invoked
+echo "[$(date)] hook invoked" >> /tmp/doc-sync-debug.log
+
 input=$(cat)
+
+# DEBUG: log the input received
+echo "[$(date)] input: $input" >> /tmp/doc-sync-debug.log
 command=$(echo "$input" | jq -r '.tool_input.command // empty')
 
 # Gate: only proceed if this was a git commit (not anchored — must match chained commands)
@@ -133,5 +139,10 @@ Review each doc against the commit diff (git show HEAD). For each:
 
 Present all proposed changes for user approval before editing."
 
-# Output systemMessage JSON using jq to properly escape special characters
-jq -n --arg msg "$msg_body" '{"systemMessage": $msg}' || exit 0
+# DEBUG: log the output before sending
+echo "[$(date)] producing output" >> /tmp/doc-sync-debug.log
+
+# Output JSON: try both systemMessage (plugin format) and additionalContext
+output=$(jq -n --arg msg "$msg_body" '{"systemMessage": $msg}')
+echo "[$(date)] output: $output" >> /tmp/doc-sync-debug.log
+printf '%s\n' "$output" || exit 0
