@@ -10,7 +10,7 @@ input=$(cat)
 command=$(echo "$input" | jq -r '.tool_input.command // empty')
 
 # Gate: only proceed if this was a git commit
-if ! echo "$command" | grep -qE '^\s*git\s+commit\b'; then
+if ! echo "$command" | grep -qE '\bgit\s+commit\b'; then
   exit 0
 fi
 
@@ -36,9 +36,9 @@ fi
 
 # Directories to exclude from search
 EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli"
-exclude_args=""
+exclude_args=()
 for dir in $EXCLUDE_DIRS; do
-  exclude_args="$exclude_args --exclude-dir=$dir"
+  exclude_args+=("--exclude-dir=$dir")
 done
 
 candidates=""
@@ -50,7 +50,7 @@ while IFS= read -r file; do
   dirpath=$(dirname "$file")
 
   # Search .md files for references to this filename or directory
-  matches=$(grep -rl --include="*.md" $exclude_args \
+  matches=$(grep -rl --include="*.md" "${exclude_args[@]}" \
     -e "$base" -e "$dirpath/" . 2>/dev/null || true)
   candidates="$candidates"$'\n'"$matches"
 
@@ -123,4 +123,4 @@ Review each doc against the commit diff (git show HEAD). For each:
 Present all proposed changes for user approval before editing."
 
 # Output systemMessage JSON using jq to properly escape special characters
-jq -n --arg msg "$msg_body" '{"systemMessage": $msg}'
+jq -n --arg msg "$msg_body" '{"systemMessage": $msg}' || exit 0
