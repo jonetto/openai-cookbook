@@ -133,5 +133,10 @@ Review each doc against the commit diff (git show HEAD). For each:
 
 Present all proposed changes for user approval before editing."
 
-# Output as additionalContext so Claude receives the message
-jq -n --arg msg "$msg_body" '{"additionalContext": $msg}' || exit 0
+# Output as hookSpecificOutput with additionalContext for PostToolUse
+jq -n --arg msg "$msg_body" '{
+  "hookSpecificOutput": {
+    "hookEventName": "PostToolUse",
+    "additionalContext": $msg
+  }
+}' || exit 0
