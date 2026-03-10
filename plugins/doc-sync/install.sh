@@ -6,6 +6,17 @@ REPO_ROOT="$(git -C "$SCRIPT_DIR" rev-parse --show-toplevel)"
 HOOK_SRC="$SCRIPT_DIR/git-hooks/post-commit"
 HOOK_DST="$REPO_ROOT/.git/hooks/post-commit"
 
+# Support --check flag: verify installation status without modifying anything
+if [[ "${1:-}" == "--check" ]]; then
+  if [[ -f "$HOOK_DST" ]] && grep -q "doc-sync" "$HOOK_DST" 2>/dev/null; then
+    echo "Doc Sync: post-commit hook is installed at $HOOK_DST"
+    exit 0
+  else
+    echo "Doc Sync: post-commit hook is NOT installed"
+    exit 1
+  fi
+fi
+
 echo "Doc Sync v1.1.0 — Installing git post-commit hook"
 
 # Check prerequisites
