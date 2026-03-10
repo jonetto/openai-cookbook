@@ -1,0 +1,8 @@
+{
+  "name": "doc-sync",
+  "version": "1.0.0",
+  "description": "Discovers and proposes documentation updates after git commits. Finds .md files that reference changed code and flags them for review.",
+  "author": {
+    "name": "Colppy"
+  }
+}
