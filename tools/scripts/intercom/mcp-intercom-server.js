@@ -18,9 +18,12 @@ import {
 
 import axios from 'axios';
 import fs from 'fs';
+import zlib from 'zlib';
+import os from 'os';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import dotenv from 'dotenv';
+import * as tar from 'tar';
 
 import {
   retryableRequest,
@@ -33,6 +36,10 @@ import {
   extractTags,
   buildConversationText,
   buildSearchQuery,
+  createContentDataExport,
+  getContentDataExportStatus,
+  downloadContentDataExport,
+  aggregateSeriesFromReceiptsCsv,
 } from './intercom-api-helpers.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -83,6 +90,7 @@ class IntercomMCPServer {
           case 'scan_customer_feedback': return await this.scanCustomerFeedback(args);
           case 'scan_full_text': return await this.scanFullText(args);
           case 'get_conversation_feedback': return await this.getConversationFeedback(args);
+          case 'get_intercom_series_metrics': return await this.getIntercomSeriesMetrics(args);
           default:
             throw new McpError(ErrorCode.MethodNotFound, `Unknown tool: ${name}`);
         }
@@ -524,6 +532,106 @@ class IntercomMCPServer {
       });
     } catch (error) {
       throw new McpError(ErrorCode.InternalError, `Feedback retrieval failed: ${error.message}`);
+    }
+  }
+
+  /**
+   * Fetch Series metrics via Content Data Export: create job, poll, download receipts CSV, aggregate.
+   */
+  async getIntercomSeriesMetrics(args) {
+    const {
+      from_date,
+      to_date = new Date().toISOString().split('T')[0],
+      poll_interval_seconds = 30,
+      max_wait_seconds = 600,
+    } = args;
+
+    try {
+      if (!process.env.INTERCOM_ACCESS_TOKEN) {
+        throw new Error('INTERCOM_ACCESS_TOKEN not found');
+      }
+
+      let jobId;
+      try {
+        const created = await createContentDataExport(this.intercomApi, from_date, to_date);
+        jobId = created.job_identifier;
+      } catch (err) {
+        if (err.response?.status === 429 && /pending.*export|rate limit.*export/i.test(String(err.response?.data))) {
+          throw new McpError(ErrorCode.InternalError, 'Another content export job is already running. Only one job per workspace is allowed. Try again later.');
+        }
+        throw err;
+      }
+
+      const pollIntervalMs = poll_interval_seconds * 1000;
+      const deadline = Date.now() + max_wait_seconds * 1000;
+      let status = 'pending';
+      let downloadUrl = null;
+
+      while (Date.now() < deadline) {
+        const res = await getContentDataExportStatus(this.intercomApi, jobId);
+        status = res.status;
+        downloadUrl = res.download_url || null;
+
+        if (status === 'completed' && downloadUrl) break;
+        if (status === 'no_data') {
+          return this._json({
+            success: true,
+            date_range: { from: from_date, to: to_date },
+            message: 'Export completed but no message data in range',
+            series: [],
+          });
+        }
+        if (status === 'failed' || status === 'canceled') {
+          throw new McpError(ErrorCode.InternalError, `Export job ${status}: ${jobId}`);
+        }
+        await new Promise((r) => setTimeout(r, pollIntervalMs));
+      }
+
+      if (status !== 'completed' || !downloadUrl) {
+        throw new McpError(ErrorCode.InternalError, `Export job did not complete within ${max_wait_seconds}s. Last status: ${status}. Job: ${jobId}`);
+      }
+
+      const fullDownloadUrl = downloadUrl.startsWith('http') ? downloadUrl : `${this.intercomApi.defaults.baseURL}${downloadUrl.startsWith('/') ? '' : '/'}${downloadUrl}`;
+      const gzipBuffer = await downloadContentDataExport(this.intercomApi, fullDownloadUrl);
+      let csvText;
+      try {
+        const decompressed = zlib.gunzipSync(gzipBuffer);
+        const head = decompressed.slice(0, 2000).toString('utf8');
+        if (head.includes('series_id') || head.includes('user_id')) {
+          csvText = decompressed.toString('utf8');
+        } else {
+          const tmpDir = join(os.tmpdir(), `intercom-export-${jobId}`);
+          fs.mkdirSync(tmpDir, { recursive: true });
+          const tarPath = join(tmpDir, 'export.tar');
+          fs.writeFileSync(tarPath, decompressed);
+          await tar.x({ file: tarPath, cwd: tmpDir });
+          const files = fs.readdirSync(tmpDir).filter((f) => f.startsWith('receipts_') && f.endsWith('.csv'));
+          if (files.length === 0) {
+            try { fs.rmSync(tmpDir, { recursive: true }); } catch (_) {}
+            return this._json({
+              success: true,
+              date_range: { from: from_date, to: to_date },
+              message: 'Export completed but no receipts CSV found in archive',
+              series: [],
+            });
+          }
+          csvText = fs.readFileSync(join(tmpDir, files[0]), 'utf8');
+          try { fs.rmSync(tmpDir, { recursive: true }); } catch (_) {}
+        }
+      } catch (e) {
+        throw new McpError(ErrorCode.InternalError, `Failed to parse export archive: ${e.message}`);
+      }
+
+      const { series } = aggregateSeriesFromReceiptsCsv(csvText, { fromDate: from_date, toDate: to_date });
+      return this._json({
+        success: true,
+        date_range: { from: from_date, to: to_date },
+        series,
+        note: 'Started = users with ≥1 message in period. Finished/Disengaged/Exited/Goal = counts in period (timestamps in range). Aligns with UI performance in period.',
+      });
+    } catch (error) {
+      if (error instanceof McpError) throw error;
+      throw new McpError(ErrorCode.InternalError, `Series metrics failed: ${error.message}`);
     }
   }
 

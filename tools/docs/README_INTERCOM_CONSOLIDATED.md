@@ -125,6 +125,22 @@ Analyze onboarding conversations (Primeros 90 días) for first-time-to-value (fi
 
 **`scan_full_text` returns all matches** — no cap. The cost is in fetching conversations; once fetched, all matches are returned. The `limit` parameter is deprecated and no longer used.
 
+#### 6. `get_intercom_series_metrics`
+
+**Fetch Series performance metrics** (Started, Finished, Disengaged, Exited) for a date range. The tool creates an Intercom Content Data Export job, polls until it completes, downloads the receipts CSV, and aggregates metrics by series. This is the programmatic way to get the same kind of data as the Series Performance Summary in the Intercom UI.
+
+**Parameters:**
+- `from_date` (required): Start date YYYY-MM-DD
+- `to_date` (optional): End date YYYY-MM-DD (defaults to today)
+- `poll_interval_seconds` (optional): Seconds between status checks (default: 30)
+- `max_wait_seconds` (optional): Max time to wait for the export job (default: 600)
+
+**Returns:** `series` array with `series_id`, `series_title`, `started`, `finished`, `disengaged`, `exited` per series.
+
+**Limitations:** Only one content export job per workspace can run at a time. If another job is pending, the tool returns an error (429) until it finishes or expires. Export jobs can take several minutes for large date ranges.
+
+**UI alignment:** Finished, Disengaged, Exited, and Goal are counted only when the event timestamp falls within the requested date range (same idea as the Intercom UI "performance in period"). "Started" from the export = distinct users who received at least one message in the series in the period; the UI "Started" = users who **entered** the series (matched entry rules) in the period, which the Content Data Export does not provide. See [INTERCOM_SERIES_UI_VS_EXPORT.md](INTERCOM_SERIES_UI_VS_EXPORT.md) for full definitions and mapping.
+
 ### **🔧 MCP Integration Examples**
 
 #### Claude Desktop Configuration

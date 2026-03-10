@@ -220,4 +220,43 @@ export const TOOL_DEFINITIONS = [
       additionalProperties: false,
     },
   },
+
+  {
+    name: 'get_intercom_series_metrics',
+    description:
+      'Fetch Series performance metrics (Started, Finished, Disengaged, Exited) from Intercom for a date range. ' +
+      'Uses the Content Data Export API: creates an export job, waits for completion, downloads the receipts CSV, and aggregates by series. ' +
+      'Only one export job per workspace can run at a time; if another job is pending you will get a 429 until it finishes or expires.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        from_date: {
+          type: 'string',
+          description: 'Start date YYYY-MM-DD',
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+        },
+        to_date: {
+          type: 'string',
+          description: 'End date YYYY-MM-DD (defaults to today)',
+          pattern: '^\\d{4}-\\d{2}-\\d{2}$',
+        },
+        poll_interval_seconds: {
+          type: 'number',
+          description: 'Seconds between status checks (default 30)',
+          minimum: 10,
+          maximum: 120,
+          default: 30,
+        },
+        max_wait_seconds: {
+          type: 'number',
+          description: 'Max time to wait for export job to complete (default 600)',
+          minimum: 60,
+          maximum: 1800,
+          default: 600,
+        },
+      },
+      required: ['from_date'],
+      additionalProperties: false,
+    },
+  },
 ];

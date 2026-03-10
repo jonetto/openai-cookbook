@@ -3,7 +3,7 @@
  * Provides: retry logic, conversation fetching, text extraction, CSV conversion.
  */
 
-function toUnixBoundary(dateStr, endOfDay = false) {
+export function toUnixBoundary(dateStr, endOfDay = false) {
   if (!dateStr) return null;
   const iso = `${dateStr}${endOfDay ? 'T23:59:59Z' : 'T00:00:00Z'}`;
   const ms = Date.parse(iso);
@@ -275,4 +275,181 @@ export function buildSearchQuery({ from_date, to_date, state, team_assignee_id, 
     q.query.value.push({ field: 'created_at', operator: '<=', value: toUnixBoundary(to_date, true) });
   }
   return q;
+}
+
+// ── Content data export (for Series metrics) ─────────────────────────────
+
+/**
+ * Create a content data export job. Only one job per workspace can be pending.
+ * @param {object} intercomApi - axios instance
+ * @param {string} fromDate - YYYY-MM-DD
+ * @param {string} toDate - YYYY-MM-DD
+ * @returns {Promise<{ job_identifier: string, status: string }>}
+ */
+export async function createContentDataExport(intercomApi, fromDate, toDate) {
+  const created_at_after = toUnixBoundary(fromDate, false);
+  const created_at_before = toUnixBoundary(toDate, true);
+  const response = await retryableRequest(() =>
+    intercomApi.post('/export/content/data', { created_at_after, created_at_before })
+  );
+  const body = response.data;
+  const job_identifier = body.job_identifier ?? body.job_identfier;
+  return { job_identifier, status: body.status ?? 'pending', download_url: body.download_url };
+}
+
+/**
+ * Get content data export job status.
+ * @param {object} intercomApi - axios instance
+ * @param {string} jobIdentifier
+ * @returns {Promise<{ status: string, download_url?: string }>}
+ */
+export async function getContentDataExportStatus(intercomApi, jobIdentifier) {
+  const response = await retryableRequest(() =>
+    intercomApi.get(`/export/content/data/${jobIdentifier}`)
+  );
+  const body = response.data;
+  return {
+    status: body.status ?? 'pending',
+    download_url: body.download_url,
+    download_expires_at: body.download_expires_at,
+  };
+}
+
+/**
+ * Download content data export (gzipped). Use full URL so auth is applied to same origin.
+ * Returns raw buffer (gzipped). Caller must gunzip and extract or parse receipts CSV.
+ * @param {object} axiosInstance - axios with same defaults (baseURL, auth); will GET fullUrl
+ * @param {string} fullDownloadUrl - e.g. https://api.intercom.io/download/content/data/{job_identifier}
+ * @returns {Promise<Buffer>}
+ */
+export async function downloadContentDataExport(axiosInstance, fullDownloadUrl) {
+  const response = await retryableRequest(() =>
+    axiosInstance.get(fullDownloadUrl, {
+      responseType: 'arraybuffer',
+      headers: { Accept: 'application/octet-stream' },
+      maxContentLength: 200 * 1024 * 1024,
+      timeout: 120000,
+    })
+  );
+  return Buffer.from(response.data);
+}
+
+/**
+ * Parse timestamp from CSV (Unix seconds or ISO string) to Unix seconds. Returns null if invalid or empty.
+ */
+function parseTimestamp(val) {
+  if (val == null || String(val).trim() === '') return null;
+  const v = String(val).trim();
+  const num = Number(v);
+  if (!Number.isNaN(num) && num > 0) {
+    const asSec = num > 1e12 ? Math.floor(num / 1000) : Math.floor(num);
+    return asSec;
+  }
+  const ms = Date.parse(v);
+  return Number.isNaN(ms) ? null : Math.floor(ms / 1000);
+}
+
+/**
+ * Parse a receipts CSV string (from Intercom content export) and aggregate Series metrics.
+ * When fromDate/toDate are provided, counts only events (finished, disengaged, exited, goal) whose timestamp falls in range, to align with Intercom UI "performance in period".
+ * @param {string} csvText - Full CSV text (header + rows)
+ * @param {{ fromDate?: string, toDate?: string }} options - optional YYYY-MM-DD range for in-period counts
+ * @returns {{ series: Array<{ series_id, series_title, started, finished, disengaged, exited, goal }> }}
+ */
+export function aggregateSeriesFromReceiptsCsv(csvText, options = {}) {
+  const { fromDate, toDate } = options;
+  const fromTs = fromDate ? toUnixBoundary(fromDate, false) : null;
+  const toTs = toDate ? toUnixBoundary(toDate, true) : null;
+  const inPeriod = (ts) => ts != null && (!fromTs || ts >= fromTs) && (!toTs || ts <= toTs);
+
+  const lines = csvText.split(/\r?\n/).filter((line) => line.trim());
+  if (lines.length < 2) return { series: [] };
+
+  const header = parseCsvLine(lines[0]);
+  const idx = (name) => {
+    const i = header.indexOf(name);
+    return i >= 0 ? i : header.indexOf(name.replace(/_/g, ''));
+  };
+  const userIdx = header.findIndex((h) => h === 'user_id' || h === 'email');
+  const seriesIdIdx = idx('series_id');
+  const seriesTitleIdx = idx('series_title');
+  const firstCompletionIdx = idx('first_series_completion');
+  const firstDisengageIdx = idx('first_series_disengagement');
+  const firstExitIdx = idx('first_series_exit');
+  const firstGoalIdx = idx('first_goal_success');
+
+  if (userIdx < 0 || seriesIdIdx < 0) return { series: [] };
+
+  const bySeries = new Map();
+
+  for (let i = 1; i < lines.length; i++) {
+    const row = parseCsvLine(lines[i]);
+    const userId = (row[userIdx] || '').toString().trim();
+    const seriesId = (row[seriesIdIdx] ?? '').toString().trim();
+    const seriesTitle = (seriesTitleIdx >= 0 ? row[seriesTitleIdx] : '').toString().trim();
+    if (!userId || !seriesId || seriesId === '-1') continue;
+
+    const key = seriesId;
+    if (!bySeries.has(key)) {
+      bySeries.set(key, {
+        series_id: seriesId,
+        series_title: seriesTitle || seriesId,
+        started: new Set(),
+        finished: new Set(),
+        disengaged: new Set(),
+        exited: new Set(),
+        goal: new Set(),
+      });
+    }
+    const s = bySeries.get(key);
+    s.started.add(userId);
+
+    const completionTs = firstCompletionIdx >= 0 ? parseTimestamp(row[firstCompletionIdx]) : null;
+    const disengageTs = firstDisengageIdx >= 0 ? parseTimestamp(row[firstDisengageIdx]) : null;
+    const exitTs = firstExitIdx >= 0 ? parseTimestamp(row[firstExitIdx]) : null;
+    const goalTs = firstGoalIdx >= 0 ? parseTimestamp(row[firstGoalIdx]) : null;
+
+    if (completionTs != null && (!fromTs || inPeriod(completionTs))) s.finished.add(userId);
+    if (disengageTs != null && (!fromTs || inPeriod(disengageTs))) s.disengaged.add(userId);
+    if (exitTs != null && (!fromTs || inPeriod(exitTs))) s.exited.add(userId);
+    if (goalTs != null && (!fromTs || inPeriod(goalTs))) s.goal.add(userId);
+  }
+
+  const series = Array.from(bySeries.values()).map((s) => ({
+    series_id: s.series_id,
+    series_title: s.series_title,
+    started: s.started.size,
+    finished: s.finished.size,
+    disengaged: s.disengaged.size,
+    exited: s.exited.size,
+    goal: s.goal.size,
+  }));
+
+  return { series };
+}
+
+function parseCsvLine(line) {
+  const out = [];
+  let cur = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') {
+      inQuotes = !inQuotes;
+      continue;
+    }
+    if (!inQuotes && c === ',') {
+      out.push(cur);
+      cur = '';
+      continue;
+    }
+    if (inQuotes && c === '"' && line[i + 1] === '"') {
+      cur += '"';
+      i++;
+      continue;
+    }
+    cur += c;
+  }
+  out.push(cur);
+  return out;
 }
