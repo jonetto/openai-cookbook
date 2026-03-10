@@ -83,7 +83,8 @@ Fires after every commit made outside Claude Code:
 | `plugins/doc-sync/hooks/discover-related-docs.sh` | Discovery logic |
 | `plugins/doc-sync/CLAUDE.md` | Analysis instructions for Claude |
 | `plugins/doc-sync/install.sh` | Installs the git post-commit hook |
-| `.git/hooks/post-commit` | Safety net layer (not tracked by git) |
+| `plugins/doc-sync/git-hooks/post-commit` | Post-commit hook template (tracked in repo) |
+| `.git/hooks/post-commit` | Safety net layer (installed from template, not tracked by git) |
 
 ## Scope of Documentation Covered
 
