@@ -6,7 +6,7 @@ REPO_ROOT="$(git -C "$SCRIPT_DIR" rev-parse --show-toplevel)"
 HOOK_SRC="$SCRIPT_DIR/git-hooks/post-commit"
 HOOK_DST="$REPO_ROOT/.git/hooks/post-commit"
 
-echo "Doc Sync v1.0.1 — Installing git post-commit hook"
+echo "Doc Sync v1.1.0 — Installing git post-commit hook"
 
 # Check prerequisites
 if ! command -v jq &>/dev/null; then
