@@ -1,0 +1,17 @@
+{
+  "description": "Detects git commits and discovers .md files that may need updating",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/discover-related-docs.sh",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
