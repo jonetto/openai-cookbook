@@ -7,6 +7,8 @@ set -uo pipefail
 # Reads tool_input JSON from stdin. Exits silently for non-commit commands.
 
 # Escape string for use as literal in grep BRE (avoids . * etc. matching as regex)
+# BRE special chars: . * ^ $ [ ] \ — must escape these for literal match.
+# In BRE, ( ) | { } ? + are LITERAL by default; escaping them would make them special (wrong).
 escape_grep_bre() {
   printf '%s' "$1" | sed 's/\\/\\\\/g; s/[.*^$[\]]/\\&/g'
 }
@@ -14,8 +16,8 @@ escape_grep_bre() {
 input=$(cat)
 command=$(echo "$input" | jq -r '.tool_input.command // empty')
 
-# Gate: only proceed if this was a git commit (allow leading whitespace; align with plan)
-if ! echo "$command" | grep -qE '^\s*git\s+commit\b'; then
+# Gate: only proceed if this was a git commit (not anchored — must match chained commands)
+if ! echo "$command" | grep -qE '\bgit\s+commit\b'; then
   exit 0
 fi
 
