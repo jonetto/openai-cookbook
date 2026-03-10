@@ -1,0 +1,408 @@
+{
+  "exported_at": "2026-03-09T14:52:19.192614",
+  "from_date": "2026-03-01",
+  "to_date": "2026-03-08",
+  "plan_filter": "pendiente_pago",
+  "level": "company",
+  "total_raw_events": 1129,
+  "unique_companies": 45,
+  "unique_users": 594,
+  "activated_companies": 7,
+  "activated_users": 8,
+  "company_size_distribution": {
+    "11+ users": 1,
+    "2-3 users": 7,
+    "4-10 users": 1,
+    "1 user": 36
+  },
+  "companies": [
+    {
+      "company_id": "117413",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "DIEGO EMANUEL CISTERNA",
+        "Fecha de Alta Empresa": "2026-02-28T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117413",
+        "$name": "DIEGO EMANUEL CISTERNA",
+        "Email Empresa": "mirgardiablita@yahoo.com.ar",
+        "Email Facturacion": "mirgardiablita@yahoo.com.ar",
+        "Estado": "Desactivada - Falta de Pago",
+        "Fecha alta": "2026-02-28T00:00:00",
+        "Fecha vencimiento": "1970-01-01T00:00:00",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+541135118506",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Empresa de servicios",
+        "$last_seen": "2026-03-08T12:50:46"
+      },
+      "users": [
+        {
+          "distinct_id": "mirgardiablita@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117297",
+      "total_users": 2,
+      "activated_users": 1,
+      "total_events": 186,
+      "total_critical_events": 126,
+      "persona_distribution": {
+        "Login only (not activated)": 1,
+        "Admin + Contabilidad": 1
+      },
+      "events": {
+        "Login": 11,
+        "Generó orden de pago": 49,
+        "Agregó una cuenta contable": 17,
+        "Generó comprobante de compra": 109
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "PDC LOGISTICS",
+        "Fecha de Alta Empresa": "2026-02-27T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117297",
+        "$name": "PDC LOGISTICS",
+        "Email Empresa": "info@logpdc.com",
+        "Email Facturacion": "info@logpdc.com",
+        "Estado": "Activa",
+        "Fecha alta": "2026-02-27T00:00:00",
+        "Fecha vencimiento": "2026-04-10T00:00:00",
+        "Industria (colppy)": "Logística, almacenamiento, transporte",
+        "Nombre Plan": "Essential",
+        "Plan": "676",
+        "Telefono Empresa": "+5491131815309",
+        "Tipo Plan": "estandar",
+        "Tipo de actividad": "Empresa de servicios",
+        "$last_seen": "2026-03-09T11:21:51"
+      },
+      "users": [
+        {
+          "distinct_id": "sabrinalaura17@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 11,
+          "events": {
+            "Login": 11
+          }
+        },
+        {
+          "distinct_id": "info@logpdc.com",
+          "persona": "Admin + Contabilidad",
+          "critical_events": 126,
+          "logins": 0,
+          "events": {
+            "Generó orden de pago": 49,
+            "Agregó una cuenta contable": 17,
+            "Generó comprobante de compra": 109
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117523",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 2,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "JOSE LUIS LEMA",
+        "Fecha de Alta Empresa": "2026-03-01T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117523",
+        "$name": "JOSE LUIS LEMA",
+        "Email Empresa": "josellema@hotmail.com",
+        "Email Facturacion": "josellema@hotmail.com",
+        "Estado": "Desactivada - Falta de Pago",
+        "Fecha alta": "2026-03-01T00:00:00",
+        "Fecha vencimiento": "2026-03-08T00:00:00",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+541168820703",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Empresa de servicios",
+        "$last_seen": "2026-03-01T11:27:32"
+      },
+      "users": [
+        {
+          "distinct_id": "josellema@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117541",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 2,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "MARIO RAMIRO AGLI",
+        "Fecha de Alta Empresa": "2026-03-01T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117541",
+        "$name": "MARIO RAMIRO AGLI",
+        "Email Empresa": "mmarioramiroagli@gmail.com",
+        "Email Facturacion": "mmarioramiroagli@gmail.com",
+        "Estado": "Activa",
+        "Fecha alta": "2026-03-01T00:00:00",
+        "Fecha vencimiento": "2026-03-08T00:00:00",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+541136071064",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Empresa de productos",
+        "$last_seen": "2026-03-01T12:55:11"
+      },
+      "users": [
+        {
+          "distinct_id": "mmarioramiroagli@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "116884",
+      "total_users": 2,
+      "activated_users": 0,
+      "total_events": 2,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 2
+      },
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "MADKETING SRL",
+        "Fecha de Alta Empresa": "2026-02-24T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "116884",
+        "$name": "MADKETING SRL",
+        "Email Administrador": "administracion@madketing.io",
+        "Email Empresa": "administracion@madketing.io",
+        "Email Facturacion": "administracion@madketing.io",
+        "Estado": "Activa",
+        "Fecha Alta": "2026-02-24T00:00:00",
+        "Fecha Vencimiento": "2026-04-10T00:00:00",
+        "Fecha alta": "2026-02-24T00:00:00",
+        "Fecha primer pago": "2026-03-04T00:00:00",
+        "Fecha vencimiento": "1970-01-01T00:00:00",
+        "Industria (colppy)": "Marketing y publicidad",
+        "Nombre Plan": "Colppy Plus Enterprise",
+        "Plan": "686",
+        "Telefono Empresa": "+543512117699",
+        "Tipo Plan": "superior_a_tres_mil_colppyplusdos",
+        "Tipo de actividad": "Empresa de productos y servicios",
+        "$last_seen": "2026-03-04T20:02:26"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:2cd478b2-cfe1-4496-847d-9b77dcf4cdec",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "administracion@madketing.io",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "116927",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "NADIA ABIGAIL NEIRA",
+        "Fecha de Alta Empresa": "2026-02-24T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "116927",
+        "$name": "NADIA ABIGAIL NEIRA",
+        "Email Empresa": "abitha08187@gmail.com",
+        "Email Facturacion": "abitha08187@gmail.com",
+        "Estado": "Activa",
+        "Fecha alta": "2026-02-24T00:00:00",
+        "Fecha vencimiento": "2026-03-03T00:00:00",
+        "Industria (colppy)": "Contabilidad, impuestos, legales",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+5403825526613",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Estudio contable o consultoría",
+        "$last_seen": "2026-03-03T19:33:15"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:c4edd56e-cb0c-49c9-a5f8-6e7138a3db0f",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "116968",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 2,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "FLAVIA ANDREA FERNANDEZ",
+        "Fecha de Alta Empresa": "2026-02-25T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "116968",
+        "$name": "FLAVIA ANDREA FERNANDEZ",
+        "Email Empresa": "prof_flavia@yahoo.com.ar",
+        "Email Facturacion": "prof_flavia@yahoo.com.ar",
+        "Estado": "Activa",
+        "Fecha alta": "2026-02-25T00:00:00",
+        "Fecha vencimiento": "2026-03-03T00:00:00",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+543513548557",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Empresa de servicios",
+        "$last_seen": "2026-03-03T15:24:07"
+      },
+      "users": [
+        {
+          "distinct_id": "prof_flavia@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "116574",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "Ricardo",
+        "Fecha de Alta Empresa": "2026-02-23T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "116574",
+        "$name": "Ricardo",
+        "Email Empresa": "Ricardoolalde173@gmail.com",
+        "Email Facturacion": "Ricardoolalde173@gmail.com",
+        "Estado": "Desactivada - Falta de Pago",
+        "Fecha alta": "2026-02-23T00:00:00",
+        "Fecha vencimiento": "1970-01-01T00:00:00",
+        "Nombre Plan": "Pendiente de Pago",
+        "Plan": "1",
+        "Telefono Empresa": "+541165991705",
+        "Tipo Plan": "pendiente_pago",
+        "Tipo de actividad": "Empresa de productos y servicios",
+        "$last_seen": "2026-03-03T12:46:50"
+      },
+      "users": [
+        {
+          "distinct_id": "Ricardoolalde173@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    }
+  ],
+  "enriched": true,
+  "group_profiles_count": 41,
+  "trial_window_days": 7,
+  "trial_window_kept": 8,
+  "trial_window_excluded": 37
+}

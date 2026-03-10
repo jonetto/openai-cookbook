@@ -117,7 +117,7 @@ Identity map:
 - **7-day free trial** — all new signups get a 7-day trial period before payment is required
 - **Two ICPs**: Cuenta Contador (accountant firms managing multiple clients) and Cuenta Pyme (direct SMBs)
 - **Wizard vs reality gap**: users self-select a role during the onboarding wizard (`rol_wizard`), but their actual product behavior may differ — an accountant who selects "Contador" may actually use the product as an admin (Operador persona)
-- **"Primeros 90 dias" inbox** in Intercom — support conversations from users in their first 90 days, team ID 2334166
+- **"Primeros 90 dias" inbox** in Intercom — support conversations from users in their first 90 days, team ID 2334166. **Important**: for trial analysis, always use `--trial-only` flag to filter to conversations from contacts within their first 7 days — the inbox contains mostly post-trial users (weeks 2-12)
 - **Activation threshold** — default: 4+ comprobantes de compra within 7 days (from historical Signal report, correlates with week-2 retention)
 
 ## Tools & Scripts
@@ -146,11 +146,45 @@ Identity map:
 | `search_crm_objects` | Contact/deal search |
 | `get_crm_objects` | Fetch records by ID |
 
+### Mixpanel Raw Export Script
+
+The export script downloads raw events from the Raw Export API (separate rate limit from MCP tools) and pivots locally. Use it for **detailed behavioral analysis** where you need per-user or per-company granularity.
+
+```bash
+python tools/scripts/mixpanel/export_trial_events.py \
+  --from YYYY-MM-DD --to YYYY-MM-DD --level <user|company|product> [--enrich]
+```
+
+| Flag | Purpose |
+| --- | --- |
+| `--level user` | (default) Per-user pivot: persona, events, properties |
+| `--level company` | Per-company pivot: users nested inside companies with activation metrics |
+| `--level product` | Per-product pivot: companies nested inside products (requires KAN-12024) |
+| `--enrich` | Join group profile properties (Estado, Industria, Fecha primer pago) via Engage API |
+| `--plan <name>` | Plan filter (default: `pendiente_pago` for trial) |
+| `--all-plans` | No plan filter |
+
+Cache location: `plugins/colppy-customer-success/skills/trial-data-model/cache/`
+
+**`--enrich` details:** Fetches company group profiles from the Mixpanel Engage API (1 targeted API call) and joins them into the pivoted data by `company_id`. This adds properties that only exist on group profiles: Estado, Industria (colppy), Fecha primer pago, Fecha Alta, Nombre Plan, CUIT, Email Facturacion, etc. Requires `MIXPANEL_GROUP_TYPE_ID_COMPANY` in `.env`. After KAN-12024 ships super properties on events, `--enrich` becomes unnecessary.
+
+**When to use which Mixpanel tool:**
+
+| Need | Tool | Why |
+| --- | --- | --- |
+| Quick event counts, time series | MCP `run_segmentation_query` | Server-side aggregation, fast |
+| Conversion funnels | MCP `run_funnels_query` | Multi-step funnel logic on Mixpanel side |
+| Retention curves | MCP `run_retention_query` | Cohort math on Mixpanel side |
+| Per-user persona classification | Export script `--level user` | Needs local pivot + classification logic |
+| Per-company drill-down | Export script `--level company` | Nests users inside companies locally |
+| Company Estado/Industria/billing | Export script `--level company --enrich` | Group profile properties not on events |
+| Wizard vs reality matrix | Export script `--level user` | Needs user-level event + property cross-reference |
+
 ### Bash Scripts
 
 | Script | Purpose |
 |--------|---------|
-| `tools/scripts/intercom/export_cache_for_local_scan.mjs` | Export Intercom conversations with contact attributes |
+| `tools/scripts/intercom/export_cache_for_local_scan.mjs` | Export Intercom conversations with contact attributes. Supports `--trial-only` to filter to contacts within their first 7 days (trial period). Also adds `contact_signed_up_at` and `days_since_signup` to each conversation. |
 | `tools/scripts/intercom/analyze_onboarding.py` | Segmented onboarding analysis (accountant vs SMB) |
 | `plugins/colppy-customer-success/scripts/llm_classify.mjs` | LLM topic classification with few-shot learning |
 
@@ -165,11 +199,15 @@ Identity map:
 
 1. Check cached exports: `skills/intercom-developer-api-research/cache/conversations_*_team2334166.json`
 2. If cache covers period -> use it
-3. If not -> export fresh:
+3. If not -> export fresh with `--trial-only` to keep only conversations from contacts within their 7-day trial:
    ```bash
    cd tools/scripts/intercom
-   node export_cache_for_local_scan.mjs --from YYYY-MM-DD --to YYYY-MM-DD --team 2334166
+   node export_cache_for_local_scan.mjs --from YYYY-MM-DD --to YYYY-MM-DD --team 2334166 --trial-only
    ```
+   - Output file includes `_trial7d` suffix (e.g. `conversations_2026-02-01_2026-02-28_team2334166_trial7d.json`)
+   - Each conversation is enriched with `contact_signed_up_at` and `days_since_signup`
+   - Use `--trial-days N` to override the default 7-day window (e.g., `--trial-days 14` for first two weeks)
+   - **Without `--trial-only`**: all conversations are exported (still enriched with signup data for manual filtering)
 4. Classify by user type:
    ```bash
    python tools/scripts/intercom/analyze_onboarding.py \
@@ -181,13 +219,42 @@ Identity map:
 
 ### Step 3: Mixpanel Behavioral Analysis
 
-1. Query critical events for cohort using `run_segmentation_query`:
-   - Event: critical events (comprobante compra/venta, contabilidad, inventario)
-   - Filter: plan = "Pendiente de Pago" (trial users)
-   - Breakdown: by `id_empresa` or user property
-2. Query activation funnel using `run_funnels_query`:
+**3a — Choose analysis level based on the user's question:**
+
+| Question pattern | Level | Tool |
+| --- | --- | --- |
+| "How are users activating?" / persona breakdown / wizard vs reality | `--level user` | Export script |
+| "Which companies are engaged?" / company health / team size | `--level company` | Export script |
+| Quick event totals / time series trends | N/A | MCP `run_segmentation_query` |
+| Conversion funnel / retention curve | N/A | MCP `run_funnels_query` / `run_retention_query` |
+
+Default for cohort reports: run **both** MCP queries (for funnels) AND export script at `--level user` (for personas). Always use `--enrich` when company-level properties (Estado, Industria) are needed.
+
+**3b — Export script (detailed behavioral data):**
+
+1. Check cache: `skills/trial-data-model/cache/mixpanel_events_*_pendiente_pago[_by-company].json`
+2. If cache covers the period and level -> use it
+3. If not -> export fresh:
+
+   ```bash
+   # Per-user (personas, wizard vs reality)
+   python tools/scripts/mixpanel/export_trial_events.py \
+     --from YYYY-MM-DD --to YYYY-MM-DD --level user
+
+   # Per-company with group profile enrichment (Estado, Industria, billing)
+   python tools/scripts/mixpanel/export_trial_events.py \
+     --from YYYY-MM-DD --to YYYY-MM-DD --level company --enrich
+   ```
+
+4. Read the cached JSON for persona distribution, per-user event counts, and company groupings
+5. With `--enrich`, company records include: Estado, Industria (colppy), Fecha primer pago, Nombre Plan, CUIT — use these for conversion and billing analysis
+
+**3c — MCP queries (aggregate metrics):**
+
+1. Query activation funnel using `run_funnels_query`:
    - Step 1: First login -> Step 2: Critical event -> Step 3: Payment
-3. Output: activation rate, avg events per user, behavioral persona distribution
+2. Query event trends using `run_segmentation_query` if time-series breakdown is needed
+3. Output: activation rate, funnel conversion, retention curves
 
 ### Step 4: HubSpot Conversion Cross-Reference
 

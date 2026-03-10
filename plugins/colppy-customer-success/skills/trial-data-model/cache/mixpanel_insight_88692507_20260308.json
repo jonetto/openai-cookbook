@@ -1,0 +1,7286 @@
+{
+  "headers": [
+    "$funnel",
+    "$time",
+    "company_id",
+    "$email",
+    "$event_name"
+  ],
+  "computed_at": "2026-03-08T11:31:18.165891+00:00",
+  "date_range": {
+    "from_date": "2025-01-01T00:00:00-03:00",
+    "to_date": "2026-03-08T08:31:17.618165-03:00"
+  },
+  "meta": {
+    "min_sampling_factor": 1.0,
+    "is_segmentation_limit_hit": true,
+    "sub_query_count": 2,
+    "report_sections": {
+      "group": [
+        {
+          "bookmark": {
+            "dataset": "$mixpanel",
+            "value": "$time",
+            "resourceType": "events",
+            "search": "",
+            "propertyType": "datetime"
+          }
+        },
+        {
+          "bookmark": {
+            "dataset": "$mixpanel",
+            "value": "company_id",
+            "resourceType": "events",
+            "search": "",
+            "propertyType": "string"
+          }
+        },
+        {
+          "bookmark": {
+            "dataset": "$mixpanel",
+            "value": "$email",
+            "resourceType": "people",
+            "search": "",
+            "propertyType": "string"
+          }
+        },
+        {
+          "bookmark": {
+            "dataset": "$mixpanel",
+            "value": "$event_name",
+            "resourceType": "events",
+            "search": "",
+            "propertyType": "string"
+          }
+        }
+      ],
+      "show": [
+        {
+          "metric_key": "Uniques of Funnel a PQL - All Steps"
+        }
+      ]
+    }
+  },
+  "series": {
+    "Uniques of Funnel a PQL - All Steps": {
+      "$overall": {
+        "all": 662
+      },
+      "2025-03-21T18:39:38": {
+        "$overall": {
+          "all": 1
+        },
+        "90903": {
+          "$overall": {
+            "all": 1
+          },
+          "Laplataomega@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-31T21:39:28": {
+        "$overall": {
+          "all": 1
+        },
+        "91030": {
+          "$overall": {
+            "all": 1
+          },
+          "lopez.jenny.1497@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-06T08:17:13": {
+        "$overall": {
+          "all": 1
+        },
+        "98031": {
+          "$overall": {
+            "all": 1
+          },
+          "yta67115@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T17:17:14": {
+        "$overall": {
+          "all": 1
+        },
+        "104053": {
+          "$overall": {
+            "all": 1
+          },
+          "juaniisidori84@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-24T22:32:27": {
+        "$overall": {
+          "all": 1
+        },
+        "90094": {
+          "$overall": {
+            "all": 1
+          },
+          "fer.raffa.74@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-14T17:20:39": {
+        "$overall": {
+          "all": 1
+        },
+        "92546": {
+          "$overall": {
+            "all": 1
+          },
+          "Manup.9@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-13T15:38:50": {
+        "$overall": {
+          "all": 1
+        },
+        "95929": {
+          "$overall": {
+            "all": 1
+          },
+          "lucreciagerosa@gerosa.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-07T14:35:48": {
+        "$overall": {
+          "all": 1
+        },
+        "106419": {
+          "$overall": {
+            "all": 1
+          },
+          "tesoreria@yco.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-01T06:41:33": {
+        "$overall": {
+          "all": 1
+        },
+        "91920": {
+          "$overall": {
+            "all": 1
+          },
+          "riosbeatriz250778@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-06T12:07:24": {
+        "$overall": {
+          "all": 1
+        },
+        "92184": {
+          "$overall": {
+            "all": 1
+          },
+          "liobarrozo8@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-19T20:06:04": {
+        "$overall": {
+          "all": 1
+        },
+        "95128": {
+          "$overall": {
+            "all": 1
+          },
+          "filippirodrigo@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-24T09:31:25": {
+        "$overall": {
+          "all": 1
+        },
+        "95322": {
+          "$overall": {
+            "all": 1
+          },
+          "tidet54095@mvpmedix.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-08T13:13:06": {
+        "$overall": {
+          "all": 1
+        },
+        "98144": {
+          "$overall": {
+            "all": 1
+          },
+          "LAUTAROMANUCCI@GMAIL.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-26T11:28:10": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "dalmasomariapaz@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-25T13:40:37": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "retafranc@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-26T17:33:31": {
+        "$overall": {
+          "all": 1
+        },
+        "90148": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@diagnorte.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-27T11:14:26": {
+        "$overall": {
+          "all": 1
+        },
+        "93117": {
+          "$overall": {
+            "all": 1
+          },
+          "fundacion@sanesteban.edu.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó medio de pago": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-10T16:11:55": {
+        "$overall": {
+          "all": 1
+        },
+        "96740": {
+          "$overall": {
+            "all": 1
+          },
+          "kamosq20@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-11T15:04:08": {
+        "$overall": {
+          "all": 1
+        },
+        "98240": {
+          "$overall": {
+            "all": 1
+          },
+          "undefined": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-14T16:04:38": {
+        "$overall": {
+          "all": 1
+        },
+        "92593": {
+          "$overall": {
+            "all": 1
+          },
+          "dkong.tifba@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-27T00:14:39": {
+        "$overall": {
+          "all": 1
+        },
+        "93084": {
+          "$overall": {
+            "all": 1
+          },
+          "pedro.alonzo@yopmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó orden de pago": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-17T10:52:18": {
+        "$overall": {
+          "all": 1
+        },
+        "91497": {
+          "$overall": {
+            "all": 1
+          },
+          "Alejandro@tecnotendencia.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-03T23:34:54": {
+        "$overall": {
+          "all": 1
+        },
+        "94446": {
+          "$overall": {
+            "all": 1
+          },
+          "jm@juanmarsala.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-23T01:23:18": {
+        "$overall": {
+          "all": 1
+        },
+        "97201": {
+          "$overall": {
+            "all": 1
+          },
+          "roman.publicidad6@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-12T12:34:57": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "wandalemma@indy.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el balance": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-09T10:20:13": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "yamilaberro@yahoo.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-09T14:38:39": {
+        "$overall": {
+          "all": 1
+        },
+        "25737": {
+          "$overall": {
+            "all": 1
+          },
+          "rojedaadm25@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-07T20:50:25": {
+        "$overall": {
+          "all": 1
+        },
+        "94548": {
+          "$overall": {
+            "all": 1
+          },
+          "afernandez@gallanoworldwide.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-09T16:19:54": {
+        "$overall": {
+          "all": 1
+        },
+        "93533": {
+          "$overall": {
+            "all": 1
+          },
+          "MOREIRAGABRIELA16@GMAIL.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-18T17:39:47": {
+        "$overall": {
+          "all": 1
+        },
+        "97115": {
+          "$overall": {
+            "all": 1
+          },
+          "mmarazucar@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-12T16:08:50": {
+        "$overall": {
+          "all": 1
+        },
+        "105112": {
+          "$overall": {
+            "all": 1
+          },
+          "Elinaresar@icloud.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-06T08:34:03": {
+        "$overall": {
+          "all": 1
+        },
+        "98030": {
+          "$overall": {
+            "all": 1
+          },
+          "simonlvgoro@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-02T13:30:18": {
+        "$overall": {
+          "all": 1
+        },
+        "106047": {
+          "$overall": {
+            "all": 1
+          },
+          "marigrillo0327@outlook.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-07T01:46:19": {
+        "$overall": {
+          "all": 1
+        },
+        "104801": {
+          "$overall": {
+            "all": 1
+          },
+          "camilaevelynochoa@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-30T15:55:42": {
+        "$overall": {
+          "all": 1
+        },
+        "109898": {
+          "$overall": {
+            "all": 1
+          },
+          "ahumadathalia08@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-04T20:08:45": {
+        "$overall": {
+          "all": 1
+        },
+        "97347": {
+          "$overall": {
+            "all": 1
+          },
+          "franciscojavierb791@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-28T01:16:22": {
+        "$overall": {
+          "all": 1
+        },
+        "109321": {
+          "$overall": {
+            "all": 1
+          },
+          "pezpalos.implican9i@icloud.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-18T18:15:26": {
+        "$overall": {
+          "all": 1
+        },
+        "89220": {
+          "$overall": {
+            "all": 1
+          },
+          "misionesimpuestos@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó orden de pago": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-08T14:19:40": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "estudiocontablekobiak@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el balance": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-14T05:48:03": {
+        "$overall": {
+          "all": 1
+        },
+        "93696": {
+          "$overall": {
+            "all": 1
+          },
+          "AGOSTINAFUNES36@GMAIL.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-12T21:14:53": {
+        "$overall": {
+          "all": 1
+        },
+        "98106": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@habika.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-20T14:33:24": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "larisa.tiranti@corbisstudio.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el estado de resultados": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-16T22:13:07": {
+        "$overall": {
+          "all": 1
+        },
+        "92730": {
+          "$overall": {
+            "all": 1
+          },
+          "manuco1972@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-11T10:00:48": {
+        "$overall": {
+          "all": 1
+        },
+        "93590": {
+          "$overall": {
+            "all": 1
+          },
+          "admin@loquieroaca.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-04T14:01:18": {
+        "$overall": {
+          "all": 1
+        },
+        "97986": {
+          "$overall": {
+            "all": 1
+          },
+          "lucas@agathatrading.com.br": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-04T11:01:37": {
+        "$overall": {
+          "all": 1
+        },
+        "110581": {
+          "$overall": {
+            "all": 1
+          },
+          "doloresserrano860@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-20T04:14:01": {
+        "$overall": {
+          "all": 1
+        },
+        "95138": {
+          "$overall": {
+            "all": 1
+          },
+          "cantelminerina@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-19T11:44:42": {
+        "$overall": {
+          "all": 1
+        },
+        "96102": {
+          "$overall": {
+            "all": 1
+          },
+          "palbarranvidela12@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-02T10:11:45": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "emprenderestudiocontablectes@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el balance": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-16T16:34:47": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "scarugno@faicsavial.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el retenciones y percepciones": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T08:48:13": {
+        "$overall": {
+          "all": 1
+        },
+        "104031": {
+          "$overall": {
+            "all": 1
+          },
+          "chachixdmunro@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-15T19:38:33": {
+        "$overall": {
+          "all": 1
+        },
+        "90654": {
+          "$overall": {
+            "all": 1
+          },
+          "bertinasarmiento@outlook.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-24T19:00:18": {
+        "$overall": {
+          "all": 1
+        },
+        "93055": {
+          "$overall": {
+            "all": 1
+          },
+          "soofitschambler@icloud.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-08T18:00:29": {
+        "$overall": {
+          "all": 1
+        },
+        "96785": {
+          "$overall": {
+            "all": 1
+          },
+          "ladransancho24@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-03T10:28:35": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "domibarth24@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva digital": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-23T01:57:07": {
+        "$overall": {
+          "all": 1
+        },
+        "93934": {
+          "$overall": {
+            "all": 1
+          },
+          "marpiemcarmosa@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-12T11:16:07": {
+        "$overall": {
+          "all": 1
+        },
+        "94744": {
+          "$overall": {
+            "all": 1
+          },
+          "sanchezblancabeatriz59@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-31T10:12:46": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "anamariaperdomo@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-28T14:10:15": {
+        "$overall": {
+          "all": 1
+        },
+        "109400": {
+          "$overall": {
+            "all": 1
+          },
+          "tomasfrega10@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-05T08:07:06": {
+        "$overall": {
+          "all": 1
+        },
+        "111020": {
+          "$overall": {
+            "all": 1
+          },
+          "vickysilverio@hotmail.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva compras": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-03-05T17:03:38": {
+        "$overall": {
+          "all": 1
+        },
+        "117988": {
+          "$overall": {
+            "all": 1
+          },
+          "yurbit.b@oneplace.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva digital": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-14T15:28:42": {
+        "$overall": {
+          "all": 1
+        },
+        "89169": {
+          "$overall": {
+            "all": 1
+          },
+          "jovaldebenito86@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-22T17:45:40": {
+        "$overall": {
+          "all": 1
+        },
+        "96284": {
+          "$overall": {
+            "all": 1
+          },
+          "annasaladasctes308@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-31T23:28:49": {
+        "$overall": {
+          "all": 1
+        },
+        "97912": {
+          "$overall": {
+            "all": 1
+          },
+          "arcejeniferromina@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-08T20:52:07": {
+        "$overall": {
+          "all": 1
+        },
+        "94599": {
+          "$overall": {
+            "all": 1
+          },
+          "genzio14@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-25T09:12:37": {
+        "$overall": {
+          "all": 1
+        },
+        "97231": {
+          "$overall": {
+            "all": 1
+          },
+          "cecilia.e.rodriguez@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-28T12:21:45": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "mmstatianacobo@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el mayor": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-15T11:18:59": {
+        "$overall": {
+          "all": 1
+        },
+        "106946": {
+          "$overall": {
+            "all": 1
+          },
+          "mailenc81@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-27T12:26:42": {
+        "$overall": {
+          "all": 1
+        },
+        "93135": {
+          "$overall": {
+            "all": 1
+          },
+          "yaairpp@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-24T16:23:16": {
+        "$overall": {
+          "all": 1
+        },
+        "89994": {
+          "$overall": {
+            "all": 1
+          },
+          "rgulich@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-21T17:33:45": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "guadaarrieta96@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-24T13:35:01": {
+        "$overall": {
+          "all": 1
+        },
+        "97763": {
+          "$overall": {
+            "all": 1
+          },
+          "juridicoasociadosestudio@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-01T11:56:18": {
+        "$overall": {
+          "all": 1
+        },
+        "104532": {
+          "$overall": {
+            "all": 1
+          },
+          "flortesouro@hotmail.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-07T19:36:58": {
+        "$overall": {
+          "all": 1
+        },
+        "92262": {
+          "$overall": {
+            "all": 1
+          },
+          "marioavalos61@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-27T15:15:07": {
+        "$overall": {
+          "all": 1
+        },
+        "96471": {
+          "$overall": {
+            "all": 1
+          },
+          "contacto@lumidea.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-06T12:00:25": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "casaclasica754@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-20T23:46:23": {
+        "$overall": {
+          "all": 1
+        },
+        "97677": {
+          "$overall": {
+            "all": 1
+          },
+          "MMMARTINGARCIA@ICLOUD.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó medio de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-03-03T15:47:40": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "leonardo.villanueva@biogenxxi.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T10:19:40": {
+        "$overall": {
+          "all": 1
+        },
+        "104040": {
+          "$overall": {
+            "all": 1
+          },
+          "cinnalovers@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-27T14:48:00": {
+        "$overall": {
+          "all": 1
+        },
+        "104357": {
+          "$overall": {
+            "all": 1
+          },
+          "saomedialunaspilar@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-07T17:58:56": {
+        "$overall": {
+          "all": 1
+        },
+        "111815": {
+          "$overall": {
+            "all": 1
+          },
+          "cyavogel@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-19T20:16:14": {
+        "$overall": {
+          "all": 1
+        },
+        "97641": {
+          "$overall": {
+            "all": 1
+          },
+          "aguiaryenifer17@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-05T15:00:28": {
+        "$overall": {
+          "all": 1
+        },
+        "93446": {
+          "$overall": {
+            "all": 1
+          },
+          "celentanosofia@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-03T12:33:34": {
+        "$overall": {
+          "all": 1
+        },
+        "106219": {
+          "$overall": {
+            "all": 1
+          },
+          "melerajimenaf@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-20T13:03:37": {
+        "$overall": {
+          "all": 1
+        },
+        "115812": {
+          "$overall": {
+            "all": 1
+          },
+          "pfreijedo@silogic.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-24T18:34:22": {
+        "$overall": {
+          "all": 1
+        },
+        "89365": {
+          "$overall": {
+            "all": 1
+          },
+          "mauricioyapur@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-06T14:17:16": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "facturacion@monge-construcciones.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de cobranzas": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-12T16:11:56": {
+        "$overall": {
+          "all": 1
+        },
+        "97517": {
+          "$overall": {
+            "all": 1
+          },
+          "gp1@pya.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-22T12:56:00": {
+        "$overall": {
+          "all": 1
+        },
+        "92786": {
+          "$overall": {
+            "all": 1
+          },
+          "solestefaniaarregui@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el diario general": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-17T16:29:14": {
+        "$overall": {
+          "all": 1
+        },
+        "95030": {
+          "$overall": {
+            "all": 1
+          },
+          "ale.solito@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-29T14:14:06": {
+        "$overall": {
+          "all": 1
+        },
+        "94268": {
+          "$overall": {
+            "all": 1
+          },
+          "selenaagustinalucero@sanluis.edu.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-30T13:15:25": {
+        "$overall": {
+          "all": 1
+        },
+        "97874": {
+          "$overall": {
+            "all": 1
+          },
+          "georgina.v.oca@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-20T16:24:09": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "analia.selvaggi@aagconsultores.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-08T14:51:30": {
+        "$overall": {
+          "all": 1
+        },
+        "92319": {
+          "$overall": {
+            "all": 1
+          },
+          "barbara@helioday.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-18T13:33:40": {
+        "$overall": {
+          "all": 1
+        },
+        "97086": {
+          "$overall": {
+            "all": 1
+          },
+          "info@hotelfrossard.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-24T19:04:36": {
+        "$overall": {
+          "all": 1
+        },
+        "97251": {
+          "$overall": {
+            "all": 1
+          },
+          "arielgperez33@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-26T12:45:39": {
+        "$overall": {
+          "all": 1
+        },
+        "16246": {
+          "$overall": {
+            "all": 1
+          },
+          "b.galelli.rucade@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-09T10:39:14": {
+        "$overall": {
+          "all": 1
+        },
+        "92369": {
+          "$overall": {
+            "all": 1
+          },
+          "maxi19_p@icloud.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta borrador": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-27T11:52:23": {
+        "$overall": {
+          "all": 1
+        },
+        "93134": {
+          "$overall": {
+            "all": 1
+          },
+          "contable@sanesteban.edu.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-04T11:33:50": {
+        "$overall": {
+          "all": 1
+        },
+        "97979": {
+          "$overall": {
+            "all": 1
+          },
+          "almacendesg@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-02T11:59:03": {
+        "$overall": {
+          "all": 1
+        },
+        "106154": {
+          "$overall": {
+            "all": 1
+          },
+          "360gardenmdz@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-20T19:18:16": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "anadales8@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-26T14:08:29": {
+        "$overall": {
+          "all": 1
+        },
+        "94014": {
+          "$overall": {
+            "all": 1
+          },
+          "secretaria@adues.org.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-02T13:43:22": {
+        "$overall": {
+          "all": 1
+        },
+        "110603": {
+          "$overall": {
+            "all": 1
+          },
+          "julietarisuenio01@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-26T16:10:43": {
+        "$overall": {
+          "all": 1
+        },
+        "94062": {
+          "$overall": {
+            "all": 1
+          },
+          "adm@ellibertador.net": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-05T15:27:23": {
+        "$overall": {
+          "all": 1
+        },
+        "95614": {
+          "$overall": {
+            "all": 1
+          },
+          "ezequiel@we-people.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-10T08:50:38": {
+        "$overall": {
+          "all": 1
+        },
+        "97472": {
+          "$overall": {
+            "all": 1
+          },
+          "estudiocontablem.metti@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-19T10:49:47": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "santiagoparis@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva digital": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-30T15:03:36": {
+        "$overall": {
+          "all": 1
+        },
+        "97873": {
+          "$overall": {
+            "all": 1
+          },
+          "aridosparada.adm21@yahoo.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-10T14:39:39": {
+        "$overall": {
+          "all": 1
+        },
+        "104903": {
+          "$overall": {
+            "all": 1
+          },
+          "clara@bmgmkt.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva ventas": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-20T06:57:40": {
+        "$overall": {
+          "all": 1
+        },
+        "95141": {
+          "$overall": {
+            "all": 1
+          },
+          "admin@zentra.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-08T18:05:43": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "rpmendez@uth.hn": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-06T22:22:13": {
+        "$overall": {
+          "all": 1
+        },
+        "98089": {
+          "$overall": {
+            "all": 1
+          },
+          "germanridao@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-18T16:33:55": {
+        "$overall": {
+          "all": 1
+        },
+        "90777": {
+          "$overall": {
+            "all": 1
+          },
+          "fernandezmara@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-06T12:44:19": {
+        "$overall": {
+          "all": 1
+        },
+        "91840": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@adducciinstalaciones.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-02T15:08:27": {
+        "$overall": {
+          "all": 1
+        },
+        "94388": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@perimetralessa.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-24T22:02:06": {
+        "$overall": {
+          "all": 1
+        },
+        "93985": {
+          "$overall": {
+            "all": 1
+          },
+          "berinvictoria2@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-01T12:36:34": {
+        "$overall": {
+          "all": 1
+        },
+        "104534": {
+          "$overall": {
+            "all": 1
+          },
+          "gabellilisette1122@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-06T10:33:22": {
+        "$overall": {
+          "all": 1
+        },
+        "89067": {
+          "$overall": {
+            "all": 1
+          },
+          "ivan@fremsrl.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-08T11:52:47": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "lizavilleda30@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-10T19:33:51": {
+        "$overall": {
+          "all": 1
+        },
+        "94671": {
+          "$overall": {
+            "all": 1
+          },
+          "martinorona3333@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-16T19:45:04": {
+        "$overall": {
+          "all": 1
+        },
+        "103827": {
+          "$overall": {
+            "all": 1
+          },
+          "jdedionigi@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-19T15:48:36": {
+        "$overall": {
+          "all": 1
+        },
+        "115573": {
+          "$overall": {
+            "all": 1
+          },
+          "rocio.campos.mdq@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-12T18:26:06": {
+        "$overall": {
+          "all": 1
+        },
+        "93573": {
+          "$overall": {
+            "all": 1
+          },
+          "nehuen241197@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-08T17:33:57": {
+        "$overall": {
+          "all": 1
+        },
+        "95789": {
+          "$overall": {
+            "all": 1
+          },
+          "yecigalvan1332@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-14T10:21:39": {
+        "$overall": {
+          "all": 1
+        },
+        "89860": {
+          "$overall": {
+            "all": 1
+          },
+          "PLASTICOSORDAS@HOTMAIL.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-27T11:11:40": {
+        "$overall": {
+          "all": 1
+        },
+        "96408": {
+          "$overall": {
+            "all": 1
+          },
+          "efava@auditar-nt.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-24T00:30:31": {
+        "$overall": {
+          "all": 1
+        },
+        "96318": {
+          "$overall": {
+            "all": 1
+          },
+          "marenogabriel151@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T07:57:28": {
+        "$overall": {
+          "all": 1
+        },
+        "103935": {
+          "$overall": {
+            "all": 1
+          },
+          "ulisesvacchino2008@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-31T15:08:50": {
+        "$overall": {
+          "all": 1
+        },
+        "97899": {
+          "$overall": {
+            "all": 1
+          },
+          "jperal@volsmart.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-01T17:09:51": {
+        "$overall": {
+          "all": 1
+        },
+        "104539": {
+          "$overall": {
+            "all": 1
+          },
+          "lucas.esteves@colppy.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-11T13:50:48": {
+        "$overall": {
+          "all": 1
+        },
+        "105052": {
+          "$overall": {
+            "all": 1
+          },
+          "drcmarianela@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-28T02:01:26": {
+        "$overall": {
+          "all": 1
+        },
+        "109330": {
+          "$overall": {
+            "all": 1
+          },
+          "carlosmima24@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-17T21:47:46": {
+        "$overall": {
+          "all": 1
+        },
+        "95059": {
+          "$overall": {
+            "all": 1
+          },
+          "mauromedinamauro1992@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-07T16:59:50": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "arshop.admi@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-02-20T19:18:12": {
+        "$overall": {
+          "all": 1
+        },
+        "115847": {
+          "$overall": {
+            "all": 1
+          },
+          "lmedinavives@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-29T19:35:04": {
+        "$overall": {
+          "all": 1
+        },
+        "89416": {
+          "$overall": {
+            "all": 1
+          },
+          "nicolasadet89@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva compras": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-26T12:54:43": {
+        "$overall": {
+          "all": 1
+        },
+        "90142": {
+          "$overall": {
+            "all": 1
+          },
+          "gonzalo.gauna@recursosrenovables.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-17T15:49:23": {
+        "$overall": {
+          "all": 1
+        },
+        "93763": {
+          "$overall": {
+            "all": 1
+          },
+          "anajorgelinablanco739@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Finalizó importación": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-03T22:15:31": {
+        "$overall": {
+          "all": 1
+        },
+        "94267": {
+          "$overall": {
+            "all": 1
+          },
+          "gise.mm89@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-25T16:45:25": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "vaninakrier@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T08:00:11": {
+        "$overall": {
+          "all": 1
+        },
+        "104027": {
+          "$overall": {
+            "all": 1
+          },
+          "grafikposters@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-21T22:27:05": {
+        "$overall": {
+          "all": 1
+        },
+        "104099": {
+          "$overall": {
+            "all": 1
+          },
+          "giordanoguido83@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-28T10:50:04": {
+        "$overall": {
+          "all": 1
+        },
+        "105925": {
+          "$overall": {
+            "all": 1
+          },
+          "advancesportbp@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-19T23:42:58": {
+        "$overall": {
+          "all": 1
+        },
+        "90824": {
+          "$overall": {
+            "all": 1
+          },
+          "murello86@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-26T14:15:58": {
+        "$overall": {
+          "all": 1
+        },
+        "91057": {
+          "$overall": {
+            "all": 1
+          },
+          "gustavopennesi@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-11T11:32:15": {
+        "$overall": {
+          "all": 1
+        },
+        "92384": {
+          "$overall": {
+            "all": 1
+          },
+          "dggodoy86@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-11T08:41:42": {
+        "$overall": {
+          "all": 1
+        },
+        "105036": {
+          "$overall": {
+            "all": 1
+          },
+          "santius659@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-27T17:21:57": {
+        "$overall": {
+          "all": 1
+        },
+        "105885": {
+          "$overall": {
+            "all": 1
+          },
+          "Lorenzocaringellamdq@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-17T12:05:56": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "ventas@cosmeticaossono.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-24T13:28:22": {
+        "$overall": {
+          "all": 1
+        },
+        "91661": {
+          "$overall": {
+            "all": 1
+          },
+          "florencia.aldana@logisticafs.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-04T08:43:36": {
+        "$overall": {
+          "all": 1
+        },
+        "96678": {
+          "$overall": {
+            "all": 1
+          },
+          "elisabetta3@powerscrews.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-08T19:01:51": {
+        "$overall": {
+          "all": 1
+        },
+        "93506": {
+          "$overall": {
+            "all": 1
+          },
+          "matiassala898@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-12-11T08:41:15": {
+        "$overall": {
+          "all": 1
+        },
+        "105034": {
+          "$overall": {
+            "all": 1
+          },
+          "marianoglr797@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-20T13:42:50": {
+        "$overall": {
+          "all": 1
+        },
+        "92856": {
+          "$overall": {
+            "all": 1
+          },
+          "solstaffa@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-10T16:34:52": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "bridgesyreynolds@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2026-01-08T20:30:46": {
+        "$overall": {
+          "all": 1
+        },
+        "106575": {
+          "$overall": {
+            "all": 1
+          },
+          "grupogei.salud@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-16T19:04:15": {
+        "$overall": {
+          "all": 1
+        },
+        "93743": {
+          "$overall": {
+            "all": 1
+          },
+          "emavazquez300km@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-16T18:24:02": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "mcscontables@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-20T19:42:02": {
+        "$overall": {
+          "all": 1
+        },
+        "97669": {
+          "$overall": {
+            "all": 1
+          },
+          "mamucho143@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-08T22:51:28": {
+        "$overall": {
+          "all": 1
+        },
+        "98153": {
+          "$overall": {
+            "all": 1
+          },
+          "BenjaminRuizDiaz@proton.me": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-14T18:18:28": {
+        "$overall": {
+          "all": 1
+        },
+        "97559": {
+          "$overall": {
+            "all": 1
+          },
+          "baseceroo@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Finalizó importación": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-15T10:28:02": {
+        "$overall": {
+          "all": 1
+        },
+        "89179": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@nutrifocus.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-05T17:50:01": {
+        "$overall": {
+          "all": 1
+        },
+        "89581": {
+          "$overall": {
+            "all": 1
+          },
+          "fnobile@assandriludeiroabogados.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-09T19:26:13": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "nellsontorres07@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-11T18:35:59": {
+        "$overall": {
+          "all": 1
+        },
+        "90508": {
+          "$overall": {
+            "all": 1
+          },
+          "francisquitorusso@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-21T11:26:17": {
+        "$overall": {
+          "all": 1
+        },
+        "95156": {
+          "$overall": {
+            "all": 1
+          },
+          "proyectosyfinanzas@nueco.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-17T20:46:53": {
+        "$overall": {
+          "all": 1
+        },
+        "92748": {
+          "$overall": {
+            "all": 1
+          },
+          "facu_uncce@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-11T23:18:49": {
+        "$overall": {
+          "all": 1
+        },
+        "93432": {
+          "$overall": {
+            "all": 1
+          },
+          "amoedo@fullmec.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-15T17:42:28": {
+        "$overall": {
+          "all": 1
+        },
+        "89188": {
+          "$overall": {
+            "all": 1
+          },
+          "marcosmirand@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-17T14:35:14": {
+        "$overall": {
+          "all": 1
+        },
+        "89916": {
+          "$overall": {
+            "all": 1
+          },
+          "mmcerf@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-01T20:35:07": {
+        "$overall": {
+          "all": 1
+        },
+        "95484": {
+          "$overall": {
+            "all": 1
+          },
+          "contagerencial12@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-20T08:52:29": {
+        "$overall": {
+          "all": 1
+        },
+        "104034": {
+          "$overall": {
+            "all": 1
+          },
+          "carinellicamila18@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-18T16:24:31": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "administracion@agrolibres.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-26T11:59:25": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "proveedores@lacarlotamaderas.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-01T12:05:10": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "brayanjosue.colindres@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "app generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-29T16:44:58": {
+        "$overall": {
+          "all": 1
+        },
+        "93256": {
+          "$overall": {
+            "all": 1
+          },
+          "Marisagreco33@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-27T17:33:30": {
+        "$overall": {
+          "all": 1
+        },
+        "94136": {
+          "$overall": {
+            "all": 1
+          },
+          "nataliacalvino@YAHOO.COM.AR": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-16T20:11:22": {
+        "$overall": {
+          "all": 1
+        },
+        "97596": {
+          "$overall": {
+            "all": 1
+          },
+          "ays2022miami@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-21T22:17:00": {
+        "$overall": {
+          "all": 1
+        },
+        "91591": {
+          "$overall": {
+            "all": 1
+          },
+          "1175market@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-28T12:02:31": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "axel_koruk@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-11T10:09:52": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "laurapaolah@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el estado de resultados": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-08-28T19:20:50": {
+        "$overall": {
+          "all": 1
+        },
+        "96417": {
+          "$overall": {
+            "all": 1
+          },
+          "intervalquilmescontable@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-01-29T15:03:04": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "emiliano.demagistris@coderhouse.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-07T23:35:36": {
+        "$overall": {
+          "all": 1
+        },
+        "91324": {
+          "$overall": {
+            "all": 1
+          },
+          "jenny-1497@hotmail.es": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-27T21:51:41": {
+        "$overall": {
+          "all": 1
+        },
+        "94247": {
+          "$overall": {
+            "all": 1
+          },
+          "pablo.fernandez.bla@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de venta": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-07-01T11:54:51": {
+        "$overall": {
+          "all": 1
+        },
+        "94334": {
+          "$overall": {
+            "all": 1
+          },
+          "estudio@malleaabogados.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-10T15:47:03": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "facuna@tristanyasociados.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el libro iva digital": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-07T13:03:27": {
+        "$overall": {
+          "all": 1
+        },
+        "90407": {
+          "$overall": {
+            "all": 1
+          },
+          "rickiandres7777@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-02-20T19:34:58": {
+        "$overall": {
+          "all": 1
+        },
+        "89987": {
+          "$overall": {
+            "all": 1
+          },
+          "silviaschippert@framafin.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-03-11T18:45:17": {
+        "$overall": {
+          "all": 1
+        },
+        "90531": {
+          "$overall": {
+            "all": 1
+          },
+          "cristianb.arg@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó recibo de cobro": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-15T15:57:23": {
+        "$overall": {
+          "all": 1
+        },
+        "92591": {
+          "$overall": {
+            "all": 1
+          },
+          "delfin@intracksa.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-06-23T17:33:50": {
+        "$overall": {
+          "all": 1
+        },
+        "93947": {
+          "$overall": {
+            "all": 1
+          },
+          "gustavo@bigconsulting.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-09-03T17:12:04": {
+        "$overall": {
+          "all": 1
+        },
+        "7717": {
+          "$overall": {
+            "all": 1
+          },
+          "Juana.lebrero@4construcciones.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-11-07T12:20:34": {
+        "$overall": {
+          "all": 1
+        },
+        "98067": {
+          "$overall": {
+            "all": 1
+          },
+          "RURALPER@GMAIL.COM": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó comprobante de compra": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-04-17T11:39:50": {
+        "$overall": {
+          "all": 1
+        },
+        "91501": {
+          "$overall": {
+            "all": 1
+          },
+          "julieta@sitargentina.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-16T10:19:25": {
+        "$overall": {
+          "all": 1
+        },
+        "11675": {
+          "$overall": {
+            "all": 1
+          },
+          "martin@kalispan.com.ar": {
+            "$overall": {
+              "all": 1
+            },
+            "Descargó el listado de comprobantes de venta borrador": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-05-29T23:10:01": {
+        "$overall": {
+          "all": 1
+        },
+        "93276": {
+          "$overall": {
+            "all": 1
+          },
+          "leslie-tr@hotmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó asiento contable": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-14T10:52:06": {
+        "$overall": {
+          "all": 1
+        },
+        "97442": {
+          "$overall": {
+            "all": 1
+          },
+          "carlosregardiz@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Agregó un ítem": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "2025-10-22T10:41:24": {
+        "$overall": {
+          "all": 1
+        },
+        "97705": {
+          "$overall": {
+            "all": 1
+          },
+          "monteredes@gmail.com": {
+            "$overall": {
+              "all": 1
+            },
+            "Generó orden de pago": {
+              "all": 1
+            }
+          }
+        }
+      },
+      "$other": {
+        "all": 463
+      }
+    }
+  },
+  "secondary": {
+    "series": {
+      "Uniques of Funnel a PQL - All Steps": {
+        "$overall": {
+          "all": 1.0
+        },
+        "2025-03-21T18:39:38": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90903": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Laplataomega@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-31T21:39:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91030": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lopez.jenny.1497@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-06T08:17:13": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98031": {
+            "$overall": {
+              "all": 1.0
+            },
+            "yta67115@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T17:17:14": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104053": {
+            "$overall": {
+              "all": 1.0
+            },
+            "juaniisidori84@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-24T22:32:27": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90094": {
+            "$overall": {
+              "all": 1.0
+            },
+            "fer.raffa.74@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-14T17:20:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92546": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Manup.9@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-13T15:38:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95929": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lucreciagerosa@gerosa.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-07T14:35:48": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106419": {
+            "$overall": {
+              "all": 1.0
+            },
+            "tesoreria@yco.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-01T06:41:33": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91920": {
+            "$overall": {
+              "all": 1.0
+            },
+            "riosbeatriz250778@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-06T12:07:24": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92184": {
+            "$overall": {
+              "all": 1.0
+            },
+            "liobarrozo8@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-19T20:06:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95128": {
+            "$overall": {
+              "all": 1.0
+            },
+            "filippirodrigo@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-24T09:31:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95322": {
+            "$overall": {
+              "all": 1.0
+            },
+            "tidet54095@mvpmedix.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-08T13:13:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98144": {
+            "$overall": {
+              "all": 1.0
+            },
+            "LAUTAROMANUCCI@GMAIL.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-26T11:28:10": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "dalmasomariapaz@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-25T13:40:37": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "retafranc@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-26T17:33:31": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90148": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@diagnorte.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-27T11:14:26": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93117": {
+            "$overall": {
+              "all": 1.0
+            },
+            "fundacion@sanesteban.edu.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó medio de pago": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-10T16:11:55": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96740": {
+            "$overall": {
+              "all": 1.0
+            },
+            "kamosq20@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-11T15:04:08": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98240": {
+            "$overall": {
+              "all": 1.0
+            },
+            "undefined": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-14T16:04:38": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92593": {
+            "$overall": {
+              "all": 1.0
+            },
+            "dkong.tifba@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-27T00:14:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93084": {
+            "$overall": {
+              "all": 1.0
+            },
+            "pedro.alonzo@yopmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó orden de pago": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-17T10:52:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91497": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Alejandro@tecnotendencia.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-03T23:34:54": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94446": {
+            "$overall": {
+              "all": 1.0
+            },
+            "jm@juanmarsala.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-23T01:23:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97201": {
+            "$overall": {
+              "all": 1.0
+            },
+            "roman.publicidad6@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-12T12:34:57": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "wandalemma@indy.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el balance": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-09T10:20:13": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "yamilaberro@yahoo.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-09T14:38:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "25737": {
+            "$overall": {
+              "all": 1.0
+            },
+            "rojedaadm25@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-07T20:50:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94548": {
+            "$overall": {
+              "all": 1.0
+            },
+            "afernandez@gallanoworldwide.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-09T16:19:54": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93533": {
+            "$overall": {
+              "all": 1.0
+            },
+            "MOREIRAGABRIELA16@GMAIL.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-18T17:39:47": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97115": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mmarazucar@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-12T16:08:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105112": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Elinaresar@icloud.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-06T08:34:03": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98030": {
+            "$overall": {
+              "all": 1.0
+            },
+            "simonlvgoro@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-02T13:30:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106047": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marigrillo0327@outlook.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-07T01:46:19": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104801": {
+            "$overall": {
+              "all": 1.0
+            },
+            "camilaevelynochoa@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-30T15:55:42": {
+          "$overall": {
+            "all": 1.0
+          },
+          "109898": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ahumadathalia08@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-04T20:08:45": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97347": {
+            "$overall": {
+              "all": 1.0
+            },
+            "franciscojavierb791@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-28T01:16:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "109321": {
+            "$overall": {
+              "all": 1.0
+            },
+            "pezpalos.implican9i@icloud.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-18T18:15:26": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89220": {
+            "$overall": {
+              "all": 1.0
+            },
+            "misionesimpuestos@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó orden de pago": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-08T14:19:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "estudiocontablekobiak@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el balance": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-14T05:48:03": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93696": {
+            "$overall": {
+              "all": 1.0
+            },
+            "AGOSTINAFUNES36@GMAIL.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-12T21:14:53": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98106": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@habika.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-20T14:33:24": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "larisa.tiranti@corbisstudio.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el estado de resultados": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-16T22:13:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92730": {
+            "$overall": {
+              "all": 1.0
+            },
+            "manuco1972@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-11T10:00:48": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93590": {
+            "$overall": {
+              "all": 1.0
+            },
+            "admin@loquieroaca.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-04T14:01:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97986": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lucas@agathatrading.com.br": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-04T11:01:37": {
+          "$overall": {
+            "all": 1.0
+          },
+          "110581": {
+            "$overall": {
+              "all": 1.0
+            },
+            "doloresserrano860@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-20T04:14:01": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95138": {
+            "$overall": {
+              "all": 1.0
+            },
+            "cantelminerina@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-19T11:44:42": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96102": {
+            "$overall": {
+              "all": 1.0
+            },
+            "palbarranvidela12@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-02T10:11:45": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "emprenderestudiocontablectes@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el balance": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-16T16:34:47": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "scarugno@faicsavial.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el retenciones y percepciones": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T08:48:13": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104031": {
+            "$overall": {
+              "all": 1.0
+            },
+            "chachixdmunro@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-15T19:38:33": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90654": {
+            "$overall": {
+              "all": 1.0
+            },
+            "bertinasarmiento@outlook.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-24T19:00:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93055": {
+            "$overall": {
+              "all": 1.0
+            },
+            "soofitschambler@icloud.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-08T18:00:29": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96785": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ladransancho24@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-03T10:28:35": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "domibarth24@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva digital": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-23T01:57:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93934": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marpiemcarmosa@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-12T11:16:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94744": {
+            "$overall": {
+              "all": 1.0
+            },
+            "sanchezblancabeatriz59@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-31T10:12:46": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "anamariaperdomo@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-28T14:10:15": {
+          "$overall": {
+            "all": 1.0
+          },
+          "109400": {
+            "$overall": {
+              "all": 1.0
+            },
+            "tomasfrega10@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-05T08:07:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "111020": {
+            "$overall": {
+              "all": 1.0
+            },
+            "vickysilverio@hotmail.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva compras": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-03-05T17:03:38": {
+          "$overall": {
+            "all": 1.0
+          },
+          "117988": {
+            "$overall": {
+              "all": 1.0
+            },
+            "yurbit.b@oneplace.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva digital": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-14T15:28:42": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89169": {
+            "$overall": {
+              "all": 1.0
+            },
+            "jovaldebenito86@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-22T17:45:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96284": {
+            "$overall": {
+              "all": 1.0
+            },
+            "annasaladasctes308@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-31T23:28:49": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97912": {
+            "$overall": {
+              "all": 1.0
+            },
+            "arcejeniferromina@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-08T20:52:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94599": {
+            "$overall": {
+              "all": 1.0
+            },
+            "genzio14@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-25T09:12:37": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97231": {
+            "$overall": {
+              "all": 1.0
+            },
+            "cecilia.e.rodriguez@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-28T12:21:45": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mmstatianacobo@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el mayor": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-15T11:18:59": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106946": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mailenc81@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-27T12:26:42": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93135": {
+            "$overall": {
+              "all": 1.0
+            },
+            "yaairpp@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-24T16:23:16": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89994": {
+            "$overall": {
+              "all": 1.0
+            },
+            "rgulich@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-21T17:33:45": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "guadaarrieta96@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-24T13:35:01": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97763": {
+            "$overall": {
+              "all": 1.0
+            },
+            "juridicoasociadosestudio@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-01T11:56:18": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104532": {
+            "$overall": {
+              "all": 1.0
+            },
+            "flortesouro@hotmail.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-07T19:36:58": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92262": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marioavalos61@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-27T15:15:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96471": {
+            "$overall": {
+              "all": 1.0
+            },
+            "contacto@lumidea.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-06T12:00:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "casaclasica754@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-20T23:46:23": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97677": {
+            "$overall": {
+              "all": 1.0
+            },
+            "MMMARTINGARCIA@ICLOUD.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó medio de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-03-03T15:47:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "leonardo.villanueva@biogenxxi.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T10:19:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104040": {
+            "$overall": {
+              "all": 1.0
+            },
+            "cinnalovers@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-27T14:48:00": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104357": {
+            "$overall": {
+              "all": 1.0
+            },
+            "saomedialunaspilar@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-07T17:58:56": {
+          "$overall": {
+            "all": 1.0
+          },
+          "111815": {
+            "$overall": {
+              "all": 1.0
+            },
+            "cyavogel@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-19T20:16:14": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97641": {
+            "$overall": {
+              "all": 1.0
+            },
+            "aguiaryenifer17@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-05T15:00:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93446": {
+            "$overall": {
+              "all": 1.0
+            },
+            "celentanosofia@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-03T12:33:34": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106219": {
+            "$overall": {
+              "all": 1.0
+            },
+            "melerajimenaf@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-20T13:03:37": {
+          "$overall": {
+            "all": 1.0
+          },
+          "115812": {
+            "$overall": {
+              "all": 1.0
+            },
+            "pfreijedo@silogic.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-24T18:34:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89365": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mauricioyapur@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-06T14:17:16": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "facturacion@monge-construcciones.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de cobranzas": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-12T16:11:56": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97517": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gp1@pya.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-22T12:56:00": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92786": {
+            "$overall": {
+              "all": 1.0
+            },
+            "solestefaniaarregui@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el diario general": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-17T16:29:14": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95030": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ale.solito@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-29T14:14:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94268": {
+            "$overall": {
+              "all": 1.0
+            },
+            "selenaagustinalucero@sanluis.edu.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-30T13:15:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97874": {
+            "$overall": {
+              "all": 1.0
+            },
+            "georgina.v.oca@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-20T16:24:09": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "analia.selvaggi@aagconsultores.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-08T14:51:30": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92319": {
+            "$overall": {
+              "all": 1.0
+            },
+            "barbara@helioday.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-18T13:33:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97086": {
+            "$overall": {
+              "all": 1.0
+            },
+            "info@hotelfrossard.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-24T19:04:36": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97251": {
+            "$overall": {
+              "all": 1.0
+            },
+            "arielgperez33@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-26T12:45:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "16246": {
+            "$overall": {
+              "all": 1.0
+            },
+            "b.galelli.rucade@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-09T10:39:14": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92369": {
+            "$overall": {
+              "all": 1.0
+            },
+            "maxi19_p@icloud.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta borrador": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-27T11:52:23": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93134": {
+            "$overall": {
+              "all": 1.0
+            },
+            "contable@sanesteban.edu.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-04T11:33:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97979": {
+            "$overall": {
+              "all": 1.0
+            },
+            "almacendesg@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-02T11:59:03": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106154": {
+            "$overall": {
+              "all": 1.0
+            },
+            "360gardenmdz@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-20T19:18:16": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "anadales8@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-26T14:08:29": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94014": {
+            "$overall": {
+              "all": 1.0
+            },
+            "secretaria@adues.org.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-02T13:43:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "110603": {
+            "$overall": {
+              "all": 1.0
+            },
+            "julietarisuenio01@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-26T16:10:43": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94062": {
+            "$overall": {
+              "all": 1.0
+            },
+            "adm@ellibertador.net": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-05T15:27:23": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95614": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ezequiel@we-people.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-10T08:50:38": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97472": {
+            "$overall": {
+              "all": 1.0
+            },
+            "estudiocontablem.metti@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-19T10:49:47": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "santiagoparis@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva digital": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-30T15:03:36": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97873": {
+            "$overall": {
+              "all": 1.0
+            },
+            "aridosparada.adm21@yahoo.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-10T14:39:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104903": {
+            "$overall": {
+              "all": 1.0
+            },
+            "clara@bmgmkt.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva ventas": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-20T06:57:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95141": {
+            "$overall": {
+              "all": 1.0
+            },
+            "admin@zentra.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-08T18:05:43": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "rpmendez@uth.hn": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-06T22:22:13": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98089": {
+            "$overall": {
+              "all": 1.0
+            },
+            "germanridao@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-18T16:33:55": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90777": {
+            "$overall": {
+              "all": 1.0
+            },
+            "fernandezmara@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-06T12:44:19": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91840": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@adducciinstalaciones.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-02T15:08:27": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94388": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@perimetralessa.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-24T22:02:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93985": {
+            "$overall": {
+              "all": 1.0
+            },
+            "berinvictoria2@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-01T12:36:34": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104534": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gabellilisette1122@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-06T10:33:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89067": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ivan@fremsrl.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-08T11:52:47": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lizavilleda30@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-10T19:33:51": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94671": {
+            "$overall": {
+              "all": 1.0
+            },
+            "martinorona3333@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-16T19:45:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "103827": {
+            "$overall": {
+              "all": 1.0
+            },
+            "jdedionigi@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-19T15:48:36": {
+          "$overall": {
+            "all": 1.0
+          },
+          "115573": {
+            "$overall": {
+              "all": 1.0
+            },
+            "rocio.campos.mdq@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-12T18:26:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93573": {
+            "$overall": {
+              "all": 1.0
+            },
+            "nehuen241197@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-08T17:33:57": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95789": {
+            "$overall": {
+              "all": 1.0
+            },
+            "yecigalvan1332@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-14T10:21:39": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89860": {
+            "$overall": {
+              "all": 1.0
+            },
+            "PLASTICOSORDAS@HOTMAIL.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-27T11:11:40": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96408": {
+            "$overall": {
+              "all": 1.0
+            },
+            "efava@auditar-nt.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-24T00:30:31": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96318": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marenogabriel151@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T07:57:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "103935": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ulisesvacchino2008@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-31T15:08:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97899": {
+            "$overall": {
+              "all": 1.0
+            },
+            "jperal@volsmart.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-01T17:09:51": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104539": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lucas.esteves@colppy.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-11T13:50:48": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105052": {
+            "$overall": {
+              "all": 1.0
+            },
+            "drcmarianela@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-28T02:01:26": {
+          "$overall": {
+            "all": 1.0
+          },
+          "109330": {
+            "$overall": {
+              "all": 1.0
+            },
+            "carlosmima24@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-17T21:47:46": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95059": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mauromedinamauro1992@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-07T16:59:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "arshop.admi@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-02-20T19:18:12": {
+          "$overall": {
+            "all": 1.0
+          },
+          "115847": {
+            "$overall": {
+              "all": 1.0
+            },
+            "lmedinavives@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-29T19:35:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89416": {
+            "$overall": {
+              "all": 1.0
+            },
+            "nicolasadet89@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva compras": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-26T12:54:43": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90142": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gonzalo.gauna@recursosrenovables.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-17T15:49:23": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93763": {
+            "$overall": {
+              "all": 1.0
+            },
+            "anajorgelinablanco739@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Finalizó importación": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-03T22:15:31": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94267": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gise.mm89@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-25T16:45:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "vaninakrier@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T08:00:11": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104027": {
+            "$overall": {
+              "all": 1.0
+            },
+            "grafikposters@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-21T22:27:05": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104099": {
+            "$overall": {
+              "all": 1.0
+            },
+            "giordanoguido83@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-28T10:50:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105925": {
+            "$overall": {
+              "all": 1.0
+            },
+            "advancesportbp@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-19T23:42:58": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90824": {
+            "$overall": {
+              "all": 1.0
+            },
+            "murello86@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-26T14:15:58": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91057": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gustavopennesi@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-11T11:32:15": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92384": {
+            "$overall": {
+              "all": 1.0
+            },
+            "dggodoy86@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-11T08:41:42": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105036": {
+            "$overall": {
+              "all": 1.0
+            },
+            "santius659@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-27T17:21:57": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105885": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Lorenzocaringellamdq@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-17T12:05:56": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ventas@cosmeticaossono.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-24T13:28:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91661": {
+            "$overall": {
+              "all": 1.0
+            },
+            "florencia.aldana@logisticafs.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-04T08:43:36": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96678": {
+            "$overall": {
+              "all": 1.0
+            },
+            "elisabetta3@powerscrews.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-08T19:01:51": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93506": {
+            "$overall": {
+              "all": 1.0
+            },
+            "matiassala898@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-12-11T08:41:15": {
+          "$overall": {
+            "all": 1.0
+          },
+          "105034": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marianoglr797@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-20T13:42:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92856": {
+            "$overall": {
+              "all": 1.0
+            },
+            "solstaffa@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-10T16:34:52": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "bridgesyreynolds@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2026-01-08T20:30:46": {
+          "$overall": {
+            "all": 1.0
+          },
+          "106575": {
+            "$overall": {
+              "all": 1.0
+            },
+            "grupogei.salud@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-16T19:04:15": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93743": {
+            "$overall": {
+              "all": 1.0
+            },
+            "emavazquez300km@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-16T18:24:02": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mcscontables@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-20T19:42:02": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97669": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mamucho143@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-08T22:51:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98153": {
+            "$overall": {
+              "all": 1.0
+            },
+            "BenjaminRuizDiaz@proton.me": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-14T18:18:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97559": {
+            "$overall": {
+              "all": 1.0
+            },
+            "baseceroo@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Finalizó importación": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-15T10:28:02": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89179": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@nutrifocus.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-05T17:50:01": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89581": {
+            "$overall": {
+              "all": 1.0
+            },
+            "fnobile@assandriludeiroabogados.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-09T19:26:13": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "nellsontorres07@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-11T18:35:59": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90508": {
+            "$overall": {
+              "all": 1.0
+            },
+            "francisquitorusso@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-21T11:26:17": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95156": {
+            "$overall": {
+              "all": 1.0
+            },
+            "proyectosyfinanzas@nueco.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-17T20:46:53": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92748": {
+            "$overall": {
+              "all": 1.0
+            },
+            "facu_uncce@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-11T23:18:49": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93432": {
+            "$overall": {
+              "all": 1.0
+            },
+            "amoedo@fullmec.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-15T17:42:28": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89188": {
+            "$overall": {
+              "all": 1.0
+            },
+            "marcosmirand@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-17T14:35:14": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89916": {
+            "$overall": {
+              "all": 1.0
+            },
+            "mmcerf@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-01T20:35:07": {
+          "$overall": {
+            "all": 1.0
+          },
+          "95484": {
+            "$overall": {
+              "all": 1.0
+            },
+            "contagerencial12@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-20T08:52:29": {
+          "$overall": {
+            "all": 1.0
+          },
+          "104034": {
+            "$overall": {
+              "all": 1.0
+            },
+            "carinellicamila18@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-18T16:24:31": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "administracion@agrolibres.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-26T11:59:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "proveedores@lacarlotamaderas.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-01T12:05:10": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "brayanjosue.colindres@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "app generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-29T16:44:58": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93256": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Marisagreco33@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-27T17:33:30": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94136": {
+            "$overall": {
+              "all": 1.0
+            },
+            "nataliacalvino@YAHOO.COM.AR": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-16T20:11:22": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97596": {
+            "$overall": {
+              "all": 1.0
+            },
+            "ays2022miami@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-21T22:17:00": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91591": {
+            "$overall": {
+              "all": 1.0
+            },
+            "1175market@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-28T12:02:31": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "axel_koruk@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-11T10:09:52": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "laurapaolah@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el estado de resultados": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-08-28T19:20:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "96417": {
+            "$overall": {
+              "all": 1.0
+            },
+            "intervalquilmescontable@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-01-29T15:03:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "emiliano.demagistris@coderhouse.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-07T23:35:36": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91324": {
+            "$overall": {
+              "all": 1.0
+            },
+            "jenny-1497@hotmail.es": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-27T21:51:41": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94247": {
+            "$overall": {
+              "all": 1.0
+            },
+            "pablo.fernandez.bla@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de venta": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-07-01T11:54:51": {
+          "$overall": {
+            "all": 1.0
+          },
+          "94334": {
+            "$overall": {
+              "all": 1.0
+            },
+            "estudio@malleaabogados.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-10T15:47:03": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "facuna@tristanyasociados.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el libro iva digital": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-07T13:03:27": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90407": {
+            "$overall": {
+              "all": 1.0
+            },
+            "rickiandres7777@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-02-20T19:34:58": {
+          "$overall": {
+            "all": 1.0
+          },
+          "89987": {
+            "$overall": {
+              "all": 1.0
+            },
+            "silviaschippert@framafin.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-03-11T18:45:17": {
+          "$overall": {
+            "all": 1.0
+          },
+          "90531": {
+            "$overall": {
+              "all": 1.0
+            },
+            "cristianb.arg@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó recibo de cobro": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-15T15:57:23": {
+          "$overall": {
+            "all": 1.0
+          },
+          "92591": {
+            "$overall": {
+              "all": 1.0
+            },
+            "delfin@intracksa.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-06-23T17:33:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93947": {
+            "$overall": {
+              "all": 1.0
+            },
+            "gustavo@bigconsulting.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-09-03T17:12:04": {
+          "$overall": {
+            "all": 1.0
+          },
+          "7717": {
+            "$overall": {
+              "all": 1.0
+            },
+            "Juana.lebrero@4construcciones.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-11-07T12:20:34": {
+          "$overall": {
+            "all": 1.0
+          },
+          "98067": {
+            "$overall": {
+              "all": 1.0
+            },
+            "RURALPER@GMAIL.COM": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó comprobante de compra": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-04-17T11:39:50": {
+          "$overall": {
+            "all": 1.0
+          },
+          "91501": {
+            "$overall": {
+              "all": 1.0
+            },
+            "julieta@sitargentina.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-16T10:19:25": {
+          "$overall": {
+            "all": 1.0
+          },
+          "11675": {
+            "$overall": {
+              "all": 1.0
+            },
+            "martin@kalispan.com.ar": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Descargó el listado de comprobantes de venta borrador": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-05-29T23:10:01": {
+          "$overall": {
+            "all": 1.0
+          },
+          "93276": {
+            "$overall": {
+              "all": 1.0
+            },
+            "leslie-tr@hotmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó asiento contable": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-14T10:52:06": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97442": {
+            "$overall": {
+              "all": 1.0
+            },
+            "carlosregardiz@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Agregó un ítem": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "2025-10-22T10:41:24": {
+          "$overall": {
+            "all": 1.0
+          },
+          "97705": {
+            "$overall": {
+              "all": 1.0
+            },
+            "monteredes@gmail.com": {
+              "$overall": {
+                "all": 1.0
+              },
+              "Generó orden de pago": {
+                "all": 1.0
+              }
+            }
+          }
+        },
+        "$other": {
+          "all": 1.0
+        }
+      }
+    }
+  }
+}

@@ -116,10 +116,10 @@ $candidate_list
 
 For each doc, read it and check if anything is now stale or inaccurate.
 
-If a doc needs updating, output ONLY:
+If a doc needs updating, output ONLY (use exact markers; the END marker must include the path to avoid truncation if content contains "--- END"):
 --- FILE: path/to/doc.md
 [complete updated file content]
---- END
+--- END: path/to/doc.md
 
 If no docs need updating, output exactly: NO_UPDATES_NEEDED
 EOF
@@ -134,7 +134,8 @@ updated=false
 while IFS= read -r file_path; do
   [[ -z "$file_path" ]] && continue
   escaped_path=$(escape_sed_pattern "$file_path")
-  content=$(printf '%s\n' "$output" | sed -n "/^--- FILE: ${escaped_path}$/,/^--- END$/p" \
+  # Use path-specific END marker to avoid truncation when content contains "--- END"
+  content=$(printf '%s\n' "$output" | sed -n "/^--- FILE: ${escaped_path}$/,/^--- END: ${escaped_path}$/p" \
     | sed '1d;$d')
   if [[ -n "$content" ]]; then
     printf '%s\n' "$content" > "$file_path"

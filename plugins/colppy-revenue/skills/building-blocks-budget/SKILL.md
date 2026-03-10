@@ -20,6 +20,8 @@ User asks about:
 
 **Read:** `docs/GOOGLE_SHEETS_REGISTRY.json` (bundled in plugin)
 
+**REAL mapping:** `docs/BUILDING_BLOCKS_REAL_MAPPING.md` — where each actual number comes from (Budget Aprobado, Raw Data -- Actuals).
+
 The registry lists all Colppy budget tabs. Each entry has: `id`, `tab_name`, `file_id`, `gid`, `notes`.
 
 ### Key Tabs for Building Blocks

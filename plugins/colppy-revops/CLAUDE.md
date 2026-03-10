@@ -56,6 +56,37 @@ When running a full reconciliation for a new month:
 
 Or simply: `run_full_refresh` which runs all 4 steps.
 
+## Local DB Freshness Protocol
+
+Before querying `tools/data/facturacion_hubspot.db` for analysis, check freshness and coverage:
+
+### Step 1: Check refresh timestamps
+
+```sql
+-- Last deals/companies refresh
+SELECT timestamp, period, source_metadata FROM hubspot_refresh_logs ORDER BY id DESC LIMIT 1;
+-- Last associations refresh
+SELECT timestamp FROM hubspot_deal_associations_refresh_logs ORDER BY id DESC LIMIT 1;
+```
+
+### Step 2: Decide refresh vs live API
+
+| Condition | Action |
+|-----------|--------|
+| Query period ≤ last refresh date | Use local DB |
+| Query period > last refresh date | Use HubSpot MCP tools directly |
+| Associations refresh > 24h old and query needs Type 8 data | Run `populate_deal_associations` first, or use HubSpot MCP |
+
+### Step 3: Coverage gaps — companies table
+
+The `companies` table only contains CUIT-matched companies (imported via `build_facturacion_hubspot_mapping.py`). Accountant companies that are only associated to deals (never billed) may be missing.
+
+When joining `deal_associations` to `companies`:
+
+- Always use `LEFT JOIN`
+- If any rows return NULL company name → fetch those company IDs from HubSpot MCP (`get_crm_objects`) in a single batch call
+- Do NOT present results with missing names — resolve them first
+
 ## Output Rules
 
 - Present reconciliation results in the chat with markdown tables

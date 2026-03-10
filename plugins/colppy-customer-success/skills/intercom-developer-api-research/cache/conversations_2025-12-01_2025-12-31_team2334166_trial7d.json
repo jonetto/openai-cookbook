@@ -1,0 +1,1387 @@
+{
+  "from_date": "2025-12-01",
+  "to_date": "2025-12-31",
+  "state": null,
+  "team_assignee_id": "2334166",
+  "topic": "Primeros 90 días",
+  "trial_only": true,
+  "trial_days": 7,
+  "saved_at": "2026-03-08T20:43:53.681Z",
+  "conversations": [
+    {
+      "conversation_id": "215472478916821",
+      "created_at": "2025-12-30T15:52:40.000Z",
+      "state": "closed",
+      "contact_email": "jmgsartuqui@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-30T14:49:24.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Consultas-No responden",
+        "Chat-Bot",
+        "Mod Pro-Importación de facturas de Compra"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-30T15:52:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-30T15:52:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-30T15:52:56.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2025-12-30T15:53:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2025-12-30T15:53:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2025-12-30T15:53:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Proveedores > Gestión de proveedores > elegir el proveedor con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Proveedores > Gestión de proveedores > Importar > Facturas Ver el paso a paso en este link ​ -Mis comprobantes emitidos desde AFIP Ver el paso a paso en este link",
+          "created_at": "2025-12-30T15:53:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudimos resolver tu consulta?",
+          "created_at": "2025-12-30T15:53:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-12-30T15:53:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-30T15:53:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Se pueden cargar liquidaciones de compra de haciend a?",
+          "created_at": "2025-12-30T15:53:29.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés registrar liquidaciones de compra de hacienda en Colppy, aunque recomendamos usar un talonario X para que puedas ingresarlas manualmente en el SIAP. El proceso se hace en dos pasos: 1. Registrar la venta de granos con una factura de venta con la alícuota de IVA correspondiente para calcular el IVA débito fiscal. 2. Registrar el descuento por comisiones a través de una nota de crédito con la alícuota correspondiente para calcular el IVA crédito fiscal. Después podés generar el cobro por la liquidación y registrar las retenciones de ingresos brutos, ganancias, IVA o SUSS si corresponde. Source: ¿Como registro una liquidación de granos? (liquido-producto)?",
+          "created_at": "2025-12-30T15:53:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2025-12-30T15:53:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "eso es cereal yo consulte por hacienda",
+          "created_at": "2025-12-30T15:54:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para las liquidaciones de compra de hacienda, podés usar el mismo proceso que para cereales pero adaptado a tu tipo de operación. Te recomendamos usar un talonario X para poder ingresarlas manualmente en el SIAP después. El proceso sigue siendo en dos pasos: Registrar la compra de hacienda con una factura de compra, incluyendo la alícuota de IVA correspondiente para calcular el IVA crédito fiscal. Registrar las comisiones o gastos de la liquidación a través de una nota de débito con la alícuota correspondiente. Para cargar los ítems, podés ingresar directamente la descripción de la hacienda (tipo de animal, peso, etc.) sin necesidad de tenerla dada de alta en el inventario. Solo completás la descripción, unidad de medida, cantidad, precio unitario y seleccionás la cuenta contable correspondiente. Después podés registrar el pago de la liquidación y cualquier retención que corresponda (ingresos brutos, ganancias, IVA o SUSS). ¿Te sirve esta info o necesitás que te explique algún paso específico del proceso? Sources: ¿Como registro una liquidación de granos? (liquido-producto)? Factura de compra - En cuenta corriente ¿Cómo agregar ítems a los comprobantes de venta y compra?",
+          "created_at": "2025-12-30T15:55:15.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no las voy a importar pos siap",
+          "created_at": "2025-12-30T15:55:22.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero hablar con una persona",
+          "created_at": "2025-12-30T15:55:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Claro, te voy a pasar con alguien de nuestro equipo. Mientras tanto, ¿podrías contarme más detalles sobre tu consulta para que puedan ayudarte mejor?",
+          "created_at": "2025-12-30T15:55:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "prefiro esperar",
+          "created_at": "2025-12-30T15:55:51.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no se puede cargar tal y como es un comprobante de liquidación, en el cual los gastos ya están incluidos ? porque esta información luego se importará en \" iva simple\" y necesito que estén bien los archivos",
+          "created_at": "2025-12-30T15:59:01.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ jmgsartuqui@gmail.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-12-30T15:59:04.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buen día Juan, ¿Cómo estás? Colppy no dispone de la funcionalidad en si, la única manera de cargarlo es a forma de registro siguiendo los paso de cereales que es similar. Lamentablemente no contamos con otra manera de poder realizarlo [App: Article Inserter]",
+          "created_at": "2025-12-31T14:30:57.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Juan, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com ​ ¡Además, agrega nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hace clic en el siguiente botón: Que tengas una buena jornada 😊",
+          "created_at": "2026-01-05T12:20:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Agustina?",
+          "created_at": "2026-01-05T12:20:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-05T12:20:21.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472392837055",
+      "created_at": "2025-12-23T13:57:05.000Z",
+      "state": "closed",
+      "contact_email": "administracion@redcouch.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Administrativo / Contador de una empresa",
+      "contact_signed_up_at": "2025-12-18T13:50:21.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Cli-Importación de facturas de venta modelo nuevo",
+        "duplicado",
+        "Mod Cli-Factura X"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-23T13:57:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-23T13:57:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-23T13:57:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-12-23T13:57:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-12-23T13:57:31.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Somos un consorcio que liquidamos expensas necesitamos registrar la operacion con un recibo/factura sin validacion fiscal?",
+          "created_at": "2025-12-23T13:58:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "que comprobante nos recomiendan?",
+          "created_at": "2025-12-23T13:58:16.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2025-12-23T13:58:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Clientes > Gestión de clientes > elegir el cliente con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Clientes > Gestión de clientes > Importar > Facturas (modelo nuevo) ​ -Mis comprobantes emitidos desde AFIP [App: Article Inserter] -Emitir masivamente facturas a clientes ​ [App: Article Inserter]",
+          "created_at": "2025-12-23T13:58:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste agregar tus facturas?",
+          "created_at": "2025-12-23T13:58:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-12-23T13:58:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-23T13:58:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Somos un consorcio que liquidamos expensas necesitamos registrar la operacion con un recibo/factura sin validacion fiscal",
+          "created_at": "2025-12-23T13:59:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para registrar las liquidaciones de expensas sin validación fiscal, te recomendamos usar Factura tipo \"X\" . Este tipo de comprobante es perfecto para tu caso porque: Impacta en la contabilidad y cuentas corrientes No aparece en reportes impositivos Se usa específicamente para ajustes internos Cómo cargarla: Ir a Clientes > Gestión de Clientes Seleccionar el cliente > Agregar factura > Cuenta corriente En \"Tipo de factura\" elegir \"X\" De esta forma registras correctamente la operación sin que afecte tus obligaciones fiscales. Source: Factura X - ¿Cómo realizar ajustes a las cuentas corrientes que no afecten a los reportes impositivos?",
+          "created_at": "2025-12-23T13:59:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2025-12-23T13:59:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si necesitas más ayuda con el registro de la operación o tienes alguna duda adicional, estoy aquí para asistirte. ¿Podrías contarme más sobre lo que quieres resolver o entender?",
+          "created_at": "2025-12-23T14:03:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, sigo aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215472356631062?view=List",
+          "created_at": "2025-12-23T15:09:25.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472398679266",
+      "created_at": "2025-12-23T19:35:29.000Z",
+      "state": "closed",
+      "contact_email": "camila.lagoa@colppy.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-18T12:08:04.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Capacitaciones"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "Hola Angeles, según lo acordado en la capacitación te dejo el LINK de la reunión. Que tengas unas excelentes fiestas y cualquier duda o consultas nos escribís. Saludos.",
+          "created_at": "2025-12-23T19:35:29.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472326690756",
+      "created_at": "2025-12-18T18:15:10.000Z",
+      "state": "closed",
+      "contact_email": "info@scionre.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-17T16:34:15.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Mod Cli-Aceptación Factura Electronica"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Buenas tardes, Realicé la autorización en WebServices de administrador de relaciones, por favor me indicas como avanzar. Muchas gracias",
+          "created_at": "2025-12-18T18:15:10.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buenas tardes Johana, mi nombre es Agustina de implementación Ya aceptamos la delegación para que puedan emitir facturas electrónicas desde Colppy. Como AFIP suele demorar unas horas en validar el trámite de la delegación, hasta 24 horas, te sugiero que pruebes hacer una factura en unas horas. Vas a ver creado el talonario 0002 Quedamos atentos a tus comentarios, ¡Saludos!",
+          "created_at": "2025-12-18T19:16:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Agustina?",
+          "created_at": "2025-12-19T15:49:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-12-19T15:49:32.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472326917645",
+      "created_at": "2025-12-18T18:36:13.000Z",
+      "state": "closed",
+      "contact_email": "sol.arregui@colppy.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-17T16:34:15.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Configuracion Factura Electronica"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "Hola Johana, por aquí Estefanía 😊 Configurar tu cuenta es fundamental para sacarle todo el provecho a Colppy. Si necesitas ayuda no dudes en escribirme.",
+          "created_at": "2025-12-18T18:36:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Estefanía, si",
+          "created_at": "2025-12-18T18:36:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ info@scionre.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-12-18T18:36:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy intentando avanzar con la autorización de para facturar, sabes mas o menos que tiempo lleva el proceso?",
+          "created_at": "2025-12-18T18:36:54.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Johana! Como estas?",
+          "created_at": "2025-12-18T18:37:14.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Estabas intentando dar de alta el sistema?",
+          "created_at": "2025-12-18T18:37:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "enlazar el sistema con Afip para poder facturar",
+          "created_at": "2025-12-18T18:38:30.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Claro, para poder avanzar con eso, primero se tiene que dar de alta el sistema",
+          "created_at": "2025-12-18T18:40:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "como lo hago?",
+          "created_at": "2025-12-18T18:42:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "desde afip dices?",
+          "created_at": "2025-12-18T18:42:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "nosotros tenemos otras emrpesas asociadas, podría hacer que en el sistema esta empresa me aparezca en el listado para cambiar de una empresa a otra, esta empresa me quedó por fuera",
+          "created_at": "2025-12-18T18:43:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Estefanía Sol Arregui Solcha se me asigno esta conversacion q le estas escribiendo",
+          "created_at": "2025-12-18T18:45:45.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "gracias Jair J. Calás se está reasignando sola no sé por que, si se les vuelve a mover pasenmela",
+          "created_at": "2025-12-18T18:46:15.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Tenes un minuto asi te llamo?",
+          "created_at": "2025-12-18T18:46:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "sii",
+          "created_at": "2025-12-18T18:48:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "1137716817",
+          "created_at": "2025-12-18T18:50:06.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Te estoy llamando, te llega?",
+          "created_at": "2025-12-18T19:16:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "solo me llegó mensaje de llamada perdida",
+          "created_at": "2025-12-18T19:17:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "te devuelvo la llamada a ese número?",
+          "created_at": "2025-12-18T19:17:22.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Me confirmas de que rubro es la emoresa?",
+          "created_at": "2025-12-18T19:27:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Es un productora de reaseguros",
+          "created_at": "2025-12-18T19:28:24.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Perfecto",
+          "created_at": "2025-12-18T19:29:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aguardo el CBU",
+          "created_at": "2025-12-18T19:29:18.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Asi ya lo activamos y aviso a onboarding",
+          "created_at": "2025-12-18T19:36:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "gracias",
+          "created_at": "2025-12-18T19:37:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "0070005420000024965413",
+          "created_at": "2025-12-18T19:37:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "el CBU",
+          "created_at": "2025-12-18T19:37:32.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Ya está la empresa activa",
+          "created_at": "2025-12-18T19:42:27.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Tenes los datos del contador asi le creamos un usuario? Nombre, mail y telefono",
+          "created_at": "2025-12-18T19:42:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "diego.morales@promecor.com",
+          "created_at": "2025-12-18T19:45:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Diego Morales",
+          "created_at": "2025-12-18T19:45:41.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "1153296615",
+          "created_at": "2025-12-18T19:46:02.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Listo!",
+          "created_at": "2025-12-18T19:46:58.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Camila Gisel Lagoa Agustina Grosso chicas, acabamos de dar de alta enterprise. Le dan una mano con la delegación de afip?",
+          "created_at": "2025-12-18T19:47:30.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "dale, gracias",
+          "created_at": "2025-12-18T19:47:47.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "En breve se van a estar comunicando desde onboarding!",
+          "created_at": "2025-12-18T19:47:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "como usuario administrador queda el mail que te pasé?",
+          "created_at": "2025-12-18T19:47:59.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "johana.ramirez?",
+          "created_at": "2025-12-18T19:48:04.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "si!",
+          "created_at": "2025-12-18T19:50:08.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "dale, gracias",
+          "created_at": "2025-12-18T19:50:17.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "A vos!",
+          "created_at": "2025-12-18T19:50:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "respondido por otro chat https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/6694923/conversation/215472326690756?view=List",
+          "created_at": "2025-12-18T19:56:46.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472322578724",
+      "created_at": "2025-12-18T14:31:49.000Z",
+      "state": "closed",
+      "contact_email": "angelesconstructora4@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-18T12:08:04.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Retención Ganancias"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-18T14:31:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-18T14:31:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-18T14:32:16.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2025-12-18T14:32:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2025-12-18T14:32:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ingresar un pago con retenciones",
+          "created_at": "2025-12-18T14:32:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Primero debes verificar que el campo para el calculo de retención de ganancias este habilitado. en el modulo de configuración en la solapa Datos Impositivos se deberá tildar el checkbox de Agente de Retención de Imp. a las Ganancias Cargar una factura en cuenta corriente y seleccionar el régimen de Retención de Ganancias Agregar un Pago, tildar la factura, seleccionar el mismo régimen que se definió en la factura en el campo de la retención y hacer clic en el botón \"Calcular Podes consultar el procedimiento en el siguiente articulo 👇 [App: Article Inserter]",
+          "created_at": "2025-12-18T14:32:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolviste la duda ?",
+          "created_at": "2025-12-18T14:32:39.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472321474292",
+      "created_at": "2025-12-18T12:29:33.000Z",
+      "state": "closed",
+      "contact_email": "angelesconstructora4@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-18T12:08:04.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-18T12:29:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-18T12:29:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-18T12:29:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Volver al menú principal",
+          "created_at": "2025-12-18T12:30:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-18T12:30:06.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Primeros pasos en tu empresa",
+          "created_at": "2025-12-18T12:30:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Empecemos con las primeras cargas! Agregar Clientes y Proveedores Configuración de cuentas en el módulo de Tesorería Carga de saldos iniciales Carga de facturas de Compra y Venta Ordenes de pago y Recibos de cobranzas En el siguiente articulo está el instructivo con el paso a paso para cada uno de estos puntos: [App: Article Inserter]",
+          "created_at": "2025-12-18T12:30:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Querés saber más sobre las primeros cargas en tu empresa?",
+          "created_at": "2025-12-18T12:30:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Volver al menú principal",
+          "created_at": "2025-12-18T12:30:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-18T12:30:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-18T12:30:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-18T12:30:56.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-18T12:31:00.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Volver al menú principal",
+          "created_at": "2025-12-18T12:31:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-18T12:31:12.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472289094477",
+      "created_at": "2025-12-16T13:27:33.000Z",
+      "state": "closed",
+      "contact_email": "jonatan.viterbi@hotmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-12T01:54:24.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Consultas sobre mi suscripción",
+          "created_at": "2025-12-16T13:27:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cuál es la razón social de la empresa estás interesado consultar sobre la suscripción?",
+          "created_at": "2025-12-16T13:27:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué queres saber sobre la suscripción de tu empresa?",
+          "created_at": "2025-12-16T13:27:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Volver al menú principal",
+          "created_at": "2025-12-16T13:27:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-16T13:27:56.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-16T13:28:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-16T13:28:06.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-16T13:28:16.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Tesorería",
+          "created_at": "2025-12-16T13:28:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2025-12-16T13:28:26.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472276907558",
+      "created_at": "2025-12-15T18:08:15.000Z",
+      "state": "closed",
+      "contact_email": "pablo@mfrsamplings.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-12T14:04:25.000Z",
+      "days_since_signup": 3,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Cli-Importación de facturas de venta modelo nuevo",
+        "Chat Duplicado",
+        "Mod Cfg-Factura Electrónica-"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-15T18:08:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-15T18:08:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-15T18:08:31.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-12-15T18:08:39.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-12-15T18:08:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy tratando de generar una FAC A y solo sale error al querer conectarse con ARCA",
+          "created_at": "2025-12-15T18:09:06.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2025-12-15T18:09:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Clientes > Gestión de clientes > elegir el cliente con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Clientes > Gestión de clientes > Importar > Facturas (modelo nuevo) ​ -Mis comprobantes emitidos desde AFIP [App: Article Inserter] -Emitir masivamente facturas a clientes ​ [App: Article Inserter]",
+          "created_at": "2025-12-15T18:09:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste agregar tus facturas?",
+          "created_at": "2025-12-15T18:09:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-12-15T18:09:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-15T18:09:50.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "cada vez que agrego una factura sale error al conectarse con ARCA",
+          "created_at": "2025-12-15T18:10:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Entiendo que es frustrante. Los errores de conexión con ARCA suelen deberse a problemas temporales de conectividad. Qué sucede cuando hay errores: Nuestro sistema guarda la factura en estado \"En Proceso\" Realizamos reintentos automáticos para emitirla Si ARCA la procesa, le asigna el número correspondiente Si no se puede procesar, se elimina automáticamente Te recomendamos: Esperar un poco y verificar si la factura se emitió correctamente Si después de 2 horas el comprobante no se completó, escribinos nuevamente Las facturas que quedan en proceso las encontrarás en: Módulo Clientes > Solapa Resumen clientes > Facturas borrador. Estamos trabajando constantemente para mejorar la conectividad con ARCA. Source: Emisión de Facturas electrónicas en proceso",
+          "created_at": "2025-12-15T18:10:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2025-12-15T18:10:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Lamento que sigas teniendo problemas con la conexión a ARCA. ¿Quieres contarme más detalles sobre el error para poder ayudarte mejor?",
+          "created_at": "2025-12-15T18:14:32.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "simplemente no puedo generar la factura, cuando a mi contadora le dicen que no deberia de haber problemas, que como mucho solo tenia que esperar un poco, eso fue hoy a la mañana",
+          "created_at": "2025-12-15T18:17:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Entiendo tu frustración. Si desde esta mañana sigues sin poder generar facturas, necesito más detalles para ayudarte mejor. ¿Podrías contarme el mensaje de error exacto que aparece cuando intentas generar la factura? También sería útil saber qué pasos específicos estás siguiendo cuando ocurre el problema. Los problemas de conexión con ARCA pueden presentar interrupciones debido a la comunicación entre sistemas, y a veces una factura que no se puede emitir en un momento determinado se puede procesar exitosamente en un intento posterior. Mientras tanto, verificá si hay facturas en estado \"En Proceso\" en: Módulo Clientes > Solapa Resumen clientes > Facturas borrador. Source: Emisión de Facturas electrónicas en proceso",
+          "created_at": "2025-12-15T18:17:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Lamento que continúes con dificultades para generar la factura y estoy aquí para ayudarte en lo que necesites. ¿Podrías proporcionarme más detalles sobre el error o los pasos que estás siguiendo para que podamos avanzar juntos?",
+          "created_at": "2025-12-15T18:21:23.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Pablo, ¿Cómo estas? ​ ​¿Ustedes cuando realizaron la delegación desde ARCA?",
+          "created_at": "2025-12-15T19:18:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenas, tengo entendido que la contadora, victoria es la que estuvo en contacto con ustedes para realizar la delegacion. Si no me equivoco eso fue el Jueves pasado.",
+          "created_at": "2025-12-15T19:19:51.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "¿Podrías indicarme el mail de Victoria para buscar su conversación por favor?",
+          "created_at": "2025-12-15T19:24:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "vspinola@fyd.com.ar",
+          "created_at": "2025-12-15T19:25:03.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Pablo, ya se encuentra mi compañera Agustina resolviendo el inconveniente con Victoria.",
+          "created_at": "2025-12-15T20:24:09.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, lo sigue Agustina aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/conversation/215472222312563?view=List",
+          "created_at": "2025-12-15T20:24:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ok gracias ​ Pablo Ripoli Chairman - Founder www.samplextech.com",
+          "created_at": "2025-12-15T23:29:03.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-12-16T12:36:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-12-16T12:36:36.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472275259289",
+      "created_at": "2025-12-15T16:29:50.000Z",
+      "state": "closed",
+      "contact_email": "administracion@supplysolutionsarg.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": "Dueño de un estudio contable",
+      "contact_signed_up_at": "2025-12-12T00:39:53.000Z",
+      "days_since_signup": 3,
+      "tags": [
+        "Chat-Bot",
+        "duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-15T16:29:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-15T16:29:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-15T16:30:06.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-12-15T16:30:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-12-15T16:30:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola, ¿cómo están? Estoy utilizando Colppy para emitir facturas electrónicas y enviarlas por mail desde el sistema, pero detecté que los correos no están llegando a los destinatarios. Hice las siguientes pruebas: Emití facturas a clientes habituales y no las recibieron. Probé enviarme facturas a una SAS propia en Salta, con dirección de correo correctamente cargada. Verifiqué que el mail esté bien escrito y activo. En todos los casos, el mail con el PDF de la factura no llega (no inbox ni spam). Quisiera saber, por favor: Si existe alguna configuración adicional que deba habilitar para el envío de mails. Si el envío automático de facturas por mail está activo por defecto o requiere validación. Si hay algún inconveniente actual con el servidor de correos de Colppy. Si el envío queda registrado en algún log o historial para verificar el estado. Mientras tanto, estoy descargando los PDF y enviándolos manualmente, pero necesito resolver el envío automático para operar con normalidad. Quedo atento a sus comentarios para poder solucionarlo a la brevedad. Gracias, Ignacio Salina Supply Solutions A",
+          "created_at": "2025-12-15T16:30:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Reportes",
+          "created_at": "2025-12-15T16:30:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Los reportes son documentos que te van a permitir conocer el estado económico de tu empresa. ​ Desde el Módulo Clientes > Resumen Clientes, podrás ver diferentes reportes que te mostrarán la cuenta corriente de tus clientes por diferentes periodos: ​ ​-Listado de clientes -Listado de facturas -Listado de cobranzas -IVA Ventas ​ Para más información sobre cada reporte, ingresa al siguiente articulo de ayuda👇 [App: Article Inserter]",
+          "created_at": "2025-12-15T16:30:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste descargar el reporte?",
+          "created_at": "2025-12-15T16:30:33.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, sigo aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215472243490245?view=List",
+          "created_at": "2025-12-15T16:55:40.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472252414279",
+      "created_at": "2025-12-13T13:32:22.000Z",
+      "state": "closed",
+      "contact_email": "jonatan.viterbi@hotmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-12T01:54:24.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Chat-Bot",
+        "tesoreria"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-13T13:32:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-13T13:32:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-13T13:32:35.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Tesorería",
+          "created_at": "2025-12-13T13:32:44.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2025-12-13T13:32:45.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472139818392",
+      "created_at": "2025-12-05T15:30:10.000Z",
+      "state": "closed",
+      "contact_email": "gladysbialek@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Dueño de una empresa",
+      "contact_signed_up_at": "2025-12-05T15:24:36.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "facturacion"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola, quiero crear un documento x no valido como factura",
+          "created_at": "2025-12-05T15:30:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ gladysbialek@gmail.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-12-05T15:30:14.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Gladys, ¿Cómo estas? ​ ​Para crear un documento X que no sea válido como factura, debes dar de alta un talonario específico para facturas, notas de débito y notas de crédito tipo X. Sigue estos pasos: Ve al módulo de empresa > talonarios > Nuevo talonario. Marca las opciones de Factura de venta, Nota crédito y Nota débito, y selecciona el tipo de comprobante como X. Luego, podrás utilizar este talonario directamente en la cuenta corriente del cliente para registrar el documento X, el cual no afectará los reportes impositivos.",
+          "created_at": "2025-12-05T15:33:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no encuentro el modulo empresas",
+          "created_at": "2025-12-05T15:35:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Perdón, el modulo Configuración",
+          "created_at": "2025-12-05T15:39:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "?",
+          "created_at": "2025-12-05T15:41:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "en la home inivial no lo encuentro",
+          "created_at": "2025-12-05T15:42:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Listo estoy en factura x",
+          "created_at": "2025-12-05T15:44:40.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "¿Pudiste hacerlo?",
+          "created_at": "2025-12-05T15:47:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy en factura x pero no puedo crear el recibo",
+          "created_at": "2025-12-05T15:47:51.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no puedo completar abajo fecha, tipo descripcion, etc",
+          "created_at": "2025-12-05T15:50:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gladys para armar un talonario para los recibos lo tenes que hacer por separado",
+          "created_at": "2025-12-05T15:51:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ok, luego de eso a donde voy para terminar de hacerlo",
+          "created_at": "2025-12-05T15:51:46.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy ahi",
+          "created_at": "2025-12-05T15:53:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Una vez generados los talonarios vas a la solapa cliente y podes emitir la factura X que no es fiscal, es decir que no impacta en ARCA",
+          "created_at": "2025-12-05T15:53:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "segun la imagen que te mande ya lo generé?",
+          "created_at": "2025-12-05T15:54:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "aqui estoy ahora",
+          "created_at": "2025-12-05T15:56:24.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gladys, veo que generaste el talonario para Factura X Y veo que tenes el talonario para recibos ​",
+          "created_at": "2025-12-05T15:57:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ok, y como sigo para emitirlo",
+          "created_at": "2025-12-05T15:58:08.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no se cómo seguir desde aqui",
+          "created_at": "2025-12-05T15:59:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "o sea, agregar la fecha, la descripcion y el monto",
+          "created_at": "2025-12-05T16:00:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Ingresas al modulo cliente>seleccionas el cliente>agregar factura>cuenta corriente/contado Colocas el tipo de factura X y el numero de talonario que creaste para estos comprobantes (no colocar el talonario de factura electrónica) y luego completas el resto de los datos de la factura",
+          "created_at": "2025-12-05T16:03:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no me deja editar los items de la factura",
+          "created_at": "2025-12-05T16:07:26.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "¿Qué te figura?",
+          "created_at": "2025-12-05T16:08:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "nono, perdon creo que ya estoy",
+          "created_at": "2025-12-05T16:08:55.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Perfecto, avisame cualquier cosa, me envias captura de pantalla y lo vemos.",
+          "created_at": "2025-12-05T16:09:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-12-09T12:26:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-12-09T12:26:30.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472109529430",
+      "created_at": "2025-12-03T15:45:27.000Z",
+      "state": "closed",
+      "contact_email": "cesar.recalde@realcatorce.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-12-02T11:20:43.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Chat-Bot",
+        "Mod Pro-Pago a cuenta",
+        "Mod Pro-Orden de pago"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-12-03T15:45:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-12-03T15:45:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-12-03T15:45:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2025-12-03T15:46:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2025-12-03T15:46:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Pago a cuenta",
+          "created_at": "2025-12-03T15:46:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para realizar pagos a cuenta realizados en concepto de adelantos en cuenta corriente, debes seguir estos pasos: ​ 1- Seleccionar el proveedor y hacer clic en agregar pago. 2- Cargar los datos de la orden de pago, NO se debe tildar ninguna factura. Se pasa directamente al medio de pago, seleccionar el mismo y en importe pones el importe del adelanto. Luego das clic en Guardar 3- Saldrá este cartel, pones \"Si\" 4- Lo verás en la cuenta del proveedor como pago a cuenta. Este luego poder imputarlo a una factura mediante otro pago",
+          "created_at": "2025-12-03T15:46:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolviste la duda?",
+          "created_at": "2025-12-03T15:46:15.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-12-03T15:47:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-12-03T15:47:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "como buscar numero de orden de pago",
+          "created_at": "2025-12-03T17:34:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para buscar el número de orden de pago, podés ir al módulo Proveedores > Resumen Proveedores > Reportes > Listado de Pagos . Ahí verás todos los pagos realizados a proveedores con información como razón social, descripción, importe y número de orden de pago. Podés filtrar por fechas específicas o por un proveedor en particular para encontrar más fácil lo que buscás. También podés acceder a una orden de pago específica desde la cuenta corriente del proveedor o desde los movimientos de tesorería donde se realizó el pago. Sources: Listado de Pagos de proveedores Pago a Proveedores Impresión de Ordenes de Pago",
+          "created_at": "2025-12-03T17:34:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2025-12-03T17:35:01.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda con la búsqueda del número de orden de pago, estoy aquí para asistirte. ¿Podrías contarme más sobre lo que estás intentando resolver para poder ayudarte mejor?",
+          "created_at": "2025-12-03T17:39:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "como buscar orden de pago como anticipo",
+          "created_at": "2025-12-03T18:29:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para buscar órdenes de pago registradas como anticipos, podés ir a Proveedores > Resumen Proveedores > Reportes > Listado de Pagos . Ahí verás todos los pagos realizados con información como razón social, descripción, importe y número de orden de pago. Podés filtrar por fechas específicas o por proveedor para encontrar más fácil los anticipos. Los pagos a cuenta (anticipos) aparecen como saldos en la cuenta corriente del proveedor y se pueden identificar porque no tienen facturas aplicadas - solo muestran el importe del adelanto realizado. Sources: Pagos a cuenta en cuenta corriente - Proveedores Listado de Pagos de proveedores",
+          "created_at": "2025-12-03T18:29:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Te ha resultado útil?",
+          "created_at": "2025-12-03T18:30:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Deseo hablar con una persona",
+          "created_at": "2025-12-03T18:30:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Claro, te voy a pasar con alguien de nuestro equipo. Mientras tanto, ¿podrías contarme más detalles sobre tu consulta para que puedan ayudarte mejor?",
+          "created_at": "2025-12-03T18:31:04.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Estoy buscando una OP que no encuentro en el listado",
+          "created_at": "2025-12-03T18:32:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ cesar.recalde@realcatorce.com.ar Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-12-03T18:32:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si",
+          "created_at": "2025-12-03T18:32:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "La orden de pago 5148",
+          "created_at": "2025-12-03T18:34:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Cesar, ¿Cómo estas? ​ ​Podes ingresar a Configuración>talonarios>orden de pago y ver todas las que tenes generadas",
+          "created_at": "2025-12-03T18:41:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero anular una Orden de Pago me podes ayudar con eso?",
+          "created_at": "2025-12-03T18:43:31.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cesar, para anular una orden de pago tenes que ingresar a la misma, cambiarle el estado a \"anulado\" y seleccionar guardar. Te dejo un ejemplo:",
+          "created_at": "2025-12-03T19:18:50.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenos días Gracias, pero mi consulta corresponde a una OP que no figura en la cuenta. La misma se generó con el nro 1-5148 Me podrás ayudar a identificar en el sistema y poder anular? Saludos De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 3 de diciembre de 2025 16:22 Para: Cesar Recalde < cesar.recalde@realcatorce.com.ar > Asunto: Re: Hacer una consulta Cesar, para anular una orden de pago tenes que ingresar a la misma, cambiarle el estado a \"anulado\" y seleccionar guardar. Te dejo un ejemplo: Estamos aquí para ayudarte Responde directamente a este correo electrónico o a través de nuestro Messenger Colppy Con la tecnología de Intercom",
+          "created_at": "2025-12-04T10:06:06.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cesar, ¿pudiste ver mi mensaje mas arriba que te mostré donde esta dicha OP, dentro del modulo configuración>talonarios? ​",
+          "created_at": "2025-12-04T13:26:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "La explicación para anular la op esta ok, pero nose porque en el sistema no figura. La única diferencia que se registro es que ingresamos monto por anticipo según print de pantalla.",
+          "created_at": "2025-12-04T13:33:59.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila",
+          "created_at": "2025-12-04T14:08:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "otra consulta",
+          "created_at": "2025-12-04T14:08:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quisiera saber si tienes un procedimiento para agregar detalles de cheques emitidos en un pago?",
+          "created_at": "2025-12-04T14:09:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "necesitamos agregar numeración, fecha emision, fecha de pago, etc",
+          "created_at": "2025-12-04T14:10:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cesar, en este caso te aconsejo que si tenes que anular ese pago lo realices directo desde el talonario donde te figura el pago. Con respecto a tu segunda consulta podes ingresar al pago y agregar los datos que correspondan",
+          "created_at": "2025-12-04T15:15:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "gracias Camila por los cheques!",
+          "created_at": "2025-12-04T15:50:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "En cuanto a la otra consulta, me podrás indicar como llegar a buscar ese talonario? No encuentro la opción de busqueda",
+          "created_at": "2025-12-04T15:51:20.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si obvio, ingresas a Configuración>talonarios>orden de pago y ahi buscas la OP",
+          "created_at": "2025-12-04T16:01:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "perfecto gracias!",
+          "created_at": "2025-12-04T16:33:24.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-12-04T16:34:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-12-04T16:34:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-12-04T16:34:24.000Z"
+        }
+      ]
+    }
+  ]
+}

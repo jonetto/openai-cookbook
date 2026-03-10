@@ -32,6 +32,8 @@ Do NOT use `mcp_web_fetch` for Google Sheets — it often returns 500 errors.
 
 ## Key Tabs for Building Blocks
 
+**REAL mapping:** See [BUILDING_BLOCKS_REAL_MAPPING.md](./BUILDING_BLOCKS_REAL_MAPPING.md) for where each actual number comes from and how it is calculated.
+
 | id | tab_name | Content |
 |----|----------|---------|
 | colppy_budget | Building Blocks Por Producto - Q4'25 HLT | Budget vs Real MRR (New Product, Upsell, Cross sell, EoP). Has Budget section and REAL section. |

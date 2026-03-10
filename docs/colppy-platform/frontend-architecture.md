@@ -119,12 +119,12 @@ templateParameters: {
 
 | MFE | Repo | Version | Purpose | Tech Stack | Mount Route | Status |
 |---|---|---|---|---|---|---|
-| `mfe_authentication` | `nubox-spa/colppy-app/mfe_authentication` | 1.1.4 | Login, signup, password recovery | React 18 + TS + Vite + MUI 5 + Redux Toolkit + react-hook-form + yup | `/` (default) | **Active** |
+| `mfe_authentication` | `colppy/mfe_authentication` | 1.1.4 | Login, signup, password recovery | React 18 + TS + Vite + MUI 5 + Redux Toolkit + react-hook-form + yup | `/` (default) | **Active** |
 | `mfe_onboarding` | `colppy/mfe_onboarding` | 1.0.8 | Post-signup onboarding wizard | React 18 + TS + Vite + MUI 7 + Redux Toolkit + react-hook-form | `/inicio` | **Active** |
 | `mfe_dashboard` | `colppy/mfe_dashboard` | 1.0.0 | Home dashboard with charts | React 18 + TS + Vite + Redux Toolkit + chart.js | Not mounted | Inactive |
 | `mfe_mercado_pago` | `colppy/mfe_mercado_pago` | 1.0.3 | Mercado Pago integration | React 18 + TS + Vite + Redux Toolkit + TanStack Table | Not mounted | Inactive |
 | `mfe_sales` | `colppy/mfe_sales` | 0.0.1 | Sales module | React 18 + TS + Vite + Redux Toolkit | Not mounted | Inactive (archetype clone) |
-| `mfe_vue` | `colppy/mfe_vue` | 2.5.12 | Legacy Vue components bridge | Vue 2.5 + Vuex 3 + Webpack 3 + Bootstrap 4 | Not mounted | Inactive (legacy) |
+| `colppy-vue` | `colppy/colppy-vue` | 2.5.12 | Legacy Vue components bridge (symlinked as mfe_vue in dockervm) | Vue 2.5 + Vuex 3 + Webpack 3 + Bootstrap 4 | Not mounted | Inactive (legacy) |
 | `mfe_archetype` | `colppy/mfe_archetype` | 0.0.1 | Template for new MFEs (standalone Vite) | React 18 + TS + Vite | N/A | Template |
 | `mfe_archetype_single_spa` | `colppy/mfe_archetype_single_spa` | 0.0.1 | Template for new MFEs (single-spa integrated) | React 18 + TS + Vite + single-spa-react | N/A | Template |
 
@@ -134,7 +134,7 @@ templateParameters: {
 
 ### mfe_authentication
 
-- **Location**: `nubox-spa/colppy-app/mfe_authentication/`
+- **Location**: `colppy/mfe_authentication/`
 - **Mount**: Default route (`/`) -- catches all unmatched paths
 - **single-spa integration**: `single-spa-react` ^6.0.1
 - **Key dependencies**:
@@ -346,7 +346,7 @@ New MFEs are created via GitHub Actions workflow `mfe_archetype-createrepo.yml`:
 
 - **react-router-dom version mismatch.** `mfe_authentication` uses v6.22.x, `mfe_onboarding` uses v7.5.x. These have different APIs (v7 introduced breaking changes).
 
-- **mfe_vue is Vue 2.5 with Webpack 3.** This is extremely legacy (2018-era). It exists as a bridge to embed Vue components in the single-spa shell but is not currently mounted.
+- **colppy-vue is Vue 2.5 with Webpack 3.** This is extremely legacy (2018-era). It exists as a bridge to embed Vue components in the single-spa shell but is not currently mounted. Dockervm symlinks it as `code/mfe_vue`.
 
 - **mfe_sales package.json still has archetype name.** Its `name` field is `"mfe-archetype-application"` (never renamed from the template), indicating it was scaffolded but not actively developed.
 
@@ -361,6 +361,52 @@ New MFEs are created via GitHub Actions workflow `mfe_archetype-createrepo.yml`:
 - **No shared dependency externalization.** Each MFE bundles its own copy of React, Redux, MUI, etc. There is no SystemJS shared dependency map. This increases total bundle size but simplifies independent deployment.
 
 - **Dev server ports are not standardized.** `app_root` runs on 9000, `mfe_onboarding` on 9002. Each MFE picks its own port. Check `vite.config.ts` or `package.json` scripts for the specific port.
+
+---
+
+## Mixpanel Integration Architecture
+
+Mixpanel tracking spans three codebases with different init patterns:
+
+| Codebase | Init location | Instance type | Mixpanel token source | Primary events |
+|---|---|---|---|---|
+| **mfe_authentication** | `src/analytics/mixpanel/mixpanel.tsx` | Named instance `'auth'` (access via `mixpanel.auth.*`) | `VITE_MIXPANEL_APP_ID` env var | Login, Register, Email Validation |
+| **mfe_onboarding** | `src/analytics/mixpanel/mixpanel.tsx` | Default instance | `VITE_MIXPANEL_APP_ID` env var | Finish Onboarding, Complete Data, group properties (Type of Activity, Industry) |
+| **colppy-app (legacy)** | `resources/js/ColppyManager/FuncionesGlobales.js` | Default instance (loaded via `colppyall-min.js`) | Hardcoded in minified bundle | All post-login events, group setup, super properties, Intercom boot |
+
+### Mixpanel data flow on login
+
+```text
+1. User enters email/password on mfe_authentication
+2. mfe_authentication tracks Login event via named 'auth' instance
+   - Does NOT set groups or super properties
+   - Cleans up legacy 'company_id' and 'company' properties
+3. Backend redirects to legacy PHP app (staging.colppy.com)
+4. colppy-app loads FuncionesGlobales.js
+5. colppyAnalytics() called with type='identify':
+   - mixpanel.identify(email)
+   - mixpanel.register({...super properties...})
+   - mixpanel.set_group('company', CUITFacturacion)    // Billing entity
+   - mixpanel.set_group('product_id', idEmpresaUsuario) // Subscription
+   - Sets group profiles with company/product properties
+   - Boots Intercom with company object
+```
+
+### Dual-Group Model (KAN-12024, in progress)
+
+| Group | Key | Source table | Purpose |
+|---|---|---|---|
+| `company` | `CUITFacturacion` | `facturacion` | Real billing entity (legal, fiscal, revenue analysis) |
+| `product_id` | `idEmpresaUsuario` | `empresa` | Product subscription (usage, activation, plan analysis) |
+
+Backend adds factuacion data via `LEFT JOIN facturacion fa ON fa.IdEmpresa = b.idEmpresa` in `UsuarioDAO.php`. Frontend stores it in global JS vars (`CUITFacturacion`, `razonSocialFacturacion`, etc.) via `Workspace.js`.
+
+### Mixpanel project
+
+- **Project ID**: `2201475`
+- **Token** (used in app): `c0c13c431fb0a0960dc763e575fc0ee3`
+- **Service account**: `jql_cursor.d931a5.mp-service-account` (for API queries)
+- **Session recording**: Controlled via external service at `https://mixpanel-session-counter-production.up.railway.app/api/can-record`
 
 ---
 
@@ -386,4 +432,4 @@ pnpm dev          # http://localhost:9002
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-06*

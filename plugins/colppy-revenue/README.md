@@ -15,6 +15,7 @@ Revenue analytics for **Colppy.com** — demand generation, marketing funnels, I
 | **funnel-definitions** | MQL/PQL/SQL stage definitions, HubSpot field mappings |
 | **mrr-analysis** | MRR waterfall workflow, revenue trends, Net New MRR |
 | **building-blocks-budget** | Fetch, query, dashboard from Building Blocks budget (Budget vs Actual MRR, ASP). Uses Google Sheets registry — no URL needed. |
+| **building-blocks-real** | Monthly New Client MRR export (Empresa vs Contador), script usage, Raw Data feed. Core workflow run every month. |
 | **cohort-retention** | Retention tables, heatmaps, survival curves |
 | **saas-metrics-conventions** | Metric definitions, Argentina formatting, data sources |
 | **docs-reference** | Index of all bundled docs — when to read which file from `docs/` |

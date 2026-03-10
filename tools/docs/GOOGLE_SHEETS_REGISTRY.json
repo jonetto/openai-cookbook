@@ -74,6 +74,14 @@
       "file_id": "1vouNcGMeNbpWW6znS8SZZdjUvG6ZzUIq_rh0zr4mJlY",
       "gid": "1205672651",
       "notes": "Lost MRR Budget, Early/Mid/Late %, Lost MRR Actual, % of MRR"
+    },
+    {
+      "id": "plan_30_60_90_revenue",
+      "tab_name": "Plan 30 60 90 Revenue",
+      "name": "Plan 30 60 90 Revenue - Francisca Horton",
+      "file_id": "1BguY_a_q60_BFwh6xsozkAm1VgThuxfXKnt9QUqSgqw",
+      "gid": "0",
+      "notes": "RevOps 30-60-90 day plan for Francisca Horton"
     }
   ]
 }

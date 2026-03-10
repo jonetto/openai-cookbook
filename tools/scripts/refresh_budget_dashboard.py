@@ -114,7 +114,7 @@ def fmt_pct(pct: float) -> str:
     return s
 
 
-def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path):
+def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path, target_month: str = "Jan-2026"):
     """Generate budget_dashboard.html."""
     gen_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     html = f'''<!DOCTYPE html>
@@ -161,7 +161,7 @@ def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path)
         </nav>
 
         <h1>Building Blocks — Budget vs Actual</h1>
-        <p class="subtitle">Deviation review: MRR and Average Ticket by product line · January 2026</p>
+        <p class="subtitle">Deviation review: MRR and Average Ticket by product line · {target_month}</p>
         <p class="detail-generated">Data source: Google Sheets (Building Blocks Por Producto Q4'25 HLT, ASP Forecast 2026 & Actual). Generated: {gen_time}</p>
 
         <div class="summary-cards">
@@ -174,10 +174,10 @@ def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path)
                 <p class="detail" style="margin:8px 0 0 0;font-size:0.8rem">Budget {card["budget_str"]} → Actual {card["actual_str"]}</p>
             </div>
 '''
-    html += '''        </div>
+    html += f'''        </div>
 
         <div class="section">
-            <h2>MRR — Budget vs Actual (Jan 2026)</h2>
+            <h2>MRR — Budget vs Actual ({target_month})</h2>
             <p class="detail">Building Blocks Por Producto - Q4'25 HLT. Values in ARS.</p>
             <table class="sortable">
                 <thead>
@@ -201,12 +201,12 @@ def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path)
                         <td class="num {cls}">{row["pct_str"]}</td>
                     </tr>
 '''
-    html += '''                </tbody>
+    html += f'''                </tbody>
             </table>
         </div>
 
         <div class="section">
-            <h2>Average Ticket (ASP) — Budget vs Actual (Jan 2026)</h2>
+            <h2>Average Ticket (ASP) — Budget vs Actual ({target_month})</h2>
             <p class="detail">ASP Forecast 2026 & Actual. Values in ARS.</p>
             <table class="sortable">
                 <thead>
@@ -279,11 +279,25 @@ def build_html(mrr_rows: list, asp_rows: list, summary: dict, output_path: Path)
     output_path.write_text(html, encoding="utf-8")
 
 
+def _default_target_month() -> str:
+    """Default to current month in Google Sheets format (e.g. Mar-2026)."""
+    now = datetime.now()
+    month_names = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+    return f"{month_names[now.month - 1]}-{now.year}"
+
+
 def main():
     parser = argparse.ArgumentParser(description="Refresh Building Blocks budget dashboard")
     parser.add_argument("--output", default="docs/budget_dashboard.html", help="Output HTML path")
     parser.add_argument("--registry", default=str(REGISTRY), help="Path to GOOGLE_SHEETS_REGISTRY.json")
+    parser.add_argument(
+        "--month",
+        default=None,
+        help="Target month column in Google Sheets (e.g. Mar-2026). Default: current month.",
+    )
     args = parser.parse_args()
+
+    target_month = args.month or _default_target_month()
 
     reg = json.loads(Path(args.registry).read_text(encoding="utf-8"))
     tabs = {t["id"]: t for t in reg["tabs"]}
@@ -293,13 +307,13 @@ def main():
         print("Registry missing colppy_budget or asp_forecast_2026", file=sys.stderr)
         sys.exit(1)
 
-    print("Fetching colppy_budget...")
+    print(f"Fetching colppy_budget (month: {target_month})...")
     csv_budget = fetch_tab(colppy["file_id"], colppy["gid"])
     print("Fetching asp_forecast_2026...")
     csv_asp = fetch_tab(asp["file_id"], asp["gid"])
 
-    mrr_data = parse_budget_csv(csv_budget)
-    asp_data = parse_budget_csv(csv_asp)
+    mrr_data = parse_budget_csv(csv_budget, target_month=target_month)
+    asp_data = parse_budget_csv(csv_asp, target_month=target_month)
 
     mrr_rows = []
     for item in sorted(mrr_data.keys()):
@@ -374,7 +388,7 @@ def main():
 
     summary = {"cards": cards, "insights": insights}
     out_path = REPO_ROOT / args.output
-    build_html(mrr_rows, asp_rows, summary, out_path)
+    build_html(mrr_rows, asp_rows, summary, out_path, target_month=target_month)
     print(f"Written: {out_path}")
 
 

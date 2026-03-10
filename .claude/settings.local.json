@@ -40,6 +40,7 @@
       "mcp__claude_ai_Fellow_ai__*",
       "mcp__claude_ai_Slack__*",
       "mcp__claude_ai_Atlassian__*",
+      "mcp__plugin_atlassian_atlassian__*",
       "mcp__claude_ai_Granola__*",
       "mcp__intercom__*",
       "Skill(commit-commands:commit-push-pr)",
@@ -51,11 +52,16 @@
       "WebFetch",
       "WebSearch",
       "mcp__claude_ai_Gmail__gmail_search_messages",
-      "mcp__claude_ai_Intercom__fetch"
+      "mcp__claude_ai_Intercom__fetch",
+      "mcp__granola__get_meeting_transcript"
     ],
     "deny": [],
     "ask": [],
     "defaultMode": "acceptEdits"
   },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "granola"
+  ],
   "outputStyle": "Explanatory"
 }

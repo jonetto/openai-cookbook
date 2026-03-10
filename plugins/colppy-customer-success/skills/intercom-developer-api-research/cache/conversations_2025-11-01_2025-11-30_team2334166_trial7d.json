@@ -1,0 +1,1740 @@
+{
+  "from_date": "2025-11-01",
+  "to_date": "2025-11-30",
+  "state": null,
+  "team_assignee_id": "2334166",
+  "topic": "Primeros 90 días",
+  "trial_only": true,
+  "trial_days": 7,
+  "saved_at": "2026-03-08T20:42:37.949Z",
+  "conversations": [
+    {
+      "conversation_id": "215471639189442",
+      "created_at": "2025-11-06T11:58:13.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 2,
+      "tags": [
+        "Mod Cfg-Factura Electrónica-"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, sabes que en las facturas electrónica sale como fecha de Inicio 17-09-2025, está mal. Te adjunto la Constancia de AFIP del Contador, su fecha de inicio es 01-08-1996. Aldana De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 17:54 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: RE: PROVEEDORES Aldi, los 3 campos obligatorios para crear un proveedor son Razón social, nombre y condición de IVA. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T11:58:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-06T11:58:29.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Aldi, ¿Cómo estas? ​ ​La fecha de inicio de ejercicio la podes modificar ingresando a configuración>talonario>ingresas al talonario electronico>datos adicionales y colocas la fecha correspondiente, en este caso ya te modifique la fecha que me pediste, por favor confirmame luego si sale correctamente-",
+          "created_at": "2025-11-06T12:13:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenísimo, ahí ya lo hice!!! De: Camila de Colppy < soporte@colppy.com > Enviado el: jueves, 6 de noviembre de 2025 09:14 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FECHA INICIO ACTIVIDAD",
+          "created_at": "2025-11-06T12:52:07.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Excelente Aldi, avisame cualquier cosa. Saludos.",
+          "created_at": "2025-11-06T13:21:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-06T13:22:09.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-06T13:22:09.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472014784550",
+      "created_at": "2025-11-28T14:59:52.000Z",
+      "state": "closed",
+      "contact_email": "lucianopeverelli@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-28T14:58:33.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola! Como andan? Me gustaria hacer algunas preguntas respecto a la plataforma",
+          "created_at": "2025-11-28T14:59:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ lucianopeverelli@gmail.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-11-28T14:59:57.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Camila Gisel Lagoa este cliente quiere hacer algunas consultas sobre el sistema, dieron de alta hace menos de 1 mes.",
+          "created_at": "2025-11-28T17:23:41.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Rocio Luque el ID es 104409? Me figura pendiente de pago y sin lead",
+          "created_at": "2025-11-28T17:29:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Camila Gisel Lagoa Cami este es el id 98007 - OCIO PRODUCTORA Luciano me dijo que ayer estuvo hablando con vos, se dieron de alta en esta nueva empresa de prueba para probar unas cosas",
+          "created_at": "2025-11-28T17:37:17.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Rocio Luque Cierro este chat ya que estoy conversando con ellos acá https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215471811642845?view=List",
+          "created_at": "2025-11-28T17:38:59.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471878861009",
+      "created_at": "2025-11-20T17:42:52.000Z",
+      "state": "closed",
+      "contact_email": "vani1322@hotmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-14T13:40:17.000Z",
+      "days_since_signup": 6,
+      "tags": [
+        "Mod Tes-Conecta tu Banco",
+        "Consultas-No responden",
+        "Chat-Bot",
+        "conecta tu banco",
+        "Mod Cont-Saldos Iniciales"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-11-20T17:42:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-11-20T17:42:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-11-20T17:43:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-11-20T17:43:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-11-20T17:43:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "importacion de clientes entre 2 partes de la misma empresa",
+          "created_at": "2025-11-20T17:43:56.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Reportes",
+          "created_at": "2025-11-20T17:44:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Los reportes son documentos que te van a permitir conocer el estado económico de tu empresa. ​ Desde el Módulo Clientes > Resumen Clientes, podrás ver diferentes reportes que te mostrarán la cuenta corriente de tus clientes por diferentes periodos: ​ ​-Listado de clientes -Listado de facturas -Listado de cobranzas -IVA Ventas ​ Para más información sobre cada reporte, ingresa al siguiente articulo de ayuda👇 [App: Article Inserter]",
+          "created_at": "2025-11-20T17:44:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste descargar el reporte?",
+          "created_at": "2025-11-20T17:44:15.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-11-20T17:44:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-11-20T17:44:22.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "tengo dos empresas en el modulo",
+          "created_at": "2025-11-20T17:44:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "g60 distribuidora y x-60",
+          "created_at": "2025-11-20T17:44:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero importar los clientes y proveedores y me dice que ya existen",
+          "created_at": "2025-11-20T17:45:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero saber como hago",
+          "created_at": "2025-11-20T17:45:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Cuando intentás importar clientes o proveedores entre dos empresas y aparece el mensaje de que \"ya existen\", esto sucede porque nuestro sistema tiene validaciones para evitar duplicaciones. Para resolver este problema, tenés estas opciones: 1. Editar los datos duplicados: Podés modificar los datos del cliente o proveedor duplicado y reutilizarlo para uno nuevo. 2. Inactivar el duplicado: Andá al Módulo Clientes/Proveedores Seleccioná el cliente/proveedor duplicado En la pestaña \"Otra información\" Cambiá la opción \"Activo\" a \"No\" Guardá los cambios 3. Revisar el archivo de errores: Después de la importación, te llegará un email con un archivo Excel que detalla qué registros no se pudieron importar y por qué, para que puedas corregirlos y volver a intentar. ¿Te llegó el email con el detalle de los errores de importación? Source: Importar clientes o proveedores",
+          "created_at": "2025-11-20T17:45:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda con la importación de clientes y proveedores, estoy aquí para asistirte. ¿Podrías contarme más sobre el problema que estás enfrentando para poder ayudarte mejor?",
+          "created_at": "2025-11-20T17:50:32.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy configurando la solapa de clientes y proveedores en la configuracion, selecciono las cuentas y no veo como guardarlas, y si salgo de la solapa se borran, como hago?",
+          "created_at": "2025-11-20T18:13:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para guardar la configuración de cuentas en la solapa Clientes/Proveedores, después de seleccionar las cuentas necesitas hacer clic en el botón \"Guardar\" para que los cambios se mantengan. Si no ves el botón \"Guardar\", puede ser porque la página tiene demasiado zoom. Intentá reducir el zoom de la página y volvé a ingresar a Colppy; el botón debería aparecer. Es importante que hagas clic en \"Guardar\" después de cada cambio que realices en la configuración, sino la información no se guardará correctamente. ¿Ya probaste reducir el zoom para ver si aparece el botón Guardar? Source: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2025-11-20T18:13:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya probe y no me aparece",
+          "created_at": "2025-11-20T18:14:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si ya probaste reducir el zoom y el botón \"Guardar\" no aparece, te recomiendo que pruebes con un navegador diferente o que limpies la caché del navegador actual. También podés intentar: Usar otro navegador (Chrome, Firefox, Edge) Limpiar la caché y cookies del navegador Desactivar temporalmente extensiones del navegador Si el problema persiste después de estos pasos, nuestro equipo de soporte puede ayudarte directamente. Podés contactarnos por email a soporte@colppy.com ¿Probaste con otro navegador? Source: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2025-11-20T18:14:59.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "me decis desde donde veo el plan de cuentas?",
+          "created_at": "2025-11-20T18:16:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Podés ver el plan de cuentas desde el módulo Contabilidad . Colppy te brinda un plan de cuentas genérico diseñado por nuestro grupo de contadores, y desde ahí podés modificarlo si necesitás ajustarlo a las necesidades de tu negocio. ¿Necesitás ayuda para modificar alguna cuenta específica del plan? Source: Manual de Primeros Pasos para Contadores",
+          "created_at": "2025-11-20T18:16:46.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "decime como me puedo sacar el listado de cuentas contables",
+          "created_at": "2025-11-20T18:19:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para obtener el listado de cuentas contables, tenés varias opciones: 1. Reporte Balance con todas las cuentas: Andá a Contabilidad > Reportes > Balance Completá el rango de fechas Tildá la opción \"Mostrar Cuentas con Saldo Cero\" para ver todas las cuentas del plan de cuentas Exportá en formato Excel o PDF 2. Reporte Mayor de todas las cuentas: Andá a Contabilidad > Panel de cuentas > Reportes > Mayor Seleccioná el alcance \"Todas\" para generar el Mayor de todas las cuentas del plan Exportá en Excel o PDF ¿Cuál de estas opciones te resulta más útil para lo que necesitás? Sources: Reporte Balance ¿Cómo descargar el reporte \"Mayor\" de una cuenta contable?",
+          "created_at": "2025-11-20T18:19:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda con la obtención del listado de cuentas contables, estoy aquí para asistirte. ¿Podrías contarme más sobre qué información específica buscas o qué dificultades estás teniendo?",
+          "created_at": "2025-11-20T18:24:33.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "SI NECESITO AGREGAR UNA CUENTA CONTABLE EN LA CONTABILIDAD Y EN TESORERIA, COMO HAGO?",
+          "created_at": "2025-11-20T19:11:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para agregar una cuenta contable nueva que también funcione en tesorería, seguí estos pasos: 1. Crear la cuenta contable: Andá al módulo Contabilidad Hacé clic en \"Cuentas\" > \"Agregar cuenta\" Completá los datos requeridos (código, descripción) Importante: En \"Tipo de Cuenta\" seleccioná \"Caja y Bancos\" para que después aparezca disponible en Tesorería 2. Crear la cuenta de tesorería: Andá al módulo Tesorería Hacé clic en \"Agregar Cuenta\" Completá nombre, tipo (Caja/Banco/Tarjeta), número de cuenta En \"Cuenta Contabilidad\" seleccioná la cuenta que creaste en el paso 1 Opción directa: Si no tenés la cuenta contable creada, podés crearla directamente desde Tesorería haciendo clic en \"Crear Cuenta Contable\" y luego \"Crear y Asignar a la cuenta de tesorería\". ¿En qué paso necesitás más ayuda? Source: Crear cuentas de Tesorería (caja, bancos y tarjetas) en pesos",
+          "created_at": "2025-11-20T19:11:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Veo que aún tienes dudas sobre la configuración y uso de las cuentas contables y de tesorería; lamento cualquier inconveniente que esto te haya causado. ¿Podrías indicarme en qué parte del proceso necesitas más detalles para poder asistirte mejor?",
+          "created_at": "2025-11-20T19:16:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "YA COMPLETE LAS CONFIGURACION DE CLIENTES Y PROVEEDORES Y AUN NO ME DEJA PONER EL REDONDEO",
+          "created_at": "2025-11-20T19:33:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Según la información disponible, la configuración de Clientes/Proveedores incluye varios campos como cuentas contables, intereses, descuentos y diferencias de cambio. Sin embargo, no encuentro información específica sobre la configuración de redondeo en esta sección. Para poder ayudarte mejor, ¿podrías contarme: ¿En qué parte específica de la configuración esperás ver la opción de redondeo? ¿Es para redondeo de facturas, pagos o algún cálculo en particular? Esto me ayudará a darte una respuesta más precisa sobre dónde encontrar esa configuración. Source: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2025-11-20T19:34:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "AGREGUE LA CUENTA CONTABLE DE REDONDEO EN LA CONFIGURACION PARA QUE ME DEJE UTILIZARLA EN LA PARTE DE DESCUENTOS Y NO PUEDO, ESTA GRISASEO Y NO PUEDO COMPLETARLA",
+          "created_at": "2025-11-20T19:35:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si el campo de descuentos está grisado y no podés completarlo, esto indica que no se ha configurado correctamente la cuenta contable de descuentos en la configuración. Para solucionarlo: Verificá que hayas guardado la configuración: Después de agregar la cuenta de redondeo en el campo \"Descuento a Clientes\" o \"Descuento a Proveedores\", es necesario hacer clic en \"Guardar\" para que se active. Importante: Si no seleccionás cuenta en alguno de los campos de descuentos, el sistema no permitirá registrar los descuentos correspondientes. Revisá el tipo de cuenta: Asegurate de que la cuenta de redondeo que creaste tenga el tipo de cuenta correcto según corresponda. ¿Ya hiciste clic en \"Guardar\" después de configurar la cuenta de descuentos? Source: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2025-11-20T19:35:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "PUEDO AGREGAR LA CUENTA REDONDEO COMO MEDIO DE PAGO?",
+          "created_at": "2025-11-20T19:40:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés agregar la cuenta de redondeo como medio de pago creando una cuenta de tesorería asociada a esa cuenta contable. Para hacerlo: Andá al módulo Tesorería y hacé clic en \"Agregar Cuenta\" Completá los campos: • Nombre: \"Redondeo\" (así aparecerá en los medios de pago) • Tipo: Seleccioná \"Caja\" • Cuenta Contable: Elegí la cuenta de redondeo que ya creaste Una vez creada, esta cuenta aparecerá como opción en los medios de pago de todos los comprobantes que generes. De esta manera, la cuenta de redondeo estará disponible tanto para registrar ajustes contables como para utilizarla como medio de pago cuando sea necesario. ¿Te ayudo con algún otro paso de la configuración? Sources: Crear cuentas de Tesorería (caja, bancos y tarjetas) en pesos Cuentas del módulo Tesoreria",
+          "created_at": "2025-11-20T19:40:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Y LA PUEDO USAR CON SIGNO POSITIVO O NEGATIVO?",
+          "created_at": "2025-11-20T19:41:17.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés usar la cuenta de redondeo con signo positivo o negativo según corresponda. Colppy utiliza el sistema de partida doble, donde cada operación se refleja en dos cuentas (Debe y Haber) y la suma de ambos debe ser igual. En el caso del redondeo: Signo positivo (débito): Cuando necesités ajustar hacia arriba Signo negativo (crédito): Cuando necesités ajustar hacia abajo El sistema registrará automáticamente el movimiento contable correspondiente según el tipo de ajuste que realices, manteniendo siempre el balance de la partida doble. ¿Necesitás ayuda con algún caso específico de redondeo? Source: Conceptos contables básicos",
+          "created_at": "2025-11-20T19:41:34.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "SOLO ME TOMA CUENTAS DE ACTIVOS EN TESORERIA?",
+          "created_at": "2025-11-20T19:45:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, en Tesorería solo podés usar cuentas contables que fueron definidas como \"Caja y Bancos\" en el módulo de Contabilidad. Esto significa que: Solo aparecen cuentas de activo del tipo \"Caja y Bancos\" en el desplegable de \"Cuenta Contabilidad\" No podés usar cuentas de otros tipos (pasivos, patrimonio, resultados) como cuentas de tesorería Si necesitás usar una cuenta de redondeo en tesorería, tenés que: Crear la cuenta contable en el módulo Contabilidad con Tipo de Cuenta: \"Caja y Bancos\" Luego podrás seleccionarla al crear la cuenta de tesorería ¿La cuenta de redondeo que creaste tiene el tipo \"Caja y Bancos\"? Sources: Crear cuentas de Tesorería (caja, bancos y tarjetas) en pesos Configurar tesorería en el módulo de configuración",
+          "created_at": "2025-11-20T19:45:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "LA CUENTA REDONDEO ES UN CUENTA DE RESULTADO NEGATIVO, NO ES UN ACTIVO",
+          "created_at": "2025-11-20T19:46:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Tenés razón, las cuentas de redondeo normalmente son cuentas de resultado negativo, no de activo. Sin embargo, en Colppy, para usar una cuenta como medio de pago en Tesorería, debe ser del tipo \"Caja y Bancos\" . Hay una solución alternativa que se menciona en nuestro sistema: Cambio temporal del tipo de cuenta: Momentáneamente cambiá el tipo de cuenta de redondeo a \"Caja y Bancos\" en el módulo Contabilidad Creá la cuenta de tesorería asociada Después podés volver a cambiar el tipo de cuenta a su clasificación correcta (resultado) De esta manera podrás usar la cuenta de redondeo como medio de pago, aunque contablemente mantenga su naturaleza de cuenta de resultado. ¿Te parece bien probar con este método? Sources: Crear cuentas de Tesorería (caja, bancos y tarjetas) en multimoneda ¿Cómo puedo llevar un proceso de producción en Colppy?",
+          "created_at": "2025-11-20T19:46:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "YO AGREGUE LA CUENTA REDONDEDO COMO DESCUENTO, CUANDO QUIERO IMPUTAR LA COBRANZA QUE EL CLIENTE ME PAGO UNOS CENTAVOS DE MAS, QUIERO PORNER ESE DESPUESNTO EN NEGATIVO Y NO ME LO ESTA TOMANDO, ME HACE EL DESPUENTO SOBRE EL TOTAL DE LA FACTURA Y NO SOBRE EL PAGO",
+          "created_at": "2025-11-20T19:48:39.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "El problema que describís es que el descuento se está aplicando sobre el total de la factura en lugar de sobre el pago específico. En Colppy, el campo \"Descuento\" en la cobranza está diseñado para descuentos financieros otorgados al cliente y se calcula sobre el total a cobrar. Para manejar centavos de más que te paga el cliente, tenés estas opciones: 1. Cobro a cuenta: Si el cliente te paga más de lo que debe, podés registrarlo como cobro a cuenta. El total cobrado debe ser mayor al total a cobrar , y la diferencia queda como saldo a favor del cliente para futuras facturas. 2. Usar el campo \"Descuento\" con valor negativo: Aunque el sistema está pensado para descuentos positivos, podés intentar ingresar el valor negativo para representar el exceso de pago. ¿El cliente te está pagando siempre unos centavos de más, o es una situación puntual? Esto me ayuda a sugerirte la mejor opción. Sources: ¿Cómo generar una Cobranza? Cobro a cuenta en cuenta corriente ¿Cómo generar un Descuento en una factura de venta?",
+          "created_at": "2025-11-20T19:48:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Lamento que sigas teniendo dificultades con el descuento aplicado sobre el pago. ¿Podrías contarme si esta situación ocurre con frecuencia o es un caso puntual para poder ayudarte mejor?",
+          "created_at": "2025-11-20T19:53:55.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Vanina, ¿Cómo estas? ​ ​Según lo que habíamos conversado podías utilizar el ítem de descuento, una vez que configuras las cuentas tenes que actualizar la pagina para que el cambio de impacte, ¿pudiste hacerlo?",
+          "created_at": "2025-11-20T20:05:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "hola, Camila. Modifique la configuracion y agregue redondeo, para poder ingresar el pago, pero lo que hace el sistema es el descuento sobre la factura y no sobre el pago, se entiende?",
+          "created_at": "2025-11-21T11:18:39.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, si el redondeo que tenes que hacer es negativo lo podes realizar de esta manera Si el redondeo es positivo lo podes realizar de esta manera ​",
+          "created_at": "2025-11-25T17:10:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "perfecto! pruebo a ver si me lo toma de esa manera.",
+          "created_at": "2025-11-25T17:12:34.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ahora te hago otra consulta, estuve ingresando articulos en la parte de inventario",
+          "created_at": "2025-11-25T17:12:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y si quiero corregir el nombre del articulo porque me equivoque, como hago?",
+          "created_at": "2025-11-25T17:13:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "porque no puede, lo elimine y volvi a crearlo",
+          "created_at": "2025-11-25T17:13:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, ingresas al ítem, editas la descripción y luego seleccionas guardar edición",
+          "created_at": "2025-11-25T17:24:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ahi esta! genial. gracias",
+          "created_at": "2025-11-25T17:27:11.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "listado de proveedores, como lo saco? lo puede exportar a excel?",
+          "created_at": "2025-11-25T17:29:03.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Desde proveedores>resumen proveedores>reportes podes descargarlo, al igual que en el modulo clientes con los reportes de clientes",
+          "created_at": "2025-11-25T17:30:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "buenisimo! y te hago creo la ultima consulta del dia de hoy. necesito eliminar clientes que aun no tienen movimientos, eso como lo hago?",
+          "created_at": "2025-11-25T18:43:30.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "No hay problema Vani, vos podes consultarnos todas las dudas que quieras. Lo que podes hacer es \"inactivar\" esos clientes, te dejo el LINK del articulo que explica como realizarlo.",
+          "created_at": "2025-11-25T18:48:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "dale, me fijo en el link. gracias!, para las conciliaciones bancarios, eso lo hago desde tesoreria?",
+          "created_at": "2025-11-25T19:58:59.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si Vani, lo haces desde el modulo tesorería, también te dejo el LINK del articulo para que puedas verlo y cualquier duda me avisas.",
+          "created_at": "2025-11-25T20:08:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "genial, para conectar los bancos al sistema como tengo que hacer? y tengo que cargar los saldos iniciales? o absorbe la info directo de los bancaos?",
+          "created_at": "2025-11-26T11:31:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy tratando de cargar los saldos iniciales de proveedores, pero no me toma la cuenta de saldos iniciales, cuando quiero cargar la factura x",
+          "created_at": "2025-11-26T13:04:48.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, unas aclaraciones que te van a servir a la hora de conectar el banco : -Revise que el banco no este abierto en otras plataformas. -Las cuentas que intente conectar deben ser del tipo empresa -La cuenta que desee conectar no tienen que estar vinculadas a otra cuenta en Colppy - Si tiene dos bancos de la misma entidad solo podrá conectar una cuenta corriente y una caja de ahorro. ( no se puede dos cuentas corrientes de la misma entidad) -La actualización será de 24 a 48 horas -La conexión dependerá de la aprobación del banco Por otro lado fijate que ya tiene que aparecerte la cuenta de saldos iniciales, tenia un tipo de cuenta erróneo. ​",
+          "created_at": "2025-11-26T17:56:22.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "buen dia, Camila",
+          "created_at": "2025-11-27T11:14:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "la empresa trabaja con 5 bancos distintos, puedo conectar los 5 o solo 1? eso no estoy entendiendo, y como hago para conectarlos?",
+          "created_at": "2025-11-27T11:14:57.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si Vani, mientras las cuentas bancarias cumplan con los requisitos que te envie anteriormente podes conectar los diferentes bancos que quieras, te dejo el LINK del articulo que explica como realizarlo",
+          "created_at": "2025-11-27T12:38:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Vanina, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com Que tengas una buena jornada 😊",
+          "created_at": "2025-11-28T12:04:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-28T12:04:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-28T12:04:36.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471630159990",
+      "created_at": "2025-11-05T20:01:14.000Z",
+      "state": "closed",
+      "contact_email": "rosariobuchanan@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Otro",
+      "contact_signed_up_at": "2025-11-05T18:53:23.000Z",
+      "days_since_signup": 0,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola! Aca Rosario",
+          "created_at": "2025-11-05T20:01:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "🔄 This whatsapp number has been automatically assigned to this user An existing user with a phone number that matches this whatsapp number has been detected and automatically updated.",
+          "created_at": "2025-11-05T20:01:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Te parece lunes 11 am?",
+          "created_at": "2025-11-05T20:01:18.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Dale! Ya lo agendo",
+          "created_at": "2025-11-05T20:01:38.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Decime a que mails les envio",
+          "created_at": "2025-11-05T20:01:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Conmigo y Bautista. rosariobuchanan@gmail.com bautista@ocioproductora.com",
+          "created_at": "2025-11-05T20:02:26.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Me decis el nombre de la empresa?",
+          "created_at": "2025-11-05T20:02:44.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ocio productora",
+          "created_at": "2025-11-05T20:03:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Listo!",
+          "created_at": "2025-11-05T20:24:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ya me llego el mail",
+          "created_at": "2025-11-05T20:24:42.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "gracias",
+          "created_at": "2025-11-05T20:24:46.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "A vos!",
+          "created_at": "2025-11-05T20:27:34.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471854088619",
+      "created_at": "2025-11-19T12:09:37.000Z",
+      "state": "closed",
+      "contact_email": "vani1322@hotmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-14T13:40:17.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot",
+        "Mod Conf - Configuración"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-11-19T12:09:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-11-19T12:09:41.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-11-19T12:09:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-11-19T12:10:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-11-19T12:10:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ayer intente hacer la importacion de la empresa G60 Distribuidora a la empresa X-G60, y me arrojaba distintos errores que fui corrigiendo, pero finalmente me dijo que los clientes ya existian y no me los imprto, quisiera saber como soluciono esto. gracias",
+          "created_at": "2025-11-19T12:11:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Reportes",
+          "created_at": "2025-11-19T13:42:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Los reportes son documentos que te van a permitir conocer el estado económico de tu empresa. ​ Desde el Módulo Clientes > Resumen Clientes, podrás ver diferentes reportes que te mostrarán la cuenta corriente de tus clientes por diferentes periodos: ​ ​-Listado de clientes -Listado de facturas -Listado de cobranzas -IVA Ventas ​ Para más información sobre cada reporte, ingresa al siguiente articulo de ayuda👇 [App: Article Inserter]",
+          "created_at": "2025-11-19T13:42:01.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste descargar el reporte?",
+          "created_at": "2025-11-19T13:42:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2025-11-19T13:42:19.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2025-11-19T13:42:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "impresion de retencion de ganancias a proveedores",
+          "created_at": "2025-11-19T13:42:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para imprimir el certificado de retención de ganancias a proveedores, el proceso es automático en nuestro sistema. Cuando realizas un pago a proveedor con retención de ganancias, encontrarás el certificado de retención en la segunda hoja de la orden de pago al imprimirla. Para imprimir la orden de pago, simplemente haz clic en el botón \"Guardar e imprimir\" al momento de cargar el comprobante. Esto descargará un PDF que incluye tanto la orden de pago como el certificado de retención. ¿Te ayuda esta información o necesitas más detalles sobre algún paso específico? Sources: Retención de Impuesto a las Ganancias Impresión de Ordenes de Pago",
+          "created_at": "2025-11-19T13:43:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "el numero de certificado y el importe retenido salen en la orden de pago, pero si quiero imprimir el certificado solo, como hago? porque eso no me sale",
+          "created_at": "2025-11-19T13:44:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Según la información disponible, nuestro sistema genera automáticamente los comprobantes de retención como parte de las facturas y pagos. El certificado de retención aparece en la segunda hoja de la orden de pago cuando la imprimes. Actualmente no tenemos una función específica para imprimir únicamente el certificado de retención por separado. El sistema está diseñado para incluir el certificado automáticamente junto con la orden de pago. Si necesitas el certificado por separado, puedes contactar a nuestro equipo de soporte para explorar alternativas específicas para tu caso. ¿Hay algo más en lo que pueda ayudarte? Source: Retención de Impuesto a las Ganancias",
+          "created_at": "2025-11-19T13:44:50.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si, como genero el txt, para subir las retenciones al siap, y como me contacto con el grupo de soporte",
+          "created_at": "2025-11-19T13:45:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para generar el archivo TXT de retenciones para subir al SIAP: Generar archivo TXT: Ve al módulo Contabilidad > Reportes > Retenciones y Percepciones. Completa las fechas, selecciona \"Retenciones\", \"Emitidas\", el impuesto correspondiente y como \"Tipo de archivo\" elige el formato SIAP. Finalmente haz clic en \"Exportar\". Configuración en SIAP: Al subir el archivo, debes configurar el separador decimal en SIAP. Si tienes errores, prueba tildar \"Punto\" primero, y si persisten los errores, intenta con \"Coma\". Contacto con soporte: Puedes contactarnos por email a: soporte@colppy.com ¿Te ayuda esta información? Sources: Reporte de retenciones de IIBB sufridas (por jurisdicción) Reporte de percepciones de IIBB sufridas (por jurisdicción)",
+          "created_at": "2025-11-19T13:45:58.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y por este medio puedo contactar a soporte?",
+          "created_at": "2025-11-19T13:48:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, puedes contactar a nuestro equipo de soporte por este medio (chat). También tenemos otros canales disponibles como WhatsApp, videollamada y email ( soporte@colppy.com ). Nuestro soporte técnico especializado está disponible de lunes a viernes de 9 a 18hs en días hábiles a través de chat en vivo, correo electrónico y asistencia telefónica. ¿En qué más puedo ayudarte? Sources: Conectá tu banco: movimientos al día para PyMEs Colppy Plus: Exclusividad que impulsa tu negocio",
+          "created_at": "2025-11-19T13:49:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda con la generación del archivo TXT o cualquier otro tema, estoy aquí para asistirte. ¿Podrías contarme más detalles sobre lo que quieres resolver o entender?",
+          "created_at": "2025-11-19T13:53:11.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "YA PUDE BAJAR EL TXT, AHORA SOLO QUIERO VER CONO IMPRIMIR EL CERTIFICADO DE RETENCION",
+          "created_at": "2025-11-19T14:22:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Como te mencioné anteriormente, nuestro sistema genera automáticamente los certificados de retención como parte de las órdenes de pago. El certificado aparece en la segunda hoja cuando imprimes la orden de pago. Actualmente no tenemos una función para imprimir únicamente el certificado de retención por separado. El sistema está diseñado para incluir el certificado automáticamente junto con la orden de pago. Si necesitas específicamente el certificado por separado, te recomiendo contactar a nuestro equipo de soporte para explorar alternativas para tu caso particular. ¿Hay algo más en lo que pueda ayudarte? Source: Retención de Impuesto a las Ganancias",
+          "created_at": "2025-11-19T14:22:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Entiendo que necesitas imprimir el certificado de retención por separado y lamento que el sistema no cuente con esa función específica. ¿Quieres que te ayude a explorar otras opciones o resolver alguna otra duda relacionada?",
+          "created_at": "2025-11-19T14:26:40.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Vanina, ¿Cómo estas? ​ ​¿Pudiste resolver tus consultas?",
+          "created_at": "2025-11-19T15:06:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "hola.camila",
+          "created_at": "2025-11-19T16:13:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "necesito imprimir los comprobante de retencion de Ganancias, y no se desde donde",
+          "created_at": "2025-11-19T16:14:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "porque paso la orden de pago, pero el cliente me pide el certificado a parte",
+          "created_at": "2025-11-19T16:14:33.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, cuando vos te descargas el comprobante de la OP te guarda 2 hojas, si queres podes guradarte solo la segunda que es de las retenciones y pasarle solo esa.",
+          "created_at": "2025-11-19T18:30:46.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si eso lo tengo, pero yo solo quiero el certificado. no la orden de pago donde figura. Se entiende?",
+          "created_at": "2025-11-19T18:31:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "tambien quiero consultarte,cuando ingreso un pago de un cliente realizo un pago a un proveedor y necesito hacer un redondeo como hago?poruqe no veo la opcion y la idea no es dejar dinero a cuenta",
+          "created_at": "2025-11-19T18:47:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani el único documento que tenes para enviarle a tu proveedor es el que te menciono. Por otro lado con respecto al redondeo que mencionas, podrías agregarlo en el campo intereses, para que no te quede un saldo de diferencia entre lo facturado y lo cobrado.",
+          "created_at": "2025-11-19T19:26:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "el tema es que esos campos estan grisáceos, no puedo utilizarlos, o tengo que tocar algo para poder hacerlo?",
+          "created_at": "2025-11-19T19:41:33.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "¿Me podrías indicar en que cliente o proveedor lo estas probando?",
+          "created_at": "2025-11-19T20:00:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "arguelles andrea",
+          "created_at": "2025-11-19T20:04:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "buen dia, camila",
+          "created_at": "2025-11-20T12:31:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "pudiste ver esto?",
+          "created_at": "2025-11-20T12:31:08.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, porque previamente tenes que configurar dichas cuentas",
+          "created_at": "2025-11-20T16:09:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "tengo que adjudicarle la cuanta contable, eso me estas diciendo",
+          "created_at": "2025-11-20T16:29:26.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Exacto Vani, la cuenta contable a la que va a impactar ese interés (tiene que estar en tu plan de cuentas)",
+          "created_at": "2025-11-20T16:34:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "perfecto!",
+          "created_at": "2025-11-20T16:48:49.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-20T17:05:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-20T17:05:58.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-20T17:05:58.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471836552766",
+      "created_at": "2025-11-18T15:41:13.000Z",
+      "state": "closed",
+      "contact_email": "vani1322@hotmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-14T13:40:17.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Cliente y Proveedor",
+        "Mod Pro-Anular comprobante"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-11-18T15:41:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-11-18T15:41:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-11-18T15:41:30.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-11-18T15:41:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-11-18T15:41:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Quiero importar las cuentas de clientes de una empresa a la otra, al igual que los proveedores. como hago?",
+          "created_at": "2025-11-18T15:42:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Reportes",
+          "created_at": "2025-11-18T15:43:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Los reportes son documentos que te van a permitir conocer el estado económico de tu empresa. ​ Desde el Módulo Clientes > Resumen Clientes, podrás ver diferentes reportes que te mostrarán la cuenta corriente de tus clientes por diferentes periodos: ​ ​-Listado de clientes -Listado de facturas -Listado de cobranzas -IVA Ventas ​ Para más información sobre cada reporte, ingresa al siguiente articulo de ayuda👇 [App: Article Inserter]",
+          "created_at": "2025-11-18T15:43:09.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste descargar el reporte?",
+          "created_at": "2025-11-18T15:43:10.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Vanina, ¿Cómo estas? ​ ​Para importar clientes y proveedores deber armar el archivo modelo, podes sacar el listado de clientes y proveedores de la empresa original y luego con esos datos armar el nuevo archivo modelo para importar en la segunda empresa.",
+          "created_at": "2025-11-18T17:36:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "hola, camila",
+          "created_at": "2025-11-18T17:48:25.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si ya lo encontre, y si necesito eliminar una factura que cargue de un proveedor?",
+          "created_at": "2025-11-18T17:48:49.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Vani, tenes que ingresar a la factura y cambiarle el estado a \"anulada\"",
+          "created_at": "2025-11-18T17:52:59.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ah! genial, y con eso ya esta",
+          "created_at": "2025-11-18T17:53:51.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "mil gracias!!",
+          "created_at": "2025-11-18T17:53:54.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Genial. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-18T17:57:46.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-18T17:57:58.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-18T17:57:59.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471771086057",
+      "created_at": "2025-11-14T12:36:32.000Z",
+      "state": "closed",
+      "contact_email": "ruralper@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-06T17:26:20.000Z",
+      "days_since_signup": 7,
+      "tags": [
+        "plan de cuentas",
+        "Consultas-No responden"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola buen dia. estamos trabajando con la carga del plan de cuentas. QUeriamos saber si se pueden crear categroias en el sector tipo de cuentas",
+          "created_at": "2025-11-14T12:36:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ ruralper@gmail.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-11-14T12:36:36.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estas? ​ Soy Camila del área de implementación de Colppy. ​ No, al armar el plan de cuentas el \"tipo de cuenta\" debe ser seleccionado dentro de las opciones del desplegable.",
+          "created_at": "2025-11-14T15:32:06.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿pudieron ver mi mensaje?",
+          "created_at": "2025-11-14T18:52:18.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com ​ ¡Además, agrega nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hace clic en el siguiente botón: Que tengas una buena jornada 😊",
+          "created_at": "2025-11-14T19:44:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-14T19:44:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-14T19:44:26.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471744453232",
+      "created_at": "2025-11-12T21:32:39.000Z",
+      "state": "closed",
+      "contact_email": "samuelcabeza4512@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Otro",
+      "contact_signed_up_at": "2025-11-07T15:04:05.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Consultas-No responden",
+        "Anular Comprobantes"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Buenos días",
+          "created_at": "2025-11-12T21:32:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Quiero hacer una consulta",
+          "created_at": "2025-11-12T21:32:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ samuelcabeza4512@gmail.com El equipo volverá: 🕒 Mañana",
+          "created_at": "2025-11-12T21:32:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Reclamo",
+          "created_at": "2025-11-12T21:32:50.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito comunicarme con alguien para charlar, algún operador",
+          "created_at": "2025-11-12T21:33:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "En qué horarios atienden?",
+          "created_at": "2025-11-12T21:33:22.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buen dia Lucas, soy Mariano de Colppy, comentame en que te puedo ayudar",
+          "created_at": "2025-11-13T12:42:22.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenos días Mariano, he realizado unas facturaciones a nombre de Guillermo Piccino. En realidad quiero cancelar todo y anular esas facturaciones para que no lo perjudique. Te adjunto la fotografía. Necesito una solución lo más antes posible. Desde ya muchas gracias",
+          "created_at": "2025-11-13T12:52:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "ya te derivo a soporte, asi te pueden ayudar",
+          "created_at": "2025-11-13T12:54:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Dale genial. Podrían informarle y mostrarle la fotografía? Necesito anularlas si o si. Muchas gracias Mariano",
+          "created_at": "2025-11-13T12:59:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenas, no he recibido ningún mensaje de soporte.",
+          "created_at": "2025-11-13T14:34:01.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Lucas, ¿Cómo estas? ​ ​Para que te quedes tranquilo la factura es solo de registro, es decir, la misma no impacta en ARCA. De todas maneras podes anularla, ¿la factura es esta que te muestro en pantalla? De ser así ingresas a la factura y le cambias el estado a \"anulada\" ​",
+          "created_at": "2025-11-13T19:02:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenas tardes, genial. Exactamente es esa la factura. Podrían anularla ustedes. Mi computadora se rompió y no puedo hacerlo yo personalmente. Me avisan, muchísimas gracias por la gestión",
+          "created_at": "2025-11-13T19:08:50.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Lucas, la factura ya quedo anulada",
+          "created_at": "2025-11-13T19:16:10.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Lucas, ¿pudiste ver mi mensaje?",
+          "created_at": "2025-11-14T13:01:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Lucas, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com ​ ¡Además, agrega nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hace clic en el siguiente botón: Que tengas una buena jornada 😊",
+          "created_at": "2025-11-14T15:25:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-14T15:25:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-14T15:25:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenos días Camila, he visto. Muchas gracias por la gestión y por anular la factura. Que tengas buen fin de semana!",
+          "created_at": "2025-11-14T15:27:08.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buenísimo Lucas, gracias por tu respuesta. Quedo a disposición ante cualquier duda o consulta. Saludos.",
+          "created_at": "2025-11-14T15:33:28.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471679330384",
+      "created_at": "2025-11-09T01:22:15.000Z",
+      "state": "closed",
+      "contact_email": "munozailenceleste@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Otro",
+      "contact_signed_up_at": "2025-11-09T01:01:07.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Consultas-No responden"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "eliminar cuenta",
+          "created_at": "2025-11-09T01:22:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ munozailenceleste@gmail.com El equipo volverá: 🕒 Lunes",
+          "created_at": "2025-11-09T01:22:20.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Ailen, ¿Cómo estas? ​ ​¿En que te puedo ayudar?",
+          "created_at": "2025-11-10T12:18:18.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Ailen, ¿pudiste ver mi mensaje?",
+          "created_at": "2025-11-10T14:57:15.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Ailen, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com ​ ¡Además, agrega nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hace clic en el siguiente botón: Que tengas una buena jornada 😊",
+          "created_at": "2025-11-10T18:26:17.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-10T18:26:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-10T18:26:30.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471647457338",
+      "created_at": "2025-11-06T18:24:49.000Z",
+      "state": "closed",
+      "contact_email": "camila.lagoa@colppy.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-10-31T14:35:25.000Z",
+      "days_since_signup": 6,
+      "tags": [
+        "Mod Cfg - Delegación"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "¡Hola! Juan ¿Cómo estás? Ya completaste el primer paso de tu configuración en Colppy. Continuemos para que puedas aprovechar al máximo la plataforma. El segundo paso es la configuración de facturas electrónicas . Para ello, tenés dos opciones: ​ Desde la plataforma: En el módulo Clientes > arriba de todo, hacé clic en el botón \"Configúralo ahora\". Podés encontrar el paso a paso detallado en nuestro artículo de ayuda . Desde ARCA: Entrá a ARCA con los datos del Representante Legal y la Clave Fiscal, y seguí los pasos del link de ayuda . ​ Una vez terminado este paso, seguiremos con las instrucciones para que puedas comenzar a cargar clientes y proveedores dentro de Colppy. ​ Saludos, Camila",
+          "created_at": "2025-11-06T18:24:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Camila, cómo estás? Buenas tardes. Ya hice esa configuración apenas ingresé, e hice el envio. Me confirmas si quedó aprobada la Facturación Electrónica? Gracias, Saludos. De: Camila < camila.lagoa@colppy.com > Enviado el: jueves, 6 de noviembre de 2025 15:19 Para: Juan Maria Peral < jperal@volsmart.com > Asunto: Configurá Colppy para poder facturar electrónicamente. No suele recibir correo electrónico de camila.lagoa@colppy.com . Por qué es esto importante",
+          "created_at": "2025-11-06T18:24:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Juan, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-06T18:25:02.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Juan, ¿Cómo estas? ​ ​Veo que la delegación se hizo correctamente, te pido por favor para validar el punto de venta que me envies el comprobante ingresando a ARCA>puntos de venta.",
+          "created_at": "2025-11-07T13:10:48.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Sigo acá https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215471696763394?view=List",
+          "created_at": "2025-11-10T14:52:33.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471647483607",
+      "created_at": "2025-11-06T18:19:55.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 3,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, te reenvío este mail porque no se si lo viste. Igualmente te comento que estoy tan acelerada que me olvidé y cobre con Facturas X, sin recordar que la numeración del 19 al 44 fue en el archivo de importación……………… Por lógica calculo que esas 2/4 facturas van a salir con error por ya existir en número de comprobante, no? Aldana De: Aldana Airez | Esdudio Aldasoro < aldana@estudioaldasoro.com.ar > Enviado el: jueves, 6 de noviembre de 2025 12:24 Para: 'Camila de Colppy' < soporte@colppy.com > Asunto: FACTURACION Camila, yo envié hace un rato un archivo con importación de facturas, la última factura de ese archivo es la número 44. Yo puedo hacer una con la numeración 45 en adelante? O debo esperar que me avisen si todo está bien? Aldana De: Camila de Colppy < sopo rte@colppy.com > Enviado el: jueves, 6 de noviembre de 2025 11:00 Para: aldana@estudioaldasoro.com.ar Asunto: Re: IMPORTACIÓN FACTURAS Aldi, solo crea los clientes que no estén. Los que ya están creados no debería duplicártelos. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T18:19:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-06T18:20:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, sigo acá https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215471656782326?view=List",
+          "created_at": "2025-11-07T13:35:11.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471638961276",
+      "created_at": "2025-11-06T11:45:35.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 2,
+      "tags": [
+        "facturacion"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola Camila!! Te consulto, yo le genero al cliente una factura de registro X Y cuando viene a pagar me pide una factura A ¿cómo hago para pasar de X a A? estando ya la X en sistema como Aprobada De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 17:54 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: RE: PROVEEDORES Aldi, los 3 campos obligatorios para crear un proveedor son Razón social, nombre y condición de IVA. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T11:45:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-06T11:45:54.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, si, cuando una factura es de registro vos vas a poder editarla, ingresas a la factura, cambias el tipo de factura y de ser necesario cambias el punto de venta al electronico si es que vas a emitirla para que impacte en ARCA",
+          "created_at": "2025-11-06T13:21:35.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-06T17:19:41.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-06T17:19:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-06T17:19:54.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471640738249",
+      "created_at": "2025-11-06T13:50:32.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 2,
+      "tags": [
+        "importación"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, veo que cuando uno envía el archivo hay un tilde que dice “crear automáticamente clientes”. Si se tilda eso duplica los clientes o solo crea los que no están? De: Camila de Colppy < soporte@colppy.com > Enviado el: jueves, 6 de noviembre de 2025 09:14 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FECHA INICIO ACTIVIDAD Hola Aldi, ¿Cómo estas? ​ ​La fecha de inicio de ejercicio la podes modificar ingresando a configuración>talonario>ingresas al talonario electronico>datos adicionales y colocas la fecha correspondiente, en este caso ya te modifique la fecha que me pediste, por favor confirmame luego si sale correctamente- Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T13:50:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-06T13:50:55.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, solo crea los clientes que no estén. Los que ya están creados no debería duplicártelos.",
+          "created_at": "2025-11-06T14:00:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenísimo, gracias!! De: Camila de Colppy < soporte@colppy.com > Enviado el: jueves, 6 de noviembre de 2025 11:00 Para: aldana@estudioaldasoro.com.ar Asunto: Re: IMPORTACIÓN FACTURAS Aldi, solo crea los clientes que no estén. Los que ya están creados no debería duplicártelos. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T14:41:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gracias por la confirmación. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-06T15:06:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-06T15:06:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-06T15:06:31.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471626066740",
+      "created_at": "2025-11-05T17:33:27.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 2,
+      "tags": [
+        "Mod Cli-Cliente y Proveedor",
+        "Mod Cli-Cliente y Proveedor"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, estoy cargando como proveedor a una persona que a la vez es cliente del Estudio, me sale éste cartel al darle gurdar: Debo tildar si? De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 10:57 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA Hola Aldana, ¿Cómo estás? Nos gustaría saber si pudimos resolver tu inquietud. Para nosotros es muy importante que tus dudas hayan sido resueltas y saber si podemos ayudarte en alguna otra cuestión. Quedamos atentos a tus comentarios. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-05T17:33:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-05T17:33:46.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, puedo ver que el proveedor ya quedo cargado en tu cuenta.",
+          "created_at": "2025-11-05T20:10:35.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Sisi, ya pude cargarlo!!! De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 17:11 Para: aldana@estudioaldasoro.com.ar Asunto: Re: CARGA PROVEEDOR Aldi, puedo ver que el proveedor ya quedo cargado en tu cuenta. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-06T11:41:50.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gracias por la confirmación Aldi. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-06T12:05:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-06T12:06:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-06T12:06:12.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471606940377",
+      "created_at": "2025-11-04T18:06:14.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Tes-Conecta tu Banco",
+        "Mod Pro-Orden de pago",
+        "conecta tu banco",
+        "otros pagos",
+        "conecta tu banco"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, cómo era cuando un cliente te quiere pagar el Honorario, por ejemplo, $90.000.- y te deja 100.000.- por lo cual 10.000 quedan a su favor para el próximo mes? Esos $10.000.- cómo los ingreso? De: Camila de Colppy < soporte@colppy.com > Enviado el: martes, 4 de noviembre de 2025 13:34 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: FACTURA PROVEEDOR Aldi, podes probar ingresando a la factura, cambiando el tipo de cuenta y luego guardando el cambio Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T18:06:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-04T18:06:31.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, en este caso lo que haces es generar la factura por $90.000 pero en el pago colocas $100.000 por lo tanto ese saldo restante le queda a favor al cliente. Te dejo el LINK del articulo que explica esto.",
+          "created_at": "2025-11-04T20:06:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Aldana, ¿Cómo estás? Nos gustaría saber si pudimos resolver tu inquietud. Para nosotros es muy importante que tus dudas hayan sido resueltas y saber si podemos ayudarte en alguna otra cuestión. Quedamos atentos a tus comentarios.",
+          "created_at": "2025-11-05T13:56:41.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila, cómo andas? Disculpa no te conteste!! Si, pude resolverlo!!! Gracias!! Aldana De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 10:57 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA",
+          "created_at": "2025-11-05T14:37:50.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gracias por la confirmación Aldi. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-05T15:24:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-05T15:25:09.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-05T15:25:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila!! Te consulto, el contador me dijo que a toda persona que yo pague la debo cargar como PROVEEDOR, así sea para pagar una ensalada. Entonces, yo cargué como PROVEEDOR a la persona que trae el almuerzo, pero acá pueblo chico, para pagos menores no nos dan factura!!! Cómo cargo el comprobante para luego darle la salida? De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 10:57 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA Hola Aldana, ¿Cómo estás? Nos gustaría saber si pudimos resolver tu inquietud. Para nosotros es muy importante que tus dudas hayan sido resueltas y saber si podemos ayudarte en alguna otra cuestión. Quedamos atentos a tus comentarios. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-05T17:30:29.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, en este caso podes \"inventar\" el numero de factura ya que no dispones de uno real, de todas maneras esto es a modo de registro en Colppy. Lo ideal es siempre completar con datos reales y verdaderos, pero en este caso ese dato no lo tenes.",
+          "created_at": "2025-11-05T18:19:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Gracias Camila!!! Aprovecho a hacerte una consulta y seguramente la vea mañana. Quise usar la tilde de “conectar” que aparece en Banco y me sale lo siguiente: Vos podrás decirme con más detalle a que se refiere? De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 15:20 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA",
+          "created_at": "2025-11-05T18:44:15.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi te dejo unas aclaraciones que te van a servir a la hora de conectar el banco : -Revise que el banco no este abierto en otras plataformas. -Las cuentas que intente conectar deben ser del tipo empresa -La cuenta que desee conectar no tienen que estar vinculadas a otra cuenta en Colppy - Si tiene dos bancos de la misma entidad solo podrá conectar una cuenta corriente y una caja de ahorro. ( no se puede dos cuentas corrientes de la misma entidad) -La actualización será de 24 a 48 horas Cualquier duda, quedamos al pendiente. Saludos 😊",
+          "created_at": "2025-11-05T18:51:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "En vez de cargar una factura que no existe, no se puede cargar una Orden de Pago? Y luego generar el pago tomando esa Orden? Y usar solo factura cuando realmente nos dan una emitida en ARCA. Aldana De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 15:20 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA Aldi, en este caso podes \"inventar\" el numero de factura ya que no dispones de uno real, de todas maneras esto es a modo de registro en Colppy. Lo ideal es siempre completar con datos reales y verdaderos, pero en este caso ese dato no lo tenes. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-05T18:52:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Gracias Camila!!! A que te referís que serán de 24 a 48 hs? De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 15:52 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA Aldi te dejo unas aclaraciones que te van a servir a la hora de conectar el banco : -Revise que el banco no este abierto en otras plataformas. -Las cuentas que intente conectar deben ser del tipo empresa -La cuenta que desee conectar no tienen que estar vinculadas a otra cuenta en Colppy - Si tiene dos bancos de la misma entidad solo podrá conectar una cuenta corriente y una caja de ahorro. ( no se puede dos cuentas corrientes de la misma entidad) -La actualización será de 24 a 48 horas Cualquier duda, quedamos al pendiente. Saludos 😊 Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-05T18:53:47.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, podes cargar ese pago desde \"otros pagos\" te dejo el LINK que explica como realizarlo. Una vez que hayas podido realizar correctamente la conexión con el banco puede demorar de 14 a 48hs en comenzar a ver reflejados los movimientos dentro de Colppy.",
+          "created_at": "2025-11-05T19:05:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado https://app.intercom.com/a/inbox/j7l53tgt/inbox/team/2334166/conversation/215471626066740?view=List",
+          "created_at": "2025-11-05T20:00:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buen día Camila!! Cómo andas? Perfecto!! De: Camila de Colppy < soporte@colppy.com > Enviado el: miércoles, 5 de noviembre de 2025 16:05 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: RE: FACTURA",
+          "created_at": "2025-11-06T11:42:05.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471631394135",
+      "created_at": "2025-11-05T21:25:18.000Z",
+      "state": "closed",
+      "contact_email": "luis.orona@xionico.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-05T15:33:35.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Cli-Importación de facturas de venta modelo nuevo",
+        "NO RESPONDEN"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2025-11-05T21:25:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2025-11-05T21:25:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2025-11-05T21:25:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2025-11-05T21:25:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2025-11-05T21:25:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2025-11-05T21:26:06.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Clientes > Gestión de clientes > elegir el cliente con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Clientes > Gestión de clientes > Importar > Facturas (modelo nuevo) ​ -Mis comprobantes emitidos desde AFIP [App: Article Inserter] -Emitir masivamente facturas a clientes ​ [App: Article Inserter]",
+          "created_at": "2025-11-05T21:26:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste agregar tus facturas?",
+          "created_at": "2025-11-05T21:26:09.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471607350088",
+      "created_at": "2025-11-04T18:20:23.000Z",
+      "state": "closed",
+      "contact_email": "milagros@mvsconsultores.com.ar",
+      "contact_es_contador": null,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-04T17:53:11.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "configuracion de usuario",
+        "Consultas-No responden"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "hola, puedo personalizar mi avatar del usuario?",
+          "created_at": "2025-11-04T18:20:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ milagros@mvsconsultores.com.ar Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2025-11-04T18:20:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Mili, ¿Cómo estas? ¿A que te referís con tu avatar?",
+          "created_at": "2025-11-04T18:26:26.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Mili, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com ​ ¡Además, agrega nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hace clic en el siguiente botón: Que tengas una buena jornada 😊",
+          "created_at": "2025-11-05T13:49:09.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-05T13:49:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-05T13:49:22.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471601836338",
+      "created_at": "2025-11-04T13:39:35.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Mod Tes-pagos proveedores"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila!! Cargué una factura de la persona que nos hace las comisiones. Lo primero que hice es cargar a la persona como proveedor y luego cargué la factura que me dio para pagarle, pero observo que me sale como ingreso, por qué? De: Camila de Colppy < soporte@colppy.com > Enviado el: lunes, 3 de noviembre de 2025 15:56 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FACTURA De nada Aldi, avisame cualquier cosa por favor. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T13:39:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-04T13:39:56.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Aldana, ¿Cómo estas? ​ ​Veo que nos realizaste algunas consultas en chats diferentes, voy a responderte todo por acá para unificar la información y los canales. ​ ​Con respecto a tu consulta de que el pago a un proveedor te quedo como un ingreso puede ser porque colocaste una cuenta incorrecta al momento de la factura. En el campo cuenta deberías seleccionar una cuenta del desplegable que sea de resultado (incluso podes crear una cuenta en el plan de cuentas que se llame por ejemplo \"comisiones\" ​ Por otro lado vi que me consultaste si el plan de no aplica a tesorería, en este caso vos tenes que ya el plan de cuentas y al crear la cuentas en \"tesorería\" las asocias a las cuentas contables",
+          "created_at": "2025-11-04T15:47:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Camila, la verdad no me di cuenta que envié a otra casilla las consultas!!! Discúlpame!! Respecto al pago del Proveedor, para poder corregirlo debo anular la factura? De: Camila de Colppy < soporte@colppy.com > Enviado el: martes, 4 de noviembre de 2025 12:47 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: FACTURA PROVEEDOR",
+          "created_at": "2025-11-04T15:55:41.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, podes probar ingresando a la factura, cambiando el tipo de cuenta y luego guardando el cambio",
+          "created_at": "2025-11-04T16:33:50.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Pude arreglar lo del pago al proveedor!! Gracias Camila!! De: Camila de Colppy < soporte@colppy.com > Enviado el: martes, 4 de noviembre de 2025 12:47 Para: aldana@estudioaldasoro.com.ar Asunto: Re: RE: FACTURA PROVEEDOR Hola Aldana, ¿Cómo estas? ​ ​Veo que nos realizaste algunas consultas en chats diferentes, voy a responderte todo por acá para unificar la información y los canales. ​ ​Con respecto a tu consulta de que el pago a un proveedor te quedo como un ingreso puede ser porque colocaste una cuenta incorrecta al momento de la factura. En el campo cuenta deberías seleccionar una cuenta del desplegable que sea de resultado (incluso podes crear una cuenta en el plan de cuentas que se llame por ejemplo \"comisiones\" ​ Por otro lado vi que me consultaste si el plan de no aplica a tesorería, en este caso vos tenes que ya el plan de cuentas y al crear la cuentas en \"tesorería\" las asocias a las cuentas contables Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T17:10:57.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Excelente Aldi. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-04T17:19:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-04T17:19:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-04T17:19:54.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471586753571",
+      "created_at": "2025-11-03T17:33:57.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Mod Cfg-Talonarios-Imprimir facturas"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, hice una factura borrador en un cliente, tilde guardar y cuando quiero verla no me aparece?",
+          "created_at": "2025-11-03T17:33:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-03T17:34:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Aldi, las facturas borrador quedan dentro del modulo \"cliente\">resumen clientes. De todas maneras no veo dicha factura, ¿podrías indicarme que numero de talonario utilizaste?",
+          "created_at": "2025-11-03T18:38:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Gracias Camila!! Ahí envié el 1er. Archivo de Importación Facturas desde mi usuario, así me llegan los mail a mi!! Aldana De: Camila de Colppy < soporte@colppy.com > Enviado el: lunes, 3 de noviembre de 2025 15:38 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FACTURA Aldi, las facturas borrador quedan dentro del modulo \"cliente\">resumen clientes. De todas maneras no veo dicha factura, ¿podrías indicarme que numero de talonario utilizaste? Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-03T18:45:41.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "De nada Aldi, avisame cualquier cosa por favor.",
+          "created_at": "2025-11-03T18:55:31.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buen día Camila, cómo andas? Te consulto, en las Facturas de registro X no me sale el Logo ni tampoco ningún dato de quien emite. Te adjunto para que veas como sale. Aldana De: Camila de Colppy < soporte@colppy.com > Enviado el: lunes, 3 de noviembre de 2025 15:56 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FACTURA De nada Aldi, avisame cualquier cosa por favor. Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T12:31:59.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Aldana, ¿Cómo estas? Las facturas de registro al imprimirlas no salen con el logo, pero si al generar la factura pones imprimir>presupuesto si te va a salir con el logo de la empresa ​",
+          "created_at": "2025-11-04T13:54:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Perfecto!!! Gracias!! De: Camila de Colppy < soporte@colppy.com > Enviado el: martes, 4 de noviembre de 2025 10:56 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FACTURA Hola Aldana, ¿Cómo estas? Las facturas de registro al imprimirlas no salen con el logo, pero si al generar la factura pones imprimir>presupuesto si te va a salir con el logo de la empresa ​ Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T14:09:09.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "De anda Aldi. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2025-11-04T14:47:39.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2025-11-04T14:47:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2025-11-04T14:47:52.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471602491959",
+      "created_at": "2025-11-04T14:29:21.000Z",
+      "state": "closed",
+      "contact_email": "aldana@estudioaldasoro.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "plan de cuentas",
+        "tesoreria",
+        "duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Camila, el Plan de Cuentas de Contabilidad, no aplica a Tesorería? Te consulto porque cuando quiero pagar al proveedor la factura cargada me sale un cartelito que dice que debo cargar en Tesorería la cuenta “Caja”. De: Camila de Colppy < soporte@colppy.com > Enviado el: martes, 4 de noviembre de 2025 10:56 Para: aldana@estudioaldasoro.com.ar Asunto: Re: FACTURA Hola Aldana, ¿Cómo estas? Las facturas de registro al imprimirlas no salen con el logo, pero si al generar la factura pones imprimir>presupuesto si te va a salir con el logo de la empresa ​ Camila Colppy Con la tecnología de Intercom",
+          "created_at": "2025-11-04T14:29:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-04T14:29:38.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471586307079",
+      "created_at": "2025-11-03T17:15:09.000Z",
+      "state": "closed",
+      "contact_email": "camila.lagoa@colppy.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-03T17:07:14.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "Hola Aldana, ¿Cómo estás? Soy Camila del equipo de implementación y juntos trabajaremos en la configuración de la plataforma. ​ Para comenzar debes seguir estos pasos: 1- Configuraciones iniciales Hace clic en este link , el cual te llevará a una hoja de ruta con los pasos a seguir, debes generar una copia de la misma, Archivo > Hacer una copia Sino podes descargar directamente el archivo Excel adjunto en esta conversación También vas a poder ir registrando el grado de avance para que al terminarlo continúes con el paso 2 ​ 2 - Comencemos con la generación de comprobantes. En la misma hoja de ruta tenes la hoja “2-Carga de comprobantes” para comenzar a cargar tus comprobantes de compra y de venta, cobros y pagos, y descargar reportes ​ Consejos extra: -Anotate en nuestra capacitación \"Configuración inicial de tu cuenta en Colppy\" que brindamos los Martes de 15 a 16hs desde este link -Inscríbete a las capacitaciones por módulos que brinda Colppy desde este calendario ​ ¡Estamos acá para asegurarnos de que tu experiencia en Colppy sea todo un éxito! Saludos, Camila",
+          "created_at": "2025-11-03T17:15:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila, todo esto me llega por la invitación del usuario? De: Camila < camila.lagoa@colppy.com > Enviado el: lunes, 3 de noviembre de 2025 14:07 Para: aldana@estudioaldasoro.com.ar Asunto: Activá tu cuenta para poder operar con Colppy",
+          "created_at": "2025-11-03T17:15:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Hola Aldana, Perfecto! Nuestro equipo estará tomando tu consulta. Recordá que nuestro horario de atención es de lunes a viernes (excepto feriados) de 9 a 18hs.",
+          "created_at": "2025-11-03T17:15:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Aldana, ¿Cómo estas? ​ ​Si, te llegan correos de bienvenida e indicando como configurar la plataforma porque te toma como nuevo usuario, desestimalos ya que vos utilizar la plataforma hace mucho tiempo.",
+          "created_at": "2025-11-03T17:45:27.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215471581071905?view=List",
+          "created_at": "2025-11-03T18:00:19.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215471572188801",
+      "created_at": "2025-11-02T19:55:14.000Z",
+      "state": "closed",
+      "contact_email": "micaela0bastidas@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2025-11-02T18:31:57.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Consultas-No responden",
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Quiero configurar mi empresa",
+          "created_at": "2025-11-02T19:55:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Bienvenido a Colppy! 🎉 Para empezar a configurar tu empresa, debés realizar los siguientes pasos: Verifica los datos registrados de tu empresa en Configuración > Datos Generales Plan de cuentas y su configuración. Configuración de factura electrónica. Invitar a usuarios. En caso de dudas, aquí te dejamos el instructivo con más información: [App: Article Inserter]",
+          "created_at": "2025-11-02T19:55:18.000Z"
+        }
+      ]
+    }
+  ]
+}

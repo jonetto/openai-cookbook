@@ -1,0 +1,676 @@
+{
+  "from_date": "2026-02-01",
+  "to_date": "2026-02-28",
+  "state": null,
+  "team_assignee_id": "2334166",
+  "topic": "Primeros 90 días",
+  "trial_only": true,
+  "trial_days": 7,
+  "saved_at": "2026-03-08T20:37:28.222Z",
+  "conversations": [
+    {
+      "conversation_id": "215473275960140",
+      "created_at": "2026-02-27T13:01:55.000Z",
+      "state": "closed",
+      "contact_email": "admargentrak@gmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": "Administrativo / Contador de una empresa",
+      "contact_signed_up_at": "2026-02-23T13:27:43.000Z",
+      "days_since_signup": 3,
+      "tags": [
+        "Memoria cache",
+        "Consultas-No responden",
+        "Chat-Bot",
+        "Mod Tes-Cheques-"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-02-27T13:01:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-02-27T13:01:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-02-27T13:02:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "API",
+          "created_at": "2026-02-27T13:02:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-02-27T13:02:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "CAMBIO DE LOGO PARA FACTURA ELECTRONICA",
+          "created_at": "2026-02-27T13:02:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para cambiar el logo que aparece en las facturas electrónicas, tenés que ir al módulo de Configuración y luego a la sección \"Datos Generales\" . En la sección de Logo: Seleccioná el archivo (debe ser formato .jpg o .gif ) Ingresá el ancho y altura deseados ( tamaño máximo: 20mm de alto x 50mm de ancho ) Hacé clic en \"Guardar Logo\" Importante : Este logo aparecerá impreso en el PDF de Facturas Electrónicas, Recibos, Pagos, Remitos X y Presupuestos a clientes. Sources: Datos generales Módulo de configuración",
+          "created_at": "2026-02-27T13:04:51.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Eso te ayuda con el cambio de logo?",
+          "created_at": "2026-02-27T13:04:51.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "AYUDA PORQUE YA SEGUI ESOS PASOS Y NO ME CAMBIA EL LOGO",
+          "created_at": "2026-02-27T13:05:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Entiendo que seguiste los pasos pero el logo no se actualiza. Para ayudarte mejor, necesito que me compartas: ¿Qué mensaje exacto aparece cuando hacés clic en \"Guardar Logo\"? ¿El archivo que estás subiendo es formato .jpg o .gif? ¿Verificaste que el tamaño sea máximo 20mm de alto x 50mm de ancho? ¿En qué tipo de comprobante esperás ver el cambio? (Facturas Electrónicas, Recibos, etc.) Con esta información podremos identificar qué está causando el problema. Source: Datos generales",
+          "created_at": "2026-02-27T13:05:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "FACTURAS ELECTRONICAS",
+          "created_at": "2026-02-27T13:05:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Vaya, algo salió mal. ¿Podrías repetir la pregunta?",
+          "created_at": "2026-02-27T13:05:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ERROR FALTA ACTUALIZAR EL LOGO",
+          "created_at": "2026-02-27T13:06:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para ayudarte a resolver el problema con el logo que no se actualiza, necesito que me compartas algunos detalles específicos: ¿Qué mensaje exacto aparece cuando hacés clic en \"Guardar Logo\"? También verificá estos puntos: • Formato del archivo : Debe ser .jpg o .gif únicamente • Tamaño : Máximo 20mm de alto x 50mm de ancho • Proceso : Después de seleccionar el archivo, ingresá las dimensiones y hacé clic en \"Guardar Logo\" Una vez que tengas esta información, podremos identificar exactamente qué está causando que el logo no se actualice en tus facturas electrónicas. ¿Podés compartir el mensaje de error específico que aparece? Source: Datos generales",
+          "created_at": "2026-02-27T13:06:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "NO HAY MENSAJE DE ERROR",
+          "created_at": "2026-02-27T13:06:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "QUIERO HABLAR CON ALGUIEN DEL EQUIPO",
+          "created_at": "2026-02-27T13:07:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Claro, te voy a pasar con alguien de nuestro equipo. Mientras tanto, ¿podrías contarme más detalles sobre el problema con el logo para que puedan ayudarte más rápido?",
+          "created_at": "2026-02-27T13:07:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "YA VERIFIQUE TODOS LOS PUNTOS",
+          "created_at": "2026-02-27T13:07:46.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si intente hacer nuevas facturas y sigue el mismo logo anterior",
+          "created_at": "2026-02-27T13:13:09.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Maira, ¿Cómo estas? ¿El logo que tiene que salir es es siguiente? ​",
+          "created_at": "2026-02-27T13:32:23.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si",
+          "created_at": "2026-02-27T13:34:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "yo aun veo el anterior",
+          "created_at": "2026-02-27T13:34:44.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Maira, te pido que ingreses a la plataforma desde una ventana de incognito y me digas si ahí ves el logo que tiene que estar.",
+          "created_at": "2026-02-27T13:36:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "desde una ventana de incognito?",
+          "created_at": "2026-02-27T13:41:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ahi ingrese desde otro usuario y lo sigo viendo igual",
+          "created_at": "2026-02-27T13:43:46.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si, ingresas a google>los 3 puntitos>nueva ventana de incognito>ahí ingresas a la plataforma con tus credenciales",
+          "created_at": "2026-02-27T13:46:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "es verdad desde Incognito si, es ev el cambio",
+          "created_at": "2026-02-27T13:56:15.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "desde esa funcion de incognito si",
+          "created_at": "2026-02-27T13:56:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "entonces como se solucionaria?",
+          "created_at": "2026-02-27T14:00:42.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Perfecto Mai, con esto comprobamos que el error no es de la plataforma. Lo que tenes que hacer para poder abrirlo en google común es borrar cookies y cache, con eso ya lo solucionas.",
+          "created_at": "2026-02-27T14:04:54.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y sabrias donde se puede eliminar el cache?",
+          "created_at": "2026-02-27T14:11:53.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si usas el navegador de Chrome, para poder hacerlo, debes hacer clic en los tres puntos que están en el lado superior derecho del navegador, se dirigen a CONFIGURACIÓN, seleccionas la opción de PRIVACIDAD Y SEGURIDAD, haces clic sobre BORRAR DATOS DE NAVEGACIÓN, tildan la opción de \"caché y otros datos de navegación\" y BORRAR DATOS. Muy importante poner \"Desde Siempre\" Les dejo la siguiente captura de pantalla a modo de ejemplo:",
+          "created_at": "2026-02-27T14:15:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ok ya se pudo muchas gracias",
+          "created_at": "2026-02-27T14:16:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "te consulto como se pueden cargar los valores a depositar?",
+          "created_at": "2026-02-27T14:16:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "osea tengo un listado de cheques fisicos y echeqs como puedo dejarlos todos en valores a depositar y en todo caso cuando se cobren aplicarlo a cada cliente?",
+          "created_at": "2026-02-27T14:17:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "esta esa opcion?",
+          "created_at": "2026-02-27T14:17:24.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Mai, ¿vos queres cargar los cheques en la plataforma si asociarlo a ninguna factura y en la fecha de cobro del cheque aplicarlo a la factura ya cargada?",
+          "created_at": "2026-02-27T14:22:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "tengo muchos cheques fisicos y echeqs",
+          "created_at": "2026-02-27T14:33:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero poder cargarlos en la plataforma para que me de un proyectado aca de los cheques a cobrar",
+          "created_at": "2026-02-27T14:33:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y tambien asi hacer control de los cheques de forma diaria y controlar los depositos",
+          "created_at": "2026-02-27T14:34:19.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "es posible hacer eso? y controlando los depositos aplicar los cobrados a los clientes que corresponde para ir bajando asi las facturas el saldo a cobrar",
+          "created_at": "2026-02-27T14:34:46.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "se puede Camila hacer la imagen mas grande del logo?",
+          "created_at": "2026-02-27T14:48:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Nos queda medio feo super chiquito en la factura",
+          "created_at": "2026-02-27T14:49:09.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Si Mai, se puede hacer lo siguiente: 1. Ingresas al cliente y cargas un \"cobro a cuenta\" por el valor de ese cheque: 2. El recibo te queda en Facturas adeudadas en la cuenta del cliente 3. Cargas la factura del cliente como cuenta corriente y la misma te va a queda en facturas adeudadas de cliente: 4. Ingresas al recibo y acreditas el recibo a dicha factura: 5. Te queda en la cuenta del cliente el recibo asociado a la factura Con respecto a lo del logo, el tamaño que acepta la plataforma es máximo de 20mm de alto x 50 mm de ancho. Pueden modificarlo desde acá el tamaño:",
+          "created_at": "2026-02-27T17:41:32.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "voy a intentar Camila muchas gracias, tengo muchos clientes que pagan con cheques a cobrar por echeqs de aca a 12 meses y nose aun como hacer con la cuenta si se pueden ir identificando los cobros desde el banco",
+          "created_at": "2026-02-27T17:58:45.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Mai, vos podes ir haciendo un seguimiento de cheques desde: 1. Tesorería>reportes 2. Vas a poder depositar esos cheques cuando corresponda: LINK del articulo que explica como realizarlo 3. Vas a poder pagarle a tus proveedores con los cheques que tengas en cartera: LINK del articulo que explica como realizarlo ​",
+          "created_at": "2026-02-27T18:07:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "sobre los cheques ahi hice la prueba con un caso pero me lo resta del acumulado",
+          "created_at": "2026-02-27T18:43:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "el valor total de la factura es de 45 millones ya se cobro una parte resta aun 17 millones que esta en la linea de arriba y despues son todos cheques electronicos de 2.9 millon cada uno a cobrar de aca a septiembre",
+          "created_at": "2026-02-27T18:45:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "a febrero me tiene que mostrar los 17 millones adeudados a hoy no restarlo del acumulado",
+          "created_at": "2026-02-27T18:46:19.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Clara Mai, vos de esta manera estas ingresando ese dinero a cuenta del recibo, por ende se va a descontar, pero luego vos vas a \"relacionar\" ese recibo con la factura que corresponda a ese monto.",
+          "created_at": "2026-02-27T19:12:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y hay una forma de importar todo el listado de cheques y se asignen por cuil?",
+          "created_at": "2026-02-27T19:23:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Mai, actualmente, la funcionalidad que mencionas no está disponible en Colppy, pero entendemos lo importante que puede ser para vos por lo cual nos encantaría que las compartas en nuestro portal de sugerencias: https://ideas.colppy.com/ .",
+          "created_at": "2026-02-27T19:29:39.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Maira, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero no te preocupes, podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" . Que tengas una buena jornada 😊",
+          "created_at": "2026-03-02T11:42:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-03-02T11:42:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-03-02T11:42:55.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215473188685111",
+      "created_at": "2026-02-21T00:10:20.000Z",
+      "state": "closed",
+      "contact_email": "maximarascha23@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Dueño de una empresa",
+      "contact_signed_up_at": "2026-02-20T23:52:42.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Consultas-No responden",
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Quiero configurar mi empresa",
+          "created_at": "2026-02-21T00:10:20.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Bienvenido a Colppy! 🎉 Para empezar a configurar tu empresa, debés realizar los siguientes pasos: Verifica los datos registrados de tu empresa en Configuración > Datos Generales Plan de cuentas y su configuración. Configuración de factura electrónica. Invitar a usuarios. En caso de dudas, aquí te dejamos el instructivo con más información: [App: Article Inserter]",
+          "created_at": "2026-02-21T00:10:23.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Maximiliano, ¿Cómo estas? ¿En que te podemos ayudar?",
+          "created_at": "2026-02-23T16:19:45.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Maximiliano, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" . Que tengas una buena jornada 😊",
+          "created_at": "2026-02-23T19:44:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Fue un gusto ayudarte. En breve recibirás una encuesta, en la misma estarás calificando mi atención personal hoy. ¡Tu valoración me ayuda mucho!",
+          "created_at": "2026-02-23T19:46:48.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-02-23T19:46:49.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215473168982040",
+      "created_at": "2026-02-19T18:34:57.000Z",
+      "state": "closed",
+      "contact_email": "administracion@lmclogistica.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Administrativo / Contador de una empresa",
+      "contact_signed_up_at": "2026-02-19T16:39:12.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "otros pagos"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-02-19T18:34:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-02-19T18:35:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-02-19T18:35:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-02-19T18:35:17.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-02-19T18:35:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "quiero borrar facturas que hice son x no estan en arca",
+          "created_at": "2026-02-19T18:36:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estas? Perfecto, te indico como realizarlo: 1. Ingresas a la factura que vas a anular 2. Le cambias el estado a \"Anulada\" y guardas el cambio",
+          "created_at": "2026-02-19T18:59:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "gracias por tu ayuda!",
+          "created_at": "2026-02-19T19:20:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "te molesto con otra consulta, como hago un asiento para constabilizar un pago de horas extras en negro, usando la plata de la caja en negro",
+          "created_at": "2026-02-19T19:21:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "o cual es el procedimiento, no se si es un asiento contable, quizas se hace de otra manera",
+          "created_at": "2026-02-19T19:22:06.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Te hago una consulta, ¿vos quisieras dejar registro con una factura X por ejemplo de este pago en negro?",
+          "created_at": "2026-02-19T19:56:17.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito registrar el movimiento, y que afecte en caja",
+          "created_at": "2026-02-19T20:03:25.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya sea por asiento, en la caja o se la manera que sea en el sistema",
+          "created_at": "2026-02-19T20:03:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no se cual es la manera que tiene",
+          "created_at": "2026-02-19T20:03:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "gastos que hago con el dinero",
+          "created_at": "2026-02-19T20:03:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si se puede registrar en caja mejor pero no se como se hace",
+          "created_at": "2026-02-19T20:04:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Podes hacerlo desde el modulo de tesorería como \"otros pagos\", te dejo el LINK del articulo que explica como hacerlo. Hice un ejemplo para que veas como quedaría (las cuentas contables son a modo de ejemplo únicamente): ​ ¿Esta opción te sirve? ​",
+          "created_at": "2026-02-20T12:37:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si excelente gracias!",
+          "created_at": "2026-02-20T12:55:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buenísimo, cualquier duda o consulta estoy a disposición. Saludos.",
+          "created_at": "2026-02-20T13:15:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-02-20T13:16:17.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-02-20T13:16:17.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215473078525731",
+      "created_at": "2026-02-12T18:08:19.000Z",
+      "state": "closed",
+      "contact_email": "admin@bioferia.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-02-12T18:05:34.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Tab",
+        "MC-Usuario administrador"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-02-12T18:08:19.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-02-12T18:08:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-02-12T18:08:30.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Tablero",
+          "created_at": "2026-02-12T18:08:44.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En la pantalla de inicio de tu empresa en Colppy, en el tablero, se exponen en forma gráfica los indicadores principales de la situación económica y financiera de tu empresa. -Total ventas del mes -Total compras del mes -Facturas por cobrar -Facturas por pagar Además se visualizan los 4 gráficos que representan los resultados de tu empresa: -Ingresos y Gastos -Cajas y Bancos -Facturas: por Cobrar y por Pagar -Distribución de Gastos ​ Para conocer el detalle de como se alimentan los gráficos ingresa a este articulo de ayuda [App: Article Inserter]",
+          "created_at": "2026-02-12T18:08:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿ Pudiste resolver la duda?",
+          "created_at": "2026-02-12T18:08:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-02-12T18:08:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-02-12T18:08:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "COMO PUEDO CAMBIAR QUIEN ES EL USUARIO ADMINISTRADOR?",
+          "created_at": "2026-02-12T18:09:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para cambiar el usuario administrador hay dos situaciones: Si tenés acceso al administrador actual: Primero necesitás crear al nuevo usuario como usuario general. El administrador actual debe ir a Mi cuenta Colppy > Administrador de usuarios > Invitar usuario. Si NO tenés acceso al administrador actual: Necesitás enviar una declaración formal por email a soporte@colppy.com . Esta declaración debe incluir datos de la empresa, tu información personal, cargo que ocupás y autorización para asumir las funciones administrativas. ¿En cuál de estas dos situaciones te encontrás?",
+          "created_at": "2026-02-12T18:09:35.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "TENGO ACCESO AL ADMINISTRADOR ACTUAL",
+          "created_at": "2026-02-12T18:09:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Perfecto. Como tenés acceso al administrador actual, estos son los pasos: 1. Crear el nuevo usuario El administrador actual debe ir a Mi cuenta Colppy > Administrador de usuarios > Invitar usuario. 2. Completar los datos Vas a necesitar llenar nombre, email, teléfono y elegir el perfil (Usuario Administrativo o Supervisor). 3. Asignar permisos Podés crear roles específicos desde Mi cuenta > Roles para definir a qué módulos puede acceder el nuevo usuario. Una vez que el nuevo usuario esté creado y configurado, ya va a poder acceder con permisos de administrador. ¿Necesitás ayuda con alguno de estos pasos específicos? Sources: Soy usuario administrador de una empresa en Colppy, ¿Cómo creo roles de usuarios? Mi cuenta Colppy",
+          "created_at": "2026-02-12T18:10:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "lo hice pero no funciona",
+          "created_at": "2026-02-12T18:10:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para ayudarte mejor, necesito que me compartas qué mensaje de error específico estás viendo o qué paso exactamente no está funcionando. Mientras tanto, verificá estos puntos comunes: • Permisos del usuario actual : Confirmá que estés usando el usuario administrador para crear el nuevo usuario • Rol asignado : Después de crear el usuario, asegurate de asignarle el rol correcto desde Mi cuenta > Administración de usuarios • Plan activo : Esta función solo está disponible en planes Pymes y Consultoras y Estudios • Dominio del email : En planes de contadores, el nuevo usuario debe tener el mismo dominio de email que el administrador ¿Podrías contarme exactamente qué mensaje ves o en qué paso se traba? Sources: ¿Como puedo crear/ invitar nuevos usuarios a mi empresa en Colppy? Soy usuario administrador de una empresa en Colppy, ¿Cómo creo roles de usuarios?",
+          "created_at": "2026-02-12T18:11:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "cuando cree el usuario le puse administrador, pero tiene acceso total no adminsitrador, y si busco modificarlo ahora no me da la opcion de administrador.",
+          "created_at": "2026-02-12T18:12:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Entiendo el problema. En Colppy hay una diferencia importante entre los tipos de usuario: Usuario Administrativo = acceso total a funciones operativas (facturación, contabilidad, etc.) Usuario Administrador = quien puede gestionar otros usuarios y roles Cuando creaste el usuario, elegiste \"Usuario Administrativo\" en el perfil, no \"Administrador\". Por eso tiene acceso total pero no puede administrar usuarios. Para solucionarlo: Desde tu usuario administrador actual, andá a Mi cuenta Colppy > Administración de usuarios Buscá al usuario que creaste Editalo y en \"Rol (permisos)\" asignale un rol específico que limite sus accesos Si necesitás que sea administrador real (que pueda gestionar usuarios), tendrías que crear un nuevo usuario desde cero eligiendo el perfil correcto. ¿Querés que tenga acceso limitado o necesitás que sea administrador completo? Sources: ¿Como puedo crear/ invitar nuevos usuarios a mi empresa en Colppy? Soy usuario administrador de una empresa en Colppy, ¿Cómo creo roles de usuarios?",
+          "created_at": "2026-02-12T18:13:01.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, Espero que estés muy bien Por favor, podrás indicarme el mail de cuál usuario necesitan que sea el administrador de la cuenta? Así podemos realizar la gestión",
+          "created_at": "2026-02-13T15:54:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola! Queremos pasar de maria.rodriguez@bioguia.com al mail admin@bioferia.com.ar",
+          "created_at": "2026-02-13T16:29:18.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Listo, el mail de admin@bioferia.com.ar ahora es el administrador de la empresa BIOFERIA",
+          "created_at": "2026-02-13T17:43:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Carla?",
+          "created_at": "2026-02-13T18:42:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-02-13T18:42:02.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472941826211",
+      "created_at": "2026-02-03T13:32:49.000Z",
+      "state": "closed",
+      "contact_email": "jimena.persico@grupostadium.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-26T15:38:37.000Z",
+      "days_since_signup": 7,
+      "tags": [
+        "Mod Cli-Aceptación Factura Electronica",
+        "Consultas-No responden",
+        "Mod Cfg-Factura Electrónica-"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola estimado queria saber si esta la delegación de la factura electronica . Adjunto captura del detalle. Desde ya muchas gracias Saludos Jimena.",
+          "created_at": "2026-02-03T13:32:49.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Jimena, ¿como estas? Ya aceptamos la delegación para que puedan emitir facturas electrónicas desde Colppy. Como AFIP suele demorar unas horas en validar el trámite de la delegación, hasta 24 horas, te sugiero que pruebes hacer una factura en unas horas. ¿Podrías enviarme el formulario de los puntos de venta? Lo podes ver desde ARCA>Mis puntos de venta, para validar que este correcto. Quedamos atentos a tus comentarios, ¡Saludos!",
+          "created_at": "2026-02-03T15:47:12.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Jime, ¿pudiste ver mi mensaje?",
+          "created_at": "2026-02-04T12:29:43.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola jimena, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" . Que tengas una buena jornada 😊",
+          "created_at": "2026-02-04T18:52:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-02-04T18:53:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-02-04T18:53:08.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472931794774",
+      "created_at": "2026-02-03T13:06:21.000Z",
+      "state": "closed",
+      "contact_email": "soporte@colppy.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": "Contador de un estudio",
+      "contact_signed_up_at": "2026-02-02T15:07:04.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "MC-Suscripción Colppy"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "Hola DOLORES, ¿Cómo estás? Soy del equipo de implementación y juntos trabajaremos en la configuración de la plataforma. ​ Para comenzar debes seguir estos pasos: 1- Configuraciones iniciales Hace clic en este link , el cual te llevará a una hoja de ruta con los pasos a seguir, debes generar una copia de la misma, Archivo > Hacer una copia Sino podes descargar directamente el archivo Excel adjunto en esta conversación También vas a poder ir registrando el grado de avance para que al terminarlo continúes con el paso 2 ​ 2 - Comencemos con la generación de comprobantes. En la misma hoja de ruta tenes la hoja “2-Carga de comprobantes” para comenzar a cargar tus comprobantes de compra y de venta, cobros y pagos, y descargar reportes ​ Consejos extra: -Anotate en nuestra capacitación \"Configuración inicial de tu cuenta en Colppy\" que brindamos los Martes de 15 a 16hs desde este link -Inscríbete a las capacitaciones por módulos que brinda Colppy desde este calendario ​ ¡Estamos acá para asegurarnos de que tu experiencia en Colppy sea todo un éxito! Saludos.",
+          "created_at": "2026-02-03T13:06:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "buenos dias, tengo una duda sobre la facturacion a realizar a los clientes. Se puede cargar mas de un CUIT para la facturación? ​ El lun, 2 feb 2026 a la(s) 4:52 p.m., Soporte ( soporte@colppy.com ) escribió:",
+          "created_at": "2026-02-03T13:06:21.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Dolores, ¿Cómo estas? No se puede colocar en una misma factura diferentes CUIT ya que al momento de facturar vos tenes que ir al modulo Clientes>seleccionar el cliente>Agregar factura por lo tanto vos estas seleccionando un cliente especifico a quien le vas a generar esa factura el cual tendrá un único CUIT. Te dejo el LINK del articulo que explica como se realiza una factura.",
+          "created_at": "2026-02-03T13:19:54.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "La llame para el onboarding y resolvimos esta duda, seguimos aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215472947604573?view=List",
+          "created_at": "2026-02-03T18:51:14.000Z"
+        }
+      ]
+    }
+  ]
+}

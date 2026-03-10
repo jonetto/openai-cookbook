@@ -1,0 +1,373 @@
+{
+  "from_date": "2026-03-01",
+  "to_date": "2026-03-08",
+  "state": null,
+  "team_assignee_id": "2334166",
+  "topic": "Primeros 90 días",
+  "trial_only": true,
+  "trial_days": 7,
+  "saved_at": "2026-03-08T20:44:16.033Z",
+  "conversations": [
+    {
+      "conversation_id": "215473385185607",
+      "created_at": "2026-03-07T13:49:23.000Z",
+      "state": "closed",
+      "contact_email": "priscila.09.04.06@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Otro",
+      "contact_signed_up_at": "2026-03-07T13:44:34.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Cierres Contables"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-03-07T13:49:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-03-07T13:49:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-03-07T13:49:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Contabilidad",
+          "created_at": "2026-03-07T13:49:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué podemos ayudarte?",
+          "created_at": "2026-03-07T13:49:54.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Realizar el cierre contable",
+          "created_at": "2026-03-07T13:50:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Esta sección de Colppy permite registrar de manera integral los cierres de ejercicio contable de las empresas. ​ Podes ver el procedimiento en el siguiente articulo 👇 [App: Article Inserter]",
+          "created_at": "2026-03-07T13:50:03.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolvimos tu duda? o ¿Buscas cierres contables detallados?",
+          "created_at": "2026-03-07T13:50:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-03-07T13:52:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-03-07T13:52:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Como hago para llevar un promedio de toda la carne",
+          "created_at": "2026-03-07T13:53:12.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "?",
+          "created_at": "2026-03-07T13:53:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para llevar un promedio de toda la carne, necesitas usar el método Precio Promedio Ponderado (PPP) en tu configuración de inventario. Este método calcula automáticamente un promedio entre todos los valores de compra dividido por las cantidades compradas. Por ejemplo: si tenés 1500 unidades a $40 y comprás 5000 unidades a $34,20, el promedio sería: (60000+171000)/(1500+5000) = $35,54 por unidad. Para configurarlo: Ve a Módulo Inventario > Configuración de Inventario y selecciona \"Precio Promedio Ponderado (PPP)\". Una vez seleccionado, no se puede modificar. Con este método, todas las salidas de carne se valuarán al costo promedio, sin importar cuándo las compraste. Sources: Método de valuación de inventarios Configuración de Inventario",
+          "created_at": "2026-03-07T13:53:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-03-07T13:53:34.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Pero ahy tmb van las bajadas de carne ?",
+          "created_at": "2026-03-07T13:55:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, exacto. Con el método Precio Promedio Ponderado (PPP) todas las salidas de carne se incluyen en el cálculo del promedio, incluyendo las bajadas. Cuando haces ajustes negativos de inventario (bajadas), el sistema toma los valores según el método PPP que tengas configurado. Esto significa que tanto las ventas como las bajadas por merma, vencimiento o cualquier otro motivo van al mismo costo promedio. El promedio se recalcula automáticamente con cada movimiento de entrada y salida, manteniendo siempre un costo uniforme para toda tu carne en stock. Sources: Ajustes de Inventario Método de valuación de inventarios ¿Cómo puedo llevar un proceso de producción en Colppy?",
+          "created_at": "2026-03-07T13:55:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Aclaró tu pregunta?",
+          "created_at": "2026-03-07T13:55:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Me podrías mostrar todo bien de como tendría que hacer todo el control xq los gastos tmb van",
+          "created_at": "2026-03-07T13:56:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para el control completo de carne con gastos incluidos, necesitas seguir este proceso: 1. Configuración inicial: Ve a Inventario > Configuración y selecciona método PPP Configura la cuenta \"Costo de Producto\" donde se registrarán automáticamente los costos 2. Registro de compras: Carga facturas de compra de carne (aumenta stock) El sistema calcula automáticamente el promedio ponderado 3. Control de salidas: Ventas: Se registran automáticamente al costo promedio Bajadas/mermas: Usa Ajustes de Inventario con cantidades negativas 4. Gastos relacionados: Los gastos (luz, sueldos, etc.) se imputan a la cuenta \"Productos en Proceso\" 5. Movimientos automáticos: Cada venta genera dos asientos: la venta y el costo de mercadería vendida Con PPP, todas las salidas (ventas y bajadas) van al mismo costo promedio, y los gastos se registran por separado en cuentas específicas. Sources: ¿Cómo puedo llevar un proceso de producción en Colppy? Método de valuación de inventarios Ajustes de Inventario Configuración de Inventario",
+          "created_at": "2026-03-07T13:56:56.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Te fue útil esta información?",
+          "created_at": "2026-03-07T13:56:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si necesitas más ayuda con el control completo de inventarios y gastos, estoy aquí para asistirte. ¿Quieres contarme más detalles sobre lo que estás intentando resolver?",
+          "created_at": "2026-03-07T14:00:58.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Es que nose como llevar el control de una carniceria",
+          "created_at": "2026-03-07T14:02:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Te explico paso a paso cómo llevar el control completo de tu carnicería: 1. Configuración inicial Ve a Inventario > Configuración y elige método PPP (mejor para carnicerías) Configura la cuenta \"Costo de Producto\" donde se registrarán automáticamente los costos 2. Carga tus productos Da de alta todos los cortes de carne con su último precio de compra Registra las cantidades iniciales que tenés en stock 3. Control diario Compras : Carga facturas de proveedores (aumenta stock automáticamente) Ventas : Se registran automáticamente y bajan el stock al costo promedio Mermas/bajadas : Usa Ajustes de Inventario con cantidades negativas 4. Seguimiento Ve a Reportes > Listado de Movimientos para ver todo el detalle Cada venta genera dos asientos: la venta y el costo de mercadería vendida Con PPP, todas las salidas (ventas y mermas) van al mismo costo promedio, simplificando el control de tu carnicería. ¿Te ayudo con algún paso específico? Sources: Primeros pasos para configurar el módulo inventario. Configuración de Inventario Método de valuación de inventarios Ajustes de Inventario Listado de movimientos",
+          "created_at": "2026-03-07T14:03:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda para llevar el control completo de tu carnicería, estoy aquí para asistirte y aclarar cualquier duda que tengas. ¿Quieres contarme más sobre qué aspecto específico te gustaría resolver o entender mejor?",
+          "created_at": "2026-03-07T14:07:19.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215473333339734",
+      "created_at": "2026-03-03T18:31:32.000Z",
+      "state": "closed",
+      "contact_email": "administracion@silogic.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-02-25T17:23:09.000Z",
+      "days_since_signup": 6,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Alta de Clientes y Proveedores",
+        "Mod Cont-Retenciones ingresos brutos IIBB",
+        "Mod Cfg-Datos Impositivos"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-03-03T18:31:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-03-03T18:31:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-03-03T18:31:42.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2026-03-03T18:31:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2026-03-03T18:31:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar un proveedor",
+          "created_at": "2026-03-03T18:31:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para dar de alta un nuevo Proveedor en Colppy tenes dos opciones: ​ Alta manual - Ir al módulo Proveedores > gestión de proveedores > hacer clic en el botón de nuevo proveedor. Te explicamos como hacerlo en este link 👈 Importación masiva por Excel -Esta funcionalidad permite importar de forma masiva tus proveedores. Ir a módulo Proveedores > gestión de proveedores > Importar > proveedores Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-03-03T18:32:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Diste de alta a tu proveedor?",
+          "created_at": "2026-03-03T18:32:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-03-03T18:32:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-03-03T18:32:32.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Como puedo saber que Ret. de ganancias debo colocarle al proveedor para que figuren las percepciones al momento de cargar una factura",
+          "created_at": "2026-03-03T18:33:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para configurar la retención de ganancias en un proveedor, debes seguir estos pasos: En la ficha del proveedor: Ve al campo \"Retención de Ganancias\" y selecciona el régimen correspondiente que aparecerá por defecto cuando cargues facturas de ese proveedor Para determinar el régimen correcto: AFIP establece cada año una tabla con los montos mínimos y alícuotas para diferentes operaciones comerciales El cálculo depende de la condición de IVA del proveedor , ya que esto define la alícuota a aplicar Puedes consultar los códigos de régimen, conceptos y montos actualizados Al cargar facturas: El régimen configurado en el proveedor aparecerá predefinido, pero podrás modificarlo si es necesario Te recomendamos revisar la tabla de AFIP para asegurarte de usar el régimen correcto según el tipo de operación y monto involucrado. Sources: Retención de Impuesto a las Ganancias Crear o modificar un proveedor",
+          "created_at": "2026-03-03T18:33:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-03-03T18:33:33.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "hablar con un asesor",
+          "created_at": "2026-03-03T18:36:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Claro, te voy a pasar con alguien de nuestro equipo. Mientras tanto, ¿podrías contarme más detalles sobre tu consulta para que puedan ayudarte de forma más rápida y precisa?",
+          "created_at": "2026-03-03T18:36:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito saber que codigo le corresponde al proveedor para al momento de cargar facturas tambien figuren las percepciones",
+          "created_at": "2026-03-03T18:37:20.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Paula, ¿Cómo estas? Para que las percepciones de retención de ganancias figuren al cargar una factura a un proveedor, debes asegurarte de que el régimen de Retención de Ganancias esté correctamente configurado en la ficha del proveedor. En la solapa \"Otra Información\" del proveedor, debes seleccionar el régimen de retención que corresponda. Este régimen se predefinirá automáticamente al cargar una factura en cuenta corriente para ese proveedor. El código o régimen a seleccionar depende de la condición fiscal del proveedor y de la normativa vigente (por ejemplo, RG 830). Debes tildar el checkbox de \"Agente de Retención de Imp. a las Ganancias\" y seleccionar la cuenta correspondiente en la solapa \"Datos Impositivos\" del módulo Empresa. Al cargar la factura, el sistema tomará el régimen configurado y calculará la percepción automáticamente si corresponde. Es importante revisar que la condición de IVA y el régimen seleccionado sean los correctos, ya que esto afecta el cálculo de la retención.",
+          "created_at": "2026-03-04T13:03:03.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola, probe con colocar cualquier codigo y me sigue sin figurar las percepciones",
+          "created_at": "2026-03-04T13:44:44.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "En donde estaria el modulo de empresa?",
+          "created_at": "2026-03-04T13:44:54.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Mi duda es como puedo saber la condicion fiscal del proveedor",
+          "created_at": "2026-03-04T13:47:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Perdón, me di a entender mal. En la constancia de inscripcion entiendo que deberian figurar los codigos. Los que veo, no figuran en el listado de la plataforma",
+          "created_at": "2026-03-04T13:54:01.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Pau, esta información la obtenes directo del proveedor, nosotros no contamos con esa información. ¿Queres enviarme la constancia asi veo que figura?",
+          "created_at": "2026-03-04T14:00:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Dale, me fije en el chat gpt y indica que es el 95 -Venta de cosas muebles / locaciones de obra y servicios",
+          "created_at": "2026-03-04T14:01:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Pero en el listado de la plataforma el 95-Transporte de carga entre Argentina y paises extranjeros",
+          "created_at": "2026-03-04T14:01:42.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si o si, para que me figure las percepciones en la factura del proveedor, debo cargar lo de Ret. Ganancias?",
+          "created_at": "2026-03-04T14:07:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Esto se deberia a que nosotros no tenemos activo lo de IIBB?",
+          "created_at": "2026-03-04T14:13:43.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Pau, exacto, ustedes deben configurar esto en la plataforma desde Configuración>Datos impositivos, te dejo el LINK del articulo que te explica el paso a paso de todo esto Si te quedan dudas sobre la configuración me avisas, de todas maneras esta configuración lo mejora es que lo realices con ayuda de tu contador. ​",
+          "created_at": "2026-03-04T14:49:39.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buen día Pau, quedamos a disposición ante cualquier duda o consulta. Saludos.",
+          "created_at": "2026-03-05T12:10:20.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-03-05T18:44:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-03-05T18:44:26.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215473315617511",
+      "created_at": "2026-03-02T19:27:51.000Z",
+      "state": "closed",
+      "contact_email": "administracion@silogic.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-02-25T17:23:09.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Retención Ganancias",
+        "Consultas-No responden"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-03-02T19:27:51.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-03-02T19:27:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-03-02T19:28:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2026-03-02T19:28:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2026-03-02T19:28:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ingresar un pago con retenciones",
+          "created_at": "2026-03-02T19:28:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Primero debes verificar que el campo para el calculo de retención de ganancias este habilitado. en el modulo de configuración en la solapa Datos Impositivos se deberá tildar el checkbox de Agente de Retención de Imp. a las Ganancias Cargar una factura en cuenta corriente y seleccionar el régimen de Retención de Ganancias Agregar un Pago, tildar la factura, seleccionar el mismo régimen que se definió en la factura en el campo de la retención y hacer clic en el botón \"Calcular Podes consultar el procedimiento en el siguiente articulo 👇 [App: Article Inserter]",
+          "created_at": "2026-03-02T19:28:23.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolviste la duda ?",
+          "created_at": "2026-03-02T19:28:23.000Z"
+        }
+      ]
+    }
+  ]
+}

@@ -34,8 +34,8 @@ A user who selects "Contador" in the wizard but only does compra/venta is an **O
 | Persona | Critical Events (Mixpanel) | Description |
 |---------|---------------------------|-------------|
 | **Lleva la administración** | `Generó comprobante de compra`, `Generó comprobante de venta` | Core persona — invoicing, buying/selling. Most common. |
-| **Lleva la contabilidad** | Accounting events (asientos contables, plan de cuentas) | True bookkeeping — journal entries, chart of accounts |
-| **Lleva inventario** | Inventory events (stock movements, item management) | Inventory-focused usage |
+| **Lleva la contabilidad** | `Generó asiento contable` (primary), `Descargó el balance`, `Descargó el diario general`, `Agregó una cuenta contable` | True bookkeeping — journal entries, chart of accounts, financial reports |
+| **Lleva inventario** | `Agregó un ítem` (primary), `Generó un ajuste de inventario`, `Actualizó precios en pantalla masivo` | Inventory-focused — item catalog, stock adjustments, price management |
 | **Operador** | Same events as "Lleva la administración" BUT `contact_es_contador=true` AND operates across multiple client `id_empresa` values | Accountant behaving as administrator for their clients' companies |
 
 ### Wizard vs Reality Gap
@@ -98,12 +98,44 @@ From the lifecycle framework. These classify ALL active users, not just trial:
 
 ---
 
-## Mixpanel Custom Events Reference
+## Mixpanel Critical Events Reference
+
+### Per-Persona Event Hierarchy
+
+**Lleva la administración** — Lifecycle: `lifecycle_admin_comprasventa`
+
+| Priority | Event Name | Signal |
+|----------|-----------|--------|
+| PRIMARY | `Generó comprobante de venta` | Core invoicing value event |
+| PRIMARY | `Generó comprobante de compra` | Core purchasing value event |
+| HIGH | `Generó recibo de cobro` | Payment receipt — active collections |
+| HIGH | `Generó orden de pago` | Payment order — active payments |
+| MEDIUM | `Descargó el libro iva ventas` | VAT compliance |
+| MEDIUM | `Descargó el libro iva compras` | VAT compliance |
+
+**Lleva la contabilidad** — Lifecycle: `lifecycle_contabilidad`
+
+| Priority | Event Name | Signal |
+|----------|-----------|--------|
+| PRIMARY | `Generó asiento contable` | Core accounting entry (types: Diario, Cierre y Apertura, Ajuste por inflación, Refundición) |
+| HIGH | `Descargó el balance` | Balance sheet — active reporting |
+| HIGH | `Descargó el diario general` | General journal — active reporting |
+| HIGH | `Descargó el estado de resultados` | P&L analysis |
+| MEDIUM | `Descargó el estado de flujo de efectivo` | Advanced accounting |
+| MEDIUM | `Agregó una cuenta contable` | Chart of accounts management |
+
+**Lleva inventario** — Lifecycle: not yet implemented in Intercom
+
+| Priority | Event Name | Signal |
+|----------|-----------|--------|
+| PRIMARY | `Agregó un ítem` | Item catalog management |
+| PRIMARY | `Generó un ajuste de inventario` | Stock adjustment |
+| HIGH | `Actualizó precios en pantalla masivo` | Bulk price update |
+
+### Mixpanel Custom Composite Events
 
 | Custom Event | Component Events | Persona |
 |-------------|-----------------|---------|
-| Eventos clave del usuario que lleva la administración | Generó comprobante de compra + Generó comprobante de venta | Lleva la administración |
-| (to be confirmed) | Accounting-specific events | Lleva la contabilidad |
-| (to be confirmed) | Inventory-specific events | Lleva inventario |
+| Eventos clave del usuario que lleva la administración | `Generó comprobante de compra` + `Generó comprobante de venta` | Lleva la administración |
 
-**Note:** Exact Mixpanel event names for contabilidad and inventario personas need confirmation from the Mixpanel project. The administración events are confirmed.
+> The contabilidad and inventario personas do not have pre-built Mixpanel custom composite events. Query their component events individually using `run_segmentation_query`.

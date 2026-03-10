@@ -1,0 +1,7122 @@
+{
+  "exported_at": "2026-03-08T17:19:29.720562",
+  "from_date": "2026-03-01",
+  "to_date": "2026-03-08",
+  "plan_filter": "pendiente_pago",
+  "level": "user",
+  "total_raw_events": 1114,
+  "unique_users": 582,
+  "activated_users": 8,
+  "persona_summary": {
+    "Login only (not activated)": 574,
+    "Admin + Contabilidad": 3,
+    "Admin + Inventario": 2,
+    "Lleva la administración": 2,
+    "Lleva la contabilidad": 1
+  },
+  "event_summary": {
+    "Login": {
+      "total": 669,
+      "unique_users": 579
+    },
+    "Generó comprobante de compra": {
+      "total": 129,
+      "unique_users": 4
+    },
+    "Agregó un ítem": {
+      "total": 98,
+      "unique_users": 3
+    },
+    "Generó recibo de cobro": {
+      "total": 79,
+      "unique_users": 4
+    },
+    "Generó orden de pago": {
+      "total": 66,
+      "unique_users": 5
+    },
+    "Generó comprobante de venta": {
+      "total": 41,
+      "unique_users": 4
+    },
+    "Agregó una cuenta contable": {
+      "total": 17,
+      "unique_users": 1
+    },
+    "Generó asiento contable": {
+      "total": 9,
+      "unique_users": 1
+    },
+    "Descargó el estado de resultados": {
+      "total": 4,
+      "unique_users": 2
+    },
+    "Descargó el diario general": {
+      "total": 2,
+      "unique_users": 1
+    }
+  },
+  "users": [
+    {
+      "distinct_id": "mcecigieco@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "tacajuangomez123@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "impresiongrafik7@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "74096"
+      }
+    },
+    {
+      "distinct_id": "elpelado82@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "agustin@barcenayasociados.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3,
+        "Generó recibo de cobro": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "35150"
+      }
+    },
+    {
+      "distinct_id": "kponomark@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marianasilvia494@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "soriabastian2301@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leandrogomez2207@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "caropaez81@outlook.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ailenpaniagua503@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mirtaramirez379@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vnoelia3658@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juliabainotti@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mgabypetrocelli3@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Centenodiego32@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "acunanaty57@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "prof_flavia@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "116968"
+      }
+    },
+    {
+      "distinct_id": "Luisgrande221@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "giselazenzano0223@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "abriljerez13@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "romeroyoa64@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Mf7576481@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fedeattie@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yurbit.b@oneplace.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mate.crazystok@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19cb44678c5485-03d46dcf8739648-26061c51-144000-19cb44678c5486",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 9,
+      "events": {
+        "Login": 9
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117768"
+      }
+    },
+    {
+      "distinct_id": "rojasceleste325@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "arroyoguillermo883@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mrpollo8822@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "karenpala07@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mouteda28@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "emilsecoria89@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "felixrivarola443@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "josemuller380@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Mansoredaniel825@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:be70a7f0-050b-4a9a-9740-d2d2f9753e80",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117924"
+      }
+    },
+    {
+      "distinct_id": "eli827640@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "info@logpdc.com",
+      "persona": "Admin + Contabilidad",
+      "critical_events": 126,
+      "logins": 0,
+      "events": {
+        "Generó orden de pago": 49,
+        "Agregó una cuenta contable": 17,
+        "Generó comprobante de compra": 109
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117297"
+      }
+    },
+    {
+      "distinct_id": "srtanatalia6@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mateotungtung@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "servgeneral10@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danielaalejandrasilva512@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "chuneger@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "baty_1978@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mariajuanaroche17@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "richitwlm87@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "roberalbareda1780@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "delfinahudson99@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "diegoaquino3@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mairaantonela0218@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Paviamarioalberto@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vyessica09@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "VERONICA.VERCELLONE88@GMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19c7d086dd67f1-0873ba25c19cff-26061c51-144000-19c7d086dd77f2",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "115847"
+      }
+    },
+    {
+      "distinct_id": "amaria.martinez04@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "federicosarricueta@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "miguelrappi547@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Gioemidelfi1889@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sofiaacisneros283@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "info@flow-int.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 9,
+      "events": {
+        "Login": 9
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "22982"
+      }
+    },
+    {
+      "distinct_id": "suarezjere57@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "edujorcor@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ssainz.qse@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "elgatto681@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "noemilelo21@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "julybelen1310@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "velazquezelias935@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Gusbarrientos17@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "17d8ff1fb921ae-0cac97515d57b4-978183a-100200-17d8ff1fb9348e",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "35085"
+      }
+    },
+    {
+      "distinct_id": "Mariobustos692@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jo100alfo@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Jose2025rb69@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "md2prill@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "antonella.pachas@colppy.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 6,
+      "events": {
+        "Login": 6
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "87050"
+      }
+    },
+    {
+      "distinct_id": "eliaspenoni2025@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cristiandaniel1265@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "hensy83_@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sogita7264@hutudns.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cristian22hernan@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vencimientosinteligentes@maildrop.cc",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alexiacecilia1990@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "julieta.muniz.saavedra@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "dylansena03@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "renetk3d@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:28c8abae-a568-4a72-9de0-c4933b591bc2",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "53379"
+      }
+    },
+    {
+      "distinct_id": "brendapischedda@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marilu.zetaaa@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "emmaodasoo005@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "matiasmansilla23@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "michelespanghero748@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vickykrenz09@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "diegogastonbatista536@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "claudia.viviana.dietrich@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Juanjose3410heredia@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cristian.menna84@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sergioramonsilva21@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ezekielezee98@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guaquinchaymarcos807@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Roldanlucas808@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "georgeeduard2012@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:c268f748-85e6-4da4-8f6e-f7e0f8d505b2",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117983"
+      }
+    },
+    {
+      "distinct_id": "nbruscoli@luminaconsultora.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "88699"
+      }
+    },
+    {
+      "distinct_id": "Bossfitnessar@gmail.com",
+      "persona": "Admin + Inventario",
+      "critical_events": 121,
+      "logins": 1,
+      "events": {
+        "Agregó un ítem": 95,
+        "Generó orden de pago": 6,
+        "Generó comprobante de venta": 26,
+        "Generó recibo de cobro": 26,
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117768"
+      }
+    },
+    {
+      "distinct_id": "veliz6271@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ferreirarocio010@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Dinyvuirli@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "malenagil9919@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sebastianpaniagua081@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "177c9d554fe518-01187c5e27dec7-78667f62-e1000-177c9d554ffdce",
+      "persona": "Admin + Contabilidad",
+      "critical_events": 22,
+      "logins": 11,
+      "events": {
+        "Login": 11,
+        "Descargó el estado de resultados": 3,
+        "Generó orden de pago": 8,
+        "Generó comprobante de compra": 2,
+        "Generó asiento contable": 9,
+        "Generó comprobante de venta": 8,
+        "Generó recibo de cobro": 49
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "22982"
+      }
+    },
+    {
+      "distinct_id": "germanpardal621@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "correolauragauna@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:040c6d06-ae30-4e11-839f-2ac21d7450cc",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "112706"
+      }
+    },
+    {
+      "distinct_id": "Axelcarrizo202@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gnoelia43@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "claudiogramajo13@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ANALIAESTERBUFFA@GMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "barbaraangelesgomez36@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "oviedobrian354@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "blancan.ledesma@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gamaiudine@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "anumbral9@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117952"
+      }
+    },
+    {
+      "distinct_id": "agrimdanielrossi@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "celesteabras81@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "romann.ramirezz77@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "luzmilani@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 4,
+      "events": {
+        "Login": 4
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "115543"
+      }
+    },
+    {
+      "distinct_id": "Mariohugocadiz@GMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Marcos.sanchez210814@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juan.louge@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Yaninav082@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carrizoeliana11@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "exequielm.lopez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ulisessuarez014@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "duarteza654@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mian05moreno@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "burgos10gustavo@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "diegoalmonaci548@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "araacelialarcon@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "andreamscarano@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:1a9d9c48-3378-435b-983c-03cd97117dac",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "106181"
+      }
+    },
+    {
+      "distinct_id": "da431930@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rocio.vega@lisual.com",
+      "persona": "Lleva la administración",
+      "critical_events": 5,
+      "logins": 0,
+      "events": {
+        "Generó recibo de cobro": 3,
+        "Generó comprobante de venta": 5
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "74752"
+      }
+    },
+    {
+      "distinct_id": "delosherosrodolfo402@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "natalia.lucca86@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "118027"
+      }
+    },
+    {
+      "distinct_id": "marialaurafrnc@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gracielasessarego77@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lidiabognanni@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Ricardoolalde173@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "116574"
+      }
+    },
+    {
+      "distinct_id": "benjaminvisca7@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "brakkoadriamcito@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "amayasergio264@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marcewagner2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "diegoismaelenriquez0808@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "115653"
+      }
+    },
+    {
+      "distinct_id": "$device:19cb17879534eb-07b75d46f906888-4c657b58-144000-19cb17879534eb",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117768"
+      }
+    },
+    {
+      "distinct_id": "esquiveljael01@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "tizianobarboza378@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117866"
+      }
+    },
+    {
+      "distinct_id": "medinaarnaldo013@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "kafu.1703@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "reyflorencia23@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Josecampillay26@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "arancibiaeliana73@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gmatilde401@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gracielalara854@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cafatributario@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Fernandoneyra014@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "assiadriana@gmail.com",
+      "persona": "Admin + Contabilidad",
+      "critical_events": 21,
+      "logins": 1,
+      "events": {
+        "Generó comprobante de compra": 17,
+        "Generó orden de pago": 2,
+        "Agregó un ítem": 2,
+        "Descargó el diario general": 2,
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117951"
+      }
+    },
+    {
+      "distinct_id": "iviojeda29@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "maurorake1814@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "angycata2306@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danielorlandoveron37@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "silvina.cordero.protto@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:2cd478b2-cfe1-4496-847d-9b77dcf4cdec",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "116884"
+      }
+    },
+    {
+      "distinct_id": "$device:c4edd56e-cb0c-49c9-a5f8-6e7138a3db0f",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "116927"
+      }
+    },
+    {
+      "distinct_id": "$device:19cb49372e613f-09ee38dcc0df0d8-26061c51-144000-19cb49372e613f",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117699"
+      }
+    },
+    {
+      "distinct_id": "alejandranoelia30@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marioalvarez9595@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fernandonestorperez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guilleaeschbacher0@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fedoh46040@dolofan.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "86723"
+      }
+    },
+    {
+      "distinct_id": "diazejd2@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juanpablop087@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "machineraul_29@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mosquera.elyana@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ESTUDIOORTEGA32@GMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leonardoogomezz26@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vale_14mayo@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "martyngordillo987@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "barrera.martin.santi@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sofiachoren3146@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sual.juanpablo@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Dominguezjordania4@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "seibelanaluz12@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gal3anonatali4@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rejuanjose5@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "aesequoia@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vcortinias7@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leonardo.villanueva@biogenxxi.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ijdservicios@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "micaelaacosta982@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "germanst96@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Cristianemanueldominguez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "agustinaaylenlopez248@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucassantillan616@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "soledaddumbsky@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "poncedeleonandrea0@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Ailenaraoz167@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "nicolaslol94@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carlossuarez952@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "angelicapucheta.1972@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "davidbessone@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sorattojuanpablo@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carlos.spinsanti09@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "biancamudra16@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "enzo.alfonzo22@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marineherleins@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vpiazza375@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:9230e511-2658-4a79-bbbf-d6dc048c490b",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117923"
+      }
+    },
+    {
+      "distinct_id": "camipereyra285@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "maxkcr@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "elenacorinaluchia@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lioneltorres595@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sardi_y_cia@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "floalf2016@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "bruagostina@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "pabloorsini1408@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "tikito65@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Josemarceloguaymas@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mggaray08@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Josefinaramonaramirez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ibarrafabian620@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Francescagalvalicio@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lalagriffa@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fishingfordman1985@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:50cc6496-e3e5-4daf-baa4-59c549638a32",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 5,
+      "events": {
+        "Login": 5
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117951"
+      }
+    },
+    {
+      "distinct_id": "hdhectordiaz04@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19c09e48a8be78-0243e13b8638c3-26061a51-168000-19c09e48a8be78",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117403"
+      }
+    },
+    {
+      "distinct_id": "isaronsvalle@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sergioalderete280@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "taticiancio@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "penelope_glamour_70@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "altamiranobelen415@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leonardolienan38@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gera_vu@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "perezthiagomartin@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "solmuisik@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Lautaropulpeiro@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Toledosergio726@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "caylen391@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cristianduran80@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "roxana.candia@bue.edu.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "administracion@madketing.io",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "116884"
+      }
+    },
+    {
+      "distinct_id": "1009652@ucc.edu.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "richardrochaaa21@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "torrenicolas995@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "barcosruben316@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fernandocamino08@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Juanvillagra162@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Milkama2025@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ro.belen144@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Gnperetti2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "noeliadomenechespinola@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "moviedo@observatoriopyme.org.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sublimese.ar@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fuenzalidaaugusto78@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "malenaaylen17@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "johanasole2011@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gercami26@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sergiochoque9637@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "valdomarmelisa3@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fredycenturion500@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alexisgabriel055@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rominabilbao@yahoo.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "centrodearteyeducacion@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "maryelisabethd4@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alejandrabonis1@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "georginacordoba2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19cbe037f164bd-018c9a319c3d5c8-26061c51-1fa400-19cbe037f174bd",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117954"
+      }
+    },
+    {
+      "distinct_id": "Milenekaren957@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marotejr22@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "bulaciojavierel22@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "antogomzalez101@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ivanalio31@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:c11664df-b0e1-4e88-adb5-93e1807bd764",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rosalabostera2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sabrinalaura17@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 8,
+      "events": {
+        "Login": 8
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117297"
+      }
+    },
+    {
+      "distinct_id": "juanbruzzone98@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "moredc460@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "agusayala.04@icloud.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "candebasualdo09@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fabrizionicolaslivoi@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "luisgael342@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yesica.anabel.alfonso@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "muruamarcos130@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "walterbengolea49@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "solcrivillalba@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "santhy22b@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "focando.cpps@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fqh143@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "giselabp2011@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "soleestay33@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "elianaa3250@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carinaalejandraaldave@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sebastiangallardo2240@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "silvagustavoandres1981@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "segoviavictoria136@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "limamariela148@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "infobrecton@gmail.com",
+      "persona": "Admin + Inventario",
+      "critical_events": 3,
+      "logins": 2,
+      "events": {
+        "Login": 2,
+        "Agregó un ítem": 1,
+        "Generó comprobante de venta": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117953"
+      }
+    },
+    {
+      "distinct_id": "mariminervini@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Chojugabriel27@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mvictoria.asensio@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "makycasla@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucasjgamero@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "clementefabrici@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fcapaja@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mirgardiablita@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117413"
+      }
+    },
+    {
+      "distinct_id": "stefi.bran.y.eli@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Pereyraanahi32@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Tabordamarcelo17@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "oyolam993@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucianarenne@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "peraltapaulo683@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "diegoblanco1444@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "silvanaandreasartori@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "romipozzan@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Taniasalica1@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "xsandra680@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "administracion@proshopaventura.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "115932"
+      }
+    },
+    {
+      "distinct_id": "Eduvelez21@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vickycattoni.79@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danielclaudiomiller@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "nazarenaborget@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guadalupeyc34@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alfonsofrancon499@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cuellarmarcos761@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gluroadmin@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117796"
+      }
+    },
+    {
+      "distinct_id": "melinagerez0@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "nportal572@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ceciliagallardo88@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Taliariquel08@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Melaninaperez1889@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "geriita91@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Poncecandela365@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "micaela.lopez7589@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "crimsongloomrr@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marcos_moron_@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "hectorchandi1@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "agustarant2006@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "regnersebastian7@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "edercastillo227@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Micaelapeerez86@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "administracion@totalplanning.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "piojostone1994@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "bastiandonadio123@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "matiaspucheta.e@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jhonpf24@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "emajazmin2011@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "OTEROJULIETANATALIA@GMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sabrinucha79@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Bottinipe95@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "78434"
+      }
+    },
+    {
+      "distinct_id": "emiielturcox@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Carlaocampo743@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "thiagoalamino7@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fgmerino68@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "josellema@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117523"
+      }
+    },
+    {
+      "distinct_id": "Lucasaguerreberry0@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Santiagourbinati@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sebhas30@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Andrea-lopez30@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rodriguezalexisariel885@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "patriciadelcarmenandueza@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Mr0702014@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Castilloxavierrami@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "artefotohector@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Agustinaperlman@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "soniawynarczyk21@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mmarioramiroagli@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117541"
+      }
+    },
+    {
+      "distinct_id": "loururquiza@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "hipercamposrl@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "giulianatosello@icloud.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "moreofeblanco10@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "veronicavallejos1982@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "newdrummer922@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alejandro.m@minond.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fran24leon12@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "milidangelo@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "colotitigaby@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carmenegimenez2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sotogarnica2019@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "elgatitonegro2025@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rm1364722@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juancarlosflores286@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "javier_mangudo_escalada@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marcoszuleta2016@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lilibedel19@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "tatocar72@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "facuarce87@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "nicofigueok@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucioalvarez853@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucastrevignani90@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rosanaalmiron2019@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leochallao@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gabygenova45@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Egayoso@celsur.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "victoriasoaje@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "icasattaroimabb@mariaauxiliadora.org.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Danielmiguez2409@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "aracelisiffer2025@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19cafd992ab582-026565a420168e8-26061c51-100200-19cafd992ab582",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "113107"
+      }
+    },
+    {
+      "distinct_id": "maximilianofilippa17@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "a19argentina@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "paradaagus94@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "zoepedraza62@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lmontessano@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Claudiocas498715@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "109995"
+      }
+    },
+    {
+      "distinct_id": "Kevindelafuente038@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mateogazzoni@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "manuhdespega@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "luismendoza30005775@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Benavidezjeremias27@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carolina.giurdanella@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "quirogarominag86@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "brunozuleta791@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "miguelacarrizo@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cantoninar@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "traderstabares@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sosamarcela020@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ilichmng96@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Milagrosalconchel8@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lucio@estudioferretti.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "115882"
+      }
+    },
+    {
+      "distinct_id": "$device:c90d272a-2407-4095-9343-6ffd57f9ed42",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117986"
+      }
+    },
+    {
+      "distinct_id": "dalmaayelen93@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:b5cbc2dd-56a3-4f1a-8349-0ba0301ec889",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "22982"
+      }
+    },
+    {
+      "distinct_id": "Klenecalejandra@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "kevin10arauz@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rivasjoserafael199034@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Soportemgwifi@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jjoaco26@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Gustavoagustingaitan@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "drimcom.lat@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "elvencedor302@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mariasoledadatala@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Agusygeral12@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "matiaseperales@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "karenvitali08@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 2,
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alvarodurand71@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "candelacarballo881@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Leo.gonzalezkk4@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danielmansilla2389@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "clau0803@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ramoseverjoel06@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "santosalvarado636@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "duppenthalerluana@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yanina87rp@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leonardovecchio01@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "belasquesmiguelangel@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "camila@lannis.app",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guadalupeamarilla516@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ruben.arena@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leotelle1@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "romigordiss@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marcosmadera616@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jeanfrancocalvosanchez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fabiolaocando15@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "quirozalejandro992@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lsbdbp@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juanchy.jz42@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guilleduade@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "nicogore@rabbitholepartners.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "silsol1972@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "costamatiasfabian@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gfq130691@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "perezsofiagisela4124@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ignaemi937@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "EMABRUNO12@HOTMAIL.COM",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "aldogabrielriquelme83@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "martinezdanteguzman@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "moremar40@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "anacristello727@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Maximenudencias@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "genaroschallibaung6@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "franciscomodarelli@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Inandersen@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "oscarramirezpatan74@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Patriciotobalina@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danilunaa45@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "leodelpercio14@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mellizvaron03@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alejandro123kilian@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "herediabenjamin293@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "perellogiorgina@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fatimaeg@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "parapsicologo2014@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "allendeclaudiarosanna@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "danieayala234@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "sharegomez60@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fabianmarcelociacia567@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vanesadominguez476@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "erudinahuelcarp@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "facundoaguero195@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "veronicavanesa271276@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Cejasalexis59@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "bdznorte@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "reynagafreddy104@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "thaistorres2210@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carla.grandi30@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alejandro.soto111@maildrop.cc",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yaelmore2909@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "zantiguerra2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:d984972d-6c39-4003-9fbe-45d89b9b574e",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117699"
+      }
+    },
+    {
+      "distinct_id": "carlitosruiz709@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Vanda_hoff@hotmail.es",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Vargasceleste582@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jhoselinticona2003@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gimeguadalupe2023@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jonyconstrucciones2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "magali_yunino@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19cbf5c266d367-0122c0fa3323a9-26061c51-ff000-19cbf5c266d367",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "117834"
+      }
+    },
+    {
+      "distinct_id": "rosalzgeber@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "holalaurafernandez@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "alvareztrinidad439@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "marcosolivahidalgo93@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lourdesleam@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "juanchotepalomeque@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "vegaguzmanagustin@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "analiausandivaras12@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "maxipinares.sao@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ivanemafcu@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "romanreinaldo125@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "grazianarusso1981@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "SERbzn@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 3,
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "118010"
+      }
+    },
+    {
+      "distinct_id": "arqleonardosegura@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "adrianpoyo2018@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "morinigomaria007@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "florkuki2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yoselincruzvicente2@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rodolfo.cavallero@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "jazmincortez908@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "steblercaro@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "laupad@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "estudiobrunskole@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "soniabalsamo397@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "guevarafabrizio71@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Coriasonia367@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "chaparronicolas51@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "SilvInna.perez22@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "pekahudson1969@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "andrescooronel@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "thiagodickinson07@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "$device:19cc3ac62273c5-0083faf3091c1f8-26061c51-1fa400-19cc3ac62283c5",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 7,
+      "events": {
+        "Login": 7
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "118008"
+      }
+    },
+    {
+      "distinct_id": "matifulgura20@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Caro63591@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "carlossoria1955@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "cainriver76@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "priscila.09.04.06@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "fm489052@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "malleag808@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mandrilesalvador49@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "eli@egg.live",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "43104"
+      }
+    },
+    {
+      "distinct_id": "saramegan88@icloud.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "yamilajmartin@gmail.com",
+      "persona": "Lleva la administración",
+      "critical_events": 1,
+      "logins": 4,
+      "events": {
+        "Login": 4,
+        "Generó orden de pago": 1,
+        "Generó comprobante de compra": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "87050"
+      }
+    },
+    {
+      "distinct_id": "fernadito410@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "joseluisvalladaressalvador@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "joseciruja596@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "testvencimientos2@maildrop.cc",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mraul2854@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Natacha.caminos@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Macfores@yahoo.com.ar",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "ssquillari@fgmedios.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gaston_0895@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gonzalomasaniso@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Marianatanaelfigueroa@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "Lulybravi@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "agroinsumos_vn@hotmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "martinasantyno@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "patriciofernandosantos683@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "mamondilorena61@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "lukydela12@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "gonzalezagustin20112001@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "pauai888@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "pablo@flow-int.com",
+      "persona": "Lleva la contabilidad",
+      "critical_events": 1,
+      "logins": 0,
+      "events": {
+        "Descargó el estado de resultados": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "company_id": "22982"
+      }
+    },
+    {
+      "distinct_id": "carpenzanosoledad@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    },
+    {
+      "distinct_id": "rodrigo.reyes1.acosta@gmail.com",
+      "persona": "Login only (not activated)",
+      "critical_events": 0,
+      "logins": 1,
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      }
+    }
+  ]
+}

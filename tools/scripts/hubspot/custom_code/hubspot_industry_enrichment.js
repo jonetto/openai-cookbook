@@ -3,17 +3,21 @@
 // =============================================================================
 // source: hubspot_industry_enrichment.js
 // Hubspot workflow: https://app.hubspot.com/workflows/19877595/platform/flow/1693911922/edit
-// VERSION: 1.1.0
-// LAST UPDATED: 2026-02-13
-// PURPOSE: 
-// Auto-populates industria field and Type field for companies using:
-// 1. LLM-based classification from ARCA activity text (primary method)
-// 2. Keyword-based classification from website content (fallback)
-// 3. Company name analysis (final fallback)
+// VERSION: 1.2.0
+// LAST UPDATED: 2026-03-04
+// PURPOSE:
+// Auto-populates industria, Type, ARCA activity, and creation date fields for companies using:
+// 1. RNS API (primary): Cloudflare D1 with 1.24M companies from Registro Nacional de Sociedades
+// 2. LLM-based classification from ARCA activity text
+// 3. Keyword-based classification from website content (fallback)
+// 4. dateas.com scraping (fallback for ~17% not in RNS)
+// 5. Company name analysis (final fallback)
 //
 // FEATURES:
+// ✅ RNS API: Calls rns-cuit-enrichment.colppy-tools.workers.dev for structured company data
+// ✅ CREATION DATE: Saves fecha_contrato_social from RNS to HubSpot date field
 // ✅ LLM CLASSIFICATION: Uses OpenAI API to classify industry from ARCA activity
-// ✅ CUIT SEARCH: Searches dateas.com for company activity using CUIT
+// ✅ CUIT SEARCH: RNS API first, dateas.com fallback for company activity
 // ✅ WEBSITE SCRAPING: Analyzes website content for industry keywords
 // ✅ DOMAIN SEARCH: Finds company domain from company name
 // ✅ TYPE INFERENCE: Auto-populates Type field based on industria
@@ -620,6 +624,96 @@ async function searchCompanyDomain(companyName) {
   }
 }
 
+/**
+ * Search company by CUIT using the Colppy RNS API (Cloudflare D1)
+ * Returns structured data: activity description + fecha_contrato_social (incorporation date)
+ * Data source: 1.24M companies from Registro Nacional de Sociedades (datos.jus.gob.ar)
+ *
+ * @param {string} cuit - The CUIT to lookup (11 digits, dashes optional)
+ * @returns {Promise<{activity: string|null, fechaCreacion: string|null, razonSocial: string|null, found: boolean}>}
+ */
+async function searchCompanyByRNS(cuit) {
+  if (!cuit || cuit.trim() === '') return { found: false, activity: null, fechaCreacion: null, razonSocial: null };
+
+  const normalizedCuit = cuit.replace(/[-\s.]/g, '');
+  if (normalizedCuit.length !== 11 || !/^\d+$/.test(normalizedCuit)) {
+    console.log(`⚠️  RNS SEARCH SKIPPED: Invalid CUIT format "${cuit}"`);
+    return { found: false, activity: null, fechaCreacion: null, razonSocial: null };
+  }
+
+  const rnsUrl = `https://rns-cuit-enrichment.colppy-tools.workers.dev/enrich?cuit=${normalizedCuit}`;
+  console.log(`🔍 RNS API: Looking up CUIT ${normalizedCuit}`);
+
+  try {
+    let response;
+    if (typeof fetch !== 'undefined') {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
+      response = await fetch(rnsUrl, {
+        method: 'GET',
+        headers: { 'Accept': 'application/json' },
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+    } else {
+      // Fallback for environments without fetch
+      response = await new Promise((resolve, reject) => {
+        const options = {
+          hostname: 'rns-cuit-enrichment.colppy-tools.workers.dev',
+          path: `/enrich?cuit=${normalizedCuit}`,
+          method: 'GET',
+          headers: { 'Accept': 'application/json' },
+          timeout: 5000
+        };
+
+        const req = httpsModule.request(options, (res) => {
+          let data = '';
+          res.on('data', (chunk) => { data += chunk; });
+          res.on('end', () => {
+            resolve({
+              ok: res.statusCode === 200,
+              status: res.statusCode,
+              json: () => Promise.resolve(JSON.parse(data))
+            });
+          });
+        });
+
+        req.on('error', reject);
+        req.on('timeout', () => { req.destroy(); reject(new Error('RNS API timeout')); });
+        req.end();
+      });
+    }
+
+    if (!response.ok) {
+      console.log(`⚠️  RNS API error: HTTP ${response.status}`);
+      return { found: false, activity: null, fechaCreacion: null, razonSocial: null };
+    }
+
+    const data = await response.json();
+
+    if (!data.found) {
+      console.log(`⚠️  RNS API: CUIT ${normalizedCuit} not found in RNS database`);
+      return { found: false, activity: null, fechaCreacion: null, razonSocial: null };
+    }
+
+    console.log(`✅ RNS API: Found "${data.razon_social}" | Activity: "${(data.actividad_descripcion || '').substring(0, 60)}" | Fecha: ${data.fecha_contrato_social || 'N/A'}`);
+
+    return {
+      found: true,
+      activity: data.actividad_descripcion || null,
+      fechaCreacion: data.fecha_contrato_social || null,
+      razonSocial: data.razon_social || null
+    };
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      console.log(`⚠️  RNS API: Timeout after 5s for CUIT ${normalizedCuit}`);
+    } else {
+      console.log(`⚠️  RNS API error: ${error.message}`);
+    }
+    return { found: false, activity: null, fechaCreacion: null, razonSocial: null };
+  }
+}
+
 async function searchCompanyByCUIT(cuit, companyName = null) {
   if (!cuit || cuit.trim() === '') return null;
   
@@ -914,6 +1008,11 @@ async function sendSlackNotification(notification) {
               value: notification.details.cuit || 'N/A',
               short: true
             },
+            ...(notification.details.fechaCreacion ? [{
+              title: '📅 Fecha Creación',
+              value: `${notification.details.fechaCreacion}${notification.details.fechaCreacionWasEnriched ? ' (NEW)' : ''}`,
+              short: true
+            }] : []),
             {
               title: '📋 Type Change',
               value: notification.details.typeWasInferred 
@@ -983,6 +1082,34 @@ function getSlackColor(type) {
   }
 }
 
+/**
+ * Fetch owner display name from HubSpot CRM API
+ * @param {string} ownerId - HubSpot owner ID
+ * @returns {Promise<string>} Owner name or fallback string
+ */
+async function getOwnerName(ownerId) {
+  if (!ownerId) return 'No Owner';
+  try {
+    await sleep(600);
+    const response = await fetch(`https://api.hubspot.com/crm/v3/owners/${ownerId}`, {
+      headers: {
+        'Authorization': `Bearer ${process.env.ColppyCRMAutomations}`,
+        'Content-Type': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      const firstName = data.firstName || '';
+      const lastName = data.lastName || '';
+      return `${firstName} ${lastName}`.trim() || `Owner ID: ${ownerId}`;
+    }
+    return `Owner ID: ${ownerId}`;
+  } catch (error) {
+    return `Owner ID: ${ownerId}`;
+  }
+}
+
 // Main export function for HubSpot workflow
 exports.main = async (event, callback) => {
   const client = new hubspot.Client({
@@ -1007,7 +1134,7 @@ exports.main = async (event, callback) => {
 
     // Get current company properties
     const currentCompany = await client.crm.companies.basicApi.getById(companyIdString, [
-      'name', 'domain', 'cuit', 'industria', 'type', 'hubspot_owner_id', 'actividad_de_la_compania_segun_arca'
+      'name', 'domain', 'cuit', 'industria', 'type', 'hubspot_owner_id', 'actividad_de_la_compania_segun_arca', 'fecha_de_creacion_de_compania_segun_arca'
     ]);
     
     const companyName = currentCompany.properties.name;
@@ -1016,31 +1143,8 @@ exports.main = async (event, callback) => {
     let companyIndustry = currentCompany.properties.industria;
     const currentCompanyType = currentCompany.properties.type;
     const existingArcaActivity = currentCompany.properties.actividad_de_la_compania_segun_arca;
-    
-    // Helper function to get owner name
-    async function getOwnerName(ownerId) {
-      if (!ownerId) return 'No Owner';
-      try {
-        await sleep(600);
-        const response = await fetch(`https://api.hubspot.com/crm/v3/owners/${ownerId}`, {
-          headers: {
-            'Authorization': `Bearer ${process.env.ColppyCRMAutomations}`,
-            'Content-Type': 'application/json'
-          }
-        });
-        
-        if (response.ok) {
-          const data = await response.json();
-          const firstName = data.firstName || '';
-          const lastName = data.lastName || '';
-          return `${firstName} ${lastName}`.trim() || `Owner ID: ${ownerId}`;
-        }
-        return `Owner ID: ${ownerId}`;
-      } catch (error) {
-        return `Owner ID: ${ownerId}`;
-      }
-    }
-    
+    const existingFechaCreacion = currentCompany.properties.fecha_de_creacion_de_compania_segun_arca;
+
     const companyOwnerName = currentCompany.properties.hubspot_owner_id 
       ? await getOwnerName(currentCompany.properties.hubspot_owner_id)
       : 'No Owner';
@@ -1063,6 +1167,8 @@ exports.main = async (event, callback) => {
     let originalIndustria = companyIndustry || 'NULL'; // Track original for notification
     let newIndustria = null; // Track new value for notification
     let arcaActivityWasEnriched = false; // Track if ARCA activity was just enriched (separate from industria enrichment)
+    let rnsCreationDate = null; // Track fecha_contrato_social from RNS API
+    let fechaCreacionWasEnriched = false; // Track if creation date was just saved
     
     if (!isIndustriaPopulated) {
       console.log(`🔍 INDUSTRY ENRICHMENT: Industria field is NULL/EMPTY - attempting enrichment`);
@@ -1138,128 +1244,195 @@ exports.main = async (event, callback) => {
         }
       }
       
-      // Method 2: Search using CUIT (when domain is missing AND ARCA activity is not available)
+      // Method 2: Search using CUIT (RNS API first, dateas.com fallback)
       if (!inferredIndustryEnum && !companyDomain && companyCuit && companyCuit.trim() !== '') {
         console.log(`🔍 CUIT SEARCH: Attempting to find company information using CUIT ${companyCuit}`);
-        
-        if (typeof exports._cuitFetchTested === 'undefined') {
-          exports._cuitFetchTested = true;
-          const fetchWorks = await testFetchAvailability();
-          if (!fetchWorks) {
-            console.log(`⚠️  CUIT SEARCH: fetch() may not work in this environment`);
+
+        // Method 2a: Try RNS API first (structured JSON, fast, includes creation date)
+        const rnsResult = await searchCompanyByRNS(companyCuit);
+
+        if (rnsResult.found) {
+          // Capture creation date from RNS whenever found (even if activity is null)
+          if (rnsResult.fechaCreacion) {
+            rnsCreationDate = rnsResult.fechaCreacion;
+            console.log(`📅 RNS: Creation date found: ${rnsCreationDate}`);
           }
-        }
-        
-        const cuitResult = await searchCompanyByCUIT(companyCuit, companyName);
-        
-        if (cuitResult && cuitResult.domain) {
-          console.log(`✅ CUIT SEARCH SUCCESS: Found domain ${cuitResult.domain}`);
-          
-          try {
-            await sleep(600);
-            await client.crm.companies.basicApi.update(companyIdString, {
-              properties: { domain: cuitResult.domain }
-            });
-            console.log(`✅ DOMAIN UPDATED FROM CUIT: ${cuitResult.domain}`);
-            
-            const websiteContent = cuitResult.websiteContent || await fetchWebsiteContent(cuitResult.domain);
-            if (websiteContent) {
-              inferredIndustryEnum = inferIndustryFromText(websiteContent, false);
-              if (inferredIndustryEnum) {
-                enrichmentMethod = 'website scraping (via CUIT search)';
-                console.log(`✅ Industry inferred from CUIT-found domain: ${inferredIndustryEnum}`);
-              }
-            }
-          } catch (updateError) {
-            console.log(`⚠️  Could not update domain: ${formatErrorForLog(updateError)}`);
-          }
-        } else if (cuitResult && (cuitResult.websiteContent || cuitResult.activity)) {
-          // Track ARCA activity text for notification (use original before cleaning)
-          if (cuitResult.activity) {
-            arcaActivityText = cuitResult.activity;
-          }
-          
-          // Save cleaned activity text to HubSpot field
-          if (cuitResult.activity) {
+
+          if (rnsResult.activity) {
+            arcaActivityText = rnsResult.activity;
+
+            // Save activity text to HubSpot field (RNS data is already clean, no HTML parsing needed)
             try {
-              let cleanActivity = cuitResult.activity;
-              const administrativePatterns = [
-                /buscar por actividad/i,
-                /ganancias/i,
-                /iva/i,
-                /monotributo/i,
-                /inscripto/i,
-                /integra/i,
-                /empleador/i,
-                /si esta persona/i
-              ];
-              
-              for (const pattern of administrativePatterns) {
-                const match = cleanActivity.match(pattern);
-                if (match && match.index) {
-                  cleanActivity = cleanActivity.substring(0, match.index).trim();
-                  break;
-                }
-              }
-              
-              cleanActivity = cleanActivity.replace(/[.,;:\s]+$/g, '').trim();
-              
-              // Update arcaActivityText to use cleaned version for notification (matches what's saved in HubSpot)
-              arcaActivityText = cleanActivity;
-              
               await sleep(600);
               await client.crm.companies.basicApi.update(companyIdString, {
                 properties: {
-                  actividad_de_la_compania_segun_arca: cleanActivity
+                  actividad_de_la_compania_segun_arca: rnsResult.activity
                 }
               });
-              console.log(`✅ ACTIVIDAD SAVED: Cleaned activity text saved: "${cleanActivity.substring(0, 60)}..."`);
+              console.log(`✅ ACTIVIDAD SAVED (RNS): "${rnsResult.activity.substring(0, 60)}${rnsResult.activity.length > 60 ? '...' : ''}"`);
             } catch (updateError) {
               console.log(`⚠️  Could not update actividad_de_la_compania_segun_arca: ${formatErrorForLog(updateError)}`);
             }
-          }
-          
-          // FIRST: Try LLM-based classification if activity text is available
-          if (cuitResult.activity) {
-            console.log(`🤖 Attempting LLM-based industry classification from ARCA activity...`);
-            const llmResult = await classifyIndustryWithLLM(cuitResult.activity, companyName);
-            
+
+            // Try LLM classification from RNS activity
+            console.log(`🤖 Attempting LLM-based industry classification from RNS activity...`);
+            const llmResult = await classifyIndustryWithLLM(rnsResult.activity, companyName);
+
             if (llmResult.industry && llmResult.confidence === 'high') {
               inferredIndustryEnum = llmResult.industry;
-              enrichmentMethod = 'LLM classification (ARCA activity)';
-              llmReasoning = llmResult.reasoning; // Track LLM reasoning for notification
+              enrichmentMethod = 'LLM classification (RNS activity)';
+              llmReasoning = llmResult.reasoning;
               console.log(`✅ LLM Industry Classification: ${inferredIndustryEnum} → "${llmResult.hubspotValue}"`);
-              if (llmResult.reasoning) {
-                if (llmResult.reasoning) console.log(`💭 LLM: ${(llmResult.reasoning || '').substring(0, 80)}`);
-              }
+              if (llmResult.reasoning) console.log(`💭 LLM: ${(llmResult.reasoning || '').substring(0, 80)}`);
             } else if (llmResult.reasoning && !llmResult.reasoning.includes('OPENAI_API_KEY not configured')) {
               console.log(`⚠️  LLM classification failed: ${llmResult.reasoning} - falling back to keyword matching`);
             }
-          }
-          
-          // FALLBACK: Use keyword-based classification if LLM failed or not available
-          if (!inferredIndustryEnum) {
-            const contentToAnalyze = cuitResult.websiteContent || (cuitResult.activity ? `Actividad: ${cuitResult.activity}` : null);
-            if (contentToAnalyze) {
+
+            // Fallback: keyword-based classification
+            if (!inferredIndustryEnum) {
+              const contentToAnalyze = `Actividad: ${rnsResult.activity}`;
               inferredIndustryEnum = inferIndustryFromText(contentToAnalyze, false);
-              
-              if (!inferredIndustryEnum && cuitResult.activity && companyName) {
+
+              if (!inferredIndustryEnum && companyName) {
                 inferredIndustryEnum = inferIndustryFromCompanyName(companyName);
                 if (inferredIndustryEnum) {
-                  enrichmentMethod = 'CUIT database activity (company name strong indicator)';
+                  enrichmentMethod = 'RNS activity (company name strong indicator)';
                   console.log(`✅ Industry inferred from company name strong indicator: ${inferredIndustryEnum}`);
                 } else {
                   inferredIndustryEnum = inferIndustryFromText(companyName, true);
                   if (inferredIndustryEnum) {
-                    enrichmentMethod = 'CUIT database activity (company name analysis)';
+                    enrichmentMethod = 'RNS activity (company name analysis)';
                     console.log(`✅ Industry inferred from company name: ${inferredIndustryEnum}`);
                   }
                 }
               }
-              
-              if (inferredIndustryEnum && enrichmentMethod !== 'CUIT database activity (company name strong indicator)' && enrichmentMethod !== 'LLM classification (ARCA activity)') {
-                enrichmentMethod = cuitResult.activity ? 'CUIT database activity (keyword matching)' : 'website scraping (via CUIT search)';
-                console.log(`✅ Industry inferred: ${inferredIndustryEnum} (from CUIT activity via keyword matching)`);
+
+              if (inferredIndustryEnum && !enrichmentMethod) {
+                enrichmentMethod = 'RNS activity (keyword matching)';
+                console.log(`✅ Industry inferred: ${inferredIndustryEnum} (from RNS activity via keyword matching)`);
+              }
+            }
+          }
+        }
+
+        // Method 2b: Fallback to dateas.com if RNS didn't find the CUIT
+        if (!rnsResult.found && !inferredIndustryEnum) {
+          console.log(`🔍 DATEAS FALLBACK: RNS miss - trying dateas.com for CUIT ${companyCuit}`);
+
+          if (typeof exports._cuitFetchTested === 'undefined') {
+            exports._cuitFetchTested = true;
+            const fetchWorks = await testFetchAvailability();
+            if (!fetchWorks) {
+              console.log(`⚠️  CUIT SEARCH: fetch() may not work in this environment`);
+            }
+          }
+
+          const cuitResult = await searchCompanyByCUIT(companyCuit, companyName);
+
+          if (cuitResult && cuitResult.domain) {
+            console.log(`✅ CUIT SEARCH SUCCESS: Found domain ${cuitResult.domain}`);
+
+            try {
+              await sleep(600);
+              await client.crm.companies.basicApi.update(companyIdString, {
+                properties: { domain: cuitResult.domain }
+              });
+              console.log(`✅ DOMAIN UPDATED FROM CUIT: ${cuitResult.domain}`);
+
+              const websiteContent = cuitResult.websiteContent || await fetchWebsiteContent(cuitResult.domain);
+              if (websiteContent) {
+                inferredIndustryEnum = inferIndustryFromText(websiteContent, false);
+                if (inferredIndustryEnum) {
+                  enrichmentMethod = 'website scraping (via CUIT search)';
+                  console.log(`✅ Industry inferred from CUIT-found domain: ${inferredIndustryEnum}`);
+                }
+              }
+            } catch (updateError) {
+              console.log(`⚠️  Could not update domain: ${formatErrorForLog(updateError)}`);
+            }
+          } else if (cuitResult && (cuitResult.websiteContent || cuitResult.activity)) {
+            if (cuitResult.activity) {
+              arcaActivityText = cuitResult.activity;
+            }
+
+            // Save cleaned activity text to HubSpot field
+            if (cuitResult.activity) {
+              try {
+                let cleanActivity = cuitResult.activity;
+                const administrativePatterns = [
+                  /buscar por actividad/i,
+                  /ganancias/i,
+                  /iva/i,
+                  /monotributo/i,
+                  /inscripto/i,
+                  /integra/i,
+                  /empleador/i,
+                  /si esta persona/i
+                ];
+
+                for (const pattern of administrativePatterns) {
+                  const match = cleanActivity.match(pattern);
+                  if (match && match.index) {
+                    cleanActivity = cleanActivity.substring(0, match.index).trim();
+                    break;
+                  }
+                }
+
+                cleanActivity = cleanActivity.replace(/[.,;:\s]+$/g, '').trim();
+                arcaActivityText = cleanActivity;
+
+                await sleep(600);
+                await client.crm.companies.basicApi.update(companyIdString, {
+                  properties: {
+                    actividad_de_la_compania_segun_arca: cleanActivity
+                  }
+                });
+                console.log(`✅ ACTIVIDAD SAVED (dateas): "${cleanActivity.substring(0, 60)}..."`);
+              } catch (updateError) {
+                console.log(`⚠️  Could not update actividad_de_la_compania_segun_arca: ${formatErrorForLog(updateError)}`);
+              }
+            }
+
+            // Try LLM classification from dateas activity
+            if (cuitResult.activity) {
+              console.log(`🤖 Attempting LLM-based industry classification from dateas activity...`);
+              const llmResult = await classifyIndustryWithLLM(cuitResult.activity, companyName);
+
+              if (llmResult.industry && llmResult.confidence === 'high') {
+                inferredIndustryEnum = llmResult.industry;
+                enrichmentMethod = 'LLM classification (ARCA activity)';
+                llmReasoning = llmResult.reasoning;
+                console.log(`✅ LLM Industry Classification: ${inferredIndustryEnum} → "${llmResult.hubspotValue}"`);
+                if (llmResult.reasoning) console.log(`💭 LLM: ${(llmResult.reasoning || '').substring(0, 80)}`);
+              } else if (llmResult.reasoning && !llmResult.reasoning.includes('OPENAI_API_KEY not configured')) {
+                console.log(`⚠️  LLM classification failed: ${llmResult.reasoning} - falling back to keyword matching`);
+              }
+            }
+
+            // Fallback: keyword-based classification
+            if (!inferredIndustryEnum) {
+              const contentToAnalyze = cuitResult.websiteContent || (cuitResult.activity ? `Actividad: ${cuitResult.activity}` : null);
+              if (contentToAnalyze) {
+                inferredIndustryEnum = inferIndustryFromText(contentToAnalyze, false);
+
+                if (!inferredIndustryEnum && cuitResult.activity && companyName) {
+                  inferredIndustryEnum = inferIndustryFromCompanyName(companyName);
+                  if (inferredIndustryEnum) {
+                    enrichmentMethod = 'CUIT database activity (company name strong indicator)';
+                    console.log(`✅ Industry inferred from company name strong indicator: ${inferredIndustryEnum}`);
+                  } else {
+                    inferredIndustryEnum = inferIndustryFromText(companyName, true);
+                    if (inferredIndustryEnum) {
+                      enrichmentMethod = 'CUIT database activity (company name analysis)';
+                      console.log(`✅ Industry inferred from company name: ${inferredIndustryEnum}`);
+                    }
+                  }
+                }
+
+                if (inferredIndustryEnum && enrichmentMethod !== 'CUIT database activity (company name strong indicator)' && enrichmentMethod !== 'LLM classification (ARCA activity)') {
+                  enrichmentMethod = cuitResult.activity ? 'CUIT database activity (keyword matching)' : 'website scraping (via CUIT search)';
+                  console.log(`✅ Industry inferred: ${inferredIndustryEnum} (from CUIT activity via keyword matching)`);
+                }
               }
             }
           }
@@ -1352,71 +1525,100 @@ exports.main = async (event, callback) => {
                                    existingArcaActivity.trim() === 'undefined';
     
     if (isArcaActivityMissing && companyCuit && companyCuit.trim() !== '') {
-      console.log(`🔍 ARCA ACTIVITY ENRICHMENT: ARCA activity field is missing - attempting CUIT search`);
+      console.log(`🔍 ARCA ACTIVITY ENRICHMENT: ARCA activity field is missing - attempting RNS + CUIT search`);
       console.log(`   CUIT: ${companyCuit}`);
-      
-      if (typeof exports._cuitFetchTested === 'undefined') {
-        exports._cuitFetchTested = true;
-        const fetchWorks = await testFetchAvailability();
-        if (!fetchWorks) {
-          console.log(`⚠️  ARCA ACTIVITY ENRICHMENT: fetch() may not work in this environment`);
+
+      let activityFound = false;
+
+      // Try RNS API first (may already have been called in Method 2, but only if industria was empty AND no domain)
+      const rnsResultForArca = await searchCompanyByRNS(companyCuit);
+
+      if (rnsResultForArca.found && rnsResultForArca.activity) {
+        console.log(`✅ ARCA ACTIVITY FOUND (RNS): "${rnsResultForArca.activity.substring(0, 80)}${rnsResultForArca.activity.length > 80 ? '...' : ''}"`);
+        arcaActivityText = rnsResultForArca.activity;
+
+        // Capture creation date from RNS (if not already captured in Method 2)
+        if (!rnsCreationDate && rnsResultForArca.fechaCreacion) {
+          rnsCreationDate = rnsResultForArca.fechaCreacion;
+          console.log(`📅 RNS: Creation date found: ${rnsCreationDate}`);
         }
-      }
-      
-      const cuitResultForArca = await searchCompanyByCUIT(companyCuit, companyName);
-      
-      if (cuitResultForArca && cuitResultForArca.activity) {
-        console.log(`✅ ARCA ACTIVITY FOUND: Activity text found from CUIT search`);
-        console.log(`   Activity: "${cuitResultForArca.activity.substring(0, 80)}${cuitResultForArca.activity.length > 80 ? '...' : ''}"`);
-        
-        // Clean activity text (same logic as in enrichment block)
-        let cleanActivity = cuitResultForArca.activity;
-        const administrativePatterns = [
-          /buscar por actividad/i,
-          /ganancias/i,
-          /iva/i,
-          /monotributo/i,
-          /inscripto/i,
-          /integra/i,
-          /empleador/i,
-          /si esta persona/i
-        ];
-        
-        for (const pattern of administrativePatterns) {
-          const match = cleanActivity.match(pattern);
-          if (match && match.index) {
-            cleanActivity = cleanActivity.substring(0, match.index).trim();
-            break;
-          }
-        }
-        
-        cleanActivity = cleanActivity.replace(/[.,;:\s]+$/g, '').trim();
-        
-        // Update arcaActivityText for potential notification
-        arcaActivityText = cleanActivity;
-        
-        // Save cleaned activity text to HubSpot field
+
         try {
           await sleep(600);
           await client.crm.companies.basicApi.update(companyIdString, {
             properties: {
-              actividad_de_la_compania_segun_arca: cleanActivity
+              actividad_de_la_compania_segun_arca: rnsResultForArca.activity
             }
           });
-          console.log(`✅ ARCA ACTIVITY SAVED: Cleaned activity text saved to HubSpot field`);
-          console.log(`   Saved: "${cleanActivity.substring(0, 80)}${cleanActivity.length > 80 ? '...' : ''}"`);
-          
-          // Mark that ARCA activity was enriched (separate from industria enrichment)
+          console.log(`✅ ARCA ACTIVITY SAVED (RNS): "${rnsResultForArca.activity.substring(0, 80)}${rnsResultForArca.activity.length > 80 ? '...' : ''}"`);
           arcaActivityWasEnriched = true;
-          // If industria was already populated, note the enrichment method
+          activityFound = true;
           if (isIndustriaPopulated && !newIndustria) {
-            enrichmentMethod = 'ARCA activity enrichment (industria already existed)';
+            enrichmentMethod = 'ARCA activity enrichment via RNS (industria already existed)';
           }
         } catch (updateError) {
           console.log(`⚠️  Could not update actividad_de_la_compania_segun_arca: ${formatErrorForLog(updateError)}`);
         }
-      } else {
-        console.log(`⚠️  ARCA ACTIVITY ENRICHMENT: No activity found for CUIT ${companyCuit}`);
+      }
+
+      // Fallback to dateas.com if RNS didn't find the CUIT
+      if (!activityFound && !rnsResultForArca.found) {
+        console.log(`🔍 DATEAS FALLBACK: RNS miss - trying dateas.com for activity`);
+
+        if (typeof exports._cuitFetchTested === 'undefined') {
+          exports._cuitFetchTested = true;
+          const fetchWorks = await testFetchAvailability();
+          if (!fetchWorks) {
+            console.log(`⚠️  ARCA ACTIVITY ENRICHMENT: fetch() may not work in this environment`);
+          }
+        }
+
+        const cuitResultForArca = await searchCompanyByCUIT(companyCuit, companyName);
+
+        if (cuitResultForArca && cuitResultForArca.activity) {
+          console.log(`✅ ARCA ACTIVITY FOUND (dateas): "${cuitResultForArca.activity.substring(0, 80)}${cuitResultForArca.activity.length > 80 ? '...' : ''}"`);
+
+          let cleanActivity = cuitResultForArca.activity;
+          const administrativePatterns = [
+            /buscar por actividad/i,
+            /ganancias/i,
+            /iva/i,
+            /monotributo/i,
+            /inscripto/i,
+            /integra/i,
+            /empleador/i,
+            /si esta persona/i
+          ];
+
+          for (const pattern of administrativePatterns) {
+            const match = cleanActivity.match(pattern);
+            if (match && match.index) {
+              cleanActivity = cleanActivity.substring(0, match.index).trim();
+              break;
+            }
+          }
+
+          cleanActivity = cleanActivity.replace(/[.,;:\s]+$/g, '').trim();
+          arcaActivityText = cleanActivity;
+
+          try {
+            await sleep(600);
+            await client.crm.companies.basicApi.update(companyIdString, {
+              properties: {
+                actividad_de_la_compania_segun_arca: cleanActivity
+              }
+            });
+            console.log(`✅ ARCA ACTIVITY SAVED (dateas): "${cleanActivity.substring(0, 80)}${cleanActivity.length > 80 ? '...' : ''}"`);
+            arcaActivityWasEnriched = true;
+            if (isIndustriaPopulated && !newIndustria) {
+              enrichmentMethod = 'ARCA activity enrichment via dateas (industria already existed)';
+            }
+          } catch (updateError) {
+            console.log(`⚠️  Could not update actividad_de_la_compania_segun_arca: ${formatErrorForLog(updateError)}`);
+          }
+        } else {
+          console.log(`⚠️  ARCA ACTIVITY ENRICHMENT: No activity found for CUIT ${companyCuit}`);
+        }
       }
     } else if (isArcaActivityMissing) {
       console.log(`⚠️  ARCA ACTIVITY ENRICHMENT: Cannot search - CUIT is missing or invalid`);
@@ -1425,6 +1627,66 @@ exports.main = async (event, callback) => {
       if (!arcaActivityText && existingArcaActivity) {
         arcaActivityText = existingArcaActivity;
       }
+    }
+
+    // ========================================================================
+    // CREATION DATE ENRICHMENT: Save fecha_contrato_social from RNS if available
+    // ========================================================================
+    const isFechaCreacionMissing = !existingFechaCreacion ||
+                                    existingFechaCreacion.trim() === '' ||
+                                    existingFechaCreacion.trim() === 'null' ||
+                                    existingFechaCreacion.trim() === 'undefined';
+
+    if (isFechaCreacionMissing && rnsCreationDate) {
+      console.log(`📅 CREATION DATE ENRICHMENT: Saving fecha_contrato_social: ${rnsCreationDate}`);
+
+      try {
+        // Convert ISO date (YYYY-MM-DD) to midnight UTC timestamp in ms for HubSpot date field
+        const dateMs = new Date(rnsCreationDate + 'T00:00:00.000Z').getTime();
+
+        if (!isNaN(dateMs)) {
+          await sleep(600);
+          await client.crm.companies.basicApi.update(companyIdString, {
+            properties: {
+              fecha_de_creacion_de_compania_segun_arca: String(dateMs)
+            }
+          });
+          console.log(`✅ CREATION DATE SAVED: ${rnsCreationDate} (${dateMs}ms)`);
+          fechaCreacionWasEnriched = true;
+        } else {
+          console.log(`⚠️  CREATION DATE: Invalid date format: "${rnsCreationDate}"`);
+        }
+      } catch (updateError) {
+        console.log(`⚠️  Could not update fecha_de_creacion_de_compania_segun_arca: ${formatErrorForLog(updateError)}`);
+      }
+    } else if (isFechaCreacionMissing && !rnsCreationDate) {
+      // If no RNS creation date and field is empty, try dedicated RNS lookup
+      if (companyCuit && companyCuit.trim() !== '') {
+        console.log(`📅 CREATION DATE: No date from previous lookups - attempting dedicated RNS lookup`);
+        const rnsDateResult = await searchCompanyByRNS(companyCuit);
+        if (rnsDateResult.found && rnsDateResult.fechaCreacion) {
+          rnsCreationDate = rnsDateResult.fechaCreacion;
+          const dateMs = new Date(rnsCreationDate + 'T00:00:00.000Z').getTime();
+          if (!isNaN(dateMs)) {
+            try {
+              await sleep(600);
+              await client.crm.companies.basicApi.update(companyIdString, {
+                properties: {
+                  fecha_de_creacion_de_compania_segun_arca: String(dateMs)
+                }
+              });
+              console.log(`✅ CREATION DATE SAVED: ${rnsCreationDate} (${dateMs}ms)`);
+              fechaCreacionWasEnriched = true;
+            } catch (updateError) {
+              console.log(`⚠️  Could not update fecha_de_creacion_de_compania_segun_arca: ${formatErrorForLog(updateError)}`);
+            }
+          }
+        } else {
+          console.log(`⚠️  CREATION DATE: Not available in RNS for this CUIT`);
+        }
+      }
+    } else if (!isFechaCreacionMissing) {
+      console.log(`✅ CREATION DATE EXISTS: Already populated: ${existingFechaCreacion}`);
     }
 
     // ========================================================================
@@ -1480,10 +1742,10 @@ exports.main = async (event, callback) => {
     // ========================================================================
     // STEP 4: SENDING SLACK NOTIFICATIONS
     // ========================================================================
-    // Create notification if industry was enriched OR ARCA activity was enriched
+    // Create notification if industry was enriched OR ARCA activity was enriched OR creation date was enriched
     let slackNotification = null;
-    
-    if (newIndustria || arcaActivityWasEnriched) {
+
+    if (newIndustria || arcaActivityWasEnriched || fechaCreacionWasEnriched) {
       console.log('📢 STEP 4: SENDING SLACK NOTIFICATION');
       console.log('-'.repeat(50));
       
@@ -1537,7 +1799,9 @@ exports.main = async (event, callback) => {
           changeReason: newIndustria 
             ? `Auto-populated industria from ${enrichmentMethod}${arcaActivityText ? `: "${arcaActivityText.substring(0, 100)}${arcaActivityText.length > 100 ? '...' : ''}"` : ''}`
             : `Auto-populated ARCA activity from CUIT search${arcaActivityText ? `: "${arcaActivityText.substring(0, 100)}${arcaActivityText.length > 100 ? '...' : ''}"` : ''}`,
-          arcaActivityWasEnriched: arcaActivityWasEnriched || false
+          arcaActivityWasEnriched: arcaActivityWasEnriched || false,
+          fechaCreacion: rnsCreationDate || null,
+          fechaCreacionWasEnriched: fechaCreacionWasEnriched || false
         }
       };
       

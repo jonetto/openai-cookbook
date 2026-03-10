@@ -1,0 +1,1356 @@
+{
+  "exported_at": "2026-03-08T16:11:18.364522",
+  "from_date": "2026-03-06",
+  "to_date": "2026-03-08",
+  "plan_filter": "pendiente_pago",
+  "level": "company",
+  "total_raw_events": 189,
+  "unique_companies": 15,
+  "unique_users": 107,
+  "activated_companies": 6,
+  "activated_users": 6,
+  "company_size_distribution": {
+    "11+ users": 1,
+    "2-3 users": 5,
+    "1 user": 9
+  },
+  "companies": [
+    {
+      "company_id": "unknown",
+      "total_users": 86,
+      "activated_users": 0,
+      "total_events": 87,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 86
+      },
+      "events": {
+        "Login": 87
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Fecha de Alta Empresa": "Sun Mar 08 2026 12:15:22 GMT-0300 (hora estándar de Argentina)",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "jo100alfo@gmail.com"
+      },
+      "users": [
+        {
+          "distinct_id": "kafu.1703@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "georginacordoba2@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "guilleduade@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "fedeattie@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "matiasmansilla23@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "julieta.muniz.saavedra@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "michelespanghero748@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "patriciofernandosantos683@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "cantoninar@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "laupad@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "marialaurafrnc@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "clau0803@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "gnoelia43@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "hipercamposrl@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "artefotohector@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "priscila.09.04.06@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "jonyconstrucciones2@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "floalf2016@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "holalaurafernandez@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "ruben.arena@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "rojasceleste325@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "rodolfo.cavallero@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "nazarenaborget@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "carlos.spinsanti09@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "estudiobrunskole@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "magali_yunino@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "claudia.viviana.dietrich@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "saramegan88@icloud.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "torrenicolas995@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "bastiandonadio123@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "renetk3d@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "marioalvarez9595@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "costamatiasfabian@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "newdrummer922@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "araacelialarcon@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "danielmansilla2389@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "ESTUDIOORTEGA32@GMAIL.COM",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "soniawynarczyk21@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "arancibiaeliana73@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "juan.louge@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mateogazzoni@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "EMABRUNO12@HOTMAIL.COM",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "centrodearteyeducacion@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "hensy83_@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "servgeneral10@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "yesica.anabel.alfonso@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "danielclaudiomiller@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "aracelisiffer2025@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "SilvInna.perez22@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "steblercaro@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mraul2854@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "correolauragauna@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "facuarce87@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "fcapaja@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "maximilianofilippa17@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mouteda28@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "sual.juanpablo@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        },
+        {
+          "distinct_id": "cristian.menna84@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "emilsecoria89@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "emmaodasoo005@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "gracielasessarego77@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "lidiabognanni@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mariminervini@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "sabrinucha79@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "lucasjgamero@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "lucianarenne@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "elvencedor302@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "juliabainotti@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "1009652@ucc.edu.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "gamaiudine@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "grazianarusso1981@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "pauai888@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "herediabenjamin293@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "ssquillari@fgmedios.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "a19argentina@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "Gioemidelfi1889@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mate.crazystok@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "agusayala.04@icloud.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "isaronsvalle@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "gera_vu@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "lmontessano@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "loururquiza@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "amayasergio264@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "mariajuanaroche17@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "OTEROJULIETANATALIA@GMAIL.COM",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "jo100alfo@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "87050",
+      "total_users": 2,
+      "activated_users": 1,
+      "total_events": 9,
+      "total_critical_events": 1,
+      "persona_distribution": {
+        "Login only (not activated)": 1,
+        "Lleva la administración": 1
+      },
+      "events": {
+        "Login": 7,
+        "Generó orden de pago": 1,
+        "Generó comprobante de compra": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "MYROXYLON",
+        "Fecha de Alta Empresa": "2024-06-18T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "87050"
+      },
+      "users": [
+        {
+          "distinct_id": "antonella.pachas@colppy.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 3,
+          "events": {
+            "Login": 3
+          }
+        },
+        {
+          "distinct_id": "yamilajmartin@gmail.com",
+          "persona": "Lleva la administración",
+          "critical_events": 1,
+          "logins": 4,
+          "events": {
+            "Login": 4,
+            "Generó orden de pago": 1,
+            "Generó comprobante de compra": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117951",
+      "total_users": 2,
+      "activated_users": 1,
+      "total_events": 5,
+      "total_critical_events": 3,
+      "persona_distribution": {
+        "Login only (not activated)": 1,
+        "Lleva la administración": 1
+      },
+      "events": {
+        "Login": 2,
+        "Generó comprobante de compra": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "SU ALIMENTACION CATERING S. A.",
+        "Fecha de Alta Empresa": "2026-03-04T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117951"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:50cc6496-e3e5-4daf-baa4-59c549638a32",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        },
+        {
+          "distinct_id": "assiadriana@gmail.com",
+          "persona": "Lleva la administración",
+          "critical_events": 3,
+          "logins": 0,
+          "events": {
+            "Generó comprobante de compra": 3
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117768",
+      "total_users": 3,
+      "activated_users": 1,
+      "total_events": 25,
+      "total_critical_events": 8,
+      "persona_distribution": {
+        "Admin + Inventario": 1,
+        "Login only (not activated)": 2
+      },
+      "events": {
+        "Generó orden de pago": 6,
+        "Generó comprobante de venta": 6,
+        "Generó recibo de cobro": 6,
+        "Agregó un ítem": 2,
+        "Login": 5
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "BOSSFITNESS",
+        "Fecha de Alta Empresa": "2026-03-03T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117768"
+      },
+      "users": [
+        {
+          "distinct_id": "Bossfitnessar@gmail.com",
+          "persona": "Admin + Inventario",
+          "critical_events": 8,
+          "logins": 0,
+          "events": {
+            "Generó orden de pago": 6,
+            "Generó comprobante de venta": 6,
+            "Generó recibo de cobro": 6,
+            "Agregó un ítem": 2
+          }
+        },
+        {
+          "distinct_id": "$device:19cb17879534eb-07b75d46f906888-4c657b58-144000-19cb17879534eb",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "$device:19cb44678c5485-03d46dcf8739648-26061c51-144000-19cb44678c5486",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 4,
+          "events": {
+            "Login": 4
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117923",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "SARDI Y CIA S.A.",
+        "Fecha de Alta Empresa": "2026-03-04T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117923"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:9230e511-2658-4a79-bbbf-d6dc048c490b",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "74752",
+      "total_users": 1,
+      "activated_users": 1,
+      "total_events": 8,
+      "total_critical_events": 5,
+      "persona_distribution": {
+        "Lleva la administración": 1
+      },
+      "events": {
+        "Generó recibo de cobro": 3,
+        "Generó comprobante de venta": 5
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago"
+      },
+      "users": [
+        {
+          "distinct_id": "rocio.vega@lisual.com",
+          "persona": "Lleva la administración",
+          "critical_events": 5,
+          "logins": 0,
+          "events": {
+            "Generó recibo de cobro": 3,
+            "Generó comprobante de venta": 5
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117413",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "DIEGO EMANUEL CISTERNA",
+        "Fecha de Alta Empresa": "2026-02-28T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117413"
+      },
+      "users": [
+        {
+          "distinct_id": "mirgardiablita@yahoo.com.ar",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "118027",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 2,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "CARTIER NOELIA ESTEFANIA",
+        "Fecha de Alta Empresa": "2026-03-06T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "118027"
+      },
+      "users": [
+        {
+          "distinct_id": "natalia.lucca86@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "117297",
+      "total_users": 2,
+      "activated_users": 1,
+      "total_events": 18,
+      "total_critical_events": 15,
+      "persona_distribution": {
+        "Admin + Contabilidad": 1,
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Agregó una cuenta contable": 13,
+        "Generó comprobante de compra": 2,
+        "Generó orden de pago": 1,
+        "Login": 2
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "PDC LOGISTICS",
+        "Fecha de Alta Empresa": "2026-02-27T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "117297"
+      },
+      "users": [
+        {
+          "distinct_id": "info@logpdc.com",
+          "persona": "Admin + Contabilidad",
+          "critical_events": 15,
+          "logins": 0,
+          "events": {
+            "Agregó una cuenta contable": 13,
+            "Generó comprobante de compra": 2,
+            "Generó orden de pago": 1
+          }
+        },
+        {
+          "distinct_id": "sabrinalaura17@hotmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 2,
+          "events": {
+            "Login": 2
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "118010",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 3,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 3
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "SERGIO ARIEL BAZAN",
+        "Fecha de Alta Empresa": "2026-03-06T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "118010"
+      },
+      "users": [
+        {
+          "distinct_id": "SERbzn@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 3,
+          "events": {
+            "Login": 3
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "112706",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "KLOUSER",
+        "Fecha de Alta Empresa": "2026-02-10T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "112706"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:040c6d06-ae30-4e11-839f-2ac21d7450cc",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "22982",
+      "total_users": 3,
+      "activated_users": 1,
+      "total_events": 20,
+      "total_critical_events": 10,
+      "persona_distribution": {
+        "Login only (not activated)": 2,
+        "Admin + Contabilidad": 1
+      },
+      "events": {
+        "Login": 4,
+        "Descargó el estado de resultados": 3,
+        "Generó orden de pago": 2,
+        "Generó comprobante de compra": 1,
+        "Generó asiento contable": 3,
+        "Generó comprobante de venta": 3,
+        "Generó recibo de cobro": 4
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "PABLO MENIN",
+        "Fecha de Alta Empresa": "2018-08-07T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "22982"
+      },
+      "users": [
+        {
+          "distinct_id": "info@flow-int.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "$device:b5cbc2dd-56a3-4f1a-8349-0ba0301ec889",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        },
+        {
+          "distinct_id": "177c9d554fe518-01187c5e27dec7-78667f62-e1000-177c9d554ffdce",
+          "persona": "Admin + Contabilidad",
+          "critical_events": 10,
+          "logins": 2,
+          "events": {
+            "Login": 2,
+            "Descargó el estado de resultados": 3,
+            "Generó orden de pago": 2,
+            "Generó comprobante de compra": 1,
+            "Generó asiento contable": 3,
+            "Generó comprobante de venta": 3,
+            "Generó recibo de cobro": 4
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "109995",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "DAMIAN ALBERTO SUAREZ",
+        "Fecha de Alta Empresa": "2026-01-31T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "109995"
+      },
+      "users": [
+        {
+          "distinct_id": "Claudiocas498715@gmail.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "88699",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 1,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 1
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Fecha de Alta Empresa": "Fri Mar 06 2026 11:49:43 GMT-0300 (Argentina Standard Time)",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "nbruscoli@luminaconsultora.com"
+      },
+      "users": [
+        {
+          "distinct_id": "nbruscoli@luminaconsultora.com",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 1,
+          "events": {
+            "Login": 1
+          }
+        }
+      ]
+    },
+    {
+      "company_id": "118008",
+      "total_users": 1,
+      "activated_users": 0,
+      "total_events": 7,
+      "total_critical_events": 0,
+      "persona_distribution": {
+        "Login only (not activated)": 1
+      },
+      "events": {
+        "Login": 7
+      },
+      "properties": {
+        "Tipo Plan Empresa": "pendiente_pago",
+        "Nombre de Empresa": "BLANCA GRACIELA SESSAREGO",
+        "Fecha de Alta Empresa": "2026-03-06T00:00:00",
+        "idPlanEmpresa": "1",
+        "Pais de Registro": "12",
+        "Email de Administrador": "118008"
+      },
+      "users": [
+        {
+          "distinct_id": "$device:19cc3ac62273c5-0083faf3091c1f8-26061c51-1fa400-19cc3ac62283c5",
+          "persona": "Login only (not activated)",
+          "critical_events": 0,
+          "logins": 7,
+          "events": {
+            "Login": 7
+          }
+        }
+      ]
+    }
+  ]
+}

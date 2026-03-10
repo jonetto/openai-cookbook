@@ -5,12 +5,27 @@
 
 ---
 
-## Runbook Cards
+## Full-Stack Local Dev (dockervm)
+
+For full-stack local development (all 21 services), use dockervm:
+
+| Action | Command |
+|--------|---------|
+| **Setup** | `cd colppy/dockervm && bash setup-local.sh` |
+| **Setup (clone missing repos)** | `bash setup-local.sh --clone` |
+| **App URL** | http://localhost:8080 |
+| **One-click login** | http://localhost:8080/set-dev-cookie |
+
+See [deployment-and-infra.md](deployment-and-infra.md#local-development-dockervm) and `colppy/dockervm/README.md` for details.
+
+---
+
+## Runbook Cards (per-repo standalone)
 
 | Repo | Path | Start (Local) | Test/Smoke | Deploy Workflow | Owner | On-call |
 |------|------|------|------|------|------|------|
 | `app_root` | `colppy/app_root/` | `pnpm install && pnpm dev` (9000) | UI loads at `http://localhost:9000` | `spa-build-and-deploy.yml` | TBD | TBD |
-| `mfe_authentication` | `nubox-spa/colppy-app/mfe_authentication/` | `pnpm install && pnpm dev` | Login page renders in shell or standalone dev URL | `mfe-build-and-deploy.yml` | TBD | TBD |
+| `mfe_authentication` | `colppy/mfe_authentication/` | `pnpm install && pnpm dev` | Login page renders in shell or standalone dev URL | `mfe-build-and-deploy.yml` | TBD | TBD |
 | `mfe_onboarding` | `colppy/mfe_onboarding/` | `pnpm install && pnpm dev` (9002 typical) | Wizard route `/inicio` loads and submits | `mfe-build-and-deploy.yml` | TBD | TBD |
 | `svc_settings` | `colppy/svc_settings/` | `pnpm install && pnpm run start:dev` (3000) | `POST /login`, `GET /session-info`, `POST /finish-onboarding` | `build-and-push-dockerimage.yml` + `helm-chart-deploy.yml` | TBD | TBD |
 | `colppy-app` | `nubox-spa/colppy-app/` | `docker-compose up` | Frontera call to `/lib/frontera2/service.php` returns expected envelope | legacy Docker/ops flow | TBD | TBD |
@@ -32,4 +47,4 @@ When ownership is ready, add these fields for each card:
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-06*

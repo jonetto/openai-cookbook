@@ -315,10 +315,10 @@ The ARCA prototype (`openai-cookbook/arca-prototype/`) provides deeper CUIT enri
 
 | File | Path (relative to `github-jonetto/`) |
 |------|--------------------------------------|
-| Login screen | `nubox-spa/colppy-app/mfe_authentication/src/views/screens/login/login.tsx` |
-| Onboarding check hook | `nubox-spa/colppy-app/mfe_authentication/src/hooks/use-check-onboarding.tsx` |
-| Redirect utils | `nubox-spa/colppy-app/mfe_authentication/src/utils/utils.tsx` |
-| Auth routes | `nubox-spa/colppy-app/mfe_authentication/routes.json` |
+| Login screen | `colppy/mfe_authentication/src/views/screens/login/login.tsx` |
+| Onboarding check hook | `colppy/mfe_authentication/src/hooks/use-check-onboarding.tsx` |
+| Redirect utils | `colppy/mfe_authentication/src/utils/utils.tsx` |
+| Auth routes | `colppy/mfe_authentication/routes.json` |
 | Step 1 controller | `colppy/mfe_onboarding/src/views/screens/step-one/step-one.tsx` |
 | Step 2 controller | `colppy/mfe_onboarding/src/views/screens/components/step-two/stepThreeJoin.tsx` |
 | Step 3 desktop UI | `colppy/mfe_onboarding/src/views/screens/desktop/step-three/step-three.tsx` |

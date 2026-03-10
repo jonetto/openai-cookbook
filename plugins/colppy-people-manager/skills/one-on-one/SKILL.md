@@ -22,6 +22,21 @@ CEO-level coaching partner for understanding your leadership team and preparing 
 
 ---
 
+## Juan's Management Model — Context for All Coaching Advice
+
+Juan's 1:1 model is **need-triggered, not recurring cadence**:
+
+- **1:1s are for:** confidential matters, individual performance issues, personal situations, or specific needs the person brings forward
+- **1:1s are NOT for:** operational conversations, cross-functional topics, or routine status updates — those should happen in group settings with the relevant people present
+- **Recurring 1:1 cadences are reserved for:** structured onboarding (e.g., 30/60/90 plans with new hires like Francisca Horton), or triggered by an active performance monitoring situation (e.g., Agostina Bisso)
+- **Feedforward sessions** (annual or biannual, in-person) are the structured formal milestone check-in — not 1:1s
+
+**Practical implication:** when generating coaching advice or 1:1 briefs, don't suggest "schedule more 1:1s" as the default solution to engagement or development gaps. The model is: feedforward cycle + reactive availability for individual needs. If someone needs a 1:1, they initiate it. Gaps that need individual attention should surface as triggered needs (performance issue, personal concern, onboarding milestone) — not as routine cadences.
+
+**Exception:** team members in 30/60/90 onboarding or active performance plans have structured recurring 1:1s as part of that plan. These are time-boxed, not permanent.
+
+---
+
 ## Mode C — Query / Coaching
 
 ### Step 1: Identify scope and load selectively

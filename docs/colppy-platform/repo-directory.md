@@ -33,7 +33,7 @@ The 9 most important repos for understanding and operating the platform.
 | Repo | Path | Tech | Purpose | Has README? |
 |------|------|------|---------|-------------|
 | `app_root` | `colppy/app_root/` | React, single-spa, Webpack, pnpm | SPA shell that loads all MFEs | No |
-| `mfe_authentication` | `nubox-spa/colppy-app/mfe_authentication/` | React, Vite, Redux, pnpm | Login/auth UX (mounted at `/`) | Boilerplate only |
+| `mfe_authentication` | `colppy/mfe_authentication/` | React, Vite, Redux, pnpm | Login/auth UX (mounted at `/`) | Boilerplate only |
 | `mfe_onboarding` | `colppy/mfe_onboarding/` | React, Vite, Redux, pnpm | Wizard UX (mounted at `/inicio`) | Boilerplate only |
 | `svc_settings` | `colppy/svc_settings/` | NestJS, TypeScript, pnpm | Auth bridge, session, onboarding API | Boilerplate only |
 | `colppy-app` | `nubox-spa/colppy-app/` | PHP, Laravel 5.4, Frontera | Legacy monolith gateway (31 business Provisiones + ColppyCommon) | **No README** |
@@ -44,18 +44,20 @@ The 9 most important repos for understanding and operating the platform.
 
 ## Microfrontends
 
-8 repos. All use React + TypeScript + Vite except `mfe_vue`.
+8 repos. All use React + TypeScript + Vite except the legacy Vue app.
 
 | Repo | Path | Mount Route | Status | Tech |
 |------|------|-------------|--------|------|
-| `mfe_authentication` | `nubox-spa/colppy-app/mfe_authentication/` | `/` | Active | React, Vite, Redux, pnpm |
+| `mfe_authentication` | `colppy/mfe_authentication/` | `/` | Active | React, Vite, Redux, pnpm |
 | `mfe_onboarding` | `colppy/mfe_onboarding/` | `/inicio` | Active | React, Vite, Redux, pnpm |
 | `mfe_dashboard` | `colppy/mfe_dashboard/` | Not mounted | Inactive | React, Vite, pnpm |
 | `mfe_sales` | `colppy/mfe_sales/` | Not mounted | Inactive | React, Vite, pnpm |
 | `mfe_mercado_pago` | `colppy/mfe_mercado_pago/` | Not mounted | Inactive | React, Vite, pnpm |
-| `mfe_vue` | `colppy/mfe_vue/` | Legacy routes | Active (separate) | Vue, npm |
+| `colppy-vue` | `colppy/colppy-vue/` | Legacy routes | Active (separate) | Vue, npm |
 | `mfe_archetype` | `colppy/mfe_archetype/` | N/A | Template | React, Vite, pnpm |
 | `mfe_archetype_single_spa` | `colppy/mfe_archetype_single_spa/` | N/A | Template | React, Vite, pnpm |
+
+**Note:** The legacy Vue app is the `colppy-vue` repo. Dockervm symlinks it as `code/mfe_vue` for docker-compose compatibility. If `mfe_vue` appears in older docs, it refers to this same codebase.
 
 ## Backend Services -- NestJS
 
@@ -113,19 +115,19 @@ Total Lambda repos across the platform are 20 (14 application + 6 infrastructure
 
 ## Connector Libraries
 
-9 repos. PHP Composer packages. Some exist in both `colppy/` and `nubox-spa/`.
+9 repos. PHP Composer packages. The `nubox-spa/` copies were **archived in Aug 2025** after migrating to `colppy/`.
 
-| Repo | Package | Used By | Path |
-|------|---------|---------|------|
-| `base-connector` | colppy-base-connector | colppy-app | `colppy/base-connector/` |
-| `colppy-base-connector` | colppy-base-connector | colppy-app (prod) | `nubox-spa/colppy-base-connector/` |
-| `border-connector` | colppy-border-connector | colppy-app | `colppy/border-connector/` |
-| `colppy-border-connector` | colppy-border-connector | colppy-app (prod) | `nubox-spa/colppy-border-connector/` |
-| `colppy-crmintegration-connector` | colppy-crmintegration-connector | colppy-app | `colppy/colppy-crmintegration-connector/` |
-| `colppy-database-connector` | colppy-database-connector | svc_* (NestJS) | `colppy/colppy-database-connector/` |
-| `colppy-authentication-oauth-library` | auth-oauth | colppy-benjamin | `colppy/colppy-authentication-oauth-library/` |
-| `colppy-authentication-oauth-library` | auth-oauth (prod) | colppy-benjamin | `nubox-spa/colppy-authentication-oauth-library/` |
-| `colppy-crmintegration-connector` | crm-connector (prod) | colppy-app | `nubox-spa/colppy-crmintegration-connector/` |
+| Repo | Package | Used By | Path | Status |
+|------|---------|---------|------|--------|
+| `base-connector` | colppy-base-connector | colppy-app | `colppy/base-connector/` | Active |
+| `colppy-base-connector` | colppy-base-connector | colppy-app | `nubox-spa/colppy-base-connector/` | **Archived** |
+| `border-connector` | colppy-border-connector | colppy-app | `colppy/border-connector/` | Active |
+| `colppy-border-connector` | colppy-border-connector | colppy-app | `nubox-spa/colppy-border-connector/` | **Archived** |
+| `colppy-crmintegration-connector` | colppy-crmintegration-connector | colppy-app | `colppy/colppy-crmintegration-connector/` | Active |
+| `colppy-database-connector` | colppy-database-connector | svc_* (NestJS) | `colppy/colppy-database-connector/` | Active |
+| `colppy-authentication-oauth-library` | auth-oauth | colppy-benjamin | `colppy/colppy-authentication-oauth-library/` | Active |
+| `colppy-authentication-oauth-library` | auth-oauth | colppy-benjamin | `nubox-spa/colppy-authentication-oauth-library/` | **Archived** |
+| `colppy-crmintegration-connector` | crm-connector | colppy-app | `nubox-spa/colppy-crmintegration-connector/` | **Archived** |
 
 ### SDK/Library Repos (not connectors)
 
@@ -272,12 +274,13 @@ These 12 repos have no README file at all:
 
 ## Gotchas
 
-- **Duplicate repos**: Some libraries exist in both `colppy/` and `nubox-spa/` (e.g., `base-connector`, `authentication-oauth-library`, `paypertic-sdk`, `crmintegration-connector`). The `nubox-spa/` versions are the ones used in production by `colppy-app` and `colppy-benjamin`.
+- **Duplicate repos (mostly resolved)**: Several libraries existed in both `colppy/` and `nubox-spa/` (e.g., `base-connector`, `authentication-oauth-library`, `paypertic-sdk`, `crmintegration-connector`). The `nubox-spa/` copies were **archived in Aug 2025** after migrating to `colppy/`. The `colppy/` versions are now canonical.
 - **Boilerplate READMEs**: Many MFE and NestJS repos have template READMEs ("React + TypeScript + Vite" or "Archetype for Colppy MS") with no actual documentation about the specific service.
 - **colppy-app has NO README**: The single most important repo (legacy gateway with 31 business Provisiones + ColppyCommon, the Frontera RPC layer, and all business logic) has zero documentation.
 - **Stale repos**: Some repos appear deprecated but remain in the org: `colppy-ms-autenticacion`, `POC_Monorepo`, `colppy-front`. Do not rely on them.
 - **Naming inconsistency**: MFEs use `mfe_` prefix, NestJS services use `svc_`, Lambdas use `svc_*_lambda` or `sas-colppy-*`, connectors use `colppy-*-connector` or just `*-connector`.
-- **mfe_authentication lives inside colppy-app**: Unlike all other MFEs (which are standalone repos under `colppy/`), `mfe_authentication` is a subdirectory of `nubox-spa/colppy-app/mfe_authentication/`.
+- **mfe_authentication is a separate repo**: `mfe_authentication` is at `colppy/mfe_authentication/` (its own repo with independent CI/CD), NOT inside `nubox-spa/colppy-app/`. Some older docs may still reference the wrong path.
+- **colppy-vue vs mfe_vue**: The legacy Vue frontend (wizard, dashboard) lives in `colppy/colppy-vue/`. Dockervm symlinks it as `code/mfe_vue` for docker-compose. Both names refer to the same repo.
 - **colppy-database-connector is NestJS**: Despite being named like the other PHP connectors, `colppy-database-connector` uses Node.js/TypeScript/NestJS (not PHP/Composer).
 
 ## Cross-References
@@ -291,4 +294,4 @@ These 12 repos have no README file at all:
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-06*

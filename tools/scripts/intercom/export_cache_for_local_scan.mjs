@@ -70,19 +70,21 @@ export function extractUserTypeAttributes(customAttributes = {}) {
 
 function parseArgs() {
   const args = process.argv.slice(2);
-  const opts = { from: null, to: null, team: null };
+  const opts = { from: null, to: null, team: null, trialOnly: false, trialDays: 7 };
   for (let i = 0; i < args.length; i++) {
     if (args[i] === '--from' && args[i + 1]) opts.from = args[++i];
     else if (args[i] === '--to' && args[i + 1]) opts.to = args[++i];
     else if (args[i] === '--team' && args[i + 1]) opts.team = args[++i];
+    else if (args[i] === '--trial-only') opts.trialOnly = true;
+    else if (args[i] === '--trial-days' && args[i + 1]) opts.trialDays = parseInt(args[++i], 10);
   }
   return opts;
 }
 
 async function main() {
-  const { from: fromDate, to: toDate, team: teamId } = parseArgs();
+  const { from: fromDate, to: toDate, team: teamId, trialOnly, trialDays } = parseArgs();
   if (!fromDate || !toDate) {
-    console.error('Usage: node export_cache_for_local_scan.mjs --from YYYY-MM-DD --to YYYY-MM-DD [--team TEAM_ID]');
+    console.error('Usage: node export_cache_for_local_scan.mjs --from YYYY-MM-DD --to YYYY-MM-DD [--team TEAM_ID] [--trial-only] [--trial-days N]');
     process.exit(1);
   }
 
@@ -123,6 +125,8 @@ async function main() {
           let contactEmail = contactRef?.email || conv.source?.author?.email || null;
           let es_contador = null;
           let rol_wizard = null;
+          let signedUpAt = null;
+          let daysSinceSignup = null;
           if (contactId) {
             const contact = await getContactDetails(api, contactId);
             if (contact?.custom_attributes) {
@@ -131,6 +135,12 @@ async function main() {
               rol_wizard = extracted.rol_wizard;
             }
             if (!contactEmail && contact?.email) contactEmail = contact.email;
+            if (contact?.signed_up_at) {
+              signedUpAt = new Date(contact.signed_up_at * 1000).toISOString();
+              if (conv.created_at) {
+                daysSinceSignup = Math.floor((conv.created_at - contact.signed_up_at) / 86400);
+              }
+            }
           }
           return {
             conversation_id: id,
@@ -139,6 +149,8 @@ async function main() {
             contact_email: contactEmail,
             contact_es_contador: es_contador,
             contact_rol_wizard: rol_wizard,
+            contact_signed_up_at: signedUpAt,
+            days_since_signup: daysSinceSignup,
             tags,
             parts: parts.map((p) => ({
               author_type: p.author_type,
@@ -158,9 +170,16 @@ async function main() {
     }
   }
 
+  let filtered = conversations;
+  if (trialOnly) {
+    filtered = conversations.filter((c) => c.days_since_signup !== null && c.days_since_signup >= 0 && c.days_since_signup <= trialDays);
+    console.log(`\n--trial-only: kept ${filtered.length}/${conversations.length} conversations (≤${trialDays} days since signup)`);
+  }
+
   if (!fs.existsSync(CACHE_PATH)) fs.mkdirSync(CACHE_PATH, { recursive: true });
   const teamSuffix = teamId ? `_team${teamId}` : '';
-  const outFile = `conversations_${fromDate}_${toDate}${teamSuffix}.json`;
+  const trialSuffix = trialOnly ? `_trial${trialDays}d` : '';
+  const outFile = `conversations_${fromDate}_${toDate}${teamSuffix}${trialSuffix}.json`;
   const outPath = join(CACHE_PATH, outFile);
   fs.writeFileSync(
     outPath,
@@ -171,15 +190,17 @@ async function main() {
         state: null,
         team_assignee_id: teamId || null,
         topic: teamId ? 'Primeros 90 días' : 'Colppy API integration',
+        trial_only: trialOnly || false,
+        trial_days: trialOnly ? trialDays : null,
         saved_at: new Date().toISOString(),
-        conversations,
+        conversations: filtered,
       },
       null,
       2
     ),
     'utf8'
   );
-  console.log(`\nSaved ${conversations.length} conversations to:\n  ${outPath}`);
+  console.log(`\nSaved ${filtered.length} conversations to:\n  ${outPath}`);
   console.log(`\nRun local scan (from plugin dir):`);
   console.log(`  cd plugins/colppy-customer-success`);
   console.log(`  node scripts/local_scan.mjs --cache skills/intercom-developer-api-research/cache/${outFile}`);

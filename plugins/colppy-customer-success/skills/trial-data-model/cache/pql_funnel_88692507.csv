@@ -1,0 +1,201 @@
+timestamp,empresa_id,email,event,count
+2025-01-06T10:33:22,89067,ivan@fremsrl.com.ar,Generó comprobante de compra,1
+2025-01-14T15:28:42,89169,jovaldebenito86@gmail.com,Agregó un ítem,1
+2025-01-15T10:28:02,89179,administracion@nutrifocus.com.ar,Agregó un ítem,1
+2025-01-15T17:42:28,89188,marcosmirand@hotmail.com,Agregó un ítem,1
+2025-01-18T18:15:26,89220,misionesimpuestos@gmail.com,Generó orden de pago,1
+2025-01-24T18:34:22,89365,mauricioyapur@gmail.com,Agregó un ítem,1
+2025-01-29T15:03:04,11675,emiliano.demagistris@coderhouse.com,Generó comprobante de venta,1
+2025-01-29T19:35:04,89416,nicolasadet89@gmail.com,Descargó el libro iva compras,1
+2025-02-05T17:50:01,89581,fnobile@assandriludeiroabogados.com,Generó asiento contable,1
+2025-02-06T14:17:16,11675,facturacion@monge-construcciones.com,Descargó el listado de cobranzas,1
+2025-02-14T10:21:39,89860,PLASTICOSORDAS@HOTMAIL.COM,Generó comprobante de venta,1
+2025-02-17T14:35:14,89916,mmcerf@gmail.com,Generó comprobante de compra,1
+2025-02-20T19:34:58,89987,silviaschippert@framafin.com.ar,Generó asiento contable,1
+2025-02-24T16:23:16,89994,rgulich@gmail.com,Agregó un ítem,1
+2025-02-24T22:32:27,90094,fer.raffa.74@gmail.com,Generó comprobante de venta,1
+2025-02-25T16:45:25,11675,vaninakrier@gmail.com,Generó comprobante de venta,1
+2025-02-26T12:54:43,90142,gonzalo.gauna@recursosrenovables.com,Agregó un ítem,1
+2025-02-26T17:33:31,90148,administracion@diagnorte.com.ar,Agregó un ítem,1
+2025-03-07T13:03:27,90407,rickiandres7777@gmail.com,Agregó un ítem,1
+2025-03-07T16:59:50,11675,arshop.admi@gmail.com,Generó comprobante de venta,1
+2025-03-11T18:35:59,90508,francisquitorusso@gmail.com,Agregó un ítem,1
+2025-03-11T18:45:17,90531,cristianb.arg@gmail.com,Generó recibo de cobro,1
+2025-03-15T19:38:33,90654,bertinasarmiento@outlook.com,Generó comprobante de venta,1
+2025-03-17T12:05:56,11675,ventas@cosmeticaossono.com,Agregó un ítem,1
+2025-03-18T16:33:55,90777,fernandezmara@gmail.com,Agregó un ítem,1
+2025-03-19T23:42:58,90824,murello86@gmail.com,Generó comprobante de venta,1
+2025-03-20T19:18:16,11675,anadales8@gmail.com,Generó comprobante de venta,1
+2025-03-21T18:39:38,90903,Laplataomega@gmail.com,Agregó un ítem,1
+2025-03-26T11:59:25,11675,proveedores@lacarlotamaderas.com,Generó comprobante de venta,1
+2025-03-26T14:15:58,91057,gustavopennesi@gmail.com,Agregó un ítem,1
+2025-03-31T21:39:28,91030,lopez.jenny.1497@gmail.com,Agregó un ítem,1
+2025-04-01T12:05:10,11675,brayanjosue.colindres@gmail.com,app generó recibo de cobro,1
+2025-04-07T23:35:36,91324,jenny-1497@hotmail.es,Agregó un ítem,1
+2025-04-08T11:52:47,11675,lizavilleda30@gmail.com,Agregó un ítem,1
+2025-04-08T14:19:40,11675,estudiocontablekobiak@gmail.com,Descargó el balance,1
+2025-04-08T18:05:43,11675,rpmendez@uth.hn,Agregó un ítem,1
+2025-04-09T19:26:13,11675,nellsontorres07@gmail.com,Agregó un ítem,1
+2025-04-17T10:52:18,91497,Alejandro@tecnotendencia.com.ar,Agregó un ítem,1
+2025-04-17T11:39:50,91501,julieta@sitargentina.com,Agregó un ítem,1
+2025-04-21T22:17:00,91591,1175market@gmail.com,Agregó un ítem,1
+2025-04-24T13:28:22,91661,florencia.aldana@logisticafs.com.ar,Agregó un ítem,1
+2025-04-28T12:02:31,11675,axel_koruk@hotmail.com,Agregó un ítem,1
+2025-05-01T06:41:33,91920,riosbeatriz250778@gmail.com,Agregó un ítem,1
+2025-05-06T12:00:25,11675,casaclasica754@gmail.com,Generó comprobante de venta,1
+2025-05-06T12:07:24,92184,liobarrozo8@gmail.com,Agregó un ítem,1
+2025-05-06T12:44:19,91840,administracion@adducciinstalaciones.com.ar,Generó comprobante de venta,1
+2025-05-07T19:36:58,92262,marioavalos61@gmail.com,Generó recibo de cobro,1
+2025-05-08T14:51:30,92319,barbara@helioday.com.ar,Agregó un ítem,1
+2025-05-09T10:20:13,11675,yamilaberro@yahoo.com.ar,Generó asiento contable,1
+2025-05-09T10:39:14,92369,maxi19_p@icloud.com,Descargó el listado de comprobantes de venta borrador,1
+2025-05-11T11:32:15,92384,dggodoy86@gmail.com,Generó comprobante de venta,1
+2025-05-14T16:04:38,92593,dkong.tifba@gmail.com,Agregó un ítem,1
+2025-05-14T17:20:39,92546,Manup.9@hotmail.com,Agregó un ítem,1
+2025-05-15T15:57:23,92591,delfin@intracksa.com,Generó comprobante de compra,1
+2025-05-16T10:19:25,11675,martin@kalispan.com.ar,Descargó el listado de comprobantes de venta borrador,1
+2025-05-16T22:13:07,92730,manuco1972@gmail.com,Agregó un ítem,1
+2025-05-17T20:46:53,92748,facu_uncce@hotmail.com,Generó asiento contable,1
+2025-05-20T13:42:50,92856,solstaffa@gmail.com,Agregó un ítem,1
+2025-05-21T17:33:45,11675,guadaarrieta96@gmail.com,Generó comprobante de venta,1
+2025-05-22T12:56:00,92786,solestefaniaarregui@gmail.com,Descargó el diario general,1
+2025-05-24T19:00:18,93055,soofitschambler@icloud.com,Agregó un ítem,1
+2025-05-27T00:14:39,93084,pedro.alonzo@yopmail.com,Generó orden de pago,1
+2025-05-27T11:14:26,93117,fundacion@sanesteban.edu.ar,Agregó medio de pago,1
+2025-05-27T11:52:23,93134,contable@sanesteban.edu.ar,Generó asiento contable,1
+2025-05-27T12:26:42,93135,yaairpp@gmail.com,Agregó un ítem,1
+2025-05-29T16:44:58,93256,Marisagreco33@gmail.com,Descargó el listado de comprobantes de venta,1
+2025-05-29T23:10:01,93276,leslie-tr@hotmail.com,Generó asiento contable,1
+2025-06-05T15:00:28,93446,celentanosofia@gmail.com,Agregó un ítem,1
+2025-06-08T19:01:51,93506,matiassala898@gmail.com,Generó comprobante de venta,1
+2025-06-09T14:38:39,25737,rojedaadm25@gmail.com,Generó comprobante de compra,1
+2025-06-09T16:19:54,93533,MOREIRAGABRIELA16@GMAIL.COM,Agregó un ítem,1
+2025-06-11T10:00:48,93590,admin@loquieroaca.com,Agregó un ítem,1
+2025-06-11T23:18:49,93432,amoedo@fullmec.com.ar,Generó comprobante de compra,1
+2025-06-12T18:26:06,93573,nehuen241197@gmail.com,Generó comprobante de compra,1
+2025-06-14T05:48:03,93696,AGOSTINAFUNES36@GMAIL.COM,Generó comprobante de venta,1
+2025-06-16T19:04:15,93743,emavazquez300km@gmail.com,Agregó un ítem,1
+2025-06-17T15:49:23,93763,anajorgelinablanco739@gmail.com,Finalizó importación,1
+2025-06-23T01:57:07,93934,marpiemcarmosa@gmail.com,Generó comprobante de compra,1
+2025-06-23T17:33:50,93947,gustavo@bigconsulting.com.ar,Agregó un ítem,1
+2025-06-24T22:02:06,93985,berinvictoria2@gmail.com,Agregó un ítem,1
+2025-06-26T14:08:29,94014,secretaria@adues.org.ar,Agregó un ítem,1
+2025-06-26T16:10:43,94062,adm@ellibertador.net,Generó comprobante de venta,1
+2025-06-27T17:33:30,94136,nataliacalvino@YAHOO.COM.AR,Agregó un ítem,1
+2025-06-27T21:51:41,94247,pablo.fernandez.bla@gmail.com,Generó comprobante de venta,1
+2025-06-29T14:14:06,94268,selenaagustinalucero@sanluis.edu.ar,Agregó un ítem,1
+2025-07-01T11:54:51,94334,estudio@malleaabogados.com,Agregó un ítem,1
+2025-07-02T15:08:27,94388,administracion@perimetralessa.com,Agregó un ítem,1
+2025-07-03T22:15:31,94267,gise.mm89@gmail.com,Agregó un ítem,1
+2025-07-03T23:34:54,94446,jm@juanmarsala.com.ar,Generó comprobante de venta,1
+2025-07-07T20:50:25,94548,afernandez@gallanoworldwide.com,Agregó un ítem,1
+2025-07-08T20:52:07,94599,genzio14@gmail.com,app generó comprobante de venta,1
+2025-07-10T16:34:52,11675,bridgesyreynolds@gmail.com,Agregó un ítem,1
+2025-07-10T19:33:51,94671,martinorona3333@gmail.com,app generó comprobante de venta,1
+2025-07-11T10:09:52,11675,laurapaolah@hotmail.com,Descargó el estado de resultados,1
+2025-07-12T11:16:07,94744,sanchezblancabeatriz59@gmail.com,Agregó un ítem,1
+2025-07-17T16:29:14,95030,ale.solito@hotmail.com,Generó comprobante de venta,1
+2025-07-17T21:47:46,95059,mauromedinamauro1992@gmail.com,app generó comprobante de venta,1
+2025-07-19T20:06:04,95128,filippirodrigo@gmail.com,Generó recibo de cobro,1
+2025-07-20T04:14:01,95138,cantelminerina@gmail.com,app generó comprobante de venta,1
+2025-07-20T06:57:40,95141,admin@zentra.com.ar,Agregó un ítem,1
+2025-07-21T11:26:17,95156,proyectosyfinanzas@nueco.com.ar,Generó comprobante de venta,1
+2025-07-24T09:31:25,95322,tidet54095@mvpmedix.com,Agregó un ítem,1
+2025-08-01T20:35:07,95484,contagerencial12@gmail.com,Agregó un ítem,1
+2025-08-05T15:27:23,95614,ezequiel@we-people.com,Generó comprobante de venta,1
+2025-08-08T17:33:57,95789,yecigalvan1332@gmail.com,app generó comprobante de venta,1
+2025-08-13T15:38:50,95929,lucreciagerosa@gerosa.com.ar,Generó comprobante de compra,1
+2025-08-19T11:44:42,96102,palbarranvidela12@gmail.com,Generó comprobante de compra,1
+2025-08-22T17:45:40,96284,annasaladasctes308@gmail.com,Descargó el listado de comprobantes de venta,1
+2025-08-24T00:30:31,96318,marenogabriel151@gmail.com,app generó comprobante de venta,1
+2025-08-27T11:11:40,96408,efava@auditar-nt.com,Agregó un ítem,1
+2025-08-27T15:15:07,96471,contacto@lumidea.com.ar,Agregó un ítem,1
+2025-08-28T19:20:50,96417,intervalquilmescontable@gmail.com,Agregó un ítem,1
+2025-09-03T17:12:04,7717,Juana.lebrero@4construcciones.com,Generó comprobante de compra,1
+2025-09-04T08:43:36,96678,elisabetta3@powerscrews.com,Agregó un ítem,1
+2025-09-08T18:00:29,96785,ladransancho24@gmail.com,Agregó un ítem,1
+2025-09-10T16:11:55,96740,kamosq20@gmail.com,Agregó un ítem,1
+2025-09-16T18:24:02,11675,mcscontables@gmail.com,Descargó el listado de comprobantes de venta,1
+2025-09-18T13:33:40,97086,info@hotelfrossard.com.ar,Agregó un ítem,1
+2025-09-18T16:24:31,11675,administracion@agrolibres.com.ar,Generó comprobante de compra,1
+2025-09-18T17:39:47,97115,mmarazucar@gmail.com,Generó comprobante de venta,1
+2025-09-23T01:23:18,97201,roman.publicidad6@gmail.com,Agregó un ítem,1
+2025-09-24T19:04:36,97251,arielgperez33@gmail.com,Generó asiento contable,1
+2025-09-25T09:12:37,97231,cecilia.e.rodriguez@gmail.com,Agregó un ítem,1
+2025-10-02T10:11:45,11675,emprenderestudiocontablectes@gmail.com,Descargó el balance,1
+2025-10-03T10:28:35,11675,domibarth24@gmail.com,Descargó el libro iva digital,1
+2025-10-04T20:08:45,97347,franciscojavierb791@gmail.com,app generó comprobante de venta,1
+2025-10-10T08:50:38,97472,estudiocontablem.metti@gmail.com,Generó comprobante de venta,1
+2025-10-12T16:11:56,97517,gp1@pya.ar,Agregó un ítem,1
+2025-10-14T10:52:06,97442,carlosregardiz@gmail.com,Agregó un ítem,1
+2025-10-14T18:18:28,97559,baseceroo@gmail.com,Finalizó importación,1
+2025-10-16T16:34:47,11675,scarugno@faicsavial.com,Descargó el retenciones y percepciones,1
+2025-10-16T20:11:22,97596,ays2022miami@gmail.com,Agregó un ítem,1
+2025-10-19T20:16:14,97641,aguiaryenifer17@gmail.com,Generó comprobante de venta,1
+2025-10-20T19:42:02,97669,mamucho143@gmail.com,Agregó un ítem,1
+2025-10-20T23:46:23,97677,MMMARTINGARCIA@ICLOUD.COM,Agregó medio de cobro,1
+2025-10-22T10:41:24,97705,monteredes@gmail.com,Generó orden de pago,1
+2025-10-24T13:35:01,97763,juridicoasociadosestudio@gmail.com,app generó comprobante de venta,1
+2025-10-28T12:21:45,11675,mmstatianacobo@gmail.com,Descargó el mayor,1
+2025-10-30T13:15:25,97874,georgina.v.oca@gmail.com,Agregó un ítem,1
+2025-10-30T15:03:36,97873,aridosparada.adm21@yahoo.com,Generó comprobante de compra,1
+2025-10-31T10:12:46,11675,anamariaperdomo@gmail.com,Generó recibo de cobro,1
+2025-10-31T15:08:50,97899,jperal@volsmart.com,Generó asiento contable,1
+2025-10-31T23:28:49,97912,arcejeniferromina@gmail.com,Generó asiento contable,1
+2025-11-04T11:33:50,97979,almacendesg@gmail.com,Agregó un ítem,1
+2025-11-04T14:01:18,97986,lucas@agathatrading.com.br,Agregó un ítem,1
+2025-11-06T08:17:13,98031,yta67115@gmail.com,Generó asiento contable,1
+2025-11-06T08:34:03,98030,simonlvgoro@gmail.com,Generó asiento contable,1
+2025-11-06T22:22:13,98089,germanridao@gmail.com,app generó comprobante de venta,1
+2025-11-07T12:20:34,98067,RURALPER@GMAIL.COM,Generó comprobante de compra,1
+2025-11-08T13:13:06,98144,LAUTAROMANUCCI@GMAIL.COM,Agregó un ítem,1
+2025-11-08T22:51:28,98153,BenjaminRuizDiaz@proton.me,Agregó un ítem,1
+2025-11-10T15:47:03,11675,facuna@tristanyasociados.com,Descargó el libro iva digital,1
+2025-11-11T15:04:08,98240,undefined,Agregó un ítem,1
+2025-11-12T21:14:53,98106,administracion@habika.ar,Agregó un ítem,1
+2025-11-16T19:45:04,103827,jdedionigi@gmail.com,Generó asiento contable,1
+2025-11-19T10:49:47,11675,santiagoparis@gmail.com,Descargó el libro iva digital,1
+2025-11-20T07:57:28,103935,ulisesvacchino2008@gmail.com,Generó asiento contable,1
+2025-11-20T08:00:11,104027,grafikposters@gmail.com,Generó asiento contable,1
+2025-11-20T08:48:13,104031,chachixdmunro@gmail.com,Generó asiento contable,1
+2025-11-20T08:52:29,104034,carinellicamila18@gmail.com,Generó asiento contable,1
+2025-11-20T10:19:40,104040,cinnalovers@gmail.com,Generó comprobante de compra,1
+2025-11-20T17:17:14,104053,juaniisidori84@gmail.com,Generó comprobante de venta,1
+2025-11-21T22:27:05,104099,giordanoguido83@gmail.com,Generó asiento contable,1
+2025-11-27T14:48:00,104357,saomedialunaspilar@gmail.com,Generó comprobante de compra,1
+2025-12-01T11:56:18,104532,flortesouro@hotmail.com.ar,Generó asiento contable,1
+2025-12-01T12:36:34,104534,gabellilisette1122@gmail.com,app generó comprobante de venta,1
+2025-12-01T17:09:51,104539,lucas.esteves@colppy.com,Generó asiento contable,1
+2025-12-07T01:46:19,104801,camilaevelynochoa@gmail.com,Agregó un ítem,1
+2025-12-10T14:39:39,104903,clara@bmgmkt.com,Descargó el libro iva ventas,1
+2025-12-11T08:41:15,105034,marianoglr797@gmail.com,Agregó un ítem,1
+2025-12-11T08:41:42,105036,santius659@gmail.com,Agregó un ítem,1
+2025-12-11T13:50:48,105052,drcmarianela@gmail.com,Agregó un ítem,1
+2025-12-12T12:34:57,11675,wandalemma@indy.com.ar,Descargó el balance,1
+2025-12-12T16:08:50,105112,Elinaresar@icloud.com,app generó comprobante de venta,1
+2025-12-27T17:21:57,105885,Lorenzocaringellamdq@gmail.com,Agregó un ítem,1
+2025-12-28T10:50:04,105925,advancesportbp@gmail.com,Agregó un ítem,1
+2026-01-02T11:59:03,106154,360gardenmdz@gmail.com,Agregó un ítem,1
+2026-01-02T13:30:18,106047,marigrillo0327@outlook.com,Agregó un ítem,1
+2026-01-03T12:33:34,106219,melerajimenaf@gmail.com,Agregó un ítem,1
+2026-01-07T14:35:48,106419,tesoreria@yco.com.ar,Generó comprobante de compra,1
+2026-01-08T20:30:46,106575,grupogei.salud@gmail.com,Generó comprobante de compra,1
+2026-01-15T11:18:59,106946,mailenc81@gmail.com,Agregó un ítem,1
+2026-01-26T11:28:10,11675,dalmasomariapaz@gmail.com,Generó asiento contable,1
+2026-01-26T12:45:39,16246,b.galelli.rucade@gmail.com,Generó comprobante de venta,1
+2026-01-28T01:16:22,109321,pezpalos.implican9i@icloud.com,Agregó un ítem,1
+2026-01-28T02:01:26,109330,carlosmima24@gmail.com,Generó comprobante de venta,1
+2026-01-28T14:10:15,109400,tomasfrega10@gmail.com,Agregó un ítem,1
+2026-01-30T15:55:42,109898,ahumadathalia08@gmail.com,Agregó un ítem,1
+2026-02-02T13:43:22,110603,julietarisuenio01@gmail.com,Agregó un ítem,1
+2026-02-04T11:01:37,110581,doloresserrano860@gmail.com,Generó recibo de cobro,1
+2026-02-05T08:07:06,111020,vickysilverio@hotmail.com.ar,Descargó el libro iva compras,1
+2026-02-07T17:58:56,111815,cyavogel@gmail.com,Agregó un ítem,1
+2026-02-19T15:48:36,115573,rocio.campos.mdq@gmail.com,Agregó un ítem,1
+2026-02-20T13:03:37,115812,pfreijedo@silogic.com.ar,Generó comprobante de venta,1
+2026-02-20T14:33:24,11675,larisa.tiranti@corbisstudio.com,Descargó el estado de resultados,1
+2026-02-20T16:24:09,11675,analia.selvaggi@aagconsultores.com.ar,Generó comprobante de compra,1
+2026-02-20T19:18:12,115847,lmedinavives@gmail.com,Generó asiento contable,1
+2026-02-25T13:40:37,11675,retafranc@gmail.com,Descargó el listado de comprobantes de compra,1
+2026-03-03T15:47:40,11675,leonardo.villanueva@biogenxxi.com.ar,Descargó el listado de comprobantes de venta,1
+2026-03-05T17:03:38,117988,yurbit.b@oneplace.com.ar,Descargó el libro iva digital,1

@@ -1,0 +1,2002 @@
+{
+  "from_date": "2026-01-01",
+  "to_date": "2026-01-31",
+  "state": null,
+  "team_assignee_id": "2334166",
+  "topic": "Primeros 90 días",
+  "trial_only": true,
+  "trial_days": 7,
+  "saved_at": "2026-03-08T20:43:59.798Z",
+  "conversations": [
+    {
+      "conversation_id": "215472883493861",
+      "created_at": "2026-01-29T21:29:54.000Z",
+      "state": "closed",
+      "contact_email": "analymabelcalustro@gmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": "Dueño de un estudio contable",
+      "contact_signed_up_at": "2026-01-29T21:27:29.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Tab"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-29T21:29:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-29T21:29:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-29T21:30:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Tablero",
+          "created_at": "2026-01-29T21:30:20.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En la pantalla de inicio de tu empresa en Colppy, en el tablero, se exponen en forma gráfica los indicadores principales de la situación económica y financiera de tu empresa. -Total ventas del mes -Total compras del mes -Facturas por cobrar -Facturas por pagar Además se visualizan los 4 gráficos que representan los resultados de tu empresa: -Ingresos y Gastos -Cajas y Bancos -Facturas: por Cobrar y por Pagar -Distribución de Gastos ​ Para conocer el detalle de como se alimentan los gráficos ingresa a este articulo de ayuda [App: Article Inserter]",
+          "created_at": "2026-01-29T21:30:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿ Pudiste resolver la duda?",
+          "created_at": "2026-01-29T21:30:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Respondí mi consulta",
+          "created_at": "2026-01-29T21:30:28.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Genial! Me alegra haberte ayudado, cualquier otra duda o consulta estamos a disposición. ​ ¡No te olvides de agregar nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hacé clic en el siguiente enlace: ​ Centro de ayuda Colppy Que tengas un excelente día😀",
+          "created_at": "2026-01-29T21:30:29.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472878163781",
+      "created_at": "2026-01-29T15:35:41.000Z",
+      "state": "closed",
+      "contact_email": "operator+j7l53tgt@intercom.io",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Dueño de una empresa",
+      "contact_signed_up_at": "2026-01-22T01:22:31.000Z",
+      "days_since_signup": 7,
+      "tags": [
+        "Contacto OB"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "",
+          "created_at": "2026-01-29T15:35:41.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Pablo, ¿Cómo estás? Según lo conversado telefónicamente, te dejo toda la información necesaria para la correcta implementación de la empresa MOBILIO DESIGN S.R.L. en Colppy ​ . Luego de definir con el estudio contable el plan de cuentas y a medida que van implementando, si tienen dudas o consultas me las pueden enviar y lo resolvemos juntos. ​ En este email vas a encontrar la hoja de ruta que será tu guía, junto con mi ayuda, para realizar las configuraciones iniciales y cargar los comprobantes. Lo primero a definir es el plan de cuenta, si van a usar el de Colppy que ya esta cargado o van a importar su propio plan de cuentas, ya que la cuenta no debe tener movimientos si desean realizar esto ultimo. Quedo a disposición ante cualquier consulta o duda que tengas. ​ Para comenzar debes seguir estos pasos: 1- Configuraciones iniciales Hace clic en este link , el cual te llevará a una hoja de ruta con los pasos a seguir, debes generar una copia de la misma, Archivo > Hacer una copia Sino podes descargar directamente el archivo Excel adjunto en esta conversación También vas a poder ir registrando el grado de avance para que al terminarlo continúes con el paso 2 2 - Comencemos con la generación de comprobantes. En la misma hoja de ruta tenes la hoja “2-Carga de comprobantes” para comenzar a cargar tus comprobantes de compra y de venta, cobros y pagos, y descargar reportes Consejos extra: -Anotate en nuestra capacitación \"Configuración inicial de tu cuenta en Colppy\" que brindamos los Martes de 15 a 16hs link -Inscribite a las capacitaciones por módulos que brinda Colppy desde este calendario Por favor, nos confirmas que viste este mensaje para empezar con la implementación. 👇 Responde “Listo” o “Arranco ahora” así te acompañamos en cada paso.",
+          "created_at": "2026-01-29T15:35:42.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenas tardes Camila, muchas gracias por tu llamada y por este correo. Confirmo recepción pero podré ponerme con esto recién a la tarde / noche. Si me trabo con algo, mañana te contacto. Saludos cordiales, El jue, 29 ene 2026 a la(s) 12:35 p.m., Soporte ( soporte@colppy.com ) escribió: ​",
+          "created_at": "2026-01-29T16:34:28.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Excelente Pablo, muchas gracias por responder. Quedo atenta a cualquier duda o consulta. Saludos.",
+          "created_at": "2026-01-29T16:41:19.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472860096218",
+      "created_at": "2026-01-28T12:39:37.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Alta de Clientes y Proveedores"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Quiero configurar mi empresa",
+          "created_at": "2026-01-28T12:39:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Bienvenido a Colppy! 🎉 Para empezar a configurar tu empresa, debés realizar los siguientes pasos: Verifica los datos registrados de tu empresa en Configuración > Datos Generales Plan de cuentas y su configuración. Configuración de factura electrónica. Invitar a usuarios. En caso de dudas, aquí te dejamos el instructivo con más información: [App: Article Inserter]",
+          "created_at": "2026-01-28T12:39:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Volver al menú principal",
+          "created_at": "2026-01-28T12:39:51.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T12:39:51.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-28T12:39:56.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-28T12:39:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-28T12:40:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-01-28T12:40:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-01-28T12:40:11.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya cargue clientes y proveedores y configure los impuestos de la empresa. Tengo que hacer algo mas para que se hagan las retenciones y percepciones correspondientes?",
+          "created_at": "2026-01-28T12:40:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar Nuevo Cliente",
+          "created_at": "2026-01-28T12:41:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para dar de alta un nuevo cliente en Colppy tenes dos opciones: ​ Alta manual - Ir al módulo clientes > gestión de clientes > hacer clic en el botón de nuevo cliente. Te explicamos como hacerlo en este link 👈 Importación masiva por Excel -Esta funcionalidad permite importar de forma masiva tus clientes. Ir a módulo Clientes > gestión de clientes > Importar > Clientes Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-01-28T12:41:06.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste dar de alta tus clientes?",
+          "created_at": "2026-01-28T12:41:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-28T12:41:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T12:41:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya cargue clientes y proveedores y configure los impuestos de la empresa. Tengo que hacer algo mas para que se hagan las retenciones y percepciones correspondientes?",
+          "created_at": "2026-01-28T12:41:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para que las retenciones y percepciones funcionen correctamente, necesitas verificar que hayas configurado las cuentas contables específicas en el módulo Configuración > Datos Impositivos. Específicamente revisa que tengas: • Para IVA : Las cuentas de Crédito Fiscal (compras) y Débito Fiscal (ventas) si sos Responsable Inscripto • Para Ganancias : Si sos agente de retención, la cuenta donde se registran las retenciones efectuadas • Para IIBB : Las jurisdicciones configuradas con sus respectivas cuentas contables Una vez configurado esto, cuando hagas facturas y pagos, el sistema calculará automáticamente las retenciones al seleccionar el régimen correspondiente y hacer clic en \"Calcular\". ¿Ya configuraste estas cuentas en Datos Impositivos? Sources: Datos Impositivos Retención de Impuesto a las Ganancias ¿Cómo generar una Cobranza?",
+          "created_at": "2026-01-28T12:41:55.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "lo confgure de esta manera",
+          "created_at": "2026-01-28T12:43:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Perfecto, tu configuración está bien para las retenciones de Ganancias. Para completar la configuración de retenciones y percepciones, te faltan algunos pasos: Para retenciones de IIBB: Marca el checkbox \"IIBB\" en Agente de Retención Hace clic en \"Configurar Jurisdicciones\" y agrega las provincias donde operas con sus cuentas contables Para cálculo automático (solo Plan Enterprise): Si tenes proveedores de Buenos Aires, marca \"ARBA\" y configura la jurisdicción Si tenes proveedores de CABA, marca \"Calcular Automáticamente retenciones/percepciones AGIP\" Para percepciones: Si sos agente de percepción, marca los checkboxes correspondientes y asigna las cuentas Una vez configurado esto, cuando hagas pagos a proveedores, selecciona \"Retenciones IIBB\" y hace clic en \"Calcular\" para que el sistema calcule automáticamente según el padrón correspondiente . Sources: Datos Impositivos Cálculo de retención de impuesto a los lIBB - provincia de Buenos Aires (ARBA) Calculo automático de retención de AGIP",
+          "created_at": "2026-01-28T12:43:29.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-28T12:43:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no soy agente de retencion de IIBB no tengo que tildar ARBA y AGIP verdad?",
+          "created_at": "2026-01-28T12:44:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Exacto, si no sos agente de retención de IIBB no necesitas tildar ARBA ni AGIP. Estas opciones son solo para empresas que están obligadas a actuar como agentes de retención de IIBB en Buenos Aires (ARBA) o Ciudad de Buenos Aires (AGIP). Con tu configuración actual ya tenes todo lo necesario para las retenciones de Ganancias que es lo que corresponde según tu situación fiscal. Sources: Datos Impositivos Cálculo de retención de impuesto a los lIBB - provincia de Buenos Aires (ARBA) Calculo automático de retención de AGIP",
+          "created_at": "2026-01-28T12:44:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-28T12:44:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y las retenciones sufridas?",
+          "created_at": "2026-01-28T12:45:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "esta bien configurado?",
+          "created_at": "2026-01-28T12:45:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para las retenciones sufridas necesitas configurar las cuentas donde se registran cuando tus clientes te retienen impuestos. En Configuración > Datos Impositivos, en la sección \"Retenciones Sufridas\" debes seleccionar las cuentas para: • Ganancias : cuenta donde se registran las retenciones que te hacen tus clientes • IVA : cuenta para retenciones de IVA sufridas • SUSS : cuenta para retenciones SUSS sufridas • IIBB : configurar las jurisdicciones donde operas haciendo clic en \"Configurar Jurisdicciones\" Las cuentas deben ser del tipo \"Deudas Sociales\", \"Deudas Fiscales\" o \"Otros Créditos\". ¿Ya configuraste estas cuentas para las retenciones sufridas? Source: Datos Impositivos",
+          "created_at": "2026-01-28T12:46:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "listo, entonces ya estoy en condiciones de arrancar a facturar y cargar comprobantes?",
+          "created_at": "2026-01-28T12:47:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, ya estás listo para empezar a facturar y cargar comprobantes. Solo recordá que para la factura electrónica, AFIP puede tardar hasta 24-48 horas en procesar la delegación después de la configuración. Podés probar emitiendo una factura por un monto pequeño para verificar que todo funcione correctamente. Con la configuración que ya completaste (clientes, proveedores, impuestos y retenciones), tenés todo lo necesario para comenzar a operar. Sources: Emitir una Factura Electrónica desde Colppy Manual de Primeros Pasos para Contadores",
+          "created_at": "2026-01-28T12:48:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-28T12:48:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "una pregunta mas. Para bajar de arca las facturas de compra y que impacte en cada cuenta de proveedor",
+          "created_at": "2026-01-28T12:49:07.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés importar las facturas de compra desde ARCA y que impacten automáticamente en cada cuenta de proveedor. Pasos para hacerlo: Descarga desde ARCA: Ingresa a ARCA > Mis Comprobantes > Recibidos > filtra por fecha > exporta en Excel Importa en Colppy: Ve a módulo Proveedores > Gestión de proveedores > Importar > Facturas Descarga el archivo modelo de \"mis comprobantes ARCA\" y pega los datos de ARCA en la planilla Importante: Crea tus proveedores antes de importar las facturas Importa máximo 500 facturas por vez Si el proveedor no existe, podés usar la función de creación automática El sistema valida automáticamente que los proveedores existan y evita duplicaciones. Te llega un email con los resultados de la importación. Sources: Importar tus facturas desde Mis Comprobantes - Recibidos AFIP Importar Facturas de compra",
+          "created_at": "2026-01-28T12:49:28.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-28T12:49:28.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Quedo a tu disposición para seguir ayudándote con la importación de facturas o cualquier otro tema relacionado. ¿Quieres contarme más detalles sobre lo que estás intentando resolver?",
+          "created_at": "2026-01-28T12:53:30.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472865797097",
+      "created_at": "2026-01-28T18:52:51.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 6,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Cierres Contables-Asiento de ajuste por Inflación"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-28T18:52:51.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-28T18:52:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-28T18:53:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Contabilidad",
+          "created_at": "2026-01-28T18:53:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué podemos ayudarte?",
+          "created_at": "2026-01-28T18:53:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ajuste por inflación",
+          "created_at": "2026-01-28T18:53:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para realizar el ajuste por inflación de forma automática debemos ir al módulo Contabilidad, botón cierres contables y seleccionar \"ajuste por inflación. Para ver el procedimiento paso a paso hace clic en este articulo 👇 [App: Article Inserter]",
+          "created_at": "2026-01-28T18:53:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolviste la duda ?",
+          "created_at": "2026-01-28T18:53:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-28T18:53:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T18:53:32.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "puedo empezar a facturar sin haber hecho la carga de saldos inciales?",
+          "created_at": "2026-01-28T18:53:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés empezar a facturar en Colppy sin haber realizado previamente la carga de saldos iniciales en contabilidad. Una vez que te registrás y cargás tus datos básicos, ya es posible emitir facturas, registrar cobranzas y pagos; todo se refleja automáticamente en la contabilidad. La carga de saldos iniciales es importante para que la información contable sea precisa, pero no es un requisito obligatorio para comenzar a facturar en la plataforma. Source: Colppy para PyMEs - Sistema de Gestión Contable",
+          "created_at": "2026-01-28T18:54:01.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-28T18:54:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ok!",
+          "created_at": "2026-01-28T18:54:18.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Perfecto, quedo a tu disposición si necesitas más ayuda o tienes alguna otra consulta.",
+          "created_at": "2026-01-28T18:54:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-28T18:54:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-28T18:54:27.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472860000979",
+      "created_at": "2026-01-28T12:27:09.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Primeros pasos en tu empresa",
+          "created_at": "2026-01-28T12:27:09.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Empecemos con las primeras cargas! Agregar Clientes y Proveedores Configuración de cuentas en el módulo de Tesorería Carga de saldos iniciales Carga de facturas de Compra y Venta Ordenes de pago y Recibos de cobranzas En el siguiente articulo está el instructivo con el paso a paso para cada uno de estos puntos: [App: Article Inserter]",
+          "created_at": "2026-01-28T12:27:11.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Querés saber más sobre las primeros cargas en tu empresa?",
+          "created_at": "2026-01-28T12:27:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-28T12:27:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T12:27:36.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "necesito borrar una factura X que hice de prueba",
+          "created_at": "2026-01-28T12:28:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya la elimine",
+          "created_at": "2026-01-28T12:28:11.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "pero no quiero que este en la cuenta corriente",
+          "created_at": "2026-01-28T12:28:20.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para que la factura no aparezca más en la cuenta corriente, necesitas completar el proceso de eliminación: Ve al cliente donde está la factura Busca la factura en la cuenta corriente y ábrela Cambia el estado a Anulado y guarda Una vez anulada, haz clic derecho sobre la factura y selecciona \"Eliminar Facturas/Cobranzas Anuladas\" Esto eliminará completamente el registro de la cuenta corriente. Si la factura tenía pagos aplicados, primero tendrías que desaplicar esos pagos antes de poder anularla. Sources: Anulación de documentos de Clientes Eliminar documentos anulados de proveedores",
+          "created_at": "2026-01-28T12:28:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-28T12:28:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si, gracias!",
+          "created_at": "2026-01-28T12:30:46.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Me alegra haber podido ayudarte. Si necesitas algo más, aquí estoy para asistirte.",
+          "created_at": "2026-01-28T12:30:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-28T12:30:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-28T12:30:55.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472859985051",
+      "created_at": "2026-01-28T12:25:04.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Primeros pasos en tu empresa",
+          "created_at": "2026-01-28T12:25:04.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Empecemos con las primeras cargas! Agregar Clientes y Proveedores Configuración de cuentas en el módulo de Tesorería Carga de saldos iniciales Carga de facturas de Compra y Venta Ordenes de pago y Recibos de cobranzas En el siguiente articulo está el instructivo con el paso a paso para cada uno de estos puntos: [App: Article Inserter]",
+          "created_at": "2026-01-28T12:25:06.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Querés saber más sobre las primeros cargas en tu empresa?",
+          "created_at": "2026-01-28T12:25:08.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-28T12:25:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T12:25:13.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "hice una factura x para probar como se veia el logo de la empresa y la quiero borrar",
+          "created_at": "2026-01-28T12:25:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "y que no quede registro",
+          "created_at": "2026-01-28T12:25:46.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si fue una factura en borrador , podés eliminarla: abrí la factura y con clic derecho elegí “Eliminar factura” (también la vas a ver desde Clientes → Resumen clientes → Facturas borrador). Si ya es factura electrónica (tiene CAE / impactó en AFIP), no se puede borrar ni modificar: se cancela con una nota de crédito electrónica . Si no es electrónica y ya la dejaste aprobada/cobrada , podés pasarla a Anulada (esto revierte los efectos contables), pero por normativa queda un registro en $0 con la leyenda “Anulada”, o sea que no desaparece “sin registro”. Para indicarte el camino exacto, decime: ¿es electrónica (con CAE) o no? ¿Y en qué estado está: borrador, aprobada o cobrada? Sources: ¿Cómo eliminar una factura en estado borrador? Nota de crédito parcial/al contado Estados de facturas de venta Anulación de documentos de Clientes",
+          "created_at": "2026-01-28T12:26:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "listo, la anule",
+          "created_at": "2026-01-28T12:26:44.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Perfecto, veo que anulaste la factura. ¿Hay algo más en lo que pueda ayudarte con respecto a las facturas o cualquier otro tema?",
+          "created_at": "2026-01-28T12:26:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-28T12:26:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-28T12:26:55.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472859953740",
+      "created_at": "2026-01-28T12:20:50.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot",
+        "Mod Tab"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-28T12:20:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-28T12:20:53.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-28T12:21:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Tablero",
+          "created_at": "2026-01-28T12:21:31.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En la pantalla de inicio de tu empresa en Colppy, en el tablero, se exponen en forma gráfica los indicadores principales de la situación económica y financiera de tu empresa. -Total ventas del mes -Total compras del mes -Facturas por cobrar -Facturas por pagar Además se visualizan los 4 gráficos que representan los resultados de tu empresa: -Ingresos y Gastos -Cajas y Bancos -Facturas: por Cobrar y por Pagar -Distribución de Gastos ​ Para conocer el detalle de como se alimentan los gráficos ingresa a este articulo de ayuda [App: Article Inserter]",
+          "created_at": "2026-01-28T12:21:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿ Pudiste resolver la duda?",
+          "created_at": "2026-01-28T12:21:33.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-28T12:21:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-28T12:21:39.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Carga el logo de la empresa, y para ver como salia en la factura hice una factura X, cuando imprimo no esta el logo",
+          "created_at": "2026-01-28T12:22:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para que el logo aparezca en las facturas, necesitas configurarlo correctamente en Datos Generales del módulo de configuración. El logo debe: Estar en formato .jpg o .gif Tener un tamaño máximo de 20mm de alto x 50mm de ancho Guardarse haciendo clic en \"Guardar Logo\" Importante : Este logo aparece en facturas electrónicas, recibos, pagos, remitos X y presupuestos. Para facturas no electrónicas, si quieres ver el logo tienes que usar la opción \"Presupuesto\" al imprimir, no la opción \"Factura\". Verifica que hayas guardado correctamente el logo en la configuración y usa la opción de impresión adecuada según el tipo de factura. Sources: Datos generales Impresión de facturas de venta",
+          "created_at": "2026-01-28T12:22:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-28T12:22:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si, listo!",
+          "created_at": "2026-01-28T12:24:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Me alegra saber que pudiste resolverlo. Quedo a tu disposición si necesitas más ayuda.",
+          "created_at": "2026-01-28T12:24:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-28T12:24:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-28T12:24:45.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472850439984",
+      "created_at": "2026-01-27T18:38:24.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Primeros pasos en tu empresa",
+          "created_at": "2026-01-27T18:38:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Empecemos con las primeras cargas! Agregar Clientes y Proveedores Configuración de cuentas en el módulo de Tesorería Carga de saldos iniciales Carga de facturas de Compra y Venta Ordenes de pago y Recibos de cobranzas En el siguiente articulo está el instructivo con el paso a paso para cada uno de estos puntos: [App: Article Inserter]",
+          "created_at": "2026-01-27T18:38:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Querés saber más sobre las primeros cargas en tu empresa?",
+          "created_at": "2026-01-27T18:38:28.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-27T18:38:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-27T18:38:41.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "que cuenta contable a los clientes? es 410100Venta de bienes?",
+          "created_at": "2026-01-27T18:39:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Exacto, la cuenta 410100 es para ventas de bienes. Para clientes, la cuenta contable que se usa por defecto es la de \"Créditos por Ventas\" que ya viene configurada cuando empezás a usar la plataforma. Si vendés servicios en lugar de bienes, usarías la cuenta 410200. Sources: Importar facturas de venta desde la solapa Importación de Facturas Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2026-01-27T18:39:15.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-27T18:39:15.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "para cada cliente tengo que indicar cuenta de ingresos",
+          "created_at": "2026-01-27T18:40:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "No es obligatorio configurar una cuenta de ingresos específica para cada cliente. El campo \"Cuenta de ingresos\" que ves en la pantalla es opcional. Si no lo completás, el sistema usará las cuentas de ingresos por defecto que ya están configuradas (como 410100 para venta de bienes o 410200 para servicios). Solo necesitás configurar una cuenta de ingresos específica si querés que las ventas a ese cliente en particular se registren en una cuenta contable diferente a la estándar. Para la mayoría de casos, podés dejarlo vacío y usar las cuentas por defecto. Source: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy",
+          "created_at": "2026-01-27T18:40:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-27T18:40:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si, ok!",
+          "created_at": "2026-01-27T18:40:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Perfecto, quedo a disposición para cualquier otra consulta que tengas.",
+          "created_at": "2026-01-27T18:40:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-27T18:40:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-27T18:40:59.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472849969799",
+      "created_at": "2026-01-27T18:08:03.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 5,
+      "tags": [
+        "Chat-Bot",
+        "nuevo cliente"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Primeros pasos en tu empresa",
+          "created_at": "2026-01-27T18:08:03.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Empecemos con las primeras cargas! Agregar Clientes y Proveedores Configuración de cuentas en el módulo de Tesorería Carga de saldos iniciales Carga de facturas de Compra y Venta Ordenes de pago y Recibos de cobranzas En el siguiente articulo está el instructivo con el paso a paso para cada uno de estos puntos: [App: Article Inserter]",
+          "created_at": "2026-01-27T18:08:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Querés saber más sobre las primeros cargas en tu empresa?",
+          "created_at": "2026-01-27T18:08:07.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-27T18:08:19.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-27T18:08:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy agregando clientes y me borra lo anteriores que cargo",
+          "created_at": "2026-01-27T18:08:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si al cargar clientes “se te borra lo anterior”, muchas veces pasa porque se está importando de forma masiva y algunos datos se pisan por cómo vienen en el archivo (por ejemplo, si repetís el mismo identificador/código). Para ubicar bien qué está pasando, decime: ¿Los estás cargando “Nuevo cliente” (manual) o con importación .CSV? ¿Qué mensaje exacto te aparece (si aparece alguno) y en qué paso se “borra”? Si es por importación .CSV, revisá esto antes de importar: Que el archivo sea .CSV y estés subiendo el correcto. Que cada registro tenga un identificador único (no repetido). Si ya importaste y quedó mal, no se puede deshacer en forma masiva: hay que corregir o borrar registro por registro. Sources: Crear o modificar un cliente Importar clientes o proveedores",
+          "created_at": "2026-01-27T18:08:47.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy haciendo una carga manual",
+          "created_at": "2026-01-27T18:09:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En carga manual, al guardar un cliente no debería “borrarte” los anteriores: lo normal es que queden todos en la lista de “Gestión de clientes”. Para asegurarte de que el alta se guarda bien, probá esto: Andá a Clientes > Gestión de clientes > Nuevo cliente . Completá los obligatorios: Razón social, Nombre y Condición de IVA . Guardá y volvé a “Gestión de clientes” para ver si aparece en la lista. Para ubicar qué está pasando: ¿en qué momento “se borra” (antes de guardar, al guardar, o cuando volvés al listado)? Y contame si ves algún mensaje de error exacto en pantalla (tal cual aparece). Sources: Crear o modificar un cliente Gestión de clientes",
+          "created_at": "2026-01-27T18:09:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no hay cartel de error",
+          "created_at": "2026-01-27T18:09:29.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya me paso 2 veces",
+          "created_at": "2026-01-27T18:09:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En carga manual, al guardar un cliente no debería borrarse lo que ya cargaste: los clientes quedan en “Gestión de clientes”. Para chequearlo rápido, probá este recorrido: Clientes → Gestión de clientes → “Nuevo cliente”. Completá los 3 obligatorios: Razón social, Nombre y Condición de IVA. Guardá y volvé a “Gestión de clientes” para ver si aparece en el listado. Como no te aparece cartel de error, necesito 2 datos para ubicarlo: ¿Se “borra” antes de guardar, al guardar, o cuando volvés al listado? ¿Estás creando un cliente nuevo, o entrando a uno existente y modificándolo? Source: Crear o modificar un cliente",
+          "created_at": "2026-01-27T18:09:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy cargando nuevo cliente, guardo lo veo y cuando cargo uno nuevo se borra",
+          "created_at": "2026-01-27T18:10:06.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si lo ves guardado y cuando cargás otro “desaparece”, lo primero es revisar que no esté quedando como Inactivo (en ese caso no se borra, solo deja de verse si estás filtrando Activos). Probá esto: Andá a Clientes > Gestión de clientes. En el filtro, alterná entre Activos e Inactivos y buscá el cliente por Nombre / Razón Social / CUIT / Email. Si aparece como inactivo, entrá al cliente > pestaña “Otra información” y marcá “Activo: Sí”, y guardá. Al crear el cliente, con completar Razón social, Nombre y Condición de IVA ya debería guardarse bien. Para ubicarlo mejor: ¿al cargar el segundo cliente estás usando “Nuevo cliente” o entrás sin querer al cliente anterior y lo editás? Sources: Crear o modificar un cliente Gestión de clientes",
+          "created_at": "2026-01-27T18:10:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "no tengo ningun cliente en inactivo",
+          "created_at": "2026-01-27T18:11:20.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si no están en “Inactivos”, entonces no se están borrando: lo más probable es que estés editando el mismo registro en vez de crear uno nuevo (por ejemplo, quedándote dentro del cliente anterior y cambiando sus datos). Probá este control rápido para asegurarte de que cada alta es un cliente distinto: Entrá a Clientes → Gestión de clientes . Hacé clic en el botón Nuevo cliente (no selecciones ninguno de la lista de la izquierda). Completá Razón social , Nombre y Condición de IVA y tocá Guardar . Volvé a la lista y buscá por Nombre / Razón Social / Email / CUIT para confirmar que quedó. Decime una cosa: cuando cargás el “segundo” cliente, ¿ves la lista de clientes a la izquierda y apretás “Nuevo cliente”, o entrás a un cliente de la lista y cambiás los datos? Sources: Crear o modificar un cliente Gestión de clientes",
+          "created_at": "2026-01-27T18:11:34.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Fer, ¿Cómo estas?",
+          "created_at": "2026-01-27T18:12:40.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Te comento que te sucede es que estas \"sobre escribiendo\" los clientes, te detallo el procedimiento: 1. Cargar todos los datos del cliente 2. Seleccionar guardar Para crear un nuevo cliente: 1. Debes seleccionar nuevo cliente (si vos no seleccionas nuevo cliente y borras los datos escritos, pones los nuevos y guardas estas sobre escribiendo el cliente) ​ ¿Se entiende el procedimiento Fer? ​",
+          "created_at": "2026-01-27T18:17:10.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si! gracias Cami!",
+          "created_at": "2026-01-27T18:19:34.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "De nada Fer. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2026-01-27T18:37:19.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-27T18:37:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-27T18:37:32.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472827039166",
+      "created_at": "2026-01-26T12:26:25.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 3,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Nuevo plan de cuentas",
+        "plan de cuentas",
+        "Mod Cfg-Logo",
+        "remitos"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Quiero configurar mi empresa",
+          "created_at": "2026-01-26T12:26:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Bienvenido a Colppy! 🎉 Para empezar a configurar tu empresa, debés realizar los siguientes pasos: Verifica los datos registrados de tu empresa en Configuración > Datos Generales Plan de cuentas y su configuración. Configuración de factura electrónica. Invitar a usuarios. En caso de dudas, aquí te dejamos el instructivo con más información: [App: Article Inserter]",
+          "created_at": "2026-01-26T12:26:27.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Definir el plan de cuentas",
+          "created_at": "2026-01-26T12:26:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Desde Colppy tenes dos opciones para trabajar tu plan de cuenta: El sistema ya tiene configurado un plan de cuentas genérico, diseñado por nuestro grupo de contadores para que puedas utilizar la plataforma. Lo podes ver en el módulo Contabilidad y si necesitas modificarlo para que se ajuste a las necesidades de tu negocio, te explicamos como hacerlo en este link 👈 ​ Si tenés tu propio plan de cuentas, el sistema te permite importarlo. Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-01-26T12:26:33.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste configurar el plan de cuentas?",
+          "created_at": "2026-01-26T12:26:34.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-26T12:26:41.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-26T12:26:42.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola! estoy armando nuestro plan de cuentas en base al plan de cuentas que tiene nuestro contador. Necesito saber antes de continuar si esta bien lo que estoy haciendo",
+          "created_at": "2026-01-26T12:27:19.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, vas bien en encarar el plan de cuentas en base al de tu contador, pero hay 2 chequeos clave antes de seguir para evitar tener que rehacer todo. Primero, asegurate de que “estén todas las cuentas” y que el plan quede completo antes de cargar movimientos. Si después necesitás volver a cargar un nuevo plan, tendrías que eliminar todo lo cargado. Si lo estás importando por CSV, revisá estas reglas porque suelen trabar la importación o dejar el plan mal armado: • No usar caracteres especiales. • No dejar filas en blanco ni borrarlas. • No repetir nombres de cuentas, títulos ni códigos. • Elegir bien el “tipo de cuenta” (impacta en funciones internas). Si querés, pegame 3 - 5 cuentas como ejemplo (código, nombre, tipo y a qué título van) y te digo qué revisar antes de avanzar. Source: Plan de cuentas",
+          "created_at": "2026-01-26T12:27:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-26T12:27:34.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si necesitas más ayuda con la configuración de tu plan de cuentas, estoy aquí para asistirte. ¿Quieres compartir algunos ejemplos de cuentas para que pueda ayudarte a revisarlas?",
+          "created_at": "2026-01-26T12:31:35.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por la captura, lo que estás armando se ve bien encaminado: estás respetando la lógica de títulos (marcados como “ES TITULO”) y luego las cuentas con código numérico debajo de cada título (por ejemplo Activo → Activo Corriente → Disponibilidades → Cajas/Bancos). Antes de seguir, te conviene chequear estos puntos para que después no tengas que rehacer: Que estén todas las cuentas que vas a usar, antes de cargar movimientos (si después tenés que volver a cargar un plan nuevo, hay que eliminar lo ya cargado). Que no haya nombres, títulos o códigos repetidos . Que el Tipo de cuenta sea el correcto en cada cuenta (impacta en funcionalidades internas). Evitar caracteres especiales y no dejar filas en blanco ni borrarlas. Si tu idea es importarlo: descargá el archivo modelo, completalo, guardalo en CSV , adjuntalo y el proceso puede demorar hasta 48 hs hábiles (llega aviso por email). Si querés, decime 3 - 5 filas específicas que te generen duda (con “Título / Nombre / Código / Tipo de cuenta”) y lo revisamos puntual. Source: Plan de cuentas",
+          "created_at": "2026-01-26T12:36:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Te sirvió esta respuesta?",
+          "created_at": "2026-01-26T12:36:50.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Fernanda, ¿Cómo estas? ​ ​Soy Camila del área de implementación de Colppy. Vi la captura que nos envias, ¿la carpeta de disponibilidades estaría dentro de la carpeta \"Activo corriente\"?",
+          "created_at": "2026-01-26T12:38:25.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Cami, como estas?",
+          "created_at": "2026-01-26T12:41:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "lo que hice, lo estoy haciendo en base a este plan de cuentas que me paso la contadora",
+          "created_at": "2026-01-26T12:42:13.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Fer ¿estas disponible para que te llame unos minutos y te explique como hacerlo?",
+          "created_at": "2026-01-26T12:43:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si! dale",
+          "created_at": "2026-01-26T12:45:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Cami, me podras indicar la clave para desproteger la hoja de excel? tengo que agregar en el medio una cuenta y no me deja",
+          "created_at": "2026-01-26T16:52:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Fer la hoja no se puede desproteger ni agregar filas porque rompe las formulas, en ese caso lo que podes hacer es copiar todo lo que hiciste hasta el momento en un archivo nuevo, copias y pegas todo junto como solo valores.",
+          "created_at": "2026-01-26T17:14:55.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "okis!!",
+          "created_at": "2026-01-26T17:32:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "graciass",
+          "created_at": "2026-01-26T17:32:19.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Cualquier otra duda o consulta estamos a disposición Fer. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2026-01-26T17:33:52.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-26T17:34:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-26T17:34:05.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Cami, Hay manera de ver como saldra en la factura el logo que agregue? y se puede agregar una marca de agua? Fernanda Ferreras☏ +54 911 3161 9000 ​ El lun, 26 ene 2026 a las 14:17, Camila de Colppy (< soporte@colppy.com >) escribió: Fer la hoja no se puede desproteger ni agregar filas porque rompe las formulas, en ese caso lo que podes hacer es copiar todo lo que hiciste hasta el momento en un archivo nuevo, copias y pegas todo junto como solo valores. Estamos aquí para ayudarte Responde directamente a este correo electrónico o a través de nuestro Messenger Colppy Con la tecnología de Intercom",
+          "created_at": "2026-01-26T18:21:21.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Fer, podes hacer una factura de prueba de tipo X y luego anularla para ver como sale el logo. Marca de agua por el momento no tenemos en la plataforma.",
+          "created_at": "2026-01-26T19:03:41.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Cami, buen dia! Subi el logo, pero las medidas me quedaron mal. Como hago para sacarlo y volver a subirlo?",
+          "created_at": "2026-01-27T14:00:24.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Fer, ¿Cómo estas? ​ Desde el módulo \"configuración\" vas a poder subir un nuevo logo",
+          "created_at": "2026-01-27T15:22:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Gracias Cami!",
+          "created_at": "2026-01-27T16:51:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Cami, consulta el diseño de columnas del remito se puede modificar? o el sistema admite solo ese diseño?",
+          "created_at": "2026-01-27T16:54:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Fer, el diseño actualmente no es customizable, es el único vigente en la plataforma.",
+          "created_at": "2026-01-27T17:39:08.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ok! gracias!!",
+          "created_at": "2026-01-27T17:40:45.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Nada que agradecer Fer. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2026-01-27T17:44:14.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472833116816",
+      "created_at": "2026-01-26T18:15:14.000Z",
+      "state": "closed",
+      "contact_email": "fernanda.ferreras@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot",
+        "Chat Duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Configuración Contadores",
+          "created_at": "2026-01-26T18:15:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Bienvenido a Colppy! 🎉 Para empezar a configurar tu estudio, debés realizar los siguientes pasos: Verifica los datos registrados de tu empresa en Configuración > Datos Generales Agrega tus empresas administradas Plan de cuentas y su configuración.",
+          "created_at": "2026-01-26T18:15:17.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, sigo aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215472827039166?view=List",
+          "created_at": "2026-01-26T19:07:27.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472791794796",
+      "created_at": "2026-01-23T02:54:41.000Z",
+      "state": "closed",
+      "contact_email": "sandinobaylon22@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Otro",
+      "contact_signed_up_at": "2026-01-23T02:48:05.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "API",
+        "Solicitud soporte API",
+        "Consultas-No responden",
+        "API"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola me gustaria solicitar mi clave API",
+          "created_at": "2026-01-23T02:54:41.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ sandinobaylon22@gmail.com El equipo volverá: 🕒 Mañana",
+          "created_at": "2026-01-23T02:54:45.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola , Espero que estés muy bien ​ Primero nos gustaria pasarte toda la información sobre la API y los alcance que tienen cada una de las provisiones y operaciones disponibles para que tu desarrollador pueda registrarse. ​ Página de registro: https://api.colppy.com/registro/ Página de Login: https://api.colppy.com/ ​ Y acá encontrarán toda la información sobre las provisiones: ​ https://colppy.atlassian.net/wiki/spaces/CA/pages/16318473/Listado+de+Provisiones+y+Operaciones+Disponibles ​ También te dejo el LINK del articulo que contiene los enlaces del ambiente de prueba y del ambiente de producción. El ID de la empresa Sandino Baylon es 108345. ​ Saludos!",
+          "created_at": "2026-01-23T12:29:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estas? ¿Pudiste ver mi mensaje?",
+          "created_at": "2026-01-26T13:36:27.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com Que tengas una buena jornada 😊",
+          "created_at": "2026-01-26T15:34:29.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-26T15:34:41.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-26T15:34:41.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472795082484",
+      "created_at": "2026-01-23T12:00:36.000Z",
+      "state": "closed",
+      "contact_email": "leila@nupa.com.ar",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-23T11:46:05.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Alta de Clientes y Proveedores"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-23T12:00:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-23T12:00:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-23T12:00:49.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-01-23T12:00:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-01-23T12:00:58.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buen dia, el problema que tengo es que quiero cargar unos nuevos clientes del extranjero que tienen factura E y no me deja vincular con afip cuando ingreso el cuit pais de ellos",
+          "created_at": "2026-01-23T12:01:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar Nuevo Cliente",
+          "created_at": "2026-01-23T12:02:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para dar de alta un nuevo cliente en Colppy tenes dos opciones: ​ Alta manual - Ir al módulo clientes > gestión de clientes > hacer clic en el botón de nuevo cliente. Te explicamos como hacerlo en este link 👈 Importación masiva por Excel -Esta funcionalidad permite importar de forma masiva tus clientes. Ir a módulo Clientes > gestión de clientes > Importar > Clientes Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-01-23T12:02:03.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste dar de alta tus clientes?",
+          "created_at": "2026-01-23T12:02:04.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-23T12:02:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-23T12:02:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "el problema que tengo es que quiero cargar unos nuevos clientes del extranjero que tienen factura E y no me deja vincular con afip cuando ingreso el cuit pais de ellos",
+          "created_at": "2026-01-23T12:02:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para cargar un cliente del extranjero y emitir factura tipo E, el campo CUIT debe completarse con el CUIT país correspondiente al país donde está radicada la empresa extranjera. Por ejemplo, para Uruguay sería 55-00000001-8. Este dato es necesario para que la información se informe correctamente a AFIP. Si el sistema no acepta el CUIT país, revisá que estés usando el formato correcto y el número asignado para ese país. Podés consultar el listado oficial de CUIT país en el sitio de AFIP: Listado de CUIT país . El resto de los campos (razón social, nombre, condición de IVA como \"Exento\", dirección, país, etc.) se completan igual que para cualquier cliente extranjero. Si el cliente está en Argentina pero necesita factura E, en el campo país seleccioná \"AAE - Tierra del fuego - Argentina\" para que actúe como cliente extranjero . Si seguís teniendo problemas para vincular el CUIT país, contá el mensaje de error exacto que ves para poder ayudarte mejor. Sources: ¿Cómo cargar un cliente o proveedor extranjero para factura de exportación? Emitir factura electrónica exportación E en Colppy",
+          "created_at": "2026-01-23T12:02:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-23T12:02:49.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si aún necesitas ayuda con la carga de clientes extranjeros y la vinculación con AFIP, estoy aquí para asistirte. ¿Podrías compartir más detalles sobre el problema que estás enfrentando o el mensaje de error que recibes?",
+          "created_at": "2026-01-23T12:06:50.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "El mensaje “No se encontró un contacto asociado a ese CUIT” aparece porque la función “Buscar en AFIP” solo funciona con CUITs de personas o empresas registradas en Argentina. Los CUIT país, como el 55-00000220-7 para clientes extranjeros, no están asociados a registros en AFIP, por lo que no se puede obtener información automáticamente. Para cargar un cliente extranjero y emitir factura E, debés ingresar el CUIT país manualmente y completar el resto de los datos (razón social, dirección, país, etc.) sin usar la búsqueda en AFIP. Es normal que la búsqueda no arroje resultados con CUIT país, pero podés continuar con la carga manual y emitir la factura E correctamente. Sources: ¿Cómo cargar un cliente o proveedor extranjero para factura de exportación? Emitir factura electrónica exportación E en Colppy",
+          "created_at": "2026-01-23T12:09:14.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Fue útil esta información?",
+          "created_at": "2026-01-23T12:09:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Barbaro muchas gracias",
+          "created_at": "2026-01-23T12:09:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Me alegra saber que la información fue útil. Quedo a tu disposición para cualquier otra consulta que tengas.",
+          "created_at": "2026-01-23T12:09:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-23T12:10:04.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-23T12:10:05.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472783566635",
+      "created_at": "2026-01-22T15:56:20.000Z",
+      "state": "closed",
+      "contact_email": "camila.lagoa@colppy.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-22T14:43:15.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Contacto OB",
+        "Chat Duplicado"
+      ],
+      "parts": [
+        {
+          "author_type": "admin",
+          "body": "Hola Fernanda, ¿Cómo estás? Según lo conversado telefónicamente, te dejo toda la información necesaria para la correcta implementación de las empresas Textil Sarsano y TESSILE ARGENTINA SA en Colppy ​ . ​ En este email vas a encontrar la hoja de ruta que será tu guía, junto con mi ayuda, para realizar las configuraciones iniciales y cargar los comprobantes. Lo primero a definir es el plan de cuenta, si van a usar el de Colppy que ya esta cargado o van a importar su propio plan de cuentas, ya que la cuenta no debe tener movimientos si desean realizar esto ultimo. Quedo a disposición ante cualquier consulta o duda que tengas. ​ Para comenzar debes seguir estos pasos: 1- Configuraciones iniciales Hace clic en este link , el cual te llevará a una hoja de ruta con los pasos a seguir, debes generar una copia de la misma, Archivo > Hacer una copia Sino podes descargar directamente el archivo Excel adjunto en esta conversación También vas a poder ir registrando el grado de avance para que al terminarlo continúes con el paso 2 2 - Comencemos con la generación de comprobantes. En la misma hoja de ruta tenes la hoja “2-Carga de comprobantes” para comenzar a cargar tus comprobantes de compra y de venta, cobros y pagos, y descargar reportes Consejos extra: -Anotate en nuestra capacitación \"Configuración inicial de tu cuenta en Colppy\" que brindamos los Martes de 15 a 16hs link -Inscribite a las capacitaciones por módulos que brinda Colppy desde este calendario Por favor, nos confirmas que viste este mensaje para empezar con la implementación. 👇 Responde “Listo” o “Arranco ahora” así te acompañamos en cada paso.",
+          "created_at": "2026-01-22T15:56:20.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila, muchas gracias! Recibido. Te consulto para la carga de proveedores, para que en cada caso se efectúen las retenciones correctas debo indicar en la carga del mismo que retención corresponde o se hace masivamente después? Por otro lado, te consulto como se baja el padrón de ARBA para que retenga y perciba como corresponde en cada cliente o proveedor? Muchas gracias! Saludos Fernanda Ferreras☏ +54 911 3161 9000 ​ El jue, 22 ene 2026 a las 12:56, Soporte (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-22T16:55:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Duplicado, sigo aca https://app.intercom.com/a/inbox/j7l53tgt/inbox/admin/8426271/conversation/215472782314471?view=List",
+          "created_at": "2026-01-22T18:02:44.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-22T18:03:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-22T18:03:05.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472780087775",
+      "created_at": "2026-01-22T12:40:32.000Z",
+      "state": "closed",
+      "contact_email": "consultoriaintegral.mk@gmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-19T13:55:32.000Z",
+      "days_since_signup": 2,
+      "tags": [
+        "inventario"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Buen dia Camila Necesito ayuda para actualizar el inventario de productos tengo ya los ítems cargados pero quiero corregir la cantidad de los mismos Gracias El mar, 20 ene 2026 a las 10:41, Colppy de Colppy (< soporte@colppy.com >) escribió: Califica la conversación Con la tecnología de Intercom",
+          "created_at": "2026-01-22T12:40:32.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estas? ​ ​Para actualizar el stock de los productos de inventario que ya tienes cargados en Colppy, debes realizar un Ajuste de Inventario. El proceso es el siguiente: Ingresa al módulo de Inventario y haz clic en el botón \"Agregar\", luego selecciona \"Ajustes de Inventario\". Se abrirá una ventana donde debes completar la información: • Fecha contable (puedes colocarla manualmente o con el calendario). • Descripción del ajuste a realizar. • Selección de ítems: puedes buscar por código o por descripción del producto. Para modificar la cantidad: • Ingresa la cantidad deseada. Si quieres aumentar el stock, coloca el número positivo; si quieres disminuirlo, usa el signo negativo (“-”). Si tu empresa maneja múltiples depósitos, selecciona el depósito correspondiente. Este procedimiento te permite actualizar la cantidad de cada producto según lo necesites.",
+          "created_at": "2026-01-22T12:47:40.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clarisimo ​ Gracias por tu atencion Cami ​ El jue, 22 ene 2026 a las 9:48, Camila de Colppy (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-22T16:07:30.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Nada que agradecer Gime. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2026-01-22T16:11:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-22T16:11:56.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-22T16:11:56.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472764999615",
+      "created_at": "2026-01-21T13:13:07.000Z",
+      "state": "closed",
+      "contact_email": "pruebacamilaprueba@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-20T13:33:44.000Z",
+      "days_since_signup": 0,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Ver donde ingresa, NO CERRAR EL CASO",
+          "created_at": "2026-01-21T13:13:07.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472765885117",
+      "created_at": "2026-01-21T13:52:53.000Z",
+      "state": "closed",
+      "contact_email": "pruebacamilaprueba@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-20T13:33:44.000Z",
+      "days_since_signup": 1,
+      "tags": [],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Prueba 2",
+          "created_at": "2026-01-21T13:52:53.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472764930250",
+      "created_at": "2026-01-21T13:09:43.000Z",
+      "state": "closed",
+      "contact_email": "pruebacamilaprueba@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-20T13:33:44.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Alta de Clientes y Proveedores"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-21T13:09:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-21T13:09:46.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-21T13:09:55.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-01-21T13:10:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-01-21T13:10:01.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Como cargar clientes",
+          "created_at": "2026-01-21T13:10:09.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar Nuevo Cliente",
+          "created_at": "2026-01-21T13:10:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para dar de alta un nuevo cliente en Colppy tenes dos opciones: ​ Alta manual - Ir al módulo clientes > gestión de clientes > hacer clic en el botón de nuevo cliente. Te explicamos como hacerlo en este link 👈 Importación masiva por Excel -Esta funcionalidad permite importar de forma masiva tus clientes. Ir a módulo Clientes > gestión de clientes > Importar > Clientes Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-01-21T13:10:17.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste dar de alta tus clientes?",
+          "created_at": "2026-01-21T13:10:18.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-21T13:10:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-21T13:10:23.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hablar con una persona",
+          "created_at": "2026-01-21T13:10:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Claro, te voy a pasar con alguien de nuestro equipo. Mientras tanto, ¿podrías contarme más detalles sobre tu consulta para que puedan ayudarte de manera más rápida y precisa?",
+          "created_at": "2026-01-21T13:10:45.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "espero al agente",
+          "created_at": "2026-01-21T13:11:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Prueba, ¿Cómo estas? ​ ​",
+          "created_at": "2026-01-21T13:11:34.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472764893948",
+      "created_at": "2026-01-21T13:07:42.000Z",
+      "state": "closed",
+      "contact_email": "pruebacamilaprueba@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-20T13:33:44.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Cli-Importación de facturas de venta modelo nuevo"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-21T13:07:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-21T13:07:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-21T13:07:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-01-21T13:08:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-01-21T13:08:23.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "como cargar una factura",
+          "created_at": "2026-01-21T13:08:34.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2026-01-21T13:08:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Clientes > Gestión de clientes > elegir el cliente con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Clientes > Gestión de clientes > Importar > Facturas (modelo nuevo) ​ -Mis comprobantes emitidos desde AFIP [App: Article Inserter] -Emitir masivamente facturas a clientes ​ [App: Article Inserter]",
+          "created_at": "2026-01-21T13:08:43.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste agregar tus facturas?",
+          "created_at": "2026-01-21T13:08:44.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si, agregue facturas",
+          "created_at": "2026-01-21T13:09:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Genial! Me alegra haberte ayudado, cualquier otra duda o consulta estamos a disposición. ​ ¡No te olvides de agregar nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hacé clic en el siguiente enlace: ​ Centro de ayuda Colppy Que tengas un excelente día😀",
+          "created_at": "2026-01-21T13:09:01.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472678248270",
+      "created_at": "2026-01-14T18:39:21.000Z",
+      "state": "closed",
+      "contact_email": "administracion@grupodinax.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": "Administrativo / Contador de una empresa",
+      "contact_signed_up_at": "2026-01-14T14:10:48.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Consulta para ventas",
+        "Consultas-No responden",
+        "Consultas-No responden"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "hola se podran comunicar con nosotros?",
+          "created_at": "2026-01-14T18:39:21.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Las respuestas te llegarán aquí y por correo electrónico: ✉️ administracion@grupodinax.com Nuestro tiempo de respuesta habitual 🕒 Unas horas",
+          "created_at": "2026-01-14T18:39:25.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estas? Te pido disculpas por la demora en responder, ¿para ayudarte mejora podrías indicarme cual es el inconveniente?",
+          "created_at": "2026-01-19T13:43:04.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buen día, ¿Cómo estas? ¿Pudiste ver mi mensaje?",
+          "created_at": "2026-01-20T11:49:29.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola, ¿Cómo estás? Dado que no tuvimos respuesta, procederemos a cerrar este chat pero podes escribirnos siempre que lo necesites, desde el botón Ayuda > \"Envianos un mensaje\" o bien al correo soporte@colppy.com Que tengas una buena jornada 😊",
+          "created_at": "2026-01-20T17:18:47.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-20T17:18:59.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-20T17:19:00.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472739510839",
+      "created_at": "2026-01-19T18:22:50.000Z",
+      "state": "closed",
+      "contact_email": "consultoriaintegral.mk@gmail.com",
+      "contact_es_contador": true,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-19T13:55:32.000Z",
+      "days_since_signup": 0,
+      "tags": [
+        "Mod Cfg-Factura Electrónica-"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hola buenas tardes Les escribimos desde el Estudio Contable Tadey desde la ciudad de Neuquén Solicito ayuda para dar de alta al punto 0003 de facturación web del contribuyente BAEZ MAXIMILIANO cuit 23467963449 Quedo atenta Gracias Gimena",
+          "created_at": "2026-01-19T18:22:50.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Hola Gimena, ¿Cómo estas? No se realizo la delegación, te voy a pedir por favor que la generes nuevamente y me envíes el formulario, te dejo el LINK del articulo que explica como realizarlo correctamente.",
+          "created_at": "2026-01-19T19:18:33.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Hola Camila acabo de generar un punto de venta nuevo el número 0002 te adjunto la constancia te agradeceria que me ayudes para poder facturar con ese punto desde el sistema gracias Gimena ​ El lun, 19 ene 2026 a las 16:18, Camila de Colppy (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-19T19:36:22.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Gime, la parte que necesito que realices nuevamente es que generes la relación desde ARCA, no el punto de venta. Te muestro una imagen del instructivo desde donde necesito que hagas. Y luego, necesito que me envíes el formulario que te muestro en esta imagen ​",
+          "created_at": "2026-01-19T19:50:57.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buen dia Camila Ahi va el F-3283 Gracias ​ El lun, 19 ene 2026 a las 16:51, Camila de Colppy (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-20T11:37:00.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Buen día Gime. Ahora si me aparece la delegación pero esta incorrecta, ustedes seleccionaron otro servicio, te muestro en esta imagen Y deberían seleccionar \"factura electrónica\" ​ Te pido por favor que lo vuelvas a realizar siguiendo el instructivo enviado y una vez realizado me envíes nuevamente el formulario. ​",
+          "created_at": "2026-01-20T12:15:37.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ahi va Gracias por tu atencion ​ El mar, 20 ene 2026 a las 9:15, Camila de Colppy (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-20T12:28:08.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Excelente Gime, ahora si. Ya pude aceptar la delegación y crear el talonario dentro de Colppy con el punto de venta 2, que es el que me enviaste. Tene en cuenta que ARCA suele tardar hasta 24hs en confirmar la delegación, te aconsejo que en unas horas pruebes de facturar y cualquier inconveniente me avises para que lo pueda resolver. ​",
+          "created_at": "2026-01-20T13:12:53.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Gracias! que tengas excelente dia ​ El mar, 20 ene 2026 a las 10:13, Camila de Colppy (< soporte@colppy.com >) escribió: ​",
+          "created_at": "2026-01-20T13:34:05.000Z"
+        },
+        {
+          "author_type": "admin",
+          "body": "Nada que agradecer Gime. Cualquier otra duda o consulta estamos a disposición. Te agradezco si al finalizar la conversación puedes tomar unos segundos para calificar mi atención, esto hace que podamos mejorar cada día 😉. Para poder evaluarme, si tu consulta fue por mail, les llegara un mail a nombre de Benjamín. Si la conversación fue por chat, una vez que llega el cierre de la misma, a los pocos segundos aparece un mensaje de Benjamín para la evaluación. Que termines bien la jornada 😊.",
+          "created_at": "2026-01-20T13:41:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Camila?",
+          "created_at": "2026-01-20T13:41:36.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-20T13:41:36.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472672928844",
+      "created_at": "2026-01-14T13:17:37.000Z",
+      "state": "closed",
+      "contact_email": "julietayvanosky@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-09T16:18:54.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Alta de Clientes y Proveedores"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-14T13:17:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-14T13:17:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-14T13:17:48.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2026-01-14T13:17:57.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2026-01-14T13:17:58.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar un proveedor",
+          "created_at": "2026-01-14T13:18:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para dar de alta un nuevo Proveedor en Colppy tenes dos opciones: ​ Alta manual - Ir al módulo Proveedores > gestión de proveedores > hacer clic en el botón de nuevo proveedor. Te explicamos como hacerlo en este link 👈 Importación masiva por Excel -Esta funcionalidad permite importar de forma masiva tus proveedores. Ir a módulo Proveedores > gestión de proveedores > Importar > proveedores Te explicamos como hacerlo en este link 👈",
+          "created_at": "2026-01-14T13:18:13.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Diste de alta a tu proveedor?",
+          "created_at": "2026-01-14T13:18:14.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-14T13:18:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-14T13:18:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenos dias, quisiera saber si hay forma de configurar a un proveedor con su cuenta correspondiente? cosa que cuando le agreguemos facturas salga automaticamente? noto que por defecto la mayoria dice \"mercaderias\"",
+          "created_at": "2026-01-14T13:19:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Sí, podés configurar una cuenta específica para cada proveedor. Acá te explico cómo: Para crear una nueva cuenta de gastos: Andá al módulo Contabilidad Hacé clic en Cuenta y después Agregar cuenta En tipo de cuenta seleccioná Gasto Para asignarla al proveedor: Andá al proveedor en cuestión Entrá en la solapa Otra información Seleccioná la cuenta de gasto que creaste Guardá los cambios De esta forma, cuando cargues facturas para ese proveedor, automáticamente va a usar la cuenta que configuraste en lugar de \"mercaderías\". También podés cambiar la cuenta predeterminada general en el módulo de configuración, solapa clientes/proveedores, donde dice \"cuenta proveedores por defecto\". Sources: Configurar cuentas contables de Clientes/Proveedores en mi empresa de Colppy Gestión de proveedores",
+          "created_at": "2026-01-14T13:19:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Te ha resultado útil?",
+          "created_at": "2026-01-14T13:19:43.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "si, gracias",
+          "created_at": "2026-01-14T13:23:24.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Me alegra saber que la información fue útil. Si necesitas más ayuda o tienes alguna otra consulta, estoy aquí para asistirte.",
+          "created_at": "2026-01-14T13:23:27.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-14T13:23:32.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-14T13:23:32.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472672741677",
+      "created_at": "2026-01-14T13:13:10.000Z",
+      "state": "closed",
+      "contact_email": "julietayvanosky@gmail.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-09T16:18:54.000Z",
+      "days_since_signup": 4,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cont-Retención Ganancias"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-14T13:13:10.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-14T13:13:12.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-14T13:13:21.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Proveedores",
+          "created_at": "2026-01-14T13:13:25.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En qué te puedo ayudar?",
+          "created_at": "2026-01-14T13:13:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Ingresar un pago con retenciones",
+          "created_at": "2026-01-14T13:13:37.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Primero debes verificar que el campo para el calculo de retención de ganancias este habilitado. en el modulo de configuración en la solapa Datos Impositivos se deberá tildar el checkbox de Agente de Retención de Imp. a las Ganancias Cargar una factura en cuenta corriente y seleccionar el régimen de Retención de Ganancias Agregar un Pago, tildar la factura, seleccionar el mismo régimen que se definió en la factura en el campo de la retención y hacer clic en el botón \"Calcular Podes consultar el procedimiento en el siguiente articulo 👇 [App: Article Inserter]",
+          "created_at": "2026-01-14T13:13:38.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Resolviste la duda ?",
+          "created_at": "2026-01-14T13:13:38.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Si, se resolvió",
+          "created_at": "2026-01-14T13:14:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¡Genial! Me alegra haberte ayudado, cualquier otra duda o consulta estamos a disposición. ​ ¡No te olvides de agregar nuestro Centro de Ayuda a tus favoritos y tenelo a mano siempre para ahorrar tiempo! Hacé clic en el siguiente enlace: ​ Centro de ayuda Colppy Que tengas un excelente día😀",
+          "created_at": "2026-01-14T13:14:06.000Z"
+        }
+      ]
+    },
+    {
+      "conversation_id": "215472580179136",
+      "created_at": "2026-01-07T14:47:05.000Z",
+      "state": "closed",
+      "contact_email": "soledad.serron@groovinads.com",
+      "contact_es_contador": false,
+      "contact_rol_wizard": null,
+      "contact_signed_up_at": "2026-01-06T14:09:29.000Z",
+      "days_since_signup": 1,
+      "tags": [
+        "Chat-Bot",
+        "Mod Cli-Factura de venta-Cuenta Corriente",
+        "Mod Cli-Importación de facturas de venta modelo nuevo"
+      ],
+      "parts": [
+        {
+          "author_type": "user",
+          "body": "Hacer una consulta",
+          "created_at": "2026-01-07T14:47:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Desde qué empresa estás realizando la consulta?",
+          "created_at": "2026-01-07T14:47:08.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Por favor, elegí el módulo sobre el cual queres realizar la consulta.",
+          "created_at": "2026-01-07T14:47:22.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Clientes",
+          "created_at": "2026-01-07T14:47:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿En que te puedo ayudar?",
+          "created_at": "2026-01-07T14:47:31.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Buenos días, queria consultar porque estoy teniendo poblemas para ingresar factura del cliente Equinox porque las anteriores se venian cargando como Factura B cuando en realidad son A y ahora me tira error en que el numero de tablero no lo tengo creado",
+          "created_at": "2026-01-07T14:48:52.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Agregar una factura",
+          "created_at": "2026-01-07T14:49:02.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "En Colppy tenes dos opciones para cargar tus facturas: ​ Agregar factura manual Debes ingresar a Clientes > Gestión de clientes > elegir el cliente con un clic > Agregar factura Te explicamos como hacerlo en este link 👈 ​ Importar Facturas desde Excel Podes realizar dos tipos de importaciones desde Clientes > Gestión de clientes > Importar > Facturas (modelo nuevo) ​ -Mis comprobantes emitidos desde AFIP [App: Article Inserter] -Emitir masivamente facturas a clientes ​ [App: Article Inserter]",
+          "created_at": "2026-01-07T14:49:03.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Pudiste agregar tus facturas?",
+          "created_at": "2026-01-07T14:49:04.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "Necesito más ayuda",
+          "created_at": "2026-01-07T14:49:26.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Contanos, ¿Cómo te podemos ayudar?",
+          "created_at": "2026-01-07T14:49:26.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "queria consultar porque estoy teniendo poblemas para ingresar factura del cliente Equinox porque las anteriores se venian cargando como Factura B cuando en realidad son A y ahora me tira error en que el numero de tablero no lo tengo creado",
+          "created_at": "2026-01-07T14:49:40.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Para corregir el tipo de factura de B a A, podés modificar las facturas anteriores si no están cobradas. Vas a Clientes > Gestión de clientes > seleccionás el cliente Equinox > hacés clic en la factura que querés cambiar > modificás el tipo de factura de B a A > guardás. Si las facturas ya están cobradas con recibos, no se pueden modificar hasta que desapliques los pagos primero. Para el error del número de talonario, necesito que me compartas el mensaje de error exacto que te aparece y qué estabas haciendo cuando ocurrió. Esto me va a ayudar a darte la solución específica. También podés intentar cargar la factura desde cero sin usar \"repetir factura\" para ver si el error persiste. Sources: Factura de venta en cuenta corriente multimoneda Factura de venta - En cuenta corriente ¿Cómo puedo modificar un comprobante de venta que ya cargue en Colppy?",
+          "created_at": "2026-01-07T14:49:54.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Te ha resultado útil?",
+          "created_at": "2026-01-07T14:49:54.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "de cualquier manera que la quiera cargar me salta un error que dice No tenés creado un talonario con el prefijo 0001 Agregá el talonario en el módulo Configuración, pestaña \"Talonarios\".",
+          "created_at": "2026-01-07T14:51:16.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "El error te aparece porque necesitás crear un talonario con el prefijo 0001. Te explico cómo hacerlo: Pasos para crear el talonario: Andá a Configuración > Talonarios Hacé clic en Nuevo Talonario Completá estos campos: • Descripción : ponele un nombre (ej: \"Facturas A\") • Prefijo : escribí 0001 • Número Desde y Número Hasta : definí el rango (ej: 1 a 99999) • Próximo Número : el número que querés para la próxima factura • Método de Numeración : elegí automática o manual • Tipo Comprobante : seleccioná Factura de Venta y después elegí letra A Guardá el talonario Una vez que tengas el talonario creado, vas a poder cargar las facturas A sin problemas. El sistema va a reconocer automáticamente el prefijo 0001 y te va a permitir facturar normalmente. Sources: Crear talonarios Configuración de Factura Electrónica Configuración Factura de Exportación E",
+          "created_at": "2026-01-07T14:51:30.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Responde eso a tu pregunta?",
+          "created_at": "2026-01-07T14:51:30.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "ya tengo el tablero creado para factura A y tengo las correlatividades",
+          "created_at": "2026-01-07T14:52:04.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si ya tenés el talonario creado para factura A con las correlatividades, pero seguís teniendo el error del prefijo 0001, revisá estos puntos: Verificá la configuración del talonario: Andá a Configuración > Talonarios Buscá tu talonario de factura A Confirmá que el prefijo sea exactamente \"0001\" (sin espacios) Asegurate que esté marcado como \"talonario por defecto\" Al cargar la factura: En el campo \"Nro Factura\" seleccioná específicamente el prefijo 0001 de la lista No uses \"repetir factura\" de facturas anteriores que tenían otro prefijo Si el talonario está bien configurado pero el error persiste, puede ser que estés seleccionando otro prefijo al momento de cargar la factura. El sistema necesita que elijas exactamente el prefijo 0001 que configuraste. Sources: Emitir una Factura Electrónica desde Colppy Configuración de Factura Electrónica Crear talonarios",
+          "created_at": "2026-01-07T14:52:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-07T14:52:22.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Veo que aún tienes dudas con el error del prefijo 0001 y la carga de facturas; lamento las molestias que esto te pueda estar causando. ¿Podrías contarme más detalles sobre lo que estás intentando hacer para que pueda ayudarte mejor?",
+          "created_at": "2026-01-07T14:56:24.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "estoy intentando cargar una factura y con ese cliente me sale ese error con los demas no he tenido problema",
+          "created_at": "2026-01-07T15:25:45.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Si el error del prefijo 0001 solo aparece con el cliente Equinox y no con otros, puede ser que ese cliente específico tenga alguna configuración particular o que haya una factura previa con ese número. Probá estos pasos: Cargá la factura desde cero - No uses \"repetir factura\" de facturas anteriores de ese cliente Verificá si ya existe ese número - Andá a Configuración > Talonarios y buscá si ese número de factura ya está usado para este cliente Seleccioná manualmente el prefijo - Al cargar la factura, asegurate de elegir específicamente el prefijo 0001 de la lista desplegable en el campo \"Nº Factura\" ¿Podrías contarme qué número de factura estás intentando usar y si aparece algún mensaje adicional cuando te da el error? Source: Emitir una Factura Electrónica desde Colppy",
+          "created_at": "2026-01-07T15:25:58.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Lamento que sigas teniendo problemas con la factura del cliente Equinox. ¿Podrías darme más detalles sobre el número de factura que intentas usar y cualquier otro mensaje que aparezca al momento del error?",
+          "created_at": "2026-01-07T15:30:02.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "sigue pasando lo mismo porque es por el tipo de factura el error seguramente porque tira B y en realidad tendria que sea A",
+          "created_at": "2026-01-07T15:30:42.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Exacto, el problema está en el tipo de factura. Si el cliente Equinox necesita facturas A pero el sistema está intentando usar el tipo B, tenés que verificar la configuración del cliente. Revisá estos puntos: En la ficha del cliente Equinox: Andá a Clientes > Gestión de clientes > seleccioná Equinox Verificá que su condición de IVA esté configurada correctamente (debe ser Responsable Inscripto para facturas A) Al cargar la factura: Seleccioná manualmente \"Tipo Factura: A\" en el desplegable No uses \"repetir factura\" de facturas anteriores que eran tipo B Asegurate de elegir el prefijo 0001 que corresponde a tu talonario de facturas A El sistema detecta automáticamente el tipo de factura según la configuración del cliente, pero si está mal configurado va a seguir sugiriendo tipo B. Una vez que corrijas la condición de IVA del cliente, debería permitirte cargar facturas A sin problemas. Sources: Emitir una Factura Electrónica desde Colppy Factura de venta en cuenta corriente multimoneda",
+          "created_at": "2026-01-07T15:30:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Es lo que buscabas?",
+          "created_at": "2026-01-07T15:30:55.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Veo que aún tienes dudas con la configuración del tipo de factura y el error del prefijo 0001; lamento las molestias que esto te pueda estar causando. ¿Podrías contarme más detalles sobre lo que estás intentando hacer para poder ayudarte mejor?",
+          "created_at": "2026-01-07T15:34:58.000Z"
+        },
+        {
+          "author_type": "user",
+          "body": "listo ya pude resolverlo, muchas gracias",
+          "created_at": "2026-01-07T15:39:56.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "Me alegra saber que pudiste resolverlo. Quedo a tu disposición para cualquier otra consulta que tengas.",
+          "created_at": "2026-01-07T15:40:00.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "¿Qué tal estuvo tu conversación con Colppy?",
+          "created_at": "2026-01-07T15:40:05.000Z"
+        },
+        {
+          "author_type": "bot",
+          "body": "[Conversation Rating Request]",
+          "created_at": "2026-01-07T15:40:05.000Z"
+        }
+      ]
+    }
+  ]
+}

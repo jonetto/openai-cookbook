@@ -1,7 +1,7 @@
 # Malén Baigorria — Coaching Summary
 
 _Last updated: 2026-03-04_
-_Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 2026), Granola meetings (2025–2026), calibration sessions, group meeting observations._
+_Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 2026), Granola meetings (2025–2026), calibration sessions, group meeting observations, feedforward session (Mar 4, 2026)._
 
 ## Leadership Profile
 
@@ -21,17 +21,19 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 
 ## Active Coaching Themes
 
-1. **Partner in standards, not just anxiety containment (PRIMARY)** — The central dynamic: Malén contains Juan's urgency ("baja a tierra," "que no te gane la ansiedad") but doesn't help him install the performance standards he's trying to create. She damps his energy without redirecting it. In group settings, she withdraws when co-designed plans are being deployed — silence, laptop, not visibly backing the shared direction. The team reads misalignment, Juan pushes harder alone, and the cycle reinforces. The ask: be a partner in raising the bar, not just in managing the CEO. Redirect his energy through systems rather than just containing it.
+1. **Partner in standards, not just anxiety containment (PRIMARY)** — Named explicitly in feedforward (Mar 4). Juan asked her to back co-designed standards in group settings rather than going silent, and to redirect his energy rather than just contain it. She received both asks. The underlying cause was also named: she retracts not from disagreement but from accumulated feeling of not being valued (see theme 7). The ask stands: be a partner in raising the bar, not just in managing the CEO. Redirect his energy through systems rather than just containing it.
 
 2. **From operational HR to strategic People leadership** — The gap between "novedades" and OKR-connected updates represents a broader shift needed: making People's strategic contribution visible to the leadership team. Juan asked for "Objetivos. Palancas. Y qué haces esta semana." — the coaching is about framing, not capability.
 
 3. **Owning the full compensation/rewards conversation** — She reflexively defers salary band questions to Rewards ("lo derivo a Rewards"). For Colppy-specific decisions (PM Growth exception, engineering band issues), she should own the recommendation end-to-end, using Rewards as input not as decision-maker.
 
-4. **Pacing and prioritization** — She's running too many parallel workstreams. The risk is that none get the depth they need. Juan should help her prioritize ruthlessly: what are the 2-3 things that matter most this quarter?
+4. **Pacing and prioritization** — She's running too many parallel workstreams. The risk is that none get the depth they need. Juan should help her prioritize ruthlessly: what are the 2-3 things that matter most this quarter? Feedforward agreement to build a People calendar should help here.
 
 5. **Closing the loop on engineering intervention** — She identified the retention risk proactively ("se van a ir todos"), scheduled 1:1s, and planned the alignment sequence. The coaching theme is: does the intervention produce a structural change, or does it remain diagnostic? Watch for follow-through to actual changes in how Alejandro and Jorge manage their teams.
 
-6. **Early intervention vs. escalation** — When issues arise between Juan and team members, her instinct has been to let the formal process handle it (compliance incident) rather than intervening early to mediate. The ask: come to Juan first, not to cover things up, but so they can course-correct together before situations escalate. **Mar 4 example:** She announced company-wide office closure (@channel) without consulting Juan first; he asked her to consult before such decisions; she agreed for next time while holding her ground on substance (safety, insurance).
+6. **Early intervention vs. escalation** — Named in feedforward. She held her ground on compliance process ("me até al proceso por ser la primera vez") but acknowledged the relationship cost. Juan reframed as a gift. Agreement: she comes to him first next time, for any person, not just him. **Mar 4 example:** Office closure @channel without consulting first; agreed to consult next time.
+
+7. **Recognition and validation (NEW — feedforward Mar 4)** — Malén named a recognition deficit: "he recibido mucha crítica tuya... no sé si estoy haciéndolo bien." First time she heard explicit positive recognition from Juan was in this session. This caused her to retract over time — "me hizo retrotraerme un poco." She also doesn't bring topics to their 1:1 (90% initiated by Juan) and doesn't ask for help ("soy muy de ir a resolver"). Juan's commitment: provide ongoing positive recognition, not wait for formal sessions. This theme reframes theme 1 — the withdrawal in group settings may be less about disagreement and more about not feeling valued enough to take the risk of speaking up.
 
 ## Growth Arc (this quarter)
 
@@ -46,7 +48,7 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 
 **What to watch for:** Overload. She's absorbing an enormous volume of work and also serving as the CEO's emotional containment system. If she starts dropping balls or her own morale dips ("siempre me queda gusto a poco" may be a signal), the issue might be capacity, not capability.
 
-**Coaching focus for next interaction (feedforward Mar 4):** The bilateral feedforward session is the opportunity to name the core dynamic — both feel unsupported by the other in mirror-image ways. Juan feels she doesn't back him in the room. She asks "¿en cuáles me dejás más sola?" Block 3 (how we work together) is where this converges. Goal: build an explicit agreement about visible co-ownership of standards they set together.
+**Post-feedforward focus (from Mar 4 onward):** The core dynamic was named — both feel unsupported in mirror-image ways. The surprise: her withdrawal is driven more by accumulated lack of recognition than by disagreement. Seven structural agreements were reached (see coaching_arc.md). Juan's immediate commitments: (1) provide ongoing positive recognition, (2) state expectations explicitly ("vara" documents), (3) model vulnerability on errors/learning publicly. Watch whether these three shifts change her behavior in the room.
 
 ## Watch Items
 
@@ -55,9 +57,11 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 - **Capacity vs. quality:** With engineering crisis + sales restructuring + PM hiring + objectives audit + culture work + benefits — is she maintaining depth or spreading thin?
 - **Rewards relationship:** Is she starting to own compensation recommendations for Colppy, or still deferring to Rewards on band exceptions?
 - **Her own OKRs:** "Faltaba creo que uno que no te dió calor" — are her objectives fully defined and tracked?
-- **Emotional load:** She's absorbing Juan's frustration regularly. Watch for signs of fatigue or disengagement.
-- **Open question for next 1:1:** "Del plan con ingeniería — ¿qué cambió concretamente después de las 1:1 que tuviste? ¿Qué necesitás de mí que no estés teniendo?"
-- **Office closure (Mar 4):** She announced @channel without consulting first; agreed to consult next time. Watch whether major operational decisions get aligned before company-wide communication.
+- **Emotional load:** She's absorbing Juan's frustration regularly. Watch for signs of fatigue or disengagement. The recognition deficit she named in the feedforward may be a symptom of this.
+- **Feedforward agreements execution (Mar 4+):** Seven structural agreements reached. Priority watch items: (1) Does she bring topics to the 1:1? (2) Does the People calendar get built? (3) Does Juan provide ongoing positive recognition? (4) Does she speak up more in group settings after receiving recognition? (5) Do they co-work on deliverables before deploying?
+- **Juan's commitments from feedforward:** Recognize publicly, state expectations explicitly, model vulnerability on errors. These are HIS deliverables — if they don't happen, the feedforward was performative.
+- **Open question for next 1:1:** "Del feedforward — ¿qué te quedó resonando? ¿Hay algo que no dijiste que te gustaría agregar?"
+- **Office closure (Mar 4):** She announced @channel without consulting first; agreed to consult next time.
 
 ## Materials on file
 
@@ -72,5 +76,6 @@ _Data sources: Slack DMs (June 2025 – March 2026), Fellow meetings (Jan–Feb 
 - Fellow: Sync Juan <> Malén — Feb 4, 2026 (note_id=67973669). Objectives review, excellence workshop, team buildings.
 - Slack DM history: D090ZE81A8H — continuous from June 2025 through March 2026.
 - History: [2026-03-04 — Office closure announcement](history/2026-Q1/2026-03-04.md) — @channel without consulting first; Juan's feedback; her agreement to consult next time.
+- Granola: Feedforward Juan ↔ Malén — Mar 4, 2026 ([meeting](https://notes.granola.ai/d/7b583dde-c4b9-4de7-b5b3-3c01e1cadae2)). Bilateral feedback session. Key outcome: recognition deficit named, 7 structural agreements, both vulnerable.
 - Granola meetings: Multiple sessions covering performance management, calibrations, benefits overhaul, engineering crisis, culture/values.
 - Job Description: Google Doc (pending import) — https://docs.google.com/document/d/1CbQzCl28u44qT3aQmhVNnAOFDt-9Y-Ov-sTTsCVEi-w/edit

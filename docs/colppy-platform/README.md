@@ -60,7 +60,7 @@ AWS Lambda repos: 20 (14 application + 6 infrastructure)
 | Repo | Path | Tech | Purpose |
 |------|------|------|---------|
 | app_root | `colppy/app_root/` | React, single-spa, Webpack | SPA shell, route registration |
-| mfe_authentication | `nubox-spa/colppy-app/mfe_authentication/` | React, Vite, Redux | Login form, session cookie |
+| mfe_authentication | `colppy/mfe_authentication/` | React, Vite, Redux | Login form, session cookie |
 | mfe_onboarding | `colppy/mfe_onboarding/` | React, Vite, Redux | Company setup wizard |
 | svc_settings | `colppy/svc_settings/` | NestJS, TypeScript | Auth bridge (FusionAuth <-> Frontera) |
 | colppy-app | `nubox-spa/colppy-app/` | PHP, Laravel 5.4 | Legacy gateway + 31 business Provisiones + ColppyCommon |
@@ -75,6 +75,7 @@ AWS Lambda repos: 20 (14 application + 6 infrastructure)
 
 | File | What It Covers |
 |------|---------------|
+| [CEO-architecture-overview.md](CEO-architecture-overview.md) | **Non-technical** architecture view for leadership |
 | [repo-directory.md](repo-directory.md) | All 108 repos categorized with paths |
 | [backend-architecture.md](backend-architecture.md) | Frontera 2.0, Benjamin, NestJS services |
 | [provisiones-reference.md](provisiones-reference.md) | 31 business Provisiones + ColppyCommon (delegate pattern) |
@@ -219,6 +220,10 @@ Files in the `github-jonetto/` root that provide additional platform context:
 ## Quick Command Reference
 
 ```bash
+# Full-stack local dev (dockervm — recommended)
+cd colppy/dockervm && bash setup-local.sh   # or --clone if repos missing
+# App at http://localhost:8080, one-click login: http://localhost:8080/set-dev-cookie
+
 # Frontera API call (from tools/scripts/)
 curl -X POST https://login.colppy.com/lib/frontera2/service.php \
   -H "Content-Type: application/json" \
@@ -228,13 +233,13 @@ curl -X POST https://login.colppy.com/lib/frontera2/service.php \
 curl -X GET https://api.colppy.com/v1/companies \
   -H "Authorization: Bearer <oauth2_token>"
 
-# Local dev — app_root
+# Local dev — app_root (standalone)
 cd colppy/app_root && npm install && npm start  # port 9000
 
-# Local dev — svc_settings
+# Local dev — svc_settings (standalone)
 cd colppy/svc_settings && npm install && npm run start:dev  # port 3000
 
-# Local dev — colppy-app (Docker)
+# Local dev — colppy-app (standalone Docker)
 cd nubox-spa/colppy-app && docker-compose up
 
 # Docs consistency checks
@@ -243,4 +248,4 @@ bash docs/colppy-platform/docs-check.sh
 
 ---
 
-*Last updated: 2026-03-03*
+*Last updated: 2026-03-06*
