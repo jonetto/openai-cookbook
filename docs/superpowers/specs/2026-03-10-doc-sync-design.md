@@ -29,7 +29,7 @@ A PostToolUse hook on Bash that fires after `git commit`:
    - Checks for sibling README.md and parent CLAUDE.md files
    - Checks memory files for references
    - Deduplicates and excludes docs already modified in the commit
-   - Returns candidate list as a `systemMessage`
+   - Returns candidate list as `additionalContext` (via PostToolUse `hookSpecificOutput`)
 
 2. **Claude analysis** (guided by CLAUDE.md):
    - Reads the diff (`git show HEAD`)

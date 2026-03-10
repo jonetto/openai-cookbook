@@ -65,7 +65,7 @@ git commit -m "feat(doc-sync): scaffold plugin manifest"
 **Files:**
 - Create: `plugins/doc-sync/hooks/discover-related-docs.sh`
 
-This is the core logic. It reads PostToolUse stdin, detects `git commit`, discovers related `.md` files, and returns a `systemMessage`.
+This is the core logic. It reads PostToolUse stdin, detects `git commit`, discovers related `.md` files, and returns `additionalContext` via `hookSpecificOutput`.
 
 - [ ] **Step 1: Create the script with commit detection gate**
 
@@ -82,7 +82,7 @@ input=$(cat)
 command=$(echo "$input" | jq -r '.tool_input.command // empty')
 
 # Gate: only proceed if this was a git commit
-if ! echo "$command" | grep -qE '^\s*git\s+commit\b'; then
+if ! echo "$command" | grep -qE '\bgit\s+commit\b'; then
   exit 0
 fi
 ```
@@ -233,8 +233,8 @@ Review each doc against the commit diff (git show HEAD). For each:
 
 Present all proposed changes for user approval before editing."
 
-# Output systemMessage JSON using jq to properly escape special characters
-jq -n --arg msg "$msg_body" '{"systemMessage": $msg}'
+# Output as hookSpecificOutput with additionalContext for PostToolUse
+jq -n --arg msg "$msg_body" '{"hookSpecificOutput":{"hookEventName":"PostToolUse","additionalContext":$msg}}'
 ```
 
 - [ ] **Step 7: Make script executable**
@@ -404,7 +404,7 @@ set -uo pipefail
 # Skips if inside Claude Code (Layer 1 handles it) or if commit is a doc-sync.
 
 # --- Loop prevention ---
-commit_msg=$(git log -1 --pretty=%B)
+commit_msg=$(git log -1 --pretty=%B 2>/dev/null || echo "")
 if [[ "$commit_msg" == docs:* ]] || [[ "$commit_msg" == *"[skip-doc-sync]"* ]]; then
   exit 0
 fi
@@ -420,7 +420,7 @@ if ! command -v claude &>/dev/null; then
 fi
 
 # --- Get changed files ---
-changed_files=$(git diff-tree --no-commit-id --name-only -r HEAD)
+changed_files=$(git diff-tree --no-commit-id --name-only -r HEAD 2>/dev/null || echo "")
 code_files=$(echo "$changed_files" | grep -v '\.md$' || true)
 
 if [[ -z "$code_files" ]]; then
@@ -428,6 +428,7 @@ if [[ -z "$code_files" ]]; then
 fi
 
 # --- Discovery ---
+escape_grep_bre() { printf '%s' "$1" | sed 's/\\/\\\\/g; s/[.*^$[\]]/\\&/g'; }
 EXCLUDE_DIRS="node_modules .venv ceo_assistant_env .git .playwright-cli"
 exclude_args=""
 for dir in $EXCLUDE_DIRS; do
@@ -439,9 +440,11 @@ while IFS= read -r file; do
   [[ -z "$file" ]] && continue
   base=$(basename "$file")
   dirpath=$(dirname "$file")
+  base_esc=$(escape_grep_bre "$base")
+  dirpath_esc=$(escape_grep_bre "$dirpath/")
 
   matches=$(grep -rl --include="*.md" $exclude_args \
-    -e "$base" -e "$dirpath/" . 2>/dev/null || true)
+    -e "$base_esc" -e "$dirpath_esc" . 2>/dev/null || true)
   candidates="$candidates"$'\n'"$matches"
 
   if [[ -f "$dirpath/README.md" ]]; then
@@ -464,7 +467,8 @@ if [[ -d "$memory_dir" ]]; then
   while IFS= read -r file; do
     [[ -z "$file" ]] && continue
     base=$(basename "$file")
-    mem_matches=$(grep -rl --include="*.md" -e "$base" "$memory_dir"/*/memory/ 2>/dev/null || true)
+    base_esc=$(escape_grep_bre "$base")
+    mem_matches=$(grep -rl --include="*.md" -e "$base_esc" "$memory_dir"/*/memory/ 2>/dev/null || true)
     candidates="$candidates"$'\n'"$mem_matches"
   done <<< "$code_files"
 fi
@@ -475,7 +479,8 @@ changed_docs=$(echo "$changed_files" | grep '\.md$' || true)
 if [[ -n "$changed_docs" ]]; then
   while IFS= read -r doc; do
     [[ -z "$doc" ]] && continue
-    candidates=$(echo "$candidates" | grep -v "^${doc}$" || true)
+    doc_esc=$(escape_grep_bre "$doc")
+    candidates=$(echo "$candidates" | grep -v "^${doc_esc}$" || true)
   done <<< "$changed_docs"
 fi
 candidates=$(echo "$candidates" | sed '/^$/d' | head -20)
@@ -514,9 +519,11 @@ if echo "$output" | grep -q "NO_UPDATES_NEEDED"; then
 fi
 
 updated=false
+# Escape file_path for sed regex: \ . * ^ $ [ ] and / (delimiter)
+escape_sed_pattern() { printf '%s' "$1" | sed 's/\\/\\\\/g; s/[.*^$[\]]/\\&/g; s|/|\\/|g'; }
 while IFS= read -r file_path; do
   [[ -z "$file_path" ]] && continue
-  escaped_path=$(echo "$file_path" | sed 's/[\/&]/\\&/g')
+  escaped_path=$(escape_sed_pattern "$file_path")
   content=$(echo "$output" | sed -n "/^--- FILE: ${escaped_path}$/,/^--- END$/p" \
     | sed '1d;$d')
   if [[ -n "$content" ]]; then
