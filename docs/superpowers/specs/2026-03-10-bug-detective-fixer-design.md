@@ -33,7 +33,7 @@ Human-gated handoff: the Detective recommends, you decide, the Fixer executes.
 
 | # | Source | Mechanism | Tools |
 |---|--------|-----------|-------|
-| 1 | Intercom | Scan conversations for error patterns ("no funciona", "error", "no puedo") | Intercom MCP: `search_conversations`, `get_conversation`, `search_contacts` |
+| 1 | Intercom | Scan conversations for error patterns ("no funciona", "error", "no puedo") | Customer-success plugin tools: `scan_customer_feedback`, `scan_full_text`, `get_conversation_feedback` (NOT raw Intercom MCP — per colppy-customer-success conventions) |
 | 2 | Jira | Watch for new bug-type tickets in KAN project | Atlassian MCP: `jira_search_issues`, `jira_get_issue` |
 | 3 | Commits | Monitor recent commits for risky changes (migrations, stored procs, ARCA) | `gh` CLI |
 | 4 | Manual | Direct invocation with Jira key, Intercom link, or description | Conversation context |
@@ -75,8 +75,7 @@ Plus detailed evidence section: source data, DB query results, staging screensho
 
 ### Constraints
 
-- Read-only across all systems (Intercom, Jira, GitHub, DB)
-- Exception: can add comments to existing Jira tickets with triage findings
+- Read-only across all systems (Intercom, Jira, GitHub, DB) with one exception: can add comments to existing Jira tickets with triage findings
 - Never creates Jira tickets (reports to you via Slack — you decide what becomes a ticket)
 - Never invokes the Bug Fixer directly (human-gated)
 - Never modifies data in Intercom, HubSpot, or the database
@@ -91,11 +90,23 @@ Plus detailed evidence section: source data, DB query results, staging screensho
 ### Fix Workflow
 
 1. **Understand the bug** — Read triage report or Jira ticket. Identify repo, layer, suspected code path.
-2. **Clone & isolate** — Clone relevant repo into a git worktree. Create branch `fix/KAN-XXXX-brief-slug`.
+2. **Clone & isolate** — Clone relevant repo into a git worktree (see Worktree Mechanics below). Create branch `fix/KAN-XXXX-brief-slug`.
 3. **Root cause analysis** — Trace the code path. Read files, grep for failing logic, check DB schema if needed.
 4. **Write the fix** — Minimal fix only. Follow existing code conventions per layer.
 5. **Validate** — Lint, type check locally. Playwright on staging if UI-visible.
 6. **Open PR** — Push branch, open PR with structured description.
+
+### Worktree Mechanics
+
+The Fixer works in isolated git worktrees to avoid polluting any existing local checkout:
+
+1. **First use of a repo**: `gh repo clone org/repo-name /tmp/bug-fixer/repo-name` to create a base clone in a temp directory
+2. **Create worktree**: `git worktree add /tmp/bug-fixer/repo-name-fix-KAN-XXXX fix/KAN-XXXX-brief-slug` branched from the repo's default branch
+3. **All edits happen inside the worktree** — the base clone stays clean
+4. **After PR is opened**: The worktree is left in place until the user confirms the PR is merged or closed, then cleaned up with `git worktree remove`
+5. **If the base clone already exists** (from a previous fix): Reuse it with `git fetch origin` to update, then create a new worktree
+
+Base path: `/tmp/bug-fixer/` — ephemeral, survives reboots on macOS but not critical if lost (the branch is on the remote after PR push).
 
 ### PR Format
 
@@ -165,15 +176,19 @@ USER reviews and merges
 
 ## CPO Agent Integration
 
-The CPO agent's routing table adds two entries:
+The CPO agent currently classifies signals in Step 1 (Diagnose the Signal) into categories: activation gap, discovery gap, compliance breaking change, feature request, prioritization. It then follows its own bumper-design workflow.
+
+**Change required**: Add a 6th classification — **Defect** — to Step 1. When the CPO agent identifies a signal as an actual code/data defect (not a product gap), it dispatches to the Bug Detective instead of running its own bumper workflow.
+
+New routing additions to the CPO agent's Step 1:
 
 | Signal | CPO dispatches to... |
 |--------|---------------------|
-| Support pattern about a feature gap | `trial-experience-analyst` or `churn-investigator` |
-| Support pattern about a **bug/defect** | **`bug-detective`** |
-| Diagnosed bug needs a fix | **`bug-fixer`** |
-| Architecture review | `architecture-reviewer` |
-| Metric drop | `saas-metrics-analyst` |
+| Support pattern about a feature gap | `trial-experience-analyst` or `churn-investigator` (existing) |
+| Support pattern about a **bug/defect** | **`bug-detective`** (new) |
+| Diagnosed bug needs a fix | **`bug-fixer`** (new) |
+| Architecture review | `architecture-reviewer` (existing) |
+| Metric drop | `saas-metrics-analyst` (existing) |
 
 Key distinction: **product friction** (missing bumper, UX gap) → CPO's own workflow; **actual defect** (broken code, data error) → Bug Detective.
 
@@ -187,11 +202,28 @@ Key distinction: **product friction** (missing bumper, UX gap) → CPO's own wor
 → Bug Fixer opens PR → Slack PR link
 ```
 
+### `/investigate-bug` Command Definition
+
+```yaml
+name: investigate-bug
+description: Trigger the Bug Detective to investigate a bug by Jira key, Intercom link, or free-text description.
+  Usage: /investigate-bug KAN-1234 or /investigate-bug "users can't generate factura de venta"
+```
+
+**Behavior**:
+1. Parses the argument — detects Jira key (`KAN-\d+`), Intercom URL, or free-text description
+2. Dispatches the Bug Detective agent with the parsed input
+3. Detective runs the 5-step investigation workflow
+4. Shows the triage report in the conversation
+5. Asks: "Want me to dispatch the Bug Fixer?" — if yes, invokes the Fixer with the triage context
+
 ### 2. Proactive scan (via /loop)
 ```
 /loop 30m "Scan Intercom for new bug-pattern conversations and Jira for new bug tickets"
 → Bug Detective polls → Slack: "Found N new signals"
 ```
+
+**Dependency note**: `/loop` is an existing plugin skill that runs a prompt on a recurring interval. The Bug Detective is compatible with it out of the box — no additional scheduling infrastructure needed.
 
 ### 3. CPO agent routing
 ```
@@ -202,11 +234,11 @@ Key distinction: **product friction** (missing bumper, UX gap) → CPO's own wor
 
 ## Tool Profiles
 
-### Bug Detective (read-only)
+### Bug Detective (read-only + Jira comment)
 
 | Integration | Tools | Access |
 |-------------|-------|--------|
-| Intercom | `search_conversations`, `get_conversation`, `search_contacts` | Read |
+| Intercom | `scan_customer_feedback`, `scan_full_text`, `get_conversation_feedback` (customer-success plugin tools) | Read |
 | Jira | `jira_search_issues`, `jira_get_issue`, `jira_add_comment` | Read + comment |
 | GitHub | `gh api`, `gh pr list` | Read |
 | Staging DB | `mysql` CLI | SELECT only |
@@ -224,6 +256,66 @@ Key distinction: **product friction** (missing bumper, UX gap) → CPO's own wor
 | Playwright | Navigation + snapshot | Read (staging) |
 | Slack | `slack_send_message` | Send to DM |
 | Code | Read, Edit, Write, Grep, Glob, Bash | Full (within worktree) |
+
+## Database Connection
+
+### Staging DB
+
+**Dependency**: Staging DB credentials need to be configured before the agents can query it. This is a setup task during implementation.
+
+- **Expected config location**: `tools/.env` (add `STG_DB_HOST`, `STG_DB_USER`, `STG_DB_PASSWORD`, `STG_DB_NAME` alongside existing prod DB config)
+- **Connection**: `mysql -h $STG_DB_HOST -u $STG_DB_USER -p$STG_DB_PASSWORD $STG_DB_NAME`
+- **Network**: Requires VPN (same as prod). Agents inherit the host machine's VPN connection.
+- **Staging endpoint**: TBD — needs to be confirmed during implementation (likely similar pattern to `colppydb-prod.colppy.com` but with `stg` prefix)
+
+### Prod DB
+
+- **Already configured**: `tools/.env` has `DB_HOST`, `DB_USER`, `DB_PASSWORD`
+- **User**: `juan_onetto` — SELECT on 10 tables only (empresa, usuario, facturacion, pago, plan, usuario_empresa, empresasHubspot, crm_match, mrr_calculo, payment_detail)
+
+## Triage Cache Format
+
+The Detective saves triage reports to `data/bug-triage/` as JSON files for the Fixer to reference.
+
+### File naming
+
+`KAN-XXXX-triage.json` (Jira-linked) or `YYYY-MM-DD-brief-slug-triage.json` (non-Jira signals)
+
+### Schema
+
+```json
+{
+  "id": "KAN-1234",
+  "title": "Factura de venta fails for RI companies without ARCA activities",
+  "severity": "HIGH",
+  "source": "intercom",
+  "created_at": "2026-03-10T14:30:00Z",
+  "affected_layer": "Frontera",
+  "repo": "nubox-spa/colppy-app",
+  "reproducible": true,
+  "root_cause_hypothesis": "FacturaVenta.crear checks actividadesARCA but doesn't handle empty array for newly registered RI companies",
+  "related_jira": "KAN-1234",
+  "related_intercom_count": 3,
+  "evidence": {
+    "intercom_summary": "3 conversations in last 7 days mentioning 'error al facturar' for RI companies",
+    "db_queries": ["SELECT count(*) FROM empresa WHERE condicion_iva = 'RI' AND ..."],
+    "staging_screenshot": null,
+    "suspect_code_path": "lib/frontera2/Provisiones/FacturaVenta/1_0_0_0/delegates/CrearDelegate.php"
+  },
+  "recommendation": "fix"
+}
+```
+
+### Handoff mechanism
+
+1. Detective writes `KAN-XXXX-triage.json` to `data/bug-triage/`
+2. User says "fix it" (or `/investigate-bug` command asks and user confirms)
+3. Fixer reads the triage JSON to get repo, code path, hypothesis, and evidence
+4. After PR is opened, Fixer updates the JSON with `"status": "pr_opened", "pr_url": "..."`
+
+### Retention
+
+Local cache only (`.gitignored`). Triage files accumulate as a local history. No automatic cleanup — user can delete old files manually.
 
 ## File Structure
 
