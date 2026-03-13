@@ -1,0 +1,34 @@
+INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA ES OWNER                                                 INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA ES OWNER                                                                                                                                    INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA ES OWNER,,,,,,,,,,,,,,
+Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quien apoya?,KR del área,OKR de Colppy Q1,Enero,Febrero,Marzo,En que instancia se va a reportar,En que frecuencia,En que formato,Baseline,Que consecuencias / acciones tenemos en caso que se desvía? ,Que no incluye en este Trimestre?
+Migracion Tecnologica,"• Auditar compatibilidades y dependencias actuales 
+(ORM, queries legacy, tipos de datos, drivers).
+• Adaptar código donde haya incompatibilidades 
+(consultas, índices, funciones).
+• Probar performance y consistencia de datos.","• Queries críticas funcionando correctamente.
+• Performance igual o superior en queries pesadas.",CloudOps,NPS,"Estabilizar y modernizar la arquitectura de 
+Colppy para soportar crecimiento y nuevos productos.",• Auditoría y pruebas de compatibilidad.,"• Pruebas funcionales y de performance.
+• Adaptación inicial del código.",• Reporte de performance y mejoras.,"Reu de Coordinación
+(Martes)",Mensual,"Slide de avances de proyectos, % de avance",TBD,TBD Cuando revisemos el avance mensual,Salida a produccion
+"Optimización de Onboarding 
+de Usuarios","• Mapear journey actual de alta y activación 
+(desde registro hasta primera factura o conciliación).
+• Detectar puntos de fricción y drop-offs en Mixpanel.
+• Implementar wizard guiado por tipo de usuario (PyME / Contador).
+• Incorporar IA y tutoriales interactivos para acelerar primeros pasos.
+• Automatizar mensajes y banners dentro de la app 
+(Intercom / Portal de Novedades).",Aumento del 77% un 10% de usuarios que completan onboarding,"Customer Experience / Sueldos
+Marketing                                                                                                                                                                                                                                                                                                                                                                                                            ",PQL,"Impulsar la conversión y expansión desde el producto
+, logrando experiencias de activación más rápidas y efectivas.",80%,83%,90%,"Reu de Coordinación
+(Martes)",Semanal,"Slide de avances de proyectos, % de avance",77%,"Puede afectar la venta, ICP Pyme",no incluye mobile
+Validación Boolfy + Pricing,"• Medir tiempo ahorrado vs carga manual y tasa de 
+éxito de lectura OCR.
+• Testear pricing (por uso, o incluido en plan).
+• Ejecutar pruebas A/B de usuarios reales.",Cantidad de suscripciones pagas con boolfy,"Customer Experience/ Sueldos
+Sales",New MRR,"Desarrollar nuevas capacidades de producto impulsadas 
+por IA que generen ingresos incrementales.",30,40,50,"Reu de Coordinación
+(Martes)",Semanal,"Slide de avances de proyectos, % de avance",0,"Si no se valida la hipotesis, Despriorizar Boolfy",Modificacion de planes
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA COLABORA                                                    INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA COLABORA                                                                                                                                    INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA COLABORA,,,,,,,,,,,,,,
+Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quien es OWNER?,KR,OKR de Colppy Q1,Enero,Febrero,Marzo,En que instancia se va a reportar,En que frecuencia,En que formato,Baseline,Que consecuencias / acciones tenemos en caso que se desvía? ,Que no incluye en este Trimestre?
+Optimizar backoffice,Incorporar acciones e información clave que el equipo necesita para agilizar el trabajo,Reducir el time to resolution del cliente y darle más herramientas al equipo para resolver consultas,Customer,KR: tbd analizar con Producto según viabilidad,KR1,10,15,20,Reu de Coordinación,Quincenal,"Slide de avances de proyectos, % de avance",-5,"Afecta la venta, el crecimiento, aumenta churn",hablar con promoters

@@ -111,9 +111,17 @@ The official OKR spreadsheet is **"COLPPY 2026 OKRs + Iniciativas"** (`1jatqXqiz
 | `q1_26_sueldos` | Q1-26 Sueldos | Onboarding handoff, backoffice tooling |
 | `people_2026` | 2026 People | Leadership formation, career paths, performance |
 
+### Local Cache: `data/okrs/cache/2026/`
+
+All 14 tabs are cached as CSV files locally. **OKRs are set once per quarter and don't change** — the agent reads from cache, not from Google Sheets on every invocation. Re-fetch only when Juan explicitly says to update.
+
+Cache files: `budget_aprobado_2026.csv`, `okrs_ceo.csv`, `okrs_colppy_company.csv`, `okrs_producto_2026.csv`, `okrs_revenue_2026.csv`, `okrs_customer_2026.csv`, `okrs_people_2026.csv`, `q1_26_ceo.csv`, `q1_26_producto.csv`, `q1_26_customer.csv`, `q1_26_customer_top1.csv`, `q1_26_revenue.csv`, `q1_26_sueldos.csv`, `people_2026.csv`.
+
+**After Q2 planning (March 18):** New Q2 tabs will be added to the same spreadsheet (e.g. `Q2-26 | CEO`, `Q2-26 | Revenue`). When that happens: register new tabs in the registry, download their CSVs to `cache/2026/`, and they become part of the cache.
+
 ### `data/okrs/q2-2026.md`
 
-Local cache file. Stores OKR targets (pulled from Google Sheets at quarter start) and actuals (updated by the agent when `/cos-numbers` is run). The Google Sheets tabs above are the authoritative source; this file is a working snapshot for quick reference.
+Working file for the current quarter. Stores OKR targets (pulled from cached CSVs at quarter start) and actuals (updated by the agent when `/cos-numbers` is run). The cached CSVs are the authoritative source for targets; this file adds the actuals layer on top.
 
 Structure:
 

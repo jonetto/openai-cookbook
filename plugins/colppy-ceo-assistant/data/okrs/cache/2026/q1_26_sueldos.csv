@@ -1,0 +1,76 @@
+INICIATIVAS EN LAS QUE SUELDOS ES OWNER                                                 INICIATIVAS EN LAS QUE SUELDOS ES OWNER                                                                                                                     ,,,,,,,,,,,,,,,,,
+Área,Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quién apoya?,KR,OKR de Colppy,Enero,Febrero,Marzo,En que instancia se va a reportar,En qué frecuencia,En qué formato,Cuál es la métrica que nos dice que avance o no avanza?,Qué consecuencias / acciones tenemos en caso que no se desvía? ,Qué no incluye en este Trimestre?,,
+Onboarding,Optimización de onboarding de usuarios segmentados por ICP,"Rediseñar el flujo de onboarding digital en base al tipo de cliente y producto contratado.
+Medir la tasa de activación de funcionalidades clave por ICP.
+",Incrementar el porcentaje de usuarios nuevos para generar el primer evento clave en los primeros 15 días.,Sueldos,"KR2: Alcanzar una tasa de activación inicial del 75% en cada segmento.
+",KR1,"Diagnóstico y diseño: definición de eventos clave por ICP, mapa de onboarding (flujos actuales y dónde se caen los usuarios) y documento de reglas de segmentación (cómo se identifica cada ICP en el sistema y qué variables se usan, como tipo cuenta, rol, producto, etc.).","Implementación: flujos activos en Intercom (mails de bienvenida diferenciados y chats con mensajes de accionables) y actualización de biblioteca de contenido por ICP (""primeros pasos"", artículos y videos).","Reporte de activación por ICP (% usuarios activados por ICP, % empresas activadas, tiempo promedio al evento clave y comparativa vs Q4 2025) + playbook onboarding","Reu de Coordinación
+(Martes)",Mensual,Reporte en Mixpanel,,,,,
+,Incorporar Sueldos al flujo de Onboarding garantizando un flujo unificado de clientes nuevos,Garantizar que traspasamos el conocimiento de Sueldos y el proceso de Onboarding y ejecutarlo desde Customer,Unificar el Onboarding de un nuevo cliente mejorando la experiencia en Colppy,Sueldos,KR1: 100% de Onboarding de nuevos productos Sueldos realizados por Customer,KR2,"Capacitación formal de Sueldos al equipo de onboarding con material de playbook interno de Sueldos para Customer (checklist de implementación de Sueldos, requisitos mínimos de datos y configuraciones, errores frecuentes y casos tipo por ICP). ¿Qué necesitamos de sueldos? Documento + flujo visual del onboarding de Sueldos actual",Ejecución asistida y validación: toma el 50% de los casos de onboarding + rediseño flujos de onboarding con Sueldos incluidos.,Autonomía y escalabilidad: 100% de los casos que vengan de sueldos sin el especialista.,"Reu de Coordinación
+(Martes)",Mensual,Csat > 85% de casos de usuarios nuevos.,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+INICIATIVAS EN LAS QUE SUELDOS COLABORA                                                    INICIATIVAS EN LAS QUE SUELDOS COLABORA                           ,,,,,,,,,,,,,,,,,
+Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quien es OWNER?,KR,OKR de Colppy Q1,Enero,Febrero,Marzo,En que instancia se va a reportar,En que frecuencia,En que formato,Baseline,,,,,
+Optimizar backoffice,Incorporar acciones e información clave que el equipo necesita para agilizar el trabajo,Reducir el time to resolution del cliente y darle más herramientas al equipo para resolver consultas,Customer,KR: tbd analizar con Producto según viabilidad,KR1,,,,,,,,,,,,
+Revenue,"MKT PERFORMANCE - Paid Media
+Aumentar y Mejorar la generación de demanda para Producto Sueldos",Optimizar Campañas pagas y contenido Web para la generación de nueva demanda,Generacion de Leads pagos de calidad para Producto Sueldos,"Ventas 
+Sueldos",KR3 Revenue,KR3 / KR2,20,40,60,Bi weekly Performance,Martes y Jueves,Reporte en Hubspot,"Redefinicion de Estrategia Performatica
+Plan B: sumar Programatica y definir 
+Budget entre Meta y Google.
+Sumar video + Carrousel",,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+"Yami es la dueña del negocio Sueldos: responsable de que el producto crezca rentable y se entregue bien, coordinando Revenue, Marketing, Customer y proveedor. No define roadmap de producto (eso lo hace esueldos?), pero sí el plan de negocio y ejecución GTM + delivery.",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+1–3 KRs no negociables,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Por ejemplo:,,,,,,,,,,,,,,,,,
+MRR de Sueldos (nuevo + expansión) a fin de año / por quarter.,,,,,,,,,,,,,,,,,
+% de activación (evento clave) de clientes de Sueldos a X días.,,,,,,,,,,,,,,,,,
+Retención anual de Sueldos sobre ICP ≥ Y%.,,,,,,,,,,,,,,,,,
+Todo lo que haga Yami debería anclar a esos KRs. El resto son tareas de soporte que debería poder decir “no”.,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Alinear responsabilidades cruzadas,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Revenue/Marketing:,,,,,,,,,,,,,,,,,
+"Dueños de la generación y conversión de demanda de Sueldos (leads, PQLs, close rate).",,,,,,,,,,,,,,,,,
+Pero comprometen números coherentes con el objetivo de MRR total de Sueldos que posee Yami.,,,,,,,,,,,,,,,,,
+Customer:,,,,,,,,,,,,,,,,,
+"Dueño de NPS, CSAT, TTR y experiencia de soporte de Sueldos.",,,,,,,,,,,,,,,,,
+Alineado al objetivo de retención que también impacta a Yami.,,,,,,,,,,,,,,,,,
+Yami:,,,,,,,,,,,,,,,,,
+Orquesta: define con cada área el plan trimestral de Sueldos para llegar a sus KRs.,,,,,,,,,,,,,,,,,
+Tiene derecho a pedir cambios de prioridades si ve que los números no dan (escala a vos si hay conflicto).,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Clarificar decisiones que puede tomar sola vs. escaladas,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Algunas ideas: ,,,,,,,,,,,,,,,,,
+Qué segmentos priorizar en Sueldos (dentro del marco de ICP general).,,,,,,,,,,,,,,,,,
+Ajustes en playbook comercial y de onboarding de Sueldos.,,,,,,,,,,,,,,,,,
+"Propuestas de cambios de mix de canales o tácticas específicas, en acuerdo con Revenue/Customer.",,,,,,,,,,,,,,,,,
+Escala a foro (vos + Revenue + Producto) cuando:,,,,,,,,,,,,,,,,,
+Cambia pricing o empaquetado.,,,,,,,,,,,,,,,,,
+Cambia incentivos fuertes de ventas.,,,,,,,,,,,,,,,,,
+Cambia compromisos con el proveedor que impliquen costo o capacity.,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+KPI´s Sueldos,,,,,,,,,,,,,,,,,
+Palancas,Objetivo,KR,KPI´s,¿Cómo lo voy a medir?,Objetivo,,,,,,,,,,,,
+Onboarding,Lograr que los nuevos usuarios de Colppy Sueldos alcancen valor rápidamente y sin fricción en su primera liquidación.,,Time to First Value (mediana y % ≤ 72 hs),Fecha/hora de primera liquidación – Fecha/hora de primer acceso a Sueldos,60% de usuarios activen en ≤ 72 hs,,,,,,,,,,,,
+,,,Drop-off por paso del onboarding,Usuarios que completan paso N – Usuarios que completan paso N+1,80% de usuarios genere cada paso en menos de 24hs ,,,,,,,,,,,,
+,,,Tasa de activación,Usuarios que liquidaron su primer sueldo / Usuarios que iniciaron el onboarding,80% de los usuarios nuevos generen evento clave en los primeros 30 días,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Adquisición y Crecimiento,Crecer el volumen de usuarios con intención real,KR 3 - Revenue,Usuarios que inician onboarding de Sueldos,,15% de los usuarios que pasan del onboarding a pago,,,,,,,,,,,,
+,,KR 2 - Customer,Conversión a pago,Clientes pagos / Usuarios activados,30% de los usuarios activos a plan pago,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+CROSS SELLING,enero 26,febrero 26,marzo 26,TOTAL,abril 26,mayo 26,junio 26,TOTAL,julio 26,agosto 26,septiembre 26,TOTAL,octubre 26,noviembre 26,diciembre 26,TOTAL,TOTALES
+Ticket Promedio cross selling, $56.600, $56.600, $59.378,, $59.378, $59.378, $62.290,, $62.290, $62.290, $65.355,, $65.355, $68.141, $68.141,,
+MRR Cross Selling, $566.000, $566.000, $1.484.450, $2.616.450, $475.024, $593.780, $747.480, $1.816.284, $498.320, $622.900, $784.260, $1.905.480, $653.550, $1.022.115, $1.022.115, $2.697.780, $9.035.994
+Cantidad de Clientes,10,10,25,45,8,10,12,30,8,10,12,30,10,15,15,40,145
+Total de Budget 2026, $1.050.000, $1.202.000, $1.431.000, $3.683.000, $1.598.000, $1.844.000, $2.191.000, $5.633.000, $2.459.000, $2.732.000, $3.108.000, $8.299.000, $3.400.000, $3.698.000, $4.136.000, $11.234.000, $28.849.000
+,,,,,,,,,,,,,,,,,
+,,,, $1.066.550,,,,,,,,,,,,,

@@ -1,0 +1,53 @@
+,,INICIATIVAS EN LAS QUE CUSTOMER ES OWNER                                                 INICIATIVAS EN LAS QUE CUSTOMER ES OWNER                                                                                                                                    INICIATIVAS EN LAS QUE CUSTOMER ES OWNER,,,,,,,,,,,,
+Área,Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,KR,OKR de Colppy,Enero,Febrero,Marzo,En que instancia se va a reportar,En qué frecuencia,En que formato se va a reportar,Baseline,Qué consecuencias / acciones tenemos en caso que no se desvía? ,Que no incluye en este Trimestre?
+Onboarding,Optimización de onboarding de usuarios segmentados por ICP,"Rediseñar el flujo de onboarding digital en base al tipo de cliente y producto contratado.
+Medir la tasa de activación de funcionalidades clave por ICP.
+",Incrementar el porcentaje de usuarios nuevos para generar el primer evento clave en los primeros 15 días.,"KR2: Alcanzar una tasa de activación inicial del 75% en cada segmento.
+",KR1,70%,75%,75%,"Reu de Coordinación
+(Martes)",Mensual,Documento,,Afecta el crecimiento y aumenta el churn,No incluye automatización de AI de Onb
+Care,Estabilizar el backlog de consultas,Diseñar un plan de estabilización de backlog distribuyendo al equipo y priorizando consultas,Cantidad de consultas >48 horas en backlog,KR1: Implementar el plan de estabilización logrando obtener consultas de un máximo de 48 horas en bandeja.,KR1,tbd con ingreso de Magui,tbd con ingreso de Magui,tbd con ingreso de Magui,"Reu de Coordinación
+(Martes)",Semanal,Documento,,,
+,Diagrama de atención por ICP,"Diseñar canales y métricas por ICP y su priorización 
+",Mejoras en TTR y CSAT,"KR1: Implementar 100% bandejas y workflows diferenciados
+KR2: Definir canales por ICP y plan",KR1,tbd con ingreso de Magui,tbd con ingreso de Magui,tbd con ingreso de Magui,"Reu de Coordinación
+(Martes)",Semanal,Documento / PPT,,,
+Retention,Diseñar Customer Health score,Entregar la v1 de un Customer Health Score con el objetivo de entender variables y patrones que podrían indicar churn temprana,Detección de churn anticipada y aplicación de playbook de retención,KR2: Reducir el churn mensual en un 15% en PyMEs y 10% en Contadores.,KR3,"Diseño y variables: definir Customer Health, listado de variables (uso del producto, soporte, NPS, relación comercial). Análisis del último Q de 2025.",Análisis del modelo: reglas de riesgo y ponderación inicial de variables,Reporte de clientes de alto riesgo.,"Reu de Coordinación
+(Martes)",Mensual,Documento / PPT,,Aumenta el churn,No incluye acciones proactivas de retención 
+Growth,Impulsar la generación upsell y cross sell con automatizaciones,"Segmentar por uso en Intercom y automatizar mensajes de upgrade, optimizando la conversión quincenalmente.",Generación de MRR,KR1: Generar un total de: 400 K a fin de Q1 asociado al upsell automático,KR2,120 k ,130 k,150 k,"Reu de Coordinación
+(Martes)",Mensual,Documento,,Afecta el crecimiento de clientes y de MRR,No incluye el New por proceso de CQL
+,Conversión de Administradas a PyME,1. Segmentación inteligente de empresas administradas. 2. Modelo de transición gradual. 3. Reporte de TC ,Generación de MRR,"KR1: Convertir el 50% de los clusters A, B y C de bajo volumen (95 en total).",KR2,,,,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+Fidelización canal contador,Segmentar a la base de contadores y definir top 10,"Clasificar y segmentar a la base de contadores en tier 1, 2 y 3 según revenue, fidelización y tamaño de oportunidad",Definición de top 10 contadores,KR1: Definir el top contadores para comenzar los procesos de fidelización (reuniones recurrentes con entrega de valor),KR2,Segmentar la base,,,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,INICIATIVAS EN LAS QUE CUSTOMER COLABORA                                                    INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA CUSTOMER COLABORA                                                                                                                                    INICIATIVAS EN LAS QUE CUSTOMER COLABORA,,,,,,,,,,,,
+Subárea,Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,KR,OKR de Colppy Q1,Enero,Febrero,Marzo,En que instancia se va a reportar,En que frecuencia,En que formato,Baseline,Qué consecuencias / acciones tenemos en caso que no se desvía? ,Que no incluye en este Trimestre?
+Growth,Boolfy + Clientes,¿A quienes se le va a ofrecer? 100 empresas para habilitar el servicio,Cantidad de clientes que usen la integración,New MRR,KR2,30,40,50,"Reu de Coordinación
+(Martes)",Semanal,"Slide de avances de proyectos, % de avance",-5,Afecta la venta y el crecimiento,hablar con promoters
+People,"Evolución de OB Sales Customer
+
+Garantizar una experiencia de onboarding que acelere el impacto del talento nuevo en el crecimiento del negocio.
+","
+- Diagnóstico
+- Resultado del PPR
+- Definición de plan de trabajo y alcances",,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,Iniciativas Q2 2026,Key Actions ,SUCCESS METRIC,KR,OKR de Colppy Q4,Enero,Febrero,Marzo,,,,,,
+,Optimizar plan de cuentas para reducir el tiempo de implementación inicial que no requiere cambios en el código. Solo cambio de formato,"- Analizar el flujo actual de carga e importación del plan de cuentas.
+- Rediseñar el formato estándar para facilitar la carga automática y reducir errores.
+- Validar con equipos de Onboarding y Soporte la nueva versión del formato.
+- Comunicar y capacitar a usuarios y equipo interno sobre el nuevo proceso.","- Reducción del tiempo promedio de implementación inicial.
+- Disminución de tickets asociados a la carga del plan de cuentas.","- KR1: Implementar nuevo formato de plan de cuentas sin requerir desarrollo antes de octubre 2026.
+- KR3: Reducir en 50% los tickets de soporte asociados a la carga del plan de cuentas.",KR3,,,,,,,,,
+NPS,Medir NPS Contador ,"- Definir el universo de contadores activos
+- Implementar la medición trimestral de NPS exclusiva para contadores (asesores y operadores).
+- Analizar resultados y detectar principales drivers de detracción.
+- Crear plan de acción específico para mejorar la experiencia de este segmento.","- Nivel de participación (response rate).
+- NPS promedio del segmento Contador.
+- Mejora en drivers de detracción identificados.","- KR1: Implementar la encuesta NPS Contador
+- KR2: Alcanzar un response rate ≥ 10% del universo de contadores.
+",KR1,,,,,,,,,
+Onboarding,Automatización de Onboarding (consultas level y acciones level 1),Implementar mensajes proactivos desde Intercom con IA para acompañar el onboarding sin intervención humana.,Disminuir volumen de consultas humanas en el Onboarding ,,,,,,,,,,,
+,,"Crear contenido específico guiado (tutoriales, mensajes automáticos, IA asistida) según ICP.",,,,,,,,,,,,

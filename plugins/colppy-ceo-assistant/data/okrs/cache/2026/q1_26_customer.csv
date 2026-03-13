@@ -1,0 +1,70 @@
+,,INICIATIVAS EN LAS QUE CUSTOMER ES OWNER                                                 INICIATIVAS EN LAS QUE CUSTOMER ES OWNER                                                                                                                                    INICIATIVAS EN LAS QUE CUSTOMER ES OWNER,,,,,,,,,,,,,,,
+Área,Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quién apoya?,KR,OKR de Colppy,Enero,Febrero,Marzo,Status,Documentación/link de iniciativa,En que instancia se va a reportar,En qué frecuencia,En que formato se va a reportar,Baseline,Qué consecuencias / acciones tenemos en caso que no se desvía? ,Que no incluye en este Trimestre?
+Onboarding,Optimización de onboarding de usuarios segmentados por ICP,"Rediseñar el flujo de onboarding digital en base al tipo de cliente y producto contratado.
+Medir la tasa de activación de funcionalidades clave por ICP.
+",Incrementar el porcentaje de usuarios nuevos para generar el primer evento clave en los primeros 15 días.,Sueldos,"KR2: Alcanzar una tasa de activación inicial del 75% en cada segmento.
+",KR1,70%,75%,75%,En progreso ⚠️,"[Evj4] Onboarding - Evaluadores_pago_contador_pago_A Link
+[Evj4] Onboarding - Pagos_adm_pago_av Link
+[Evj2] Onboarding - Evaluadores_invitados_contador_pago_B Link
+[Evj2] Onboarding - Evaluadores_invitados_adm_pago_bv Link","Reu de Coordinación
+(Martes)",Mensual,Documento,,Afecta el crecimiento y aumenta el churn,No incluye automatización de AI de Onb
+,Incorporar Sueldos al flujo de Onboarding garantizando un flujo unificado de clientes nuevos,Garantizar que traspasamos el conocimiento de Sueldos y el proceso de Onboarding y ejecutarlo desde Customer,Unificar el Onboarding de un nuevo cliente mejorando la experiencia en Colppy,Sueldos,KR1: 100% de Onboarding de nuevos productos Sueldos realizados por Customer,KR1,50%,75%,100%,En progreso ⚠️,Flujo de Onboarding Sueldos,"Reu de Coordinación
+(Martes)",Mensual,PPT,,,
+Care,Estabilizar el backlog de consultas,Diseñar un plan de estabilización de backlog distribuyendo al equipo y priorizando las consultas que permitan volver a valores constantes de más de 80% <48 horas de SLA. ,Cantidad de consultas >48 horas en backlog,Producto / Fiananzas,KR1: Implementar el plan de estabilización logrando obtener consultas de un máximo de 48 horas en bandeja.,KR1,tbd con ingreso de Magui,tbd con ingreso de Magui,tbd con ingreso de Magui,En progreso ⚠️,"Mapeo de workflows: Para backlog es el del día 5  (en testeo) 
+Proceso casos contabilidad
+   Estrategia time to resolution
+","Reu de Coordinación
+(Martes)",Semanal,Documento,,,
+,Optimizar backoffice,Configurar propiedades y optimizar tags que permitan medir el desempeño y la carga de atención por segmento                                                                                                Iterar y optimizar todos los reportes de métricas de care de IntercomIncorporar acciones e información clave que el equipo necesita para agilizar el trabajo,Mejora de productividad del equipo (casos/persona),Producto / Revenue,KR1: Optimizar tablero de métricas y gráficos para ganar confianza de resultados   KR2: tbd analizar con Producto según viabilidad entrega de backoffice,KR1,Resolver X,Resolver X,Resolver X,En progreso ⚠️,Propuesta flujos con producto,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+,Definir canales y omnicanalidad,"Mapear la v1 del journey de atención actual por cada ICP y canales de contacto en Intercom.
+Rediseñar bandejas de entrada y workflows automatizados en Intercom según ICP.
+","Reducción del tiempo promedio de primera respuesta y resolución por ICP.
+Aumento del CSAT promedio por segmento.",Marketing / Sueldos,"KR1: Implementar 100% de bandejas y workflows diferenciados por ICP en Intercom antes de finalizar Q2.
+KR2: Definir canales por ICP y plan",KR1,tbd con ingreso de Magui,tbd con ingreso de Magui,tbd con ingreso de Magui,Sin iniciar 🚫,Primer paso: Derivación a chat en vez de email,"Reu de Coordinación
+(Martes)",Semanal,Documento / PPT,,,
+,Optimizar la medición del área y productividad,Crear tableros de medición del área e individual del equipo. Monitorear key metrics individual de manera semanal,Aumento de OUT y CSAT,Revenue Ops,KR1: Definir las métricas clave del área                                                                                                                KR2: Definir objetivos individuales de las métricas clave e  implementar el seguimiento semanal,KR1,,,,En progreso ⚠️,Dashboard Care                                                                                            Dashboard individual Care,,,,,,
+,"Diagrama de atención por icp (bandejas, workflow, propiedades)",Ejecutar el flujo de atención por ICP priorizando key contadores y PyMEs y detractores del último semestre,Mejorar CSAT y NPS y reducir churn de key players,Revenue Ops,KR1: Definir las prioridades de atención e implementar en workflows automatizados,KR1,,,,En progreso ⚠️,Criterio priorización por ICP,,,,,,
+,Analizar de manera completa NPS ,"Hacer un análisis de NPS de los últimos meses en detalle para detectar puntos en común, levantar insights y plantear acciones de trabajo",Entregar reporte con insights,Producto,KR1: Entregar un análisis y reporte de insights de NPS de los útimos 6 meses,KR1,15,20,20,Hecho ✅,NPS H2 2025,"Reu de Coordinación
+(Martes)",Quincenal,Documento,,Afecta el crecimiento y aumenta el churn,Hablar con promoters
+,Hablar con 10 detractors y neutrals para recopilar feedback,Hablar con 10 clientes totales (detractors y/o neutrals) para obtener información al detalle de cómo perciben la plataforma,,Producto,KR1: Hablar con 10 clientes y entregar insights relevantes,KR1,2,4,4,En progreso ⚠️,Flujo intercom                                                                   Entrevista JTBD,"Reu de Coordinación
+(Martes)",Mensual,Documento / PPT,,,
+Retention,Definir Customer Health score,Entregar la v1 de un Customer Health Score con el objetivo de entender variables y patrones que podrían indicar churn temprana,Detección de churn anticipada,Revenue Ops,KR2: Reducir el churn mensual en un 15% en PyMEs y 10% en Contadores.,KR3,"Diseño y variables: definir Customer Health, listado de variables (uso del producto, soporte, NPS, relación comercial). Análisis del último Q de 2025.",Análisis del modelo: reglas de riesgo y ponderación inicial de variables,Reporte de clientes de alto riesgo.,En progreso ⚠️,Health Score,"Reu de Coordinación
+(Martes)",Mensual,Documento / PPT,,Aumenta el churn,No incluye acciones proactivas de retención 
+,Definir playbook retention ,Entregar la v1 de la playbook de retention para asegurarnos acciones de prevención según tipo de baja,Reducción de churn detectado de manera anticipada,Revenue Ops,,KR3,Diseño: redefinición de razón de churn actual y clasificación de tipos de baja,"Documento con acciones: descripción del problema, señales que lo disparan y acción principal (guía operativa qué decir al cliente, qué no prometer y cuándo escalar)",Activar el playbook en el 10% de los clientes de alto riesgo.,En progreso ⚠️,Tomamos de referencia las recomendaciones ya creadas,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+Growth,Impulsar la generación upsell con automatizaciones desde Intercom,"""1.Configurar segmentaciones dinámicas en Intercom basadas en uso de funcionalidades y límites de plan.
+2.Implementar mensajes in-app y emails automáticos que sugieran upgrades (ej: “notamos que alcanzaste el límite de facturas, con el Plan Pyme podés…”).
+3.Medir resultados y ajustar las campañas cada 2 semanas para optimizar conversión.""",Generar un total de: 400 K a fin de Q1 asociado al upsell automático,Marketing / Sueldos,KR1: generar MRR,KR2,120 k ,130 k,150 k,Hecho ✅,"[R15] Upselling - Orden_de_compra
+[R14] Upselling - Cálculo_automático_retenciones_percepciones_ARBA_AGIP
+[R16] Upselling - Envío_recibos_ordenes_de_pago
+[R22] Upselling - Ajuste_Por_Inflación_Automático_y_Conciliación_Bancaria
+[R12] Upselling - Factura_compra_multimoneda
+[R13] Upselling - Factura_venta_multimoneda","Reu de Coordinación
+(Martes)",Mensual,Documento,,Afecta el crecimiento de clientes y de MRR,No incluye el New por proceso de CQL
+,Conversión de Administrada a Pyme,1. Segmentación inteligente de empresas administradas. 2. Modelo de transición gradual. 3. Reporte de TC ,"Convertir el 50% del cluster a, b y c definido por idadministradoras por administradas con menos volumen de facturación (el cluster total son 95)",Revenue Ops,KR1: generar MRR,KR2,,,,En progreso ⚠️,Base de empresas a trabajar                                                                                                Gestión de migración Growth,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+,Impulsar la generación de Portal de Equipo con automatizaciones desde Intercom,1.Identiicar clientes con menos de 50 empleados y clientes sin el prodcuto de sueldos que generan asiento de sueldos. 2. Crear workflows que ofrecen el uso del Portal. 3. Medir resultados y ajustar campaña,Generar un total de: 340 K a fin de Q1 asociado al upsell automático,Sueldos,KR1: generar MRR,KR2,$90.500,$113.200,$135.800,En progreso ⚠️,"E2-Bis Crossell Enterprise y Enterprise+Sueldos Q1 2026
+E2-Bis Crossell Platinum y Full Q1 2026
+[Sueldos] E.1 Upsell - Impulsar portal de equipo-usuarios con sueldos. Q1 2026
+[R19] Crosseling - Asiento_de_sueldos","Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+Fidelización canal contador,"Segmentar a la base de contadores, definir portfolio y alinear flujo con revenue",Alinear cómo será el diseño de trabajo de ambas áreas para garantizar el flujo de oportunidades de manera correcta,Evitar fricciones y garantizar el rápido abordaje del lead,Revenue,KR1: Entregar un proceso de ejecución entre Customer y Revenue sobre oportunidades de canal fidelizado,KR2,Segmentar la base y detectar top 25 basado en MRR y tamaño,,,Hecho ✅,Segmentación contadores,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+,Crear calendario de contadores,"Crear calendario con fechas clave de contadores anual, para anticiparnos a acciones de markerting, de care y de efectividad de fidelización",Aumentar la proactividad y farming en el segmento contadores,Revenue / Care,,KR2,,,,Hecho ✅,,,,,,,
+,Reuniones realizadas,"Clasificar y segmentar a la base de contadores en tier 1, 2 y 3 según revenue, fidelización y tamaño de oportunidad",Lograr priorizar contadores actuales,Revenue,"KR1: Entregar una clasificación en tier 1, 2 y 3 que será actualizado de manera mensual según variables a definir principales.",KR2,5,6,6,Hecho ✅,,"Reu de Coordinación
+(Martes)",Mensual,Documento,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+,,INICIATIVAS EN LAS QUE CUSTOMER COLABORA                                                    INICIATIVAS EN LAS QUE PRODUCTO/INGENIERÍA CUSTOMER COLABORA                                                                                                                                    INICIATIVAS EN LAS QUE CUSTOMER COLABORA,,,,,,,,,,,,,,,
+Subárea,Iniciativas Q1 2026,Key Actions ,SUCCESS METRIC,Quien es OWNER?,KR,OKR de Colppy Q1,Enero,Febrero,Marzo,,,En que instancia se va a reportar,En que frecuencia,En que formato,Baseline,Qué consecuencias / acciones tenemos en caso que no se desvía? ,Que no incluye en este Trimestre?
+Growth,Boolfy + Clientes,¿A quienes se le va a ofrecer? 100 empresas para habilitar el servicio,Cantidad de clientes que usen la integración,Producto,New MRR,KR2,30,40,50,,,"Reu de Coordinación
+(Martes)",Semanal,"Slide de avances de proyectos, % de avance",-5,Afecta la venta y el crecimiento,hablar con promoters
+People,"Evolución de OB Sales Customer
+
+Garantizar una experiencia de onboarding que acelere el impacto del talento nuevo en el crecimiento del negocio.
+","
+- Diagnóstico
+- Resultado del PPR
+- Definición de plan de trabajo y alcances",,,,,,,,,,,,,,,
