@@ -1,3 +1,2 @@
-# Datos de personas — privados, no compartir
-data/*
-!data/_template/
+# On this branch, people data IS tracked intentionally.
+# The main branch has data/* ignored — do NOT merge this into main.
