@@ -32,6 +32,8 @@ Currently these tasks are manual — pulling from Google Sheets, cross-referenci
 
 Source of truth for team data: `plugins/colppy-people-manager/data/*/profile.md`
 
+**Note:** Jorge Ross does not have a people-manager profile (no `jorge-ross/` directory). He reports to Alejandro, not directly to Juan, and is part of a planned transition. Commands that iterate over people-manager profiles will not include Jorge — this is expected. His context comes from Alejandro's profile and session history instead.
+
 ## 3. Architecture
 
 ### Approach: Agent + 5 Commands
@@ -63,6 +65,8 @@ plugins/colppy-ceo-assistant/
 
 No new skills needed — the agent reads from existing skills in other plugins.
 
+**Budget data strategy:** `/cos-numbers` performs its own Google Sheets fetch (curl) and CSV parsing rather than invoking `/colppy-revenue:budget-dashboard`. Reason: cos-numbers needs to merge budget data with OKR targets and produce a combined gap analysis, not an HTML dashboard. The fetch/parse logic is simple (reuse patterns from `refresh_budget_dashboard.py`) and avoids coupling to the revenue plugin's output format.
+
 ### Tool Access
 
 | MCP / Tool | Used For |
@@ -80,7 +84,9 @@ No new skills needed — the agent reads from existing skills in other plugins.
 |---------------|-------------|---------|
 | colppy-people-manager | `data/*/profile.md`, `data/*/summary.md` | Team context, coaching flags |
 | colppy-revenue | `skills/building-blocks-budget/`, `skills/building-blocks-real/` | Budget fetching patterns |
-| tools | `docs/GOOGLE_SHEETS_REGISTRY.json` | Google Sheets tab IDs |
+| tools | `tools/docs/GOOGLE_SHEETS_REGISTRY.json` (canonical) | Google Sheets tab IDs |
+
+**Registry path:** Always use `tools/docs/GOOGLE_SHEETS_REGISTRY.json` (workspace root). The copy at `plugins/colppy-revenue/docs/GOOGLE_SHEETS_REGISTRY.json` is a fallback only.
 
 ## 4. Data File: OKRs
 
@@ -114,6 +120,8 @@ Structure:
 
 Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-level OKRs get populated after the March 18 planning session via `/cos-debrief`.
 
+**Quarter rotation:** At each quarter start, manually create a new file (e.g. `q3-2026.md`) using the same structure. The agent determines the current quarter's file from the date (e.g. Apr-Jun 2026 → `q2-2026.md`). Previous quarter files are kept as history.
+
 ## 5. Commands
 
 ### `/cos-numbers` — KPI Snapshot
@@ -122,7 +130,7 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 
 **Workflow:**
 1. Fetch Building Blocks tabs via curl (colppy_budget, colppy_raw_actuals, colppy_budget_aprobado, churn_budget_real) using GOOGLE_SHEETS_REGISTRY.json
-2. Parse Budget vs REAL for current month (reuse patterns from `refresh_budget_dashboard.py`)
+2. Parse Budget vs REAL for the current month (dynamically determined via date, not hardcoded). Reuse parsing patterns from `refresh_budget_dashboard.py` but always compute the target month column (e.g. `Mar-2026`) from the current date.
 3. Pull company OKR actuals from HubSpot (total customers, net new, deal pipeline)
 4. Compare against `data/okrs/q2-2026.md` targets
 5. Update actuals in the OKR file
@@ -139,7 +147,7 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 2. Fetch Q1 budget actuals vs forecast (Building Blocks — full quarter)
 3. Read each area's OKR status from `data/okrs/`
 4. Read people-manager profiles for each leader (coaching context, flags)
-5. Search Fellow for outstanding action items from the previous planning
+5. Search Fellow for outstanding action items from the previous planning. **Fellow search strategy:** search by title containing "Planning" or "Estratégica", filtered to meetings with 4+ leadership team members (to distinguish from 1:1s or weekly check-ins).
 6. Check what pre-work has been sent/completed (Fellow notes, Slack if available)
 7. Output: structured pre-work package with:
    - Budget: Q1 actual vs forecast vs budget (per area)
@@ -162,8 +170,8 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 1. Search Fellow for the target meeting (by date, title, or participant)
 2. Get transcript + summary + AI-detected action items
 3. Extract: decisions made, OKRs agreed, action items with owners and dates
-4. Update `data/okrs/` with any new targets or actuals discussed
-5. Output: structured debrief with decisions, actions (who/what/when), and OKR changes
+4. Propose OKR updates based on what was discussed. **Present changes to the user for confirmation before writing to the file** — never auto-update OKRs from transcript interpretation alone.
+5. Output: structured debrief with decisions, actions (who/what/when), and proposed OKR changes
 
 ### `/cos-status` — Action Items & Accountability
 
@@ -231,7 +239,7 @@ description: >
 
 | # | File | Type |
 |---|------|------|
-| 1 | `agents/chief-of-staff.md` | Agent |
+| 1 | `agents/chief-of-staff.md` | Agent (creates `agents/` directory) |
 | 2 | `commands/cos-numbers.md` | Command |
 | 3 | `commands/cos-pre-work.md` | Command |
 | 4 | `commands/cos-debrief.md` | Command |
