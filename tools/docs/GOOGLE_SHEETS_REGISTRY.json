@@ -82,6 +82,118 @@
       "file_id": "1BguY_a_q60_BFwh6xsozkAm1VgThuxfXKnt9QUqSgqw",
       "gid": "0",
       "notes": "RevOps 30-60-90 day plan for Francisca Horton"
+    },
+    {
+      "id": "okrs_colppy_budget_aprobado_2026",
+      "tab_name": "Budget Aprobado 2026",
+      "name": "OKRs + Iniciativas — Budget Aprobado 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "1585248223",
+      "notes": "KPIs (ARS): Net ASP, Gross Margin, CAC, Churn, LTV, NRR, New Clients (#), CAC Payback"
+    },
+    {
+      "id": "okrs_colppy_company",
+      "tab_name": "OKRs Colppy",
+      "name": "OKRs Colppy — Company Level Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "0",
+      "notes": "Company-level OKRs index/summary"
+    },
+    {
+      "id": "okrs_ceo",
+      "tab_name": "OKRs Colppy CEO",
+      "name": "OKRs Colppy CEO — Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "821623121",
+      "notes": "CEO palancas: acquisition orchestration (35pts), flywheel contador-pyme ($398MM MRR), onboarding (783 clients), customer escalable (NPS), guardrails by quarter"
+    },
+    {
+      "id": "okrs_producto_2026",
+      "tab_name": "OKRs Colppy Producto anual 2026",
+      "name": "OKRs Producto/Ingeniería — Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "362739570",
+      "notes": "Product area KRs: PQL (972), NPS (35pts), New MRR ($398MM)"
+    },
+    {
+      "id": "okrs_revenue_2026",
+      "tab_name": "OKRs Revenue anual 2026",
+      "name": "OKRs Revenue — Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "2068366535",
+      "notes": "Revenue area KRs: New MRR by ICP Pyme/Contador, Sueldos cross-sell (214 products), PQL (972)"
+    },
+    {
+      "id": "okrs_customer_2026",
+      "tab_name": "OKRs Customer anual 2026",
+      "name": "OKRs Customer — Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "712527659",
+      "notes": "Customer area KRs by subarea: Onboarding (activation <15d, CSAT >93%), Care (NPS >35, CSAT 93%), Retention, Fidelización"
+    },
+    {
+      "id": "okrs_people_2026",
+      "tab_name": "OKRs Colppy People anual 2026",
+      "name": "OKRs People — Annual 2026",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "540882584",
+      "notes": "People area KRs: eNPS (>=20), New MRR ($398MM), Leadership Effectiveness, Rotación New Hires (30%)"
+    },
+    {
+      "id": "q1_26_ceo",
+      "tab_name": "Q1-26 | CEO",
+      "name": "Q1-26 Initiatives — CEO",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "212058296",
+      "notes": "CEO Q1 initiatives with key actions, success metrics, monthly milestones, reporting cadence"
+    },
+    {
+      "id": "q1_26_producto",
+      "tab_name": "Q1-26 | Producto/Ingeniería",
+      "name": "Q1-26 Initiatives — Producto/Ingeniería",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "274700089",
+      "notes": "Product/Eng Q1 initiatives: tech migration, onboarding optimization, key actions by month"
+    },
+    {
+      "id": "q1_26_customer",
+      "tab_name": "Q1-26 | Customer",
+      "name": "Q1-26 Initiatives — Customer",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "650402916",
+      "notes": "Customer Q1 initiatives: onboarding by ICP, backlog stabilization, health score design, status tracking"
+    },
+    {
+      "id": "q1_26_customer_top1",
+      "tab_name": "Top 1/área Q1-26 | Customer",
+      "name": "Q1-26 Top 1 per Sub-area — Customer",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "1695912260",
+      "notes": "Customer top priority initiative per sub-area (Onboarding, Care, Retention, Fidelización)"
+    },
+    {
+      "id": "q1_26_revenue",
+      "tab_name": "Q1-26 | Revenue",
+      "name": "Q1-26 Initiatives — Revenue",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "1205107566",
+      "notes": "Revenue Q1 initiatives: paid media by ICP, funnel optimization, daily/weekly reporting cadence"
+    },
+    {
+      "id": "q1_26_sueldos",
+      "tab_name": "Q1-26 | Sueldos",
+      "name": "Q1-26 Initiatives — Sueldos",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "935175259",
+      "notes": "Sueldos Q1 initiatives: onboarding optimization, customer handoff, backoffice tooling"
+    },
+    {
+      "id": "people_2026",
+      "tab_name": "2026 | People",
+      "name": "2026 Initiatives — People",
+      "file_id": "1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ",
+      "gid": "694927188",
+      "notes": "People annual initiatives: leadership formation, total rewards alignment, career paths, performance framework"
     }
   ]
 }

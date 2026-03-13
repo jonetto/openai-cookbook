@@ -32,7 +32,7 @@ Currently these tasks are manual — pulling from Google Sheets, cross-referenci
 
 Source of truth for team data: `plugins/colppy-people-manager/data/*/profile.md`
 
-**Note:** Jorge Ross does not have a people-manager profile (no `jorge-ross/` directory). He reports to Alejandro, not directly to Juan, and is part of a planned transition. Commands that iterate over people-manager profiles will not include Jorge — this is expected. His context comes from Alejandro's profile and session history instead.
+**Profiles:** 6 of 7 direct reports have people-manager profiles: Malén Baigorria, Agostina Bisso, Alejandro Soto, Agustín Páez de Robles, Francisca Horton, Yamila Sosa. **Jorge Ross** does not have a profile (no `jorge-ross/` directory) — he reports to Alejandro, not directly to Juan, and is part of a planned transition. Commands that iterate over people-manager profiles will not include Jorge; his context comes from Alejandro's profile and session history instead.
 
 ## 3. Architecture
 
@@ -73,7 +73,7 @@ No new skills needed — the agent reads from existing skills in other plugins.
 |------------|----------|
 | Fellow | Meeting search, summaries, transcripts, action items |
 | Google Calendar | Upcoming events, free time, prep briefs |
-| Slack | Deliver summaries to Juan's DM (DE91378PM) only |
+| Slack | Deliver summaries to Juan's DM (user ID `UE8BUUVME`) only |
 | HubSpot | Customer counts, deal pipeline for OKR actuals |
 | Bash (curl) | Google Sheets budget data via Building Blocks registry |
 | Read | People-manager profiles, OKR files, planning data |
@@ -90,9 +90,30 @@ No new skills needed — the agent reads from existing skills in other plugins.
 
 ## 4. Data File: OKRs
 
+### OKR Source of Truth: Google Sheets
+
+The official OKR spreadsheet is **"COLPPY 2026 OKRs + Iniciativas"** (`1jatqXqizWq6kUEI1VEgC4ijrWLdH1Xo_YHIAiVH2dvQ`), with 14 tabs registered in `tools/docs/GOOGLE_SHEETS_REGISTRY.json`. All tabs are publicly accessible via curl CSV export.
+
+| Registry ID | Tab | Content |
+|-------------|-----|---------|
+| `okrs_colppy_company` | OKRs Colppy | Company-level OKRs index |
+| `okrs_ceo` | OKRs Colppy CEO | CEO palancas: acquisition, flywheel, onboarding, customer, guardrails |
+| `okrs_producto_2026` | OKRs Producto anual 2026 | PQL (972), NPS (35), New MRR ($398MM) |
+| `okrs_revenue_2026` | OKRs Revenue anual 2026 | New MRR by ICP, Sueldos cross-sell (214), PQL |
+| `okrs_customer_2026` | OKRs Customer anual 2026 | Onboarding activation, CSAT, NPS, retention by sub-area |
+| `okrs_people_2026` | OKRs People anual 2026 | eNPS (>=20), Leadership Effectiveness, rotation |
+| `okrs_colppy_budget_aprobado_2026` | Budget Aprobado 2026 | KPIs: ASP, Margin, CAC, Churn, LTV, NRR |
+| `q1_26_ceo` | Q1-26 CEO | Q1 initiatives with monthly milestones |
+| `q1_26_producto` | Q1-26 Producto/Ingeniería | Tech migration, onboarding optimization |
+| `q1_26_customer` | Q1-26 Customer | Backlog stabilization, health score, onboarding |
+| `q1_26_customer_top1` | Top 1/área Q1-26 Customer | Priority initiative per sub-area |
+| `q1_26_revenue` | Q1-26 Revenue | Paid media, funnel optimization |
+| `q1_26_sueldos` | Q1-26 Sueldos | Onboarding handoff, backoffice tooling |
+| `people_2026` | 2026 People | Leadership formation, career paths, performance |
+
 ### `data/okrs/q2-2026.md`
 
-The only new data file. Stores OKR targets (set manually at quarter start) and actuals (updated by the agent when `/cos-numbers` is run).
+Local cache file. Stores OKR targets (pulled from Google Sheets at quarter start) and actuals (updated by the agent when `/cos-numbers` is run). The Google Sheets tabs above are the authoritative source; this file is a working snapshot for quick reference.
 
 Structure:
 
@@ -122,6 +143,8 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 
 **Quarter rotation:** At each quarter start, manually create a new file (e.g. `q3-2026.md`) using the same structure. The agent determines the current quarter's file from the date (e.g. Apr-Jun 2026 → `q2-2026.md`). Previous quarter files are kept as history.
 
+**Single file per quarter:** `data/okrs/` is a directory containing one file per quarter (e.g. `q2-2026.md`). Commands that reference `data/okrs/` read the current quarter's file — there are no separate area-specific files.
+
 ## 5. Commands
 
 ### `/cos-numbers` — KPI Snapshot
@@ -130,7 +153,7 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 
 **Workflow:**
 1. Fetch Building Blocks tabs via curl (colppy_budget, colppy_raw_actuals, colppy_budget_aprobado, churn_budget_real) using GOOGLE_SHEETS_REGISTRY.json
-2. Parse Budget vs REAL for the current month (dynamically determined via date, not hardcoded). Reuse parsing patterns from `refresh_budget_dashboard.py` but always compute the target month column (e.g. `Mar-2026`) from the current date.
+2. Parse Budget vs REAL for the current month. **Target month logic:** compute `target_month = f"{Jan|Feb|...|Dec}-{year}"` from the current date (e.g. `Mar-2026`). Building Blocks tabs use this `MMM-YYYY` format in column headers. Reuse `_default_target_month()` logic from `refresh_budget_dashboard.py`. For tabs with different structures (churn_budget_real, colppy_raw_actuals), inspect the CSV header row to find the matching month column — reference `plugins/colppy-revenue/skills/building-blocks-budget/` and `BUILDING_BLOCKS_BUDGET_GUIDE.md` for tab-specific parsing.
 3. Pull company OKR actuals from HubSpot (total customers, net new, deal pipeline)
 4. Compare against `data/okrs/q2-2026.md` targets
 5. Update actuals in the OKR file
@@ -145,7 +168,7 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 **Workflow:**
 1. Identify the target planning session (from Calendar or argument)
 2. Fetch Q1 budget actuals vs forecast (Building Blocks — full quarter)
-3. Read each area's OKR status from `data/okrs/`
+3. Read OKR status from `data/okrs/` — use the **previous quarter's file** (e.g. `q1-2026.md`) for area-level "what was achieved vs plan", since area sections in the current quarter's file are populated only after the planning session via `/cos-debrief`. Company-level OKRs from the current file are available.
 4. Read people-manager profiles for each leader (coaching context, flags)
 5. Search Fellow for outstanding action items from the previous planning. **Fellow search strategy:** search by title containing "Planning" or "Estratégica", filtered to meetings with 4+ leadership team members (to distinguish from 1:1s or weekly check-ins).
 6. Check what pre-work has been sent/completed (Fellow notes, Slack if available)
@@ -179,7 +202,7 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 
 **Workflow:**
 1. Pull Fellow action items for the leadership team (search by participant names)
-2. Cross-reference with `data/okrs/` progress
+2. Cross-reference with `data/okrs/` progress (current quarter's file, e.g. `q2-2026.md`)
 3. Check Calendar for upcoming deadlines
 4. Read people-manager summaries for flagged situations (exits, underperformance, critical coaching)
 5. Output: per-person status — pending items, overdue items, coaching flags, upcoming commitments
@@ -215,7 +238,7 @@ description: >
 1. **Calendar-grounded**: always checks what's happening today/this week before responding
 2. **Reads people-manager, never writes**: coaching data is session-processor's domain
 3. **Updates OKR actuals**: when fetching numbers, keeps `data/okrs/q2-2026.md` current
-4. **Slack to Juan only**: messages go to DM DE91378PM, never directly to team members
+4. **Slack to Juan only**: messages go to user ID `UE8BUUVME`, never directly to team members
 5. **Delegates to revenue tools**: for MRR/churn/funnel, uses existing colppy-revenue skills — doesn't recalculate
 6. **No investment advice**: portfolio is portfolio-alert's domain
 
