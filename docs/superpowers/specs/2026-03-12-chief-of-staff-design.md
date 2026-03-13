@@ -159,12 +159,61 @@ Numeric targets come from the Q2 planning deck and Building Blocks budget. Area-
 
 **Trigger:** "show me the numbers", "how are we doing", "budget status"
 
+**Two-layer data model:** Plan vs Real. The gap analysis compares Plan vs Real for the target month.
+- **Plan**: Budget adjusted by forecast — "the plan". Cached locally, refreshed quarterly or on user request.
+- **Real**: Actual data as it comes in. Fetched live on every invocation.
+
+**Tabs used — 4 parsing patterns:**
+
+Building Blocks tabs are NOT uniform. Each follows one of 4 structural patterns:
+
+**Pattern A — Plan + REAL split** (top = plan, "REAL" marker row, bottom = actuals):
+
+| Registry ID | Rows | REAL marker | What It Provides | Month format |
+|-------------|------|-------------|------------------|-------------|
+| `colppy_budget` | 74 | Row 40 | MRR by product line (Administración, Sueldos, Upsell, Cross sell) | `MMM-YYYY` |
+| `funnel_from_lead_product_icp` | 119 | Row 73 | MQL/CQL/deal counts by ICP segment | `MMM-YYYY` |
+| `funnel_lead_product_icp` | 88 | Row 47 | Lead→CQL→Deal conversion rates (%) | `MMM-YYYY` |
+
+Parsing: scan for row where first non-empty cell equals "REAL", split CSV into two halves.
+
+**Pattern B — Labeled sections** (different header labels for plan vs actuals):
+
+| Registry ID | Rows | What It Provides | Month format |
+|-------------|------|------------------|-------------|
+| `churn_budget_real` | 30 | Lost MRR by lifecycle stage (Early/Mid/Late %) | `MMM-YYYY` |
+
+Parsing: "Lost MRR Budget" header = plan section, "Lost MRR Actual (Ending MRR)" header = actuals section, "% of MRR" = derived. Note: tab has a "PENDING" note about restructuring to Pattern A in the future.
+
+**Pattern C — Actuals only** (no plan section):
+
+| Registry ID | Rows | What It Provides | Month format |
+|-------------|------|------------------|-------------|
+| `colppy_raw_actuals` | 292 | Gross/Net ASP, CAC, Churn %, LTV, NRR, New Clients | `MMM YY` (space, no dash!) |
+
+Parsing: all rows are historical actuals. Column headers use `MMM YY` format (e.g. "Feb 26"). For gap analysis, pair this tab's actuals with `colppy_budget_aprobado`'s plan.
+
+**Pattern D — Plan only** (no actuals section):
+
+| Registry ID | Rows | What It Provides | Month format |
+|-------------|------|------------------|-------------|
+| `colppy_budget_aprobado` | 84 | KPIs: Net ASP, Gross Margin, CAC, LTV, NRR, New Clients (#) | `MMM-YY` (dash, 2-digit year) |
+
+Parsing: all rows are approved budget targets. For gap analysis, pair this tab's plan with `colppy_raw_actuals`'s actuals. KPIs in ARS (Argentine pesos).
+
+**Complementary pair:** Patterns C + D form one logical unit — `colppy_budget_aprobado` (plan) + `colppy_raw_actuals` (actuals) must be read together to produce a Plan vs Real comparison for unit economics (ASP, CAC, Churn, LTV, NRR).
+
+**Month format normalization:** The parser must handle three formats:
+- `MMM-YYYY` (e.g. `Mar-2026`) — Pattern A, B
+- `MMM-YY` (e.g. `Mar-26`) — Pattern D
+- `MMM YY` (e.g. `Mar 26`, with space) — Pattern C
+
 **Workflow:**
-1. Fetch Building Blocks tabs via curl (colppy_budget, colppy_raw_actuals, colppy_budget_aprobado, churn_budget_real) using GOOGLE_SHEETS_REGISTRY.json
-2. Parse Budget vs REAL for the current month. **Target month logic:** compute `target_month = f"{Jan|Feb|...|Dec}-{year}"` from the current date (e.g. `Mar-2026`). Building Blocks tabs use this `MMM-YYYY` format in column headers. Reuse `_default_target_month()` logic from `refresh_budget_dashboard.py`. For tabs with different structures (churn_budget_real, colppy_raw_actuals), inspect the CSV header row to find the matching month column — reference `plugins/colppy-revenue/skills/building-blocks-budget/` and `BUILDING_BLOCKS_BUDGET_GUIDE.md` for tab-specific parsing.
+1. Fetch all 6 tabs above via curl using GOOGLE_SHEETS_REGISTRY.json
+2. Parse each tab according to its pattern (A/B/C/D) to extract Plan and Real values for the target month
 3. Pull company OKR actuals from HubSpot (total customers, net new, deal pipeline)
-4. Compare against `data/okrs/q2-2026.md` targets
-5. Update actuals in the OKR file
+4. Compare Plan vs Real for each KPI, plus OKR targets from `data/okrs/` cache
+5. Update actuals in the current quarter's OKR file (e.g. `data/okrs/q2-2026.md`)
 6. Output: gap analysis — on track / behind / ahead, how material each gap is
 
 **Output format:** Summary cards (like the existing budget dashboard) + narrative of key gaps.
