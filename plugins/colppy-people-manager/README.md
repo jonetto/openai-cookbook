@@ -210,8 +210,11 @@ Pasted transcripts, attached PDFs, slides, or self-assessment documents prepared
 | Alejandro Soto | `alejandro-soto` | Head of Product Engineering | 1 | Full profile with SUMA Leadership Matrix (51 behaviors) |
 | Malén Baigorria | `malen-baigorria` | HRBP | 1 | Full profile + coaching arc + 21 action items tracked |
 | Agostina Bisso | `agostina-bisso` | Head of Customer | 0 | Full profile + coaching arc + SUMA Leadership Matrix (initial, no cycle closure) + 9 action items |
+| Agustín Páez de Robles | `agustin-paez-de-robles` | Head of Revenue | 1 | Full profile + coaching arc |
+| Francisca Horton | `francisca-horton` | RevOps Lead | 0 | Full profile + coaching arc |
+| Yamila Sosa | `yamila-sosa` | PM — Liquidación de Sueldos | 1 | Full profile + Q4 feedforward + coaching arc + 16 action items (8 pending, 8 completed) |
 
-_Last updated: 2026-03-03_
+_Last updated: 2026-03-12_
 
 ---
 

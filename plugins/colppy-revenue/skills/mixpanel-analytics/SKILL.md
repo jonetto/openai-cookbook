@@ -18,6 +18,42 @@ Colppy's product analytics setup in Mixpanel for tracking user behavior, engagem
 
 ---
 
+## Dual-Group Data Model (KAN-12024, rolling out since 2026-03-11)
+
+Colppy uses four Mixpanel assignment levels:
+
+| Level | Key | What it identifies |
+|-------|-----|-------------------|
+| Device | `$device_id` | Pre-auth browser fingerprint |
+| User | `distinct_id` (= email) | Individual user |
+| Company | `company` group (= `CUITFacturacion`) | Billing entity (CUIT) |
+| Product | `product_id` group (= `idEmpresa`) | Product subscription |
+
+**The join key** between Mixpanel and the Colppy DB is `product_id` (or `company_id` in old events) = `empresa.IdEmpresa`.
+
+### Old vs New Event Format
+
+**Old events** (pre-KAN-12024, ~80% during rollout):
+- `company_id` = idEmpresa, `company` = [idEmpresa]
+- ~35 properties per Login event
+- Company properties (CUIT, Estado, Plan) require `--enrich` via Engage API
+
+**New events** (post-KAN-12024, ~20% as of Mar 12):
+- `product_id` (array) = idEmpresa — the product subscription key
+- `company_id` still = idEmpresa (unchanged as event property)
+- **Super properties on events** (no Engage API needed):
+  - `CUIT` (= `facturacion.CUIT`, billing entity — 95.3% validated)
+  - `Razon Social`, `Nombre Plan`, `Plan` (idPlan), `Estado`, `Es Contador`
+  - `Fecha Alta`, `Fecha Vencimiento`, `Condicion Iva`, `Es Demo`
+  - `Rol`, `Mail Facturacion`, `Domicilio`
+- ~98 properties per Login event
+
+**Detect new events**: Check for `product_id` field presence.
+
+**Validation script**: `tools/scripts/mixpanel/kan12024_health_check.py`
+
+---
+
 ## Product Families
 
 | Product | Description |

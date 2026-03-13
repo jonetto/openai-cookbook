@@ -474,14 +474,14 @@ class AtlassianMCPServer {
   // Jira Methods
   async searchJiraIssues({ jql, max_results = 50, fields, expand }) {
     try {
-      const params = {
+      const body = {
         jql,
         maxResults: max_results,
         fields: fields || ['key', 'summary', 'status', 'assignee', 'reporter', 'created', 'updated'],
         expand: expand || []
       };
 
-      const response = await this.atlassianApi.get('/rest/api/3/search', { params });
+      const response = await this.atlassianApi.post('/rest/api/3/search/jql', body);
       
       return {
         content: [

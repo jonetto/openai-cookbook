@@ -55,6 +55,25 @@ When the ARCA MCP server is not available (e.g., in Claude Cowork), use the remo
 
 Use `WebFetch` to call these endpoints. The API returns JSON with the same fields as the local MCP tools. Search supports optional `&provincia=Buenos+Aires` filter.
 
+### Supabase KPI Store (shared read layer)
+
+Financial KPIs and MTD billing are published to Supabase for cross-agent access. Query these instead of rebuilding from scratch:
+
+| Table | What it has | Query example |
+|-------|-------------|---------------|
+| `kpi_values` | Building Blocks (Budget/Forecast/Real × 7 tabs) | `?tab_id=eq.colppy_budget_first&section=eq.real&block=eq.mrr` |
+| `mtd_summary` | MTD billing from Colppy DB (new MRR by ICP × product, churn, payments) | `?month=eq.Mar-2026&order=metric` |
+| `reconciliation_summary` | Colppy ↔ HubSpot match results | `?year=eq.2026&month=eq.3` |
+| `icp_dashboard` | Aggregated metrics by ICP type | `?month=eq.Mar-2026&icp_type=eq.Cuenta Pyme` |
+
+**Access**: REST API with anon key (read-only). Credentials in `tools/.env`.
+```
+GET {SUPABASE_URL}/rest/v1/{table}?{filters}
+Header: apikey: {SUPABASE_ANON_KEY}
+```
+
+Use Supabase data for quick answers. Use commands (`/mrr-report`, `/funnel-report`) when you need deeper analysis or fresh HubSpot data.
+
 ### External connectors
 
 This plugin also relies on external connectors (HubSpot, Mixpanel) configured in the user's environment. The MCP tools from these connectors are building blocks — prefer using the commands that wrap them.

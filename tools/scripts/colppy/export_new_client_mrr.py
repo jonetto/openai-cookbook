@@ -113,12 +113,18 @@ def query_new_client_mrr_local(
                 p.fechaPago,
                 p.importe,
                 e.CUIT AS product_cuit,
-                f.CUIT AS customer_cuit
+                f_dedup.CUIT AS customer_cuit
             FROM pago p
             LEFT JOIN plan pl ON pl.idPlan = p.idPlan
-            LEFT JOIN empresa e ON e.IdEmpresa = p.idEmpresa
-            LEFT JOIN facturacion f ON f.IdEmpresa = p.idEmpresa
-              AND (f.fechaBaja IS NULL OR f.fechaBaja = '' OR f.fechaBaja = '0000-00-00')
+            LEFT JOIN (
+                SELECT IdEmpresa, CUIT FROM empresa GROUP BY IdEmpresa
+            ) e ON e.IdEmpresa = p.idEmpresa
+            LEFT JOIN (
+                SELECT IdEmpresa, CUIT, MIN(idFacturacion) as min_id
+                FROM facturacion
+                WHERE fechaBaja IS NULL OR fechaBaja = '' OR fechaBaja = '0000-00-00'
+                GROUP BY IdEmpresa
+            ) f_dedup ON f_dedup.IdEmpresa = p.idEmpresa
             WHERE p.primerPago = 1
               AND (p.estado = 1 OR (p.estado = 0 AND p.fechaTransferencia IS NOT NULL))
               AND p.fechaPago >= ?

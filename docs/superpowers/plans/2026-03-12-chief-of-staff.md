@@ -181,7 +181,7 @@ description: "Prepare pre-work package for a quarterly planning session. Fetches
 3. **Step 1: Identify target session** — Calendar search for meeting with 4+ leadership members, title "Planning" or "Estratégica". Or use user-specified date.
 4. **Step 2: Fetch full-quarter budget** — same curl + Pattern A/B/C/D as `/cos-numbers` but ALL months in quarter. Compute quarter totals.
 5. **Step 3: Read OKR status** — previous quarter file for area achievements, current quarter for company targets
-6. **Step 4: Read people-manager profiles** — for 6 leaders: `plugins/colppy-people-manager/data/{person}/profile.md` and `summary.md`. Directories: `malen-baigorria`, `agostina-bisso`, `alejandro-soto`, `agustin-paez-de-robles`, `francisca-horton`, `yamila-sosa`. **Jorge Ross has NO profile** — read Alejandro's profile + Fellow history for Jorge's context instead.
+6. **Step 4: Read people-manager profiles** — for 6 leaders: `plugins/colppy-people-manager/data/{person}/profile.md` and `summary.md`. Directories: `malen-baigorria`, `agostina-bisso`, `alejandro-soto`, `agustin-paez-de-robles`, `francisca-horton`, `yamila-sosa`. Jorge Ross has no profile — his context is part of Alejandro's leadership.
 7. **Step 5: Search Fellow** — meetings titled "Planning"/"Estratégica" with 4+ leaders. Get action items from most recent planning.
 8. **Step 6: Compile** — Budget summary table, OKR review per area, People flags per leader, Outstanding actions, Agenda reminder, Strategic questions for Juan
 
@@ -250,7 +250,7 @@ description: "Action items and accountability. Pulls Fellow actions for leadersh
 2. **Step 1: Fellow action items** — per leader, categorize: completed, pending, overdue
 3. **Step 2: OKR progress** — read `${CLAUDE_PLUGIN_ROOT}/data/okrs/q2-2026.md`, check each area
 4. **Step 3: Calendar** — next 2 weeks, deadlines, meetings per leader
-5. **Step 4: People-manager flags** — read `summary.md` for 6 leaders. Look for: exit signals, underperformance, coaching items. **Jorge Ross: no profile** — read Alejandro's profile + Fellow history for Jorge's context instead.
+5. **Step 4: People-manager flags** — read `summary.md` for 6 leaders. Look for: exit signals, underperformance, coaching items. Jorge Ross has no profile — his context is part of Alejandro's leadership.
 6. **Step 5: Output** — per-person card: action items (pending/overdue count), OKR status, coaching flags, upcoming meetings. End with "CEO attention needed" top 3.
 
 - [ ] **Step 2: Commit**

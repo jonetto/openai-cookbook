@@ -118,7 +118,27 @@ Identity map:
 - **Two ICPs**: Cuenta Contador (accountant firms managing multiple clients) and Cuenta Pyme (direct SMBs)
 - **Wizard vs reality gap**: users self-select a role during the onboarding wizard (`rol_wizard`), but their actual product behavior may differ — an accountant who selects "Contador" may actually use the product as an admin (Operador persona)
 - **"Primeros 90 dias" inbox** in Intercom — support conversations from users in their first 90 days, team ID 2334166. **Important**: for trial analysis, always use `--trial-only` flag to filter to conversations from contacts within their first 7 days — the inbox contains mostly post-trial users (weeks 2-12)
-- **Activation threshold** — default: 4+ comprobantes de compra within 7 days (from historical Signal report, correlates with week-2 retention)
+- **Activation signals** — ranked by Mixpanel Signals report (Mar 2026, n=11,381 users, 78 converters, 0.69% base rate):
+
+### Conversion Signal Hierarchy (trial→paid)
+
+| Rank | Event | Opp Score | Precision | Recall | TP | Interpretation |
+|------|-------|-----------|-----------|--------|-----|---------------|
+| 1 | **Agregó un ítem** | 0.831 | 93.2% | 52.6% | 41 | **Primary activation signal** — near-perfect predictor. If a trial user adds an item, 93% chance they convert. Captures half of all converters. |
+| 2 | **Generó comprobante de venta** | 0.573 | 60.9% | 17.9% | 14 | Strong secondary signal — sales invoicing intent |
+| 3 | **Generó comprobante de compra** | 0.464 | 53.8% | 9.0% | 7 | Purchase invoicing — previously used as sole threshold |
+| 4 | **Generó asiento contable** | 0.423 | 62.5% | 6.4% | 5 | Accounting persona signal |
+| 5 | **app generó comprobante de venta** | 0.403 | 100% | 6.4% | 5 | Mobile/app invoicing — perfect precision but low volume |
+| 6 | **Liquidar sueldo** | 0.160 | — | — | 2 | Payroll critical event — low trial volume but tracked (5,365 total, tagged "Eventos Clave") |
+| 7 | **Finalizó importación** | 0.352 | 42.9% | 3.8% | 3 | Data migration = commitment signal |
+
+**Key insight**: "Agregó un ítem" (adding a product/service item to the catalog) is 2x more predictive than any invoicing event. This makes sense — item creation is a **setup investment** that signals the user is configuring Colppy for real use, not just exploring. Users who add items are building their catalog, which is a prerequisite to issuing real invoices.
+
+**Recommended activation thresholds**:
+
+- **PQL (Product Qualified Lead)**: User performed ≥1 critical event during trial. Critical events: `Agregó un ítem`, `Generó comprobante de venta`, `Generó comprobante de compra`, `Generó asiento contable`, `Liquidar sueldo`, `app generó comprobante de venta`
+- **Strong PQL**: User performed 2+ distinct critical events (e.g., item + invoice — near-certain conversion)
+- **Legacy threshold** (deprecated): 4+ comprobantes de compra — this was the old metric, now superseded by the signals analysis
 
 ## Tools & Scripts
 
@@ -166,7 +186,9 @@ python tools/scripts/mixpanel/export_trial_events.py \
 
 Cache location: `plugins/colppy-customer-success/skills/trial-data-model/cache/`
 
-**`--enrich` details:** Fetches company group profiles from the Mixpanel Engage API (1 targeted API call) and joins them into the pivoted data by `company_id`. This adds properties that only exist on group profiles: Estado, Industria (colppy), Fecha primer pago, Fecha Alta, Nombre Plan, CUIT, Email Facturacion, etc. Requires `MIXPANEL_GROUP_TYPE_ID_COMPANY` in `.env`. After KAN-12024 ships super properties on events, `--enrich` becomes unnecessary.
+**`--enrich` details:** Fetches company group profiles from the Mixpanel Engage API (1 targeted API call) and joins them into the pivoted data by `company_id`. This adds properties that only exist on group profiles: Estado, Industria (colppy), Fecha primer pago, Fecha Alta, Nombre Plan, CUIT, Email Facturacion, etc. Requires `MIXPANEL_GROUP_TYPE_ID_COMPANY` in `.env`.
+
+**KAN-12024 update (rolling out since 2026-03-11):** ~20% of events now carry these properties directly as super properties (CUIT, Estado, Nombre Plan, Fecha Alta, Fecha Vencimiento, Es Contador, Condicion Iva, Domicilio, Es Demo). Detect new-format events by checking for `product_id` field presence. For new-format events, `--enrich` is unnecessary. For old-format events (~80% during rollout), `--enrich` is still required. Once rollout reaches 100%, `--enrich` becomes fully obsolete.
 
 **When to use which Mixpanel tool:**
 
@@ -177,7 +199,7 @@ Cache location: `plugins/colppy-customer-success/skills/trial-data-model/cache/`
 | Retention curves | MCP `run_retention_query` | Cohort math on Mixpanel side |
 | Per-user persona classification | Export script `--level user` | Needs local pivot + classification logic |
 | Per-company drill-down | Export script `--level company` | Nests users inside companies locally |
-| Company Estado/Industria/billing | Export script `--level company --enrich` | Group profile properties not on events |
+| Company Estado/Industria/billing | Export script `--level company --enrich` | Group profile properties not on OLD events (pre-KAN-12024). Post-KAN-12024 events have CUIT, Estado, Nombre Plan, etc. as super properties — check for `product_id` field to detect. |
 | Wizard vs reality matrix | Export script `--level user` | Needs user-level event + property cross-reference |
 
 ### Bash Scripts

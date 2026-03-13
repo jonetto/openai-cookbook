@@ -39,7 +39,7 @@ The `chief-of-staff` agent manages planning cadence, KPI tracking, calendar brie
 
 | Command | What it does |
 |---------|-------------|
-| `/colppy-ceo-assistant:cos-numbers` | KPI snapshot — Plan vs Real gap analysis from Building Blocks + HubSpot |
+| `/colppy-ceo-assistant:cos-numbers` | KPI snapshot — Budget vs Forecast vs Real gap analysis from Building Blocks + HubSpot |
 | `/colppy-ceo-assistant:cos-pre-work` | Planning session prep — budget, OKRs, people flags, prior actions |
 | `/colppy-ceo-assistant:cos-debrief` | Post-meeting extraction — decisions, actions, proposed OKR updates |
 | `/colppy-ceo-assistant:cos-status` | Accountability check — per-person action items, OKR progress, flags |
@@ -56,6 +56,10 @@ The `chief-of-staff` agent manages planning cadence, KPI tracking, calendar brie
 
 - **colppy-people-manager:** Reads `data/*/profile.md` and `data/*/summary.md` for team context
 - **tools:** Reads `tools/docs/GOOGLE_SHEETS_REGISTRY.json` for Google Sheets tab IDs
+- **Supabase KPI Store:** 6 tables across two layers. Credentials in `tools/.env`.
+  - **Building Blocks layer**: `kpi_values` (Budget/Forecast/Real × 7 tabs), `snapshots`, `change_log`. Fetch: `tools/scripts/building_blocks/fetch_and_store.py --all`
+  - **Publish layer**: `mtd_summary` (MTD billing by ICP × product), `reconciliation_summary`, `icp_dashboard`. Publish: `tools/scripts/publish_to_supabase.py --mtd`
+  - Query via REST API (`SUPABASE_ANON_KEY`) or `psycopg2` (Session Pooler)
 
 ### Rules
 

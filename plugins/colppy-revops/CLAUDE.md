@@ -87,6 +87,58 @@ When joining `deal_associations` to `companies`:
 - If any rows return NULL company name → fetch those company IDs from HubSpot MCP (`get_crm_objects`) in a single batch call
 - Do NOT present results with missing names — resolve them first
 
+## Zapier Automation Inventory
+
+Pre-scraped inventory of the Zapier account powering Colppy's data pipelines:
+
+- `data/zapier/active_zaps_inventory.md` — 21 active Zaps, categorized by function (event tracking, cohort imports, property updates)
+- `data/zapier/connections_audit.md` — 166 app connections with health status and cleanup recommendations
+
+Key facts: 168 total Zaps, 21 ON, plan at 2.2k/20k tasks. Most Zaps bridge HubSpot ↔ Mixpanel ↔ Intercom via webhooks and scheduled cohort exports. Use the `zapier-inventory` skill for queries.
+
+## Sales Team Structure (from 2026-03-13)
+
+The commercial team operates with 3 people in a pipeline model:
+
+| Role | Focus | How it feeds the pipeline |
+|------|-------|--------------------------|
+| **1 Fidelización** (Customer team) | Accountant segmentation, relationship management | Generates qualified opportunities for closers |
+| **2 Closers** | Score 40+ leads, commercial interventions | Close deals from scoring pipeline + Fidelización pipeline |
+
+**RevOps monitoring responsibilities (Francisca):**
+
+- Ensure score 40+ leads are being attended by closers (not left untouched)
+- Track SQL cycle time and conversion rates for the sales-touched path
+- Flag capacity gaps: if high-score leads accumulate without owner assignment
+
+**Two-path split for all funnel reports:**
+
+- **Sales-touched**: `fit_score_contador >= 40` AND `hubspot_owner_id` populated
+- **No-touch (PLG)**: `fit_score_contador < 40` OR `hubspot_owner_id` empty → product must convert these
+
+When running `run_high_score_analysis` or `run_mtd_scoring`, contextualize results against this structure — unengaged high-score contacts are now a direct capacity problem for just 2 closers.
+
+## Supabase Publish Layer (shared read layer)
+
+Pipeline results are published to Supabase for cross-agent access. Query these for quick answers instead of re-running full pipelines:
+
+| Table | What it has | Query example |
+|-------|-------------|---------------|
+| `kpi_values` | Building Blocks (Budget/Forecast/Real × 7 tabs) | `?tab_id=eq.colppy_budget_first&section=eq.real` |
+| `mtd_summary` | MTD billing from Colppy DB (new MRR by ICP × product, active clients, churn, payments) | `?month=eq.Mar-2026` |
+| `reconciliation_summary` | Colppy ↔ HubSpot match results by category | `?year=eq.2026&month=eq.3` |
+| `icp_dashboard` | Aggregated metrics by ICP type | `?month=eq.Mar-2026&icp_type=eq.Cuenta Pyme` |
+
+**Access**: REST API with anon key (read-only). Credentials in `tools/.env`.
+
+**Publishing**: After running reconciliation or billing analysis, publish results:
+
+```bash
+python3 tools/scripts/publish_to_supabase.py --mtd --month YYYY-MM
+```
+
+The `cos-numbers` command runs this automatically. Other agents can publish after their pipeline runs complete.
+
 ## Output Rules
 
 - Present reconciliation results in the chat with markdown tables

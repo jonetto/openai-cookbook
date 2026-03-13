@@ -35,11 +35,32 @@ A single person (email) can have Mixpanel events across multiple `id_empresa` va
                               id_empresa (subscription)
                                     │
                               Colppy DB ◄──────► Mixpanel
-                            (billing, plans)   (id_empresa = super property
-                                                on each event = which
-                                                subscription the action
-                                                was performed in)
+                            (billing, plans)   (id_empresa = product_id in
+                                                new events, company_id in
+                                                old events)
 ```
+
+## Mixpanel Event Schema (KAN-12024, rolling out since 2026-03-11)
+
+Events exist in two formats during rollout (~20% new as of Mar 12):
+
+**Old format** (no `product_id`): `company_id` = idEmpresa, ~35 properties. Company metadata (CUIT, Estado, Plan) requires `--enrich` via Engage API.
+
+**New format** (has `product_id`): ~98 properties with super properties:
+
+| Property | DB source | What it is |
+| --- | --- | --- |
+| `product_id` (array) | `empresa.IdEmpresa` | Product subscription key (JOIN key to DB) |
+| `company_id` | `empresa.IdEmpresa` | Same as before (unchanged) |
+| `CUIT` | `facturacion.CUIT` | Billing entity CUIT (95.3% validated) |
+| `Nombre Plan` | `plan.nombre` | Subscription plan name |
+| `Estado` | empresa active status | `Activa`, etc. |
+| `Es Contador` | Boolean | Accountant flag |
+| `Fecha Alta` | `empresa.FechaAlta` | Company creation date |
+| `Fecha Vencimiento` | `empresa.fechaVencimiento` | Subscription expiry |
+| `Es Demo` | Boolean | Demo account flag |
+
+**Detect format**: `if event["properties"].get("product_id")` → new format, else old.
 
 ---
 

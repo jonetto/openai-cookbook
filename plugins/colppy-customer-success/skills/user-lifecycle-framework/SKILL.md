@@ -36,6 +36,7 @@ A user who selects "Contador" in the wizard but only does compra/venta is an **O
 | **Lleva la administración** | `Generó comprobante de compra`, `Generó comprobante de venta` | Core persona — invoicing, buying/selling. Most common. |
 | **Lleva la contabilidad** | `Generó asiento contable` (primary), `Descargó el balance`, `Descargó el diario general`, `Agregó una cuenta contable` | True bookkeeping — journal entries, chart of accounts, financial reports |
 | **Lleva inventario** | `Agregó un ítem` (primary), `Generó un ajuste de inventario`, `Actualizó precios en pantalla masivo` | Inventory-focused — item catalog, stock adjustments, price management |
+| **Liquida sueldos** | `Liquidar sueldo` | Payroll processing — demonstrates real usage of the payroll module |
 | **Operador** | Same events as "Lleva la administración" BUT `contact_es_contador=true` AND operates across multiple client `id_empresa` values | Accountant behaving as administrator for their clients' companies |
 
 ### Wizard vs Reality Gap

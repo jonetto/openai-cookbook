@@ -267,7 +267,7 @@ These are the events defined as critical in the Framework de Producto that are c
 | `Generó comprobante de compra` | Admin (compras/ventas) | PRIMARY critical event | JS — colppyAnalytics (dual) |
 | `Generó asiento contable` | Contabilidad | PRIMARY critical event | JS — colppyAnalytics (dual) |
 | `esueldos_autoregistro_exitoso` | Sueldos | Onboarding proxy only | Node.js — autoregistro-esueldos (dual) |
-| *(missing)* | Sueldos | PRIMARY critical event — `Liquidó sueldos` | ❌ NOT YET TRACKED |
+| `Liquidar sueldo` | Sueldos | PRIMARY critical event — exists in Mixpanel (5,365 events) but NOT in Intercom | ⚠️ Mixpanel only |
 
 > All JS events via `colppyAnalytics(..., 'intercom')` are simultaneously sent to Mixpanel. PHP-only events (via `functionsIntercom.php` directly) are Intercom-only and may not have a Mixpanel counterpart.
 
@@ -347,19 +347,20 @@ These are the events defined as critical in the Framework de Producto that are c
 | `esueldos_autoregistro_exitoso` | User activates eSueldos module | ✅ Onboarding — triggers `lifecycle_sueldos = "beginner"` (fires once) |
 | `esueldos_autoregistro_fallido` | eSueldos activation fails | ⚠️ Failure signal — useful for support alerts, not lifecycle |
 
-**Gap analysis**: The sueldos engine runs on `payroll.e-sueldos.com`. `esueldos_autoregistro_exitoso` can serve as the **beginner** trigger (user activated the module), but NO recurring value event exists to compute **retenido** or **dormido** states.
+**Gap analysis**: The sueldos engine runs on `payroll.e-sueldos.com`. `esueldos_autoregistro_exitoso` can serve as the **beginner** trigger (user activated the module). The recurring value event `Liquidar sueldo` **exists in Mixpanel** (5,365 events) but is **NOT tracked in Intercom**, which blocks Intercom-based lifecycle state machine.
 
-**Proposed fix** — add ONE call in the eSueldos platform at the liquidación completion step:
+**Proposed fix** — add ONE call in the eSueldos platform at the liquidación completion step to also send to Intercom:
 
 ```javascript
 // In the sueldos platform — after a payroll run completes
-intercom_track_event(userEmail, 'Liquidó sueldos', {
+// Event already fires to Mixpanel as "Liquidar sueldo"; add Intercom tracking:
+intercom_track_event(userEmail, 'Liquidar sueldo', {
   periodo: '2026-03',
   cantidad_empleados: 12
 });
 ```
 
-This single addition unblocks the entire `lifecycle_sueldos` state machine.
+This single addition unblocks the entire `lifecycle_sueldos` state machine in Intercom.
 
 ---
 
@@ -526,12 +527,12 @@ Any of these events advances the `lifecycle_contabilidad` state machine:
 | Priority | Event Name | Signal Strength | Status |
 | --- | --- | --- | --- |
 | ONBOARDING | `esueldos_autoregistro_exitoso` | ★ Module activation (fires once — use for `beginner` only) | ✅ Live |
-| PRIMARY | `Liquidó sueldos` | ★★★ Core sueldos value event | ❌ Not yet tracked |
+| PRIMARY | `Liquidar sueldo` | ★★★ Core sueldos value event (tracked in Mixpanel, missing from Intercom) | ⚠️ Mixpanel only |
 
 **Current capability**:
 
 - `beginner`: fire on `esueldos_autoregistro_exitoso` (partial — module activation as proxy)
-- `retenido` / `dormido` / `revivido`: **BLOCKED** until `Liquidó sueldos` is added
+- `retenido` / `dormido` / `revivido`: **BLOCKED** until `Liquidar sueldo` is added to Intercom (already in Mixpanel)
 
 **Implementation path**: One `intercom_track_event()` call in the eSueldos platform at liquidación completion unblocks the full state machine. See Sueldos section above for the exact proposed call.
 
@@ -547,7 +548,7 @@ Any of these events advances the `lifecycle_contabilidad` state machine:
 | Lifecycle Admin — Revivido | Admin event after dormido state | `lifecycle_admin = "revivido"` | ✅ Ready to build |
 | Lifecycle Conta — (same set) | Any contabilidad OR event | `lifecycle_contabilidad = *` | ✅ Ready to build |
 | Lifecycle Sueldos — Beginner | `esueldos_autoregistro_exitoso` | `lifecycle_sueldos = "beginner"` | ✅ Partial |
-| Lifecycle Sueldos — Retenido+ | `Liquidó sueldos` | `lifecycle_sueldos = "retenido"` | ❌ Blocked |
+| Lifecycle Sueldos — Retenido+ | `Liquidar sueldo` | `lifecycle_sueldos = "retenido"` | ⚠️ Blocked (Intercom) |
 
 ---
 

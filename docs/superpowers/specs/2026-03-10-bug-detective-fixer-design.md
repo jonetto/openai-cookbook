@@ -24,7 +24,7 @@ Human-gated handoff: the Detective recommends, you decide, the Fixer executes.
 | Fixer autonomy | PR only, human reviews and merges | 108-repo codebase with multiple deployment flows. No autonomous merges. |
 | Repo access | Dynamic — Detective identifies repo, Fixer clones into worktree | Too many repos to pre-configure. Detective's triage naturally points to the right repo. |
 | DB access | Staging (free query) + prod read-only (existing `juan_onetto`) | Staging is safe for investigation. Prod read-only for confirmation. Both via existing VPN. |
-| Communication | Slack DM (channel `DE91378PM`) | User's preferred channel. Jira comments are secondary (Detective can comment on existing tickets). |
+| Communication | Slack DM (user ID `UE8BUUVME`) | User's preferred channel. Jira comments are secondary (Detective can comment on existing tickets). |
 | Handoff | Human-gated | Detective might flag a feature change as a bug. Human is the circuit breaker. |
 
 ## Bug Detective Agent
